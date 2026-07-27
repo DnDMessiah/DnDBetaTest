@@ -20,7 +20,7 @@
         {
           "otherSummary": {
             "entry": "You can't have another Sin or Grace Feat.",
-            "entrySummary": "Sin Feat; can't have another Sin or Grace Feat"
+            "entrySummary": "You can't have another Sin or Grace Feat"
           }
         }
       ],
@@ -139,8 +139,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "can't have another Sin or Grace Feat",
-            "entrySummary": "can't have another Sin or Grace Feat"
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
           }
         }
       ],
