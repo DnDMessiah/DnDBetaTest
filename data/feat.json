@@ -131,8 +131,10 @@
               ]
             }
           ]
-        },
-        {
+        }
+      ]
+    },
+  {
           "name": "Sin of Greed",
           "source": "LBSG",
           "prerequisite": [
@@ -244,5 +246,3 @@
         }
       ]
     }
-  ]
-}
