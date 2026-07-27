@@ -22,7 +22,7 @@ In Foundry VTT:
 2. Click Install Module.
 3. Enter the Manifest URL:
 
-https://raw.githubusercontent.com/YOUR_USERNAME/life-between-sin-and-grace/main/module.json
+https://raw.githubusercontent.com/DnDMessiah/life-between-sin-and-grace/main/module.json
 
 4. Click Install.
 5. Enable Life between Sin And Grace in your World.
