@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
@@ -20,8 +19,8 @@
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "can't have another Sin or Grace Feat",
-            "entrySummary": "can't have another Sin or Grace Feat"
+            "entry": "You can't have another Sin or Grace Feat.",
+            "entrySummary": "Sin Feat; can't have another Sin or Grace Feat"
           }
         }
       ],
