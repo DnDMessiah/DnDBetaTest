@@ -1,27 +1,27 @@
 {
-  "_meta": {
-    "sources": [
-      {
-        "json": "lbsg",
-        "abbreviation": "LBSG",
-        "full": "Life between Sin And Grace",
-        "authors": [
-          "DnDMessiah"
-        ],
-        "version": "1.0.0",
-        "dateAdded": "27-7-2026",
-        "dateLastModified": "27-7-2026"
-      }
-    ]
-  },
+"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",	
+"_meta": {
+  "sources": [
+    {
+      "json": "LifeBetweenSinAndGrace",
+      "abbreviation": "LBSG",
+      "full": "Life Between Sin and Grace",
+      "authors": ["DnDMessiah"],
+      "version": "1.0.0"
+    }
+  ],
+  "edition": "classic",
+  "dateAdded": 1785469385,
+  "dateLastModified": 1785469385
+},
   "feat": [
     {
       "name": "Sin of Pride",
-      "source": "LBSG",
+      "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
           "otherSummary": {
-            "entry": "You can't have another Sin or Grace Feat.",
+            "entry": "You can't have another Sin or Grace Feat",
             "entrySummary": "You can't have another Sin or Grace Feat"
           }
         }
@@ -47,7 +47,7 @@
           "type": "entries",
           "name": "Manifestation of Pride",
           "entries": [
-            "You embody superiority and perfection. You have Advantage on Acrobatics and Intimidation checks."
+            "You embody superiority and perfection. You have Advantage on Intimidation checks."
           ]
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "type": "entries",
-          "name": "Sin of Lucifer",
+          "name": "Never Be Wrong",
           "entries": [
             "When you take damage, are hit by an attack, or fail a saving throw, you can take a Reaction to reject that outcome. You can use this feature to protect yourself from damage or an attack. You take half damage that triggered this feature.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
@@ -137,7 +137,7 @@
     },
     {
       "name": "Sin of Greed",
-      "source": "LBSG",
+      "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
           "otherSummary": {
@@ -179,7 +179,7 @@
         },
         {
           "type": "entries",
-          "name": "Sin of Mammon",
+          "name": "Everything Is Mine",
           "entries": [
             "When a creature you can see casts a spell, you can use your Reaction to prepare that spell. You retain the prepared spell until you finish a Long Rest.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
@@ -209,7 +209,7 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "The number of spells or features you can steal and retain at the same time increases by an amount equal to your Proficiency Bonus. You can replace any spell or feature you currently retain whenever you steal a new spell or feature."
+                "The number of spells or features you can steal and retain at the same time increases by an amount equal to your proficiency bonus. You can replace any spell or feature you currently retain whenever you steal a new spell or feature."
               ]
             },
             {
@@ -231,14 +231,142 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "You can target the corpse or soul of a creature to steal one spell or feature that creature possessed. You gain the benefits of the stolen spell or feature as though you had stolen it using Sin of Mammon."
+                "You can target the corpse of a creature or the soul of a creature if its soul still exists to steal one spell or feature that creature possessed. You gain the benefits of the stolen spell or feature as though you had stolen it using Sin of Mammon."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "The number of spells or features you can steal and retain at the same time is unlimited."
+                "There is no limit to the number of spells or activated features you can retain at the same time."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sin of Lust",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
+        }
+      ],
+      "entries": [
+        "You embody the essence of Lust, carrying within you the irresistible temptation and overwhelming desire of Asmodeus. This manifestation grants you supernatural resilience, an enchanting presence, and the power to awaken absolute devotion in the hearts of others.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Devil Inside",
+          "entries": [
+            "You gain the Fiend Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demonic Lore",
+          "entries": [
+            "The Seven Demon Princes have witnessed countless ages and remember the history of the world. You have Advantage on History checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Lust",
+          "entries": [
+            "You embody irresistible beauty and desire, causing others to become drawn toward you. You have Advantage on Persuasion checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Asmodeus",
+          "entries": [
+            "Your voice carries the irresistible temptation of Asmodeus, and your body has adapted to withstand the power of sound itself. You have Resistance to Thunder damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Love Only Me",
+          "entries": [
+            "As an Action, choose one creature you can see within range.",
+            "The creature must succeed on a Charisma saving throw against your spell save DC or have the Charmed condition for 1 hour.",
+            "While affected, the creature regards you as a trusted companion and will speak in a friendly manner and am happy to accommodate your small requests.",
+            "Once you use this feature, you can't use it again until you finish a Long Rest.",
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "The duration increases to 8 hours.",
+                "The creature regards you as one of its closest companions and deeply trusts you. willingly accepts requests that don't directly harm itself or violate its core beliefs."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "The duration increases to 1 day.",
+                "The creature considers you one of the important people in its life and refuses to knowingly harm you.",
+                "It willingly accepts requests that cause it personal inconvenience or minor losses."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "The duration increases to 7 days.",
+                "The creature becomes devoted to you. It willingly places itself in danger to protect you and accepts requests involving reasonable personal risk.",
+                "If another creature threatens you, it instinctively attempts to defend you before considering its own safety."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "The duration increases to 1 month.",
+                "The creature's affection becomes obsession.",
+                "It can no longer willingly act against your interests and accepts requests that provide no benefit to itself or require great personal sacrifice."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "The duration increases to 1 year.",
+                "You regain the use of Love Only Me when you finish a Short or Long Rest.",
+                "Additionally, At the start of each of your turns, roll 1d6. On a roll of 6, you regain the use of Love Only Me."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "The duration increases to 10 years.",
+                "You become the most important person in the creature's life.",
+                "It is willing to risk its life, betray allies, abandon loyalties, reject its beliefs, and sacrifice treasured possessions if doing so benefits you.",
+                "Additionally, If the creature is immune to being Charmed or immune to magical effects that influence the mind, it must still make the Charisma saving throw against Love Only Me normally. On a failed save, this feature ignores that immunity."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "The duration increases to 100 years.",
+                "The creature's devotion becomes absolute.",
+                "It willingly sacrifices its life, soul, memories, or anything else it possesses if you command it to do so.",
+                "Additionally, A creature targeted by Love Only Me automatically fails saving throws against this feature."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "The duration becomes permanent.",
+                "Love Only Me no longer charms or magically compels its target.",
+                "Instead, it permanently rewrites the creature's desires, emotions, and loyalties.",
+                "The creature genuinely believes that its devotion toward you is its own free will, and this effect isn't considered being Charmed, magically compelled, or under mind control."
               ]
             }
           ]
