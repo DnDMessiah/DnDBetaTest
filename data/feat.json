@@ -293,14 +293,14 @@
           "entries": [
             "As an Action, choose one creature you can see within range.",
             "The creature must succeed on a Charisma saving throw against your spell save DC or have the Charmed condition for 1 hour.",
-            "While affected, the creature regards you as a trusted companion and will speak in a friendly manner and am happy to accommodate your small requests.",
+            "While affected, the creature regards you as a trusted companion, speaks to you in a friendly manner and am happy to accommodate your small requests.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
             {
               "type": "entries",
               "name": "Level 3",
               "entries": [
                 "The duration increases to 8 hours.",
-                "The creature regards you as one of its closest companions and deeply trusts you. willingly accepts requests that don't directly harm itself or violate its core beliefs."
+                "The creature regards you as one of its closest companions and deeply trusts you. It willingly accepts requests that don't directly harm itself or violate its core beliefs."
               ]
             },
             {
@@ -308,7 +308,7 @@
               "name": "Level 5",
               "entries": [
                 "The duration increases to 1 day.",
-                "The creature considers you one of the important people in its life and refuses to knowingly harm you.",
+                "The creature considers you one of the most important people in its life and refuses to knowingly harm you.",
                 "It willingly accepts requests that cause it personal inconvenience or minor losses."
               ]
             },
@@ -346,7 +346,7 @@
                 "The duration increases to 10 years.",
                 "You become the most important person in the creature's life.",
                 "It is willing to risk its life, betray allies, abandon loyalties, reject its beliefs, and sacrifice treasured possessions if doing so benefits you.",
-                "Additionally, If the creature is immune to being Charmed or immune to magical effects that influence the mind, it must still make the Charisma saving throw against Love Only Me normally. On a failed save, this feature ignores that immunity."
+                "Additionally, if the creature is immune to being Charmed or immune to magical effects that influence the mind, it must still make the Charisma saving throw against Love Only Me normally. On a failed save, this feature ignores that immunity."
               ]
             },
             {
