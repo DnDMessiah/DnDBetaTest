@@ -508,9 +508,7 @@
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "At the height of your power, even restraint becomes terrifying. The longer you refuse to act, the more catastrophic the force you accumulate becomes. Starting on your sixth turn, your Inertia Die becomes a d100.",
-                "After the sixth Inertia Die, each additional Inertia Die is a d100.",
-                "You can continue accumulating energy without being limited by the normal maximum number of Inertia Dice."
+                "At the height of your power, even restraint becomes terrifying. The longer you refuse to act, the more catastrophic the force you accumulate becomes. Your Inertia Die becomes a d100 starting on your third turn."
               ]
             },
             {
