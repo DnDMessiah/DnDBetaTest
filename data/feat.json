@@ -90,7 +90,14 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "When you use Never Be Wrong to negate an attack or the effects of a failed saving throw, the creature that caused the triggering effect takes an extra 1d6 Psychic damage for each level you have."
+                "When you reflect an attack using Never Be Wrong, you can choose one of the following effects:",
+                {
+                  "type": "list",
+                  "items": [
+                    "The reflected attack automatically hits and becomes a Critical Hit.",
+                    "The target automatically fails any saving throw caused by the reflected attack."
+                  ]
+                }
               ]
             },
             {
@@ -105,14 +112,8 @@
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "When you reflect an attack using Never Be Wrong, you can choose one of the following effects:",
-                {
-                  "type": "list",
-                  "items": [
-                    "The reflected attack is a Critical Hit.",
-                    "The target automatically fails any saving throw caused by the reflected attack, and the attack deals the maximum damage instead of rolling its damage dice."
-                  ]
-                }
+                "After you use Never Be Wrong, you gain the benefits of a Short Rest, except that Never Be Wrong is not recharged. You also gain resistance to all damage until the end of your next turn.",
+                "Additionally, The reflected attack deals the maximum damage instead of rolling its damage dice."
               ]
             },
             {
@@ -127,8 +128,15 @@
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "After you use Never Be Wrong, you gain Immunity to all damage and all conditions until the end of your next turn.",
-                "Additionally, the extra Psychic damage dealt by Never Be Wrong changes from 1d6 per level you have to 1d12 per level you have."
+                "After you use Never Be Wrong, you gain the benefits of a Long Rest, except that Never Be Wrong is not recharged. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
+                "Additionally, all creatures within 120 feet of you become Frightened for 1 minute, ignoring Immunity to the Frightened condition."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
               ]
             }
           ]
@@ -239,6 +247,13 @@
               "name": "Level 17",
               "entries": [
                 "There is no limit to the number of spells or activated features you can retain at the same time."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
               ]
             }
           ]
@@ -367,6 +382,142 @@
                 "Love Only Me no longer charms or magically compels its target.",
                 "Instead, it permanently rewrites the creature's desires, emotions, and loyalties.",
                 "The creature genuinely believes that its devotion toward you is its own free will, and this effect isn't considered being Charmed, magically compelled, or under mind control."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sin of Sloth",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
+        }
+      ],
+      "entries": [
+        "You embody the essence of Sloth, carrying within you the endless stagnation and lethargy of Belphegor. This manifestation grants you supernatural resilience, an oppressive stillness, and the power to accumulate destructive force by refusing to act.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Devil Inside",
+          "entries": [
+            "You gain the Fiend Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demonic Lore",
+          "entries": [
+            "The Seven Demon Princes have witnessed countless ages and remember the history of the world. You have Advantage on History checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Sloth",
+          "entries": [
+            "You embody stillness and unnatural patience, allowing you to endure while others exhaust themselves. You have Advantage on Stealth checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Belphegor",
+          "entries": [
+            "Your body remains unnaturally still even as destructive energy gathers within you. You have Resistance to Lightning damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Always Too Late",
+          "entries": [
+            "As a Bonus Action, you begin accumulating destructive energy within yourself. The first time you use this feature, you gain one Inertia Die.",
+            "At the start of each of your turns, the current Inertia Die remains until you use a Bonus Action to increase it. You can use a Bonus Action on subsequent turns to gain the next Inertia Die.",
+            "Whenever you use a Bonus Action to increase your Inertia Die, you gain the additional benefits granted by your current level until the start of your next turn.",
+            "You can release the accumulated energy whenever you deal damage to a creature with an attack or other effect. When you do so, you add all accumulated dice to the damage dealt. The damage dealt by the accumulated dice is the same damage type as the damage that triggered the release.",
+            "You can release the accumulated energy even if you have not reached the maximum number of Inertia Dice.",
+            "Once you release the accumulated energy, you can't use Always Too Late again until you finish a Long Rest.",
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "As the power within you begins to settle, your body becomes harder to disturb. Whenever you use a Bonus Action to increase your Inertia Die, your AC increases by an amount equal to your Proficiency Bonus until the start of your next turn.",
+                "Your Inertia Die becomes a d6 starting on your second turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "The longer you remain still, the more your body absorbs the force that would otherwise break it. Whenever you use a Bonus Action to increase your Inertia Die, you gain Temporary Hit Points equal to your primary ability modifier.",
+                "Your Inertia Die becomes a d8 starting on your third turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "Your stillness begins to reject the violence of the world itself. Whenever you use a Bonus Action to increase your Inertia Die, you have Advantage on Saving Throws until the start of your next turn, and the first Attack Roll made against you before then has Disadvantage.",
+                "Your Inertia Die becomes a d10 starting on your fourth turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "The force you refuse to release begins sustaining your body, turning patience into unnatural recovery. Whenever you use a Bonus Action to increase your Inertia Die, you regain Hit Points equal to one roll of your current Inertia Die plus your Constitution modifier. This does not expend the Inertia Die.",
+                "Your Inertia Die becomes a d12 starting on your fifth turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Always Too Late when you finish a Short or Long Rest.",
+                "Additionally, at the start of each of your turns, roll 1d6. On a roll of 6, you regain the use of Always Too Late."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "Your stillness reaches an unnatural perfection, causing both body and mind to resist the world around you. Whenever you use a Bonus Action to increase your Inertia Die, you gain Resistance to all damage and Immunity to all Conditions until the start of your next turn.",
+                "You can continue accumulating energy beyond the sixth Inertia Die."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "The force you have accumulated becomes too great to vanish with your death. If you die while Always Too Late is active, the energy within you erupts violently.",
+                "Each creature within 30 feet of you must make a Dexterity Saving Throw, taking 66d6 Force damage on a failed save, or half as much damage on a successful one.",
+                "After this eruption occurs, Always Too Late ends."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "At the height of your power, even restraint becomes terrifying. The longer you refuse to act, the more catastrophic the force you accumulate becomes. Starting on your sixth turn, your Inertia Die becomes a d100.",
+                "After the sixth Inertia Die, each additional Inertia Die is a d100.",
+                "You can continue accumulating energy without being limited by the normal maximum number of Inertia Dice."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
               ]
             }
           ]
