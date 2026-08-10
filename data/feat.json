@@ -106,9 +106,9 @@
               "entries": [
                 "You regain the use of Never Ever Wrong when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Never Ever Wrong remaining and you did at least one of the following during that turn, roll 1d6:",
-                  " - Made an Attack Roll against an enemy.",
-                  " - Forced an enemy to make a Saving Throw.",
-                  " - Took damage from an enemy since the end of your previous turn.",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Never Ever Wrong."
               ]
             },
@@ -230,9 +230,9 @@
               "entries": [
                 "You regain the use of Everything Is Mine when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Everything Is Mine remaining and you did at least one of the following during that turn, roll 1d6:",
-                  " - Made an Attack Roll against an enemy.",
-                  " - Forced an enemy to make a Saving Throw.",
-                  " - Took damage from an enemy since the end of your previous turn.",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Everything Is Mine."
               ]
             },
@@ -360,9 +360,9 @@
                 "The duration increases to 1 year.",
                 "You regain the use of Love Only Me when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Love Only Me remaining and you did at least one of the following during that turn, roll 1d6:",
-                  " - Made an Attack Roll against an enemy.",
-                  " - Forced an enemy to make a Saving Throw.",
-                  " - Took damage from an enemy since the end of your previous turn.",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Love Only Me."
               ]
             },
@@ -497,9 +497,9 @@
               "entries": [
                 "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Always Too Late when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Always Too Late remaining and you did at least one of the following during that turn, roll 1d6:",
-                  " - Made an Attack Roll against an enemy.",
-                  " - Forced an enemy to make a Saving Throw.",
-                  " - Took damage from an enemy since the end of your previous turn.",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Always Too Late."
               ]
             },
@@ -639,9 +639,9 @@
               "entries": [
                 "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Drag Them Down when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Drag Them Down remaining and you did at least one of the following during that turn, roll 1d6:",
-                  " - Made an Attack Roll against an enemy.",
-                  " - Forced an enemy to make a Saving Throw.",
-                  " - Took damage from an enemy since the end of your previous turn.",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Drag Them Down."
               ]
             },
@@ -679,6 +679,142 @@
               "name": "Level 19",
               "entries": [
                 "Your envy becomes absolute. Your Envious Mark cannot be countered, interrupted, dispelled, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sin of Gluttony",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
+        }
+      ],
+      "entries": [
+        "You embody the essence of Gluttony, carrying within you an insatiable hunger that consumes not only flesh, but the very essence of those you devour.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Devil Inside",
+          "entries": [
+            "You gain the Fiend Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demonic Lore",
+          "entries": [
+            "The Seven Demon Princes have witnessed countless ages and remember the history of the world. You have Advantage on History checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Gluttony",
+          "entries": [
+            "Your insatiable hunger allows you to endure what would overwhelm others. You have Advantage on Survival checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Beelzebub",
+          "entries": [
+            "Your body has become resistant to the corrosive nature of your endless hunger. You have Resistance to Acid damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Devour the World",
+          "entries": [
+            "You can consume the remains of a creature that has been reduced to 0 Hit Points or has died within the last 24 hours.",
+            "When you Devour a creature, you gain Devour Points equal to its Challenge Rating. If it has no Challenge Rating, you instead gain Devour Points equal to its Level.",
+            "Your accumulated Devour Points can be spent to permanently enhance your body and abilities. Unless otherwise stated, spent Devour Points are lost.",
+            {
+              "type": "entries",
+              "name": "Level 1",
+              "entries": [
+                "You have Advantage on Saving Throws against Disease.",
+                "1 Devour Point → Regain Hit Points equal to your Proficiency Bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "You have Advantage on Saving Throws against the Poisoned condition.",
+                "2 Devour Points → Gain Temporary Hit Points equal to your Proficiency Bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "You have Resistance to Poison damage.",
+                "3 Devour Points → Increase your Hit Point Maximum by 1, up to a maximum of your Level × 10."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "You are Immune to Disease.",
+                "5 Devour Points → Increase your AC by 1. This bonus is Natural Armor and can increase your AC by up to your Proficiency Bonus + your Primary Ability Modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "You have Advantage on Death Saving Throws.",
+                "10 Devour Points → Increase one Ability Score by 1. There is no maximum total increase, but each Ability Score can be increased by no more than your Proficiency Bonus × 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Devour the World when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Devour the World remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Devour the World."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "You are Immune to Poison damage and the Poisoned condition.",
+                "15 Devour Points → Gain one Damage Resistance."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "You automatically succeed on all Death Saving Throws.",
+                "25 Devour Points → Gain one Condition Immunity."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "Your hunger has become limitless. Whenever you Devour a creature, you gain Devour Points equal to twice its Challenge Rating. If it has no Challenge Rating, you instead gain Devour Points equal to twice its Level.",
+                "100 Devour Points → Gain one Damage Immunity."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
               ]
             }
           ]
