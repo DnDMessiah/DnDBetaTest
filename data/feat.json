@@ -59,7 +59,7 @@
         },
         {
           "type": "entries",
-          "name": "Never Be Wrong",
+          "name": "Never Ever Wrong",
           "entries": [
             "When you take damage, are hit by an attack, or fail a saving throw, you can take a Reaction to reject that outcome. You can use this feature to protect yourself from damage or an attack. You take half damage that triggered this feature.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
@@ -74,14 +74,14 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "You can now use Never Be Wrong when you fail a saving throw. You instead succeed on that saving throw, suffering no effects that would occur as a result of failing it."
+                "You can now use Never Ever Wrong when you fail a saving throw. You instead succeed on that saving throw, suffering no effects that would occur as a result of failing it."
               ]
             },
             {
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "When you use Never Be Wrong to negate an attack or the effects of a failed saving throw, you can cause the effect to be reflected back upon its source.",
+                "When you use Never Ever Wrong to negate an attack or the effects of a failed saving throw, you can cause the effect to be reflected back upon its source.",
                 "If you reflect an attack, the attack is resolved against its original attacker, using the same attack roll and comparing it against the attacker's AC. The attacker can still make any saving throw normally allowed by the attack.",
                 "If you reflect the effects of a failed saving throw, the creature that caused the saving throw must instead suffer the effects of that failed save."
               ]
@@ -90,7 +90,7 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "When you reflect an attack using Never Be Wrong, you can choose one of the following effects:",
+                "When you reflect an attack using Never Ever Wrong, you can choose one of the following effects:",
                 {
                   "type": "list",
                   "items": [
@@ -104,15 +104,19 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "You regain the use of Never Be Wrong when you finish a Short or Long Rest.",
-                "Additionally, at the start of each of your turns, roll 1d6. On a roll of 6, you regain the use of Never Be Wrong."
+                "You regain the use of Never Ever Wrong when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Never Ever Wrong remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " - Made an Attack Roll against an enemy.",
+                  " - Forced an enemy to make a Saving Throw.",
+                  " - Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Never Ever Wrong."
               ]
             },
             {
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "After you use Never Be Wrong, you gain the benefits of a Short Rest, except that Never Be Wrong is not recharged. You also gain resistance to all damage until the end of your next turn.",
+                "After you use Never Ever Wrong, you gain the benefits of a Short Rest, except that Never Ever Wrong can't be recharged this way. You also gain resistance to all damage until the end of your next turn.",
                 "Additionally, The reflected attack deals the maximum damage instead of rolling its damage dice."
               ]
             },
@@ -120,15 +124,15 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "When you die, you can use Never Be Wrong to reject your death. You return to life with Hit Points equal to half your Hit Point maximum, and you suffer no negative effects from dying. The creature that caused your death takes Psychic damage equal to the total damage you took during the current turn.",
-                "You can use Never Be Wrong even if you are unconscious or otherwise unable to take actions or reactions."
+                "When you die, you can use Never Ever Wrong to reject your death. You return to life with Hit Points equal to half your Hit Point maximum, and you suffer no negative effects from dying. The creature that caused your death takes Psychic damage equal to the total damage you took during the current turn.",
+                "You can use Never Ever Wrong even if you are unconscious or otherwise unable to take actions or reactions."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "After you use Never Be Wrong, you gain the benefits of a Long Rest, except that Never Be Wrong is not recharged. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
+                "After you use Never Ever Wrong, you gain the benefits of a Long Rest, except that Never Ever Wrong can't be recharged this way. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
                 "Additionally, all creatures within 120 feet of you become Frightened for 1 minute, ignoring Immunity to the Frightened condition."
               ]
             },
@@ -225,7 +229,11 @@
               "name": "Level 11",
               "entries": [
                 "You regain the use of Everything Is Mine when you finish a Short or Long Rest.",
-                "Additionally, at the start of each of your turns, roll 1d6. On a roll of 6, you regain the use of Everything Is Mine."
+                "Additionally, at the end of each of your turns, if you have no uses of your Everything Is Mine remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " - Made an Attack Roll against an enemy.",
+                  " - Forced an enemy to make a Saving Throw.",
+                  " - Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Everything Is Mine."
               ]
             },
             {
@@ -351,7 +359,11 @@
               "entries": [
                 "The duration increases to 1 year.",
                 "You regain the use of Love Only Me when you finish a Short or Long Rest.",
-                "Additionally, At the start of each of your turns, roll 1d6. On a roll of 6, you regain the use of Love Only Me."
+                "Additionally, at the end of each of your turns, if you have no uses of your Love Only Me remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " - Made an Attack Roll against an enemy.",
+                  " - Forced an enemy to make a Saving Throw.",
+                  " - Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Love Only Me."
               ]
             },
             {
@@ -484,7 +496,11 @@
               "name": "Level 11",
               "entries": [
                 "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Always Too Late when you finish a Short or Long Rest.",
-                "Additionally, at the start of each of your turns, roll 1d6. On a roll of 6, you regain the use of Always Too Late."
+                "Additionally, at the end of each of your turns, if you have no uses of your Always Too Late remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " - Made an Attack Roll against an enemy.",
+                  " - Forced an enemy to make a Saving Throw.",
+                  " - Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Always Too Late."
               ]
             },
             {
@@ -508,7 +524,9 @@
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "At the height of your power, even restraint becomes terrifying. The longer you refuse to act, the more catastrophic the force you accumulate becomes. Your Inertia Die becomes a d100 starting on your sixth turn."
+                "At the height of your power, even restraint becomes terrifying. The longer you refuse to act, the more catastrophic the force you accumulate becomes. Starting on your sixth turn, your Inertia Die becomes a d100.",
+                "After the sixth Inertia Die, each additional Inertia Die is a d100.",
+                "You can continue accumulating energy without being limited by the normal maximum number of Inertia Dice."
               ]
             },
             {
@@ -516,6 +534,151 @@
               "name": "Level 19",
               "entries": [
                 "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sin of Envy",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
+        }
+      ],
+      "entries": [
+        "You embody the essence of Envy, carrying within you the spiteful desire to drag those above you down to your level. This manifestation grants you the power to strip away advantages, suppress extraordinary abilities, and reduce even the mightiest foes to something ordinary.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Devil Inside",
+          "entries": [
+            "You gain the Fiend Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demonic Lore",
+          "entries": [
+            "The Seven Demon Princes have witnessed countless ages and remember the history of the world. You have Advantage on History checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Envy",
+          "entries": [
+            "You are skilled at concealing your resentment behind false admiration and carefully chosen words. You have Advantage on Deception checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Leviathan",
+          "entries": [
+            "Your body carries the bitter cold of envy, a presence that chills even those who stand above you. You have Resistance to Cold damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Drag Them Down",
+          "entries": [
+            "You focus your envy upon a single creature, seeking to strip away everything that makes it superior.",
+            "As an Action, choose one creature you can see within 60 feet of you. The creature becomes the target of your Envious Mark. This effect requires Concentration, as if you were concentrating on a spell, and lasts for up to 1 minute.",
+            "While you maintain Concentration on Envious Mark, the target is subject to the effects granted by your current level.",
+            "If your Concentration ends, Envious Mark ends immediately, and all effects caused by Envious Mark end.",
+            {
+              "type": "entries",
+              "name": "Level 1",
+              "entries": [
+                "Your envy begins by stripping away the foundations that allow others to endure. While a creature is affected by your Envious Mark, its AC is reduced by an amount equal to your Proficiency Bonus.",
+                "Whenever the target regains Hit Points, it regains only half the normal amount. Any Regeneration the target possesses is reduced by half."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "Your envy strips away what others have given the target. All temporary Hit Points the target currently has are removed, and the target can't gain Temporary Hit Points while affected by your Envious Mark.",
+                "The target can't regain Hit Points or benefit from Regeneration."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "Your envy begins to tear away the strengths that make the target formidable. The target takes a penalty to its Attack Rolls equal to your Proficiency Bonus.",
+                "The target's Speed is halved.",
+                "The target loses Darkvision."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "You refuse to allow the target any advantage that places it above you. Advantage on Attack Rolls, Ability Checks, and Saving Throws is negated, causing those rolls to be made normally.",
+                "The target loses all Resistance.",
+                "The target loses Blindsight."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "You begin stripping away the gifts that make the target exceptional. Each of the target's Ability Scores is reduced by an amount equal to your Proficiency Bonus.",
+                "The effects of the target's Magic Items are suppressed while it remains affected by your Envious Mark.",
+                "The target loses Tremorsense."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Drag Them Down when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Drag Them Down remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " - Made an Attack Roll against an enemy.",
+                  " - Forced an enemy to make a Saving Throw.",
+                  " - Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Drag Them Down."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "You strip away the traits that make the target something greater than ordinary. The target loses all Immunities to damage and Conditions.",
+                "The target loses its ability to Fly, Swim, or Climb unless those movement modes are provided by its normal walking speed.",
+                "The target loses all Passive Traits.",
+                "The target loses Truesight.",
+                "All of the target's Senses are reduced to normal sight."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "There is nothing left for your envy to take, so you begin dragging the target itself into decline.",
+                "At the end of each of the target's turns, it gains 1 level of Exhaustion.",
+                "The target can't speak or communicate telepathically while affected by your Envious Mark."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "At the height of your envy, nothing about the target is allowed to remain beyond your reach. The target loses all Traits.",
+                "The target can't use Mythic Actions, Legendary Actions, Lair Actions, Regional Effects, or Multiattack.",
+                "The effects of the target's passive and activated Features are suppressed while it remains affected by your Envious Mark."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your envy becomes absolute. Your Envious Mark cannot be countered, interrupted, dispelled, or otherwise prevented by any spell, feature, ability, or other effect."
               ]
             }
           ]
