@@ -827,6 +827,131 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sin of Wrath",
+      "source": "LifeBetweenSinAndGrace",
+      "icon": "icons/magic/fire/flame-burning-sword.webp",
+      "prerequisite": [
+        {
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
+        }
+      ],
+      "entries": [
+        "You embody the essence of Wrath, carrying within you the boundless fury of Satan. This manifestation grants you overwhelming physical power, relentless speed, and the ability to unleash your anger without limit.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Devil Inside",
+          "entries": [
+            "You gain the Fiend Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Demonic Lore",
+          "entries": [
+            "The Seven Demon Princes have witnessed countless ages and remember the history of the world. You have Advantage on History checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Wrath",
+          "entries": [
+            "Your fury manifests through overwhelming physical force. You have Advantage on Athletics checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Satan",
+          "entries": [
+            "Your rage burns with an infernal fire that cannot be extinguished. You have Resistance to Fire damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Burn It All",
+          "entries": [
+            "As a Bonus Action, you unleash your Wrath, entering Wrath Form for 1 minute.",
+            "While in Wrath Form, whenever a creature hits you with an attack, you can use your Reaction to make an Attack or cast a spell that requires an Attack Roll against that creature.",
+            "Once you use this feature, you can't use it again until you finish a Long Rest.",
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "While in Wrath Form, you are Immune to the Frightened and Charmed conditions, and your Speed is doubled."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "While in Wrath Form, you have Advantage on Attack Rolls, and your Attack Rolls score a Critical Hit on a roll of 6 or higher."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "Your attacks ignore Resistance. If a creature is Immune to the damage dealt by your attack, it instead takes damage as though it had Resistance."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "While in Wrath Form, you gain one additional Action on each of your turns, and your Attack Rolls score a Critical Hit on a roll of 13 or higher."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "You regain the use of Burn It All when you finish a Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Burn It All remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Burn It All."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "Your attacks ignore Immunity.",
+                "Your attacks made as a reaction to being hit are always Critical Hits and deal twice the normal damage of a Critical Hit."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "Your attacks made as a reaction to being hit no longer require a Reaction.",
+                "Whenever one of these attacks deals damage, you regain Hit Points equal to half the damage dealt."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "While in Wrath Form, nothing can end or suppress your Wrath Form before its duration expires.",
+                "Your attacks made as a reaction to being hit deal maximum damage instead of rolling their damage dice."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
