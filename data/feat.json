@@ -59,7 +59,7 @@
         },
         {
           "type": "entries",
-          "name": "Never Ever Wrong",
+          "name": "That's Your Flaw",
           "entries": [
             "When you take damage, are hit by an attack, or fail a saving throw, you can take a Reaction to reject that outcome. You can use this feature to protect yourself from damage or an attack. You take half damage that triggered this feature.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
@@ -74,14 +74,14 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "You can now use Never Ever Wrong when you fail a saving throw. You instead succeed on that saving throw, suffering no effects that would occur as a result of failing it."
+                "You can now use That's Your Flaw when you fail a saving throw. You instead succeed on that saving throw, suffering no effects that would occur as a result of failing it."
               ]
             },
             {
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "When you use Never Ever Wrong to negate an attack or the effects of a failed saving throw, you can cause the effect to be reflected back upon its source.",
+                "When you use That's Your Flaw to negate an attack or the effects of a failed saving throw, you can cause the effect to be reflected back upon its source.",
                 "If you reflect an attack, the attack is resolved against its original attacker, using the same attack roll and comparing it against the attacker's AC. The attacker can still make any saving throw normally allowed by the attack.",
                 "If you reflect the effects of a failed saving throw, the creature that caused the saving throw must instead suffer the effects of that failed save."
               ]
@@ -90,7 +90,7 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "When you reflect an attack using Never Ever Wrong, you can choose one of the following effects:",
+                "When you reflect an attack using That's Your Flaw, you can choose one of the following effects:",
                 {
                   "type": "list",
                   "items": [
@@ -104,19 +104,19 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "You regain the use of Never Ever Wrong when you finish a Short or Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your Never Ever Wrong remaining and you did at least one of the following during that turn, roll 1d6:",
+                "You regain the use of That's Your Flaw when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your That's Your Flaw remaining and you did at least one of the following during that turn, roll 1d6:",
                   " • Made an Attack Roll against an enemy.",
                   " • Forced an enemy to make a Saving Throw.",
                   " • Took damage from an enemy since the end of your previous turn.",
-                "On a roll of 6, you regain one use of your Never Ever Wrong."
+                "On a roll of 6, you regain one use of your That's Your Flaw."
               ]
             },
             {
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "After you use Never Ever Wrong, you gain the benefits of a Short Rest, except that Never Ever Wrong can't be recharged this way. You also gain resistance to all damage until the end of your next turn.",
+                "After you use That's Your Flaw, you gain the benefits of a Short Rest, except that That's Your Flaw can't be recharged this way. You also gain resistance to all damage until the end of your next turn.",
                 "Additionally, The reflected attack deals the maximum damage instead of rolling its damage dice."
               ]
             },
@@ -124,15 +124,15 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "When you die, you can use Never Ever Wrong to reject your death. You return to life with Hit Points equal to half your Hit Point maximum, and you suffer no negative effects from dying. The creature that caused your death takes Psychic damage equal to the total damage you took during the current turn.",
-                "You can use Never Ever Wrong even if you are unconscious or otherwise unable to take actions or reactions."
+                "When you die, you can use That's Your Flaw to reject your death. You return to life with Hit Points equal to half your Hit Point maximum, and you suffer no negative effects from dying. The creature that caused your death takes Psychic damage equal to the total damage you took during the current turn.",
+                "You can use That's Your Flaw even if you are unconscious or otherwise unable to take actions or reactions."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "After you use Never Ever Wrong, you gain the benefits of a Long Rest, except that Never Ever Wrong can't be recharged this way. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
+                "After you use That's Your Flaw, you gain the benefits of a Long Rest, except that That's Your Flaw can't be recharged this way. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
                 "Additionally, all creatures within 120 feet of you become Frightened for 1 minute, ignoring Immunity to the Frightened condition."
               ]
             },
@@ -191,7 +191,7 @@
         },
         {
           "type": "entries",
-          "name": "Everything Is Mine",
+          "name": "Now Is Mine",
           "entries": [
             "When a creature you can see casts a spell, you can use your Reaction to prepare that spell. You retain the prepared spell until you finish a Long Rest.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
@@ -228,12 +228,12 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "You regain the use of Everything Is Mine when you finish a Short or Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your Everything Is Mine remaining and you did at least one of the following during that turn, roll 1d6:",
+                "You regain the use of Now Is Mine when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Now Is Mine remaining and you did at least one of the following during that turn, roll 1d6:",
                   " • Made an Attack Roll against an enemy.",
                   " • Forced an enemy to make a Saving Throw.",
                   " • Took damage from an enemy since the end of your previous turn.",
-                "On a roll of 6, you regain one use of your Everything Is Mine."
+                "On a roll of 6, you regain one use of your Now Is Mine."
               ]
             },
             {
@@ -247,7 +247,7 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "You can target the corpse of a creature or the soul of a creature if its soul still exists to steal one spell or feature that creature possessed. You gain the benefits of the stolen spell or feature as though you had stolen it using Everything Is Mine."
+                "You can target the corpse of a creature or the soul of a creature if its soul still exists to steal one spell or feature that creature possessed. You gain the benefits of the stolen spell or feature as though you had stolen it using Now Is Mine."
               ]
             },
             {
@@ -312,7 +312,7 @@
         },
         {
           "type": "entries",
-          "name": "Love Only Me",
+          "name": "Look At Me",
           "entries": [
             "As an Action, choose one creature you can see within range.",
             "The creature must succeed on a Charisma saving throw against your spell save DC or have the Charmed condition for 1 hour.",
@@ -358,12 +358,12 @@
               "name": "Level 11",
               "entries": [
                 "The duration increases to 1 year.",
-                "You regain the use of Love Only Me when you finish a Short or Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your Love Only Me remaining and you did at least one of the following during that turn, roll 1d6:",
+                "You regain the use of Look At Me when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Look At Me remaining and you did at least one of the following during that turn, roll 1d6:",
                   " • Made an Attack Roll against an enemy.",
                   " • Forced an enemy to make a Saving Throw.",
                   " • Took damage from an enemy since the end of your previous turn.",
-                "On a roll of 6, you regain one use of your Love Only Me."
+                "On a roll of 6, you regain one use of your Look At Me."
               ]
             },
             {
@@ -373,7 +373,7 @@
                 "The duration increases to 10 years.",
                 "You become the most important person in the creature's life.",
                 "It is willing to risk its life, betray allies, abandon loyalties, reject its beliefs, and sacrifice treasured possessions if doing so benefits you.",
-                "Additionally, if the creature is immune to being Charmed or immune to magical effects that influence the mind, it must still make the Charisma saving throw against Love Only Me normally. On a failed save, this feature ignores that immunity."
+                "Additionally, if the creature is immune to being Charmed or immune to magical effects that influence the mind, it must still make the Charisma saving throw against Look At Me normally. On a failed save, this feature ignores that immunity."
               ]
             },
             {
@@ -383,7 +383,7 @@
                 "The duration increases to 100 years.",
                 "The creature's devotion becomes absolute.",
                 "It willingly sacrifices its life, soul, memories, or anything else it possesses if you command it to do so.",
-                "Additionally, A creature targeted by Love Only Me automatically fails saving throws against this feature."
+                "Additionally, A creature targeted by Look At Me automatically fails saving throws against this feature."
               ]
             },
             {
@@ -391,7 +391,7 @@
               "name": "Level 17",
               "entries": [
                 "The duration becomes permanent.",
-                "Love Only Me no longer charms or magically compels its target.",
+                "Look At Me no longer charms or magically compels its target.",
                 "Instead, it permanently rewrites the creature's desires, emotions, and loyalties.",
                 "The creature genuinely believes that its devotion toward you is its own free will, and this effect isn't considered being Charmed, magically compelled, or under mind control."
               ]
@@ -451,14 +451,14 @@
         },
         {
           "type": "entries",
-          "name": "Always Too Late",
+          "name": "Far Too Late",
           "entries": [
             "As a Bonus Action, you begin accumulating destructive energy within yourself. The first time you use this feature, you gain one Inertia Die.",
             "At the start of each of your turns, the current Inertia Die remains until you use a Bonus Action to increase it. You can use a Bonus Action on subsequent turns to gain the next Inertia Die.",
             "Whenever you use a Bonus Action to increase your Inertia Die, you gain the additional benefits granted by your current level until the start of your next turn.",
             "You can release the accumulated energy whenever you deal damage to a creature with an attack or other effect. When you do so, you add all accumulated dice to the damage dealt. The damage dealt by the accumulated dice is the same damage type as the damage that triggered the release.",
             "You can release the accumulated energy even if you have not reached the maximum number of Inertia Dice.",
-            "Once you release the accumulated energy, you can't use Always Too Late again until you finish a Long Rest.",
+            "Once you release the accumulated energy, you can't use Far Too Late again until you finish a Long Rest.",
             {
               "type": "entries",
               "name": "Level 3",
@@ -495,12 +495,12 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Always Too Late when you finish a Short or Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your Always Too Late remaining and you did at least one of the following during that turn, roll 1d6:",
+                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Far Too Late when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Far Too Late remaining and you did at least one of the following during that turn, roll 1d6:",
                   " • Made an Attack Roll against an enemy.",
                   " • Forced an enemy to make a Saving Throw.",
                   " • Took damage from an enemy since the end of your previous turn.",
-                "On a roll of 6, you regain one use of your Always Too Late."
+                "On a roll of 6, you regain one use of your Far Too Late."
               ]
             },
             {
@@ -515,9 +515,9 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "The force you have accumulated becomes too great to vanish with your death. If you die while Always Too Late is active, the energy within you erupts violently.",
+                "The force you have accumulated becomes too great to vanish with your death. If you die while Far Too Late is active, the energy within you erupts violently.",
                 "Each creature within 30 feet of you must make a Dexterity Saving Throw, taking 66d6 Force damage on a failed save, or half as much damage on a successful one.",
-                "After this eruption occurs, Always Too Late ends."
+                "After this eruption occurs, Far Too Late ends."
               ]
             },
             {
@@ -729,7 +729,7 @@
         },
         {
           "type": "entries",
-          "name": "Devour the World",
+          "name": "Feed The Void",
           "entries": [
             "You can consume the remains of a creature that has been reduced to 0 Hit Points or has died within the last 24 hours.",
             "When you Devour a creature, you gain Devour Points equal to its Challenge Rating. If it has no Challenge Rating, you instead gain Devour Points equal to its Level.",
@@ -779,12 +779,12 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Devour the World when you finish a Short or Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your Devour the World remaining and you did at least one of the following during that turn, roll 1d6:",
+                "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Feed The Void when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Feed The Void remaining and you did at least one of the following during that turn, roll 1d6:",
                   " • Made an Attack Roll against an enemy.",
                   " • Forced an enemy to make a Saving Throw.",
                   " • Took damage from an enemy since the end of your previous turn.",
-                "On a roll of 6, you regain one use of your Devour the World."
+                "On a roll of 6, you regain one use of your Feed The Void."
               ]
             },
             {
