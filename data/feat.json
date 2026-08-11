@@ -828,11 +828,62 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Aura Imbuement",
+      "source": "LifeBetweenSinAndGrace",
+      "page": "Revised Feats",
+      "repeatable": false,
+      "category": "FS",
+      "prerequisite": [
+        {
+          "feature": [
+            "Fighting Style"
+          ]
+        }
+      ],
+      "entries": [
+        "You can use Charisma instead of Strength or Dexterity for the attack and damage rolls of weapons. When you use Charisma in this way, add your Proficiency Bonus to the weapon's base damage."
+      ]
+    },
+    {
+      "name": "Mana Imbuement",
+      "source": "LifeBetweenSinAndGrace",
+      "page": "Revised Feats",
+      "repeatable": false,
+      "category": "FS",
+      "prerequisite": [
+        {
+          "feature": [
+            "Fighting Style"
+          ]
+        }
+      ],
+      "entries": [
+        "You can use Intelligence instead of Strength or Dexterity for the attack and damage rolls of weapons. When you use Intelligence in this way, add your Proficiency Bonus to the weapon's base damage."
+      ]
+    },
+    {
+      "name": "Faith Imbuement",
+      "source": "LifeBetweenSinAndGrace",
+      "page": "Revised Feats",
+      "repeatable": false,
+      "category": "FS",
+      "prerequisite": [
+        {
+          "feature": [
+            "Fighting Style"
+          ]
+        }
+      ],
+      "entries": [
+        "You can use Wisdom instead of Strength or Dexterity for the attack and damage rolls of weapons. When you use Wisdom in this way, add your Proficiency Bonus to the weapon's base damage."
+      ]
     }
   ],
   
   "optionalfeature": [
-          {
+    {
       "name": "Pact of the Soul Vessel",
       "source": "LBSG",
       "featureType": [
@@ -841,7 +892,7 @@
       "entries": [
         "Your body becomes a vessel capable of containing more than one Sin or Grace Feat. You can choose one additional Sin or Grace Feat.",
         "When choosing a Sin or Grace Feat, you ignore the prerequisite \"You can't have another Sin or Grace Feat\".",
-        "However, carrying multiple sources of immense power places tremendous strain on your body. For each Sin or Grace Feat you possess beyond the first, your Constitution score is permanently reduced by 1."
+        "However, carrying multiple sources of immense power places tremendous strain on your body. For each Sin or Grace Feat you possess beyond the first, your Constitution score is permanently reduced by 2."
       ]
     },
     {
