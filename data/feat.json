@@ -828,8 +828,11 @@
           ]
         }
       ]
-    },
-    {
+    }
+  ],
+  
+  "optionalfeature": [
+          {
       "name": "Pact of the Soul Vessel",
       "source": "LBSG",
       "featureType": [
@@ -850,14 +853,6 @@
       "prerequisite": [
         {
           "otherSummary": "Pact of the Soul Vessel"
-        }
-      ],
-      "featProgression": [
-        {
-          "name": "Sin or Grace Feat",
-          "progression": {
-            "*": 1
-          }
         }
       ],
       "entries": [
