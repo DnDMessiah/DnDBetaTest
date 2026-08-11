@@ -1,28 +1,29 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-  "_meta": {
-    "sources": [
-      {
-        "json": "LifeBetweenSinAndGrace",
-        "abbreviation": "LBSG",
-        "full": "Life Between Sin and Grace",
-        "authors": [
-          "DnDMessiah"
-        ],
-        "version": "1.0.1"
-      }
-    ],
-    "edition": "classic",
-    "dateAdded": 1785469385,
-    "dateLastModified": 1786374999
-  },
+"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",	
+"_meta": {
+  "sources": [
+    {
+      "json": "LifeBetweenSinAndGrace",
+      "abbreviation": "LBSG",
+      "full": "Life Between Sin and Grace",
+      "authors": ["DnDMessiah"],
+      "version": "1.0.0"
+    }
+  ],
+  "edition": "classic",
+  "dateAdded": 1785469385,
+  "dateLastModified": 1785469385
+},
   "feat": [
     {
       "name": "Sin of Pride",
       "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
         }
       ],
       "entries": [
@@ -58,7 +59,7 @@
         },
         {
           "type": "entries",
-          "name": "That's Your Flaw",
+          "name": "Not My Fault",
           "entries": [
             "When you take damage, are hit by an attack, or fail a saving throw, you can take a Reaction to reject that outcome. You can use this feature to protect yourself from damage or an attack. You take half damage that triggered this feature.",
             "Once you use this feature, you can't use it again until you finish a Long Rest.",
@@ -73,14 +74,14 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "You can now use That's Your Flaw when you fail a saving throw. You instead succeed on that saving throw, suffering no effects that would occur as a result of failing it."
+                "You can now use Not My Fault when you fail a saving throw. You instead succeed on that saving throw, suffering no effects that would occur as a result of failing it."
               ]
             },
             {
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "When you use That's Your Flaw to negate an attack or the effects of a failed saving throw, you can cause the effect to be reflected back upon its source.",
+                "When you use Not My Fault to negate an attack or the effects of a failed saving throw, you can cause the effect to be reflected back upon its source.",
                 "If you reflect an attack, the attack is resolved against its original attacker, using the same attack roll and comparing it against the attacker's AC. The attacker can still make any saving throw normally allowed by the attack.",
                 "If you reflect the effects of a failed saving throw, the creature that caused the saving throw must instead suffer the effects of that failed save."
               ]
@@ -89,7 +90,7 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "When you reflect an attack using That's Your Flaw, you can choose one of the following effects:",
+                "When you reflect an attack using Not My Fault, you can choose one of the following effects:",
                 {
                   "type": "list",
                   "items": [
@@ -103,24 +104,19 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "You regain the use of That's Your Flaw when you finish a Short or Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your That's Your Flaw remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
-                "On a roll of 6, you regain one use of your That's Your Flaw."
+                "You regain the use of Not My Fault when you finish a Short or Long Rest.",
+                "Additionally, at the end of each of your turns, if you have no uses of your Not My Fault remaining and you did at least one of the following during that turn, roll 1d6:",
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
+                "On a roll of 6, you regain one use of your Not My Fault."
               ]
             },
             {
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "After you use That's Your Flaw, you gain the benefits of a Short Rest, except that That's Your Flaw can't be recharged this way. You also gain resistance to all damage until the end of your next turn.",
+                "After you use Not My Fault, you gain the benefits of a Short Rest, except that Not My Fault can't be recharged this way. You also gain resistance to all damage until the end of your next turn.",
                 "Additionally, The reflected attack deals the maximum damage instead of rolling its damage dice."
               ]
             },
@@ -128,15 +124,15 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "When you die, you can use That's Your Flaw to reject your death. You return to life with Hit Points equal to half your Hit Point maximum, and you suffer no negative effects from dying. The creature that caused your death takes Psychic damage equal to the total damage you took during the current turn.",
-                "You can use That's Your Flaw even if you are unconscious or otherwise unable to take actions or reactions."
+                "When you die, you can use Not My Fault to reject your death. You return to life with Hit Points equal to half your Hit Point maximum, and you suffer no negative effects from dying. The creature that caused your death takes Psychic damage equal to the total damage you took during the current turn.",
+                "You can use Not My Fault even if you are unconscious or otherwise unable to take actions or reactions."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "After you use That's Your Flaw, you gain the benefits of a Long Rest, except that That's Your Flaw can't be recharged this way. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
+                "After you use Not My Fault, you gain the benefits of a Long Rest, except that Not My Fault can't be recharged this way. Until the end of your next turn, you are Immune to all damage and Conditions, and nothing can cause you to die.",
                 "Additionally, all creatures within 120 feet of you become Frightened for 1 minute, ignoring Immunity to the Frightened condition."
               ]
             },
@@ -156,7 +152,10 @@
       "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
         }
       ],
       "entries": [
@@ -231,14 +230,9 @@
               "entries": [
                 "You regain the use of Now Is Mine when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Now Is Mine remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Now Is Mine."
               ]
             },
@@ -279,7 +273,10 @@
       "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
         }
       ],
       "entries": [
@@ -363,14 +360,9 @@
                 "The duration increases to 1 year.",
                 "You regain the use of Look At Me when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Look At Me remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Look At Me."
               ]
             },
@@ -420,7 +412,10 @@
       "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
         }
       ],
       "entries": [
@@ -502,14 +497,9 @@
               "entries": [
                 "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Far Too Late when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Far Too Late remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Far Too Late."
               ]
             },
@@ -555,7 +545,10 @@
       "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
         }
       ],
       "entries": [
@@ -601,7 +594,8 @@
               "type": "entries",
               "name": "Level 1",
               "entries": [
-                "Your envy begins by stripping away the foundations that allow others to endure. While a creature is affected by your Envious Mark, its AC is reduced by an amount equal to your Proficiency Bonus.",
+                "Your envy begins by stripping away the foundations that allow others to endure.", 
+                "While a creature is affected by your Envious Mark, its AC is reduced by an amount equal to your Proficiency Bonus.",
                 "Whenever the target regains Hit Points, it regains only half the normal amount. Any Regeneration the target possesses is reduced by half."
               ]
             },
@@ -609,7 +603,8 @@
               "type": "entries",
               "name": "Level 3",
               "entries": [
-                "Your envy strips away what others have given the target. All temporary Hit Points the target currently has are removed, and the target can't gain Temporary Hit Points while affected by your Envious Mark.",
+                "Your envy strips away what others have given the target.", 
+                "All temporary Hit Points the target currently has are removed, and the target can't gain Temporary Hit Points while affected by your Envious Mark.",
                 "The target can't regain Hit Points or benefit from Regeneration."
               ]
             },
@@ -617,7 +612,8 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "Your envy begins to tear away the strengths that make the target formidable. The target takes a penalty to its Attack Rolls equal to your Proficiency Bonus.",
+                "Your envy begins to tear away the strengths that make the target formidable.",
+                "The target takes a penalty to its Attack Rolls equal to your Proficiency Bonus.",
                 "The target's Speed is halved.",
                 "The target loses Darkvision."
               ]
@@ -626,7 +622,8 @@
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "You refuse to allow the target any advantage that places it above you. Advantage on Attack Rolls, Ability Checks, and Saving Throws is negated, causing those rolls to be made normally.",
+                "You refuse to allow the target any advantage that places it above you.", 
+                "Advantage on Attack Rolls, Ability Checks, and Saving Throws is negated, causing those rolls to be made normally.",
                 "The target loses all Resistance.",
                 "The target loses Blindsight."
               ]
@@ -635,7 +632,8 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "You begin stripping away the gifts that make the target exceptional. Each of the target's Ability Scores is reduced by an amount equal to your Proficiency Bonus.",
+                "You begin stripping away the gifts that make the target exceptional.",
+                "Each of the target's Ability Scores is reduced by an amount equal to your Proficiency Bonus.",
                 "The effects of the target's Magic Items are suppressed while it remains affected by your Envious Mark.",
                 "The target loses Tremorsense."
               ]
@@ -646,14 +644,9 @@
               "entries": [
                 "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Drag Them Down when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Drag Them Down remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Drag Them Down."
               ]
             },
@@ -661,7 +654,8 @@
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "You strip away the traits that make the target something greater than ordinary. The target loses all Immunities to damage and Conditions.",
+                "You strip away the traits that make the target something greater than ordinary.",
+                "The target loses all Immunities to damage and Conditions.",
                 "The target loses its ability to Fly, Swim, or Climb unless those movement modes are provided by its normal walking speed.",
                 "The target loses all Passive Traits.",
                 "The target loses Truesight.",
@@ -681,7 +675,8 @@
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "At the height of your envy, nothing about the target is allowed to remain beyond your reach. The target loses all Traits.",
+                "At the height of your envy, nothing about the target is allowed to remain beyond your reach.",
+                "The target loses all Traits.",
                 "The target can't use Mythic Actions, Legendary Actions, Lair Actions, Regional Effects, or Multiattack.",
                 "The effects of the target's passive and activated Features are suppressed while it remains affected by your Envious Mark."
               ]
@@ -702,7 +697,10 @@
       "source": "LifeBetweenSinAndGrace",
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": {
+            "entry": "You can't have another Sin or Grace Feat",
+            "entrySummary": "You can't have another Sin or Grace Feat"
+          }
         }
       ],
       "entries": [
@@ -742,7 +740,6 @@
           "entries": [
             "You can consume the remains of a creature that has been reduced to 0 Hit Points or has died within the last 24 hours.",
             "When you Devour a creature, you gain Devour Points equal to its Challenge Rating. If it has no Challenge Rating, you instead gain Devour Points equal to its Level.",
-				"You can gain Devour Points from a specific creature stat block only once. Once you have gained Devour Points from a creature using a particular stat block, consuming another creature that uses the same stat block provides no additional Devour Points.",
             "Your accumulated Devour Points can be spent to permanently enhance your body and abilities. Unless otherwise stated, spent Devour Points are lost.",
             "You unlock additional ways to spend your Devour Points as you gain levels in this feat. You can only use the options unlocked at your current level or lower.",
             {
@@ -791,14 +788,9 @@
               "entries": [
                 "Your accumulated power no longer requires uninterrupted rest to return. You regain the use of Feed The Void when you finish a Short or Long Rest.",
                 "Additionally, at the end of each of your turns, if you have no uses of your Feed The Void remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
+                  " • Made an Attack Roll against an enemy.",
+                  " • Forced an enemy to make a Saving Throw.",
+                  " • Took damage from an enemy since the end of your previous turn.",
                 "On a roll of 6, you regain one use of your Feed The Void."
               ]
             },
@@ -838,125 +830,46 @@
       ]
     },
     {
-      "name": "Sin of Wrath",
-      "source": "LifeBetweenSinAndGrace",
+      "name": "Pact of the Soul Vessel",
+      "source": "LBSG",
+      "featureType": [
+        "EI"
+      ],
+      "entries": [
+        "Your body becomes a vessel capable of containing more than one Sin or Grace Feat. You can choose one additional Sin or Grace Feat.",
+        "When choosing a Sin or Grace Feat, you ignore the prerequisite \"You can't have another Sin or Grace Feat\".",
+        "However, carrying multiple sources of immense power places tremendous strain on your body. For each Sin or Grace Feat you possess beyond the first, your Constitution score is permanently reduced by 1."
+      ]
+    },
+    {
+      "name": "Improved Pact of the Soul Vessel",
+      "source": "LBSG",
+      "featureType": [
+        "EI"
+      ],
       "prerequisite": [
         {
-          "other": "You can't have another Sin or Grace Feat"
+          "otherSummary": "Pact of the Soul Vessel"
+        }
+      ],
+      "featProgression": [
+        {
+          "name": "Sin or Grace Feat",
+          "progression": {
+            "*": 1
+          }
         }
       ],
       "entries": [
-        "You embody the essence of Wrath, carrying within you the boundless fury of Satan. This manifestation grants you overwhelming physical power, relentless speed, and the ability to unleash your anger without limit.",
-        "You gain the following benefits:",
+        "You can choose one additional Sin or Grace Feat.",
         {
           "type": "entries",
-          "name": "Devil Inside",
           "entries": [
-            "You gain the Fiend Creature Type in addition to your other Creature Types."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Demonic Lore",
-          "entries": [
-            "The Seven Demon Princes have witnessed countless ages and remember the history of the world. You have Advantage on History checks."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Manifestation of Wrath",
-          "entries": [
-            "Your fury manifests through overwhelming physical force. You have Advantage on Athletics checks."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Avatar of Satan",
-          "entries": [
-            "Your rage burns with an infernal fire that cannot be extinguished. You have Resistance to Fire damage."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Burn It All",
-          "entries": [
-            "As a Bonus Action, you unleash your Wrath, entering Wrath Form for 1 minute.",
-            "While in Wrath Form, whenever a creature hits you with an attack, you can use your Reaction to make an Attack or cast a spell that requires an Attack Roll against that creature.",
-            "Once you use this feature, you can't use it again until you finish a Long Rest.",
             {
               "type": "entries",
-              "name": "Level 3",
+              "name": "Repeatable",
               "entries": [
-                "While in Wrath Form, you are Immune to the Frightened and Charmed conditions, and your Speed is doubled."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 5",
-              "entries": [
-                "While in Wrath Form, you have Advantage on Attack Rolls, and your Attack Rolls score a Critical Hit on a roll of 6 or higher."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 7",
-              "entries": [
-                "Your attacks ignore Resistance. If a creature is Immune to the damage dealt by your attack, it instead takes damage as though it had Resistance."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 9",
-              "entries": [
-                "While in Wrath Form, you gain one additional Action on each of your turns, and your Attack Rolls score a Critical Hit on a roll of 13 or higher."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 11",
-              "entries": [
-                "You regain the use of Burn It All when you finish a Long Rest.",
-                "Additionally, at the end of each of your turns, if you have no uses of your Burn It All remaining and you did at least one of the following during that turn, roll 1d6:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Made an Attack Roll against an enemy.",
-                    "Forced an enemy to make a Saving Throw.",
-                    "Took damage from an enemy since the end of your previous turn."
-                  ]
-                },
-                "On a roll of 6, you regain one use of your Burn It All."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 13",
-              "entries": [
-                "Your attacks ignore Immunity.",
-                "Your attacks made as a reaction to being hit are always Critical Hits and deal twice the normal damage of a Critical Hit."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 15",
-              "entries": [
-                "Your attacks made as a reaction to being hit no longer require a Reaction.",
-                "Whenever one of these attacks deals damage, you regain Hit Points equal to half the damage dealt."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 17",
-              "entries": [
-                "While in Wrath Form, nothing can end or suppress your Wrath Form before its duration expires.",
-                "Your attacks made as a reaction to being hit deal maximum damage instead of rolling their damage dice."
-              ]
-            },
-            {
-              "type": "entries",
-              "name": "Level 19",
-              "entries": [
-                "Your Sin Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
+                "You can gain this invocation more than once. Each time you do so, choose a different Sin or Grace Feat."
               ]
             }
           ]
