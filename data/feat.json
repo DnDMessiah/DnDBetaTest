@@ -835,9 +835,21 @@
       "featureType": [
         "EI"
       ],
+      "prerequisite": [
+        {
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Warlock",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          }
+        }
+      ],
       "entries": [
         "Your body becomes a vessel capable of containing more than one Sin or Grace Feat. You can choose one additional Sin or Grace Feat.",
-        "When choosing a Sin or Grace Feat, you ignore the prerequisite \"You can't have another Sin or Grace Feat\".",
+        "When choosing a Sin or Grace Feat, you ignore the prerequisite \"You can't have another Sin or Grace Feat.\"",
         "However, carrying multiple sources of immense power places tremendous strain on your body. For each Sin or Grace Feat you possess beyond the first, your Constitution score is permanently reduced by 1."
       ]
     },
@@ -849,7 +861,17 @@
       ],
       "prerequisite": [
         {
-          "otherSummary": "Pact of the Soul Vessel"
+          "level": {
+            "level": 2,
+            "class": {
+              "name": "Warlock",
+              "source": "XPHB",
+              "visibleStats": true
+            }
+          },
+          {
+            "other": "Pact of the Soul Vessel"
+          }
         }
       ],
       "featProgression": [
@@ -864,14 +886,9 @@
         "You can choose one additional Sin or Grace Feat.",
         {
           "type": "entries",
+          "name": "Repeatable",
           "entries": [
-            {
-              "type": "entries",
-              "name": "Repeatable",
-              "entries": [
-                "You can gain this invocation more than once. Each time you do so, choose a different Sin or Grace Feat."
-              ]
-            }
+            "You can gain this invocation more than once. Each time you do so, choose a different Sin or Grace Feat."
           ]
         }
       ]
