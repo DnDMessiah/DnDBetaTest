@@ -1087,46 +1087,46 @@
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "Aura of Inner Confidence expands to 30 feet.",
-                "Additionally, creatures benefiting from the aura cannot be Blinded, Deafened, or Poisoned."
+                "Your Aura of Inner Confidence expands to 30 feet.",
+                "If creatures benefiting from Aura of Inner Confidence gain the Blinded, Deafened, or Poisoned condition, they suffer none of the negative effects of those Conditions."
               ]
             },
             {
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "Creatures benefiting from Aura of Inner Confidence cannot become Incapacitated, Restrained, or Petrified."
+                "If creatures benefiting from Aura of Inner Confidence gain the Incapacitated, Restrained, or Petrified condition, they suffer none of the negative effects of those Conditions."
               ]
             },
             {
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "Aura of Inner Confidence expands to 60 feet.",
-                "Additionally, the benefits of the aura persist for 1 round after a creature leaves the aura."
+                "Your Aura of Inner Confidence expands to 60 feet.",
+                "The benefits of Aura of Inner Confidence persist for 1 round after a creature leaves the aura."
               ]
             },
             {
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "Creatures benefiting from Aura of Inner Confidence cannot become Stunned, Paralyzed, or Unconscious unless their Hit Points are reduced to 0."
+                "If creatures benefiting from Aura of Inner Confidence gain the Stunned, Paralyzed, or Unconscious condition, they suffer none of the negative effects of those Conditions, unless their Hit Points are reduced to 0."
               ]
             },
             {
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "Creatures benefiting from Aura of Inner Confidence are immune to all Conditions and Exhaustion."
+                "If creatures benefiting from Aura of Inner Confidence gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "Aura of Inner Confidence expands to 120 feet.",
-                "Additionally, creatures benefiting from the aura cannot die solely as a result of having 0 Hit Points.",
-                "A creature can still die if its body is completely destroyed or an effect explicitly destroys its body."
+                "Creatures benefiting from the aura cannot die solely as a result of having 0 Hit Points.",
+                "A creature can still die if its body is completely destroyed or an effect explicitly destroys its body.",
+                "Additionally, Aura of Inner Confidence expands to 120 feet."
               ]
             },
             {
