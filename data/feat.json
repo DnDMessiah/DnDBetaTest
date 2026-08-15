@@ -1057,45 +1057,37 @@
           "type": "entries",
           "name": "Know Your Worth",
           "entries": [
-            "Your sense of self does not depend on the approval, fear, or influence of others. You can be affected by the Charmed and Frightened conditions, but the effects of those conditions do not apply to you.",
-            "While Charmed, you do not have Advantage on any Charisma checks made against you by the creature that charmed you, and that creature cannot impose any additional effects on you solely because you are Charmed.",
-            "While Frightened, you do not have Disadvantage on ability checks and attack rolls while the source of your fear is within line of sight, and you do not have to move away from the source of your fear.",
+            "Your sense of self does not depend on the approval, fear, or influence of others.",
+            "If affected by the Charmed or Frightened conditions, you suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against you.",
             {
               "type": "entries",
               "name": "Level 3",
               "entries": [
                 "Your Know Your Worth manifests as a quiet and reassuring aura called Aura of Inner Confidence, extending 10 feet from you.",
-                "You and friendly creatures within the aura gain the benefits of Know Your Worth."
+                "You and friendly creatures within the aura gain the benefits of Know Your Worth.",
+                "If creatures benefiting from Aura of Inner Confidence, Their Speed cannot be reduced."
               ]
             },
             {
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "Creatures benefiting from Aura of Inner Confidence gain the following benefits:",
-                {
-                  "type": "list",
-                  "items": [
-                    "Their Speed cannot be reduced.",
-                    "They cannot be Grappled.",
-                    "They cannot be knocked Prone."
-                  ]
-                }
-              ]
+               "If creatures benefiting from Aura of Inner Confidence gain the Grappled Prone or poisoned condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
+             ]
             },
             {
               "type": "entries",
               "name": "Level 7",
               "entries": [
                 "Your Aura of Inner Confidence expands to 30 feet.",
-                "If creatures benefiting from Aura of Inner Confidence gain the Blinded, Deafened, or Poisoned condition, they suffer none of the negative effects of those Conditions."
+                "If creatures benefiting from Aura of Inner Confidence gain the Blinded, Deafened, or Diseased condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "If creatures benefiting from Aura of Inner Confidence gain the Incapacitated, Restrained, or Petrified condition, they suffer none of the negative effects of those Conditions."
+                "If creatures benefiting from Aura of Inner Confidence gain the Incapacitated, Restrained, or Petrified condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
@@ -1110,14 +1102,14 @@
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "If creatures benefiting from Aura of Inner Confidence gain the Stunned, Paralyzed, or Unconscious condition, they suffer none of the negative effects of those Conditions, unless their Hit Points are reduced to 0."
+                "If creatures benefiting from Aura of Inner Confidence gain the Stunned, Paralyzed, or Unconscious condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them, this benefit does not apply to Unconscious caused by their Hit Points being reduced to 0."
               ]
             },
             {
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "If creatures benefiting from Aura of Inner Confidence gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion."
+                "If creatures benefiting from Aura of Inner Confidence gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
@@ -1127,6 +1119,247 @@
                 "Creatures benefiting from the aura cannot die solely as a result of having 0 Hit Points.",
                 "A creature can still die if its body is completely destroyed or an effect explicitly destroys its body.",
                 "Additionally, Aura of Inner Confidence expands to 120 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Grace Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grace of Charity",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "other": "You can't have another Sin or Grace Feat"
+        }
+      ],
+      "entries": [
+        "You embody the essence of Charity, carrying within you the grace of selfless giving and boundless generosity. This manifestation allows you to share your vitality with others, transform excess healing into aid, and restore those around you with increasing efficiency.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Blessed Soul",
+          "entries": [
+            "You gain the Celestial Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Heavenly Faith",
+          "entries": [
+            "Your connection to the Heavenly Host grants you a deep understanding of divine teachings, celestial beings, sacred rites, and the nature of faith. You gain proficiency in the Religion skill."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Charity",
+          "entries": [
+            "You embody compassion and selfless giving, allowing you to recognize the needs of others and respond with care. You have Advantage on Medicine checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Raphael",
+          "entries": [
+            "Your connection to Raphael grants you an instinctive understanding of healing and the restoration of life. You have Resistance to Force damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Give With Love",
+          "entries": [
+            "Your compassion allows you to turn what you have into a gift for others, giving freely without seeking anything in return.",
+            "At the start of your turn, you can expend one Hit Die to regain Hit Points equal to the result of the Hit Die plus your primary ability modifier. This does not require an Action, Bonus Action, or Reaction.",
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "Your Give With Love manifests as an aura of generosity called Aura of Benevolence, extending 10 feet from you.",
+                "At the start of their turn, friendly creatures within the aura can expend one Hit Die to regain Hit Points equal to the result of the Hit Die plus your primary ability modifier. This does not require an Action, Bonus Action, or Reaction."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "At the start of your turn, you can choose one friendly creature within your Aura of Benevolence to regain Hit Points equal to your level. This does not require an Action, Bonus Action, or Reaction."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "Your Aura of Benevolence expands to 30 feet.",
+                "When healing granted by your Grace restores a creature to its maximum Hit Points, any excess healing can be transferred to another friendly creature within your Aura of Benevolence."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "When you or a friendly creature expends a Hit Die through your Give With Love to regain Hit Points, the Hit Die is not expended.",
+                "Additionally, whenever a Hit Die used through your Give With Love rolls below half of its maximum value, the result is treated as half of its maximum value instead."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "Your Aura of Benevolence expands to 60 feet.",
+                "Additionally, the benefits of your Aura persist for 1 round after a creature leaves the aura."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "At the start of your turn, you can choose a number of friendly creatures within your Aura of Benevolence up to your Proficiency Bonus.",
+                "Each chosen creature regains Hit Points equal to your level plus the target's level."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "All healing and recovery provided by you, including healing and recovery granted by Aura of Benevolence, use the maximum result for any dice involved.",
+                "Additionally, healing and recovery provided by you cannot be reduced, prevented, or otherwise suppressed by any effect."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "Your Aura of Benevolence expands to 120 feet.",
+                "Additionally, at the start of your turn, every friendly creature within your Aura of Benevolence receives the benefits of your Level 13 healing."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Grace Feat cannot be countered, interrupted, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grace of Chastity",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "other": "You can't have another Sin or Grace Feat"
+        }
+      ],
+      "entries": [
+        "You embody the essence of Chastity, carrying within you the grace of purity, self-control, and an unwavering will. Your presence cleanses harmful influences, protects the minds and bodies of those around you, and allows you to resist forces that seek to corrupt, weaken, or control you.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Blessed Soul",
+          "entries": [
+            "You gain the Celestial Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Heavenly Faith",
+          "entries": [
+            "Your connection to the Heavenly Host grants you a deep understanding of divine teachings, celestial beings, sacred rites, and the nature of faith. You gain proficiency in the Religion skill."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Chastity",
+          "entries": [
+            "Your pure will allows you to perceive influences that seek to deceive, corrupt, or manipulate you. You have Advantage on Perception checks made to discern a creature's intentions, detect abnormalities, or perceive hidden influences."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Gabriel",
+          "entries": [
+            "Your connection to Gabriel grants you resistance against the overwhelming force of the heavenly thunder and the power to remain steadfast against seductive or manipulative voices. You have Resistance to Thunder damage and Advantage on saving throws against effects that attempt to influence, charm, or control you through sound or speech."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Keep Your Will",
+          "entries": [
+            "Your unwavering will allows you to cast away harmful influences and preserve your purity even in the presence of corruption.",
+            "At the start of your turn, you can remove one harmful effect affecting yourself. The effect can be one disease, curse, condition, or other negative effect currently affecting you. If multiple valid effects are present, the effect removed is determined randomly.",            
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "Your Keep Your Will manifests as an aura of purity called Aura of Purity, extending 10 feet from you.",
+                "At the start of their turn, friendly creatures within your Aura of Purity can benefit from your Keep Your Will, allowing one disease, curse, condition, or other negative effect affecting them to be removed. If multiple valid effects are present, the effect removed is determined randomly."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "If there is no harmful effect to remove when Keep Your Will activates, the affected creature instead receives a protective blessing that lasts for 1 round.",
+                "The next time the creature would take damage while this blessing lasts, the damage is prevented and the blessing ends."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "Your Aura of Purity expands to 30 feet.",
+                "Additionally, when Keep Your Will removes a harmful effect, you can choose which disease, curse, condition, or other negative effect is removed instead of determining it randomly."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "When a friendly creature within your Aura of Purity is about to take damage or is about to be affected by a disease, curse, condition, or other negative effect, you can use your Reaction to protect them.",
+                "The creature receives a protective blessing that lasts for 1 round. The next time the creature would take damage while this blessing lasts, the damage is prevented and the blessing ends.",
+                "Additionally, you can immediately remove one disease, curse, condition, or other negative effect affecting that creature."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "Your Aura of Purity expands to 60 feet.",
+                "Additionally, the benefits of your Aura persist for 1 round after a creature leaves the aura."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "The number of harmful effects that can be removed by Keep Your Will at the start of a turn increases to a number equal to your Proficiency Bonus.",
+                "Additionally, when you use your Reaction through Keep Your Will, you can remove a number of diseases, curses, conditions, or other negative effects from the protected creature equal to your Proficiency Bonus."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "The first time a friendly creature within your Aura of Purity would be reduced to 0 Hit Points, it is reduced to 1 Hit Point instead and receives a protective blessing that lasts for 1 round.",
+                "The next time the creature would take damage while this blessing lasts, the damage is prevented and the blessing ends.",
+                "This benefit can affect each creature only once per Day."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "Your Aura of Purity expands to 120 feet.",
+                "Additionally, at the start of your turn, all diseases, curses, Conditions, and other negative effects affecting you and friendly creatures within your Aura of Purity are immediately removed."
               ]
             },
             {
