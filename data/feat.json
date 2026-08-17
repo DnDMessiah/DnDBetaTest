@@ -1280,7 +1280,7 @@
           "type": "entries",
           "name": "Manifestation of Chastity",
           "entries": [
-            "Your pure will allows you to perceive influences that seek to deceive, corrupt, or manipulate you. You have Advantage on Perception checks made to discern a creature's intentions, detect abnormalities, or perceive hidden influences."
+            "Your pure will allows you to perceive influences that seek to deceive, corrupt, or manipulate you. You have Advantage on Perception checks."
           ]
         },
         {
@@ -1525,7 +1525,7 @@
           "type": "entries",
           "name": "Avatar of Raguel",
           "entries": [
-            "Your connection to Raguel grants you the strength to endure the trials that stand before you. You have Resistance to Acid damage."
+            "Your connection to Raguel grants you the strength to endure the trials that stand before you. You have Resistance to Lightning damage."
           ]
         },
         {
@@ -1638,14 +1638,14 @@
           "type": "entries",
           "name": "Manifestation of Temperance",
           "entries": [
-            "Your disciplined spirit allows you to remain composed and controlled even when confronted by overwhelming circumstances. You have Advantage on Performance checks."
+            "Your mastery over yourself allows you to maintain perfect control of your body, balance, and movements. You have Advantage on Acrobatics checks."
           ]
         },
         {
           "type": "entries",
           "name": "Avatar of Uriel",
           "entries": [
-            "Your connection to Uriel grants you the strength to withstand the destructive forces of the world. You have Resistance to Radiant damage."
+            "Your connection to Uriel grants your soul the strength to endure forces that seek to erode and consume it. You have Resistance to Acid damage."
           ]
         },
         {
@@ -1724,6 +1724,7 @@
         }
       ]
     }
+
 
   ],
   
