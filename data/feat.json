@@ -1469,7 +1469,7 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "While you have Temporary Hit Points, you cannot be subjected to a Critical Hit.",
+                "While you or friendly creatures have Temporary Hit Points, you cannot be subjected to a Critical Hit.",
                 "Additionally, if an instance of damage you take exceeds your remaining Temporary Hit Points, the excess damage does not reduce your Hit Points."
               ]
             },
@@ -1477,7 +1477,7 @@
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "The first time a friendly creature within your Aura of Hope becomes Bloodied, it immediately gains Temporary Hit Points equal to its maximum Hit Points."
+                "The first time you or friendly creature within your Aura of Hope becomes Bloodied, it immediately gains Temporary Hit Points equal to its maximum Hit Points."
               ]
             },
             {
