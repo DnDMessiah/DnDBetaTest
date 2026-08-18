@@ -1309,7 +1309,7 @@
               "name": "Level 5",
               "entries": [
                 "If there is no harmful effect to remove when Keep Your Will activates, the affected creature instead receives a protective blessing that lasts for 1 round.",
-                "The next time the creature would take damage while this blessing lasts, the damage is prevented and the blessing ends."
+                "The next time the creature would take damage while this blessing lasts, the damage is half and the blessing ends."
               ]
             },
             {
@@ -1359,7 +1359,9 @@
               "name": "Level 17",
               "entries": [
                 "Your Aura of Purity expands to 120 feet.",
-                "Additionally, at the start of your turn, all diseases, curses, Conditions, and other negative effects affecting you and friendly creatures within your Aura of Purity are immediately removed."
+                "Additionally, at the start of your turn, all diseases, curses, Conditions, and other negative effects affecting you and friendly creatures within your Aura of Purity are immediately removed.",
+                "If there is no harmful effect to remove when Keep Your Will activates, the affected creature instead receives a protective blessing that lasts for 1 round.",  
+                "The next time the creature would take damage while this blessing lasts, the damage is prevented and the blessing ends."
               ]
             },
             {
@@ -1711,6 +1713,123 @@
               "entries": [
                 "Your Aura of Temperance expands to 120 feet.",
                 "Whenever you take damage of a damage type, you gain Immunity to that damage type for 1 minute."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 19",
+              "entries": [
+                "Your Grace Feat cannot be countered, interrupted, suppressed, or otherwise prevented by any spell, feature, ability, or other effect."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grace of Gratitude",
+      "source": "LifeBetweenSinAndGrace",
+      "prerequisite": [
+        {
+          "other": "You can't have another Sin or Grace Feat"
+        }
+      ],
+      "entries": [
+        "You embody the essence of Gratitude, carrying within you the grace of thankfulness, appreciation, and the sacred act of returning the blessings you receive. Your soul transforms every gift bestowed upon you into a greater blessing, allowing the grace of others to flourish and be shared with those around you.",
+        "You gain the following benefits:",
+        {
+          "type": "entries",
+          "name": "Blessed Soul",
+          "entries": [
+            "You gain the Celestial Creature Type in addition to your other Creature Types."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Heavenly Faith",
+          "entries": [
+            "Your connection to the Heavenly Host grants you a deep understanding of divine teachings, celestial beings, sacred rites, and the nature of faith. You have Advantage on Religion checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Manifestation of Gratitude",
+          "entries": [
+            "Your grateful spirit allows you to express the blessings you receive through art, presence, and heartfelt expression. You have Advantage on Performance checks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Avatar of Zadkiel",
+          "entries": [
+            "Your connection to Zadkiel grants your soul the serenity to endure the cold and preserve the blessings entrusted to you. You have Resistance to Cold damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Share Your Grace",
+          "entries": [
+            "The blessings bestowed upon you by others become greater within your soul. Whenever another creature grants you Healing or Temporary Hit Points, the amount you receive is increased by half, rounded up, to a minimum of 1.",
+            {
+              "type": "entries",
+              "name": "Level 3",
+              "entries": [
+                "Your Share Your Grace manifests as an aura of shared blessings called Aura of Gratitude, extending 10 feet from you.",
+                "Friendly creatures within the aura gain the benefits of Share Your Grace."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 5",
+              "entries": [
+                "Whenever you or a friendly creature within your Aura of Gratitude has Advantage granted by another creature, you roll three dice instead of two and use the highest result.",
+                "Additionally, whenever another creature grants you or a friendly creature within your Aura of Gratitude dice from an ability or beneficial effect, the number of dice granted is increased by half, rounded up, to a minimum of 1."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 7",
+              "entries": [
+                "Your Aura of Gratitude expands to 30 feet.",
+                "Additionally, the duration of abilities and beneficial effects granted by other creatures to you or friendly creatures within the aura is doubled."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 9",
+              "entries": [
+                "Healing, Temporary Hit Points, and dice granted to you or friendly creatures within your Aura of Gratitude by another creature are doubled.",
+                "This replaces the increases granted by Share Your Grace at 1st and 5th level; these benefits do not stack."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 11",
+              "entries": [
+                "Your Aura of Gratitude expands to 60 feet.",
+                "Additionally, the benefits of your Aura persist for 1 round after a creature leaves the aura."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 13",
+              "entries": [
+                "The first time each round that you receive an ability, beneficial effect, Healing, or Temporary Hit Points from another creature, you can choose one friendly creature within your Aura of Gratitude. That creature receives the same result."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 15",
+              "entries": [
+                "Whenever you or a friendly creature within your Aura of Gratitude grants another creature an ability, beneficial effect, Healing, or Temporary Hit Points, the creature granting the effect also receives the same benefit."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Level 17",
+              "entries": [
+                "Your Aura of Gratitude expands to 120 feet.",
+                "The first time each round that you receive an ability, beneficial effect, Healing, or Temporary Hit Points from another creature, that creature can share the same result with every friendly creature within your Aura of Gratitude."
               ]
             },
             {
