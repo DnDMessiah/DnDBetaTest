@@ -1072,7 +1072,7 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-               "If creatures benefiting from Aura of Inner Confidence gain the Grappled Prone or poisoned condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
+               "If you or friendly creatures in Aura gain the Grappled Prone or poisoned condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
              ]
             },
             {
@@ -1080,14 +1080,14 @@
               "name": "Level 7",
               "entries": [
                 "Your Aura of Inner Confidence expands to 30 feet.",
-                "If creatures benefiting from Aura of Inner Confidence gain the Blinded, Deafened, or Diseased condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
+                "If you or friendly creatures in Aura gain the Blinded, Deafened, or Diseased condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "If creatures benefiting from Aura of Inner Confidence gain the Incapacitated, Restrained, or Petrified condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
+                "If you or friendly creatures in Aura gain the Incapacitated, Restrained, or Petrified condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
@@ -1102,21 +1102,21 @@
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "If creatures benefiting from Aura of Inner Confidence gain the Stunned, Paralyzed, or Unconscious condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them, this benefit does not apply to Unconscious caused by their Hit Points being reduced to 0."
+                "If you or friendly creatures in Aura gain the Stunned, Paralyzed, or Unconscious condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them, this benefit does not apply to Unconscious caused by their Hit Points being reduced to 0."
               ]
             },
             {
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "If creatures benefiting from Aura of Inner Confidence gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion, and other creatures gain none of the benefits those Conditions would normally grant against them."
+                "If you or friendly creatures in Aura of Inner Confidence gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "Creatures benefiting from the aura cannot die solely as a result of having 0 Hit Points.",
+                "you or friendly creatures in Aura cannot die solely as a result of having 0 Hit Points.",
                 "A creature can still die if its body is completely destroyed or an effect explicitly destroys its body.",
                 "Additionally, Aura of Inner Confidence expands to 120 feet."
               ]
