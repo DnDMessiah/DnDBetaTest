@@ -1798,9 +1798,10 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "Healing, Temporary Hit Points, and dice granted to you or friendly creatures within your Aura of Gratitude by another creature are doubled.",
-                "This replaces the increases granted by Share Your Grace at 1st and 5th level; these benefits do not stack."
-              ]
+				  "Healing, Temporary Hit Points, and dice granted to you or friendly creatures within your Aura of Gratitude by another creature are doubled.",
+				  "Additionally, dice granted to you or friendly creatures within your Aura of Gratitude by another creature receive one additional die of the same type.",
+				  "This replaces the increases granted by Share Your Grace at 1st and 5th level; these benefits do not stack."
+				]
             },
             {
               "type": "entries",
