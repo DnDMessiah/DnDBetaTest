@@ -1063,9 +1063,9 @@
               "type": "entries",
               "name": "Level 3",
               "entries": [
-                "Your Know Your Worth manifests as a quiet and reassuring aura called Aura of Inner Confidence, extending 10 feet from you.",
+                "Your Know Your Worth manifests as a quiet and reassuring aura called Aura of Assurance, extending 10 feet from you.",
                 "You and friendly creatures within the aura gain the benefits of Know Your Worth.",
-                "If creatures benefiting from Aura of Inner Confidence, Their Speed cannot be reduced."
+                "If creatures benefiting from Aura of Assurance, Their Speed cannot be reduced."
               ]
             },
             {
@@ -1079,7 +1079,7 @@
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "Your Aura of Inner Confidence expands to 30 feet.",
+                "Your Aura of Assurance expands to 30 feet.",
                 "If you or friendly creatures in Aura gain the Blinded, Deafened, or Diseased condition, they suffer none of the negative effects of those Conditions, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
@@ -1094,8 +1094,8 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "Your Aura of Inner Confidence expands to 60 feet.",
-                "The benefits of Aura of Inner Confidence persist for 1 round after a creature leaves the aura."
+                "Your Aura of Assurance expands to 60 feet.",
+                "The benefits of Aura of Assurance persist for 1 round after a creature leaves the aura."
               ]
             },
             {
@@ -1109,7 +1109,7 @@
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "If you or friendly creatures in Aura of Inner Confidence gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion, and other creatures gain none of the benefits those Conditions would normally grant against them."
+                "If you or friendly creatures in Aura of Assurance gain any Condition or Exhaustion, they suffer none of the negative effects of those Conditions or Exhaustion, and other creatures gain none of the benefits those Conditions would normally grant against them."
               ]
             },
             {
@@ -1118,7 +1118,7 @@
               "entries": [
                 "you or friendly creatures in Aura cannot die solely as a result of having 0 Hit Points.",
                 "A creature can still die if its body is completely destroyed or an effect explicitly destroys its body.",
-                "Additionally, Aura of Inner Confidence expands to 120 feet."
+                "Additionally, Aura of Assurance expands to 120 feet."
               ]
             },
             {
@@ -1659,7 +1659,7 @@
               "type": "entries",
               "name": "Level 3",
               "entries": [
-                "Your Guard Your Soul manifests as an aura of spiritual protection called Aura of Temperance, extending 10 feet from you.",
+                "Your Guard Your Soul manifests as an aura of spiritual protection called Aura of Equilibrium, extending 10 feet from you.",
                 "Friendly creatures within the aura gain the benefits of Guard Your Soul."
               ]
             },
@@ -1667,14 +1667,14 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "Whenever you or a friendly creature within your Aura take damage of a damage type, you gain Resistance to that damage type for 1 minute."
+                "Whenever you or a friendly creature within your Aura of Equilibrium take damage of a damage type, you gain Resistance to that damage type for 1 minute."
               ]
             },
             {
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "Your Aura of Temperance expands to 30 feet.",
+                "Your Aura of Equilibrium expands to 30 feet.",
                 "Additionally, the amount of damage reduced by Guard Your Soul increases by your primary ability modifier."
               ]
             },
@@ -1682,14 +1682,14 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "Whenever you or a friendly creature within your Aura recover from a Condition, Disease, or Curse, you gain Immunity to that specific Condition, Disease, or Curse for 1 minute."
+                "Whenever you or a friendly creature within your Aura of Equilibrium recover from a Condition, Disease, or Curse, you gain Immunity to that specific Condition, Disease, or Curse for 1 minute."
               ]
             },
             {
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "Your Aura of Temperance expands to 60 feet.",
+                "Your Aura of Equilibrium expands to 60 feet.",
                 "Additionally, the benefits of your Aura persist for 1 round after a creature leaves the aura."
               ]
             },
@@ -1697,22 +1697,22 @@
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "The first time each round that you or a friendly creature within your Aura of Temperance takes damage, that damage is reduced by half."
+                "The first time each round that you or a friendly creature within your Aura of Equilibrium takes damage, that damage is reduced by half."
               ]
             },
             {
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "Whenever you or a friendly creature within your Aura of Temperance takes damage, the damage is divided equally among you and all friendly creatures within the aura."
+                "Whenever you or a friendly creature within your Aura of Equilibrium takes damage, the damage is divided equally among you and all friendly creatures within the aura."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "Your Aura of Temperance expands to 120 feet.",
-                "Whenever you or a friendly creature within your Aura take damage of a damage type, you gain Immunity to that damage type for 1 minute."
+                "Your Aura of Equilibrium expands to 120 feet.",
+                "Whenever you or a friendly creature within your Aura of Equilibrium take damage of a damage type, you gain Immunity to that damage type for 1 minute."
               ]
             },
             {
@@ -1774,7 +1774,7 @@
               "type": "entries",
               "name": "Level 3",
               "entries": [
-                "Your Share Your Grace manifests as an aura of shared blessings called Aura of Gratitude, extending 10 feet from you.",
+                "Your Share Your Grace manifests as an aura of shared blessings called Aura of Appreciation, extending 10 feet from you.",
                 "Friendly creatures within the aura gain the benefits of Share Your Grace."
               ]
             },
@@ -1782,15 +1782,15 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "Whenever you or a friendly creature within your Aura of Gratitude has Advantage granted by another creature, you roll three dice instead of two and use the highest result.",
-                "Additionally, whenever another creature grants you or a friendly creature within your Aura of Gratitude dice from an ability or beneficial effect, the number of dice granted is increased by half, rounded up, to a minimum of 1."
+                "Whenever you or a friendly creature within your Aura of Appreciation has Advantage granted by another creature, you roll three dice instead of two and use the highest result.",
+                "Additionally, whenever another creature grants you or a friendly creature within your Aura of Appreciation dice from an ability or beneficial effect, the number of dice granted is increased by half, rounded up, to a minimum of 1."
               ]
             },
             {
               "type": "entries",
               "name": "Level 7",
               "entries": [
-                "Your Aura of Gratitude expands to 30 feet.",
+                "Your Aura of Appreciation expands to 30 feet.",
                 "Additionally, the duration of abilities and beneficial effects granted by other creatures to you or friendly creatures within the aura is doubled."
               ]
             },
@@ -1798,8 +1798,8 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-				  "Healing, Temporary Hit Points, and dice granted to you or friendly creatures within your Aura of Gratitude by another creature are doubled.",
-				  "Additionally, dice granted to you or friendly creatures within your Aura of Gratitude by another creature receive one additional die of the same type.",
+				  "Healing, Temporary Hit Points, and dice granted to you or friendly creatures within your Aura of Appreciation by another creature are doubled.",
+				  "Additionally, dice granted to you or friendly creatures within your Aura of Appreciation by another creature receive one additional die of the same type.",
 				  "This replaces the increases granted by Share Your Grace at 1st and 5th level; these benefits do not stack."
 				]
             },
@@ -1807,7 +1807,7 @@
               "type": "entries",
               "name": "Level 11",
               "entries": [
-                "Your Aura of Gratitude expands to 60 feet.",
+                "Your Aura of Appreciation expands to 60 feet.",
                 "Additionally, the benefits of your Aura persist for 1 round after a creature leaves the aura."
               ]
             },
@@ -1815,22 +1815,22 @@
               "type": "entries",
               "name": "Level 13",
               "entries": [
-                "The first time each round that you receive an ability, beneficial effect, Healing, or Temporary Hit Points from another creature, you can choose one friendly creature within your Aura of Gratitude. That creature receives the same result."
+                "The first time each round that you receive an ability, beneficial effect, Healing, or Temporary Hit Points from another creature, you can choose one friendly creature within your Aura of Appreciation. That creature receives the same result."
               ]
             },
             {
               "type": "entries",
               "name": "Level 15",
               "entries": [
-                "Whenever you or a friendly creature within your Aura of Gratitude grants another creature an ability, beneficial effect, Healing, or Temporary Hit Points, the creature granting the effect also receives the same benefit."
+                "Whenever you or a friendly creature within your Aura of Appreciation grants another creature an ability, beneficial effect, Healing, or Temporary Hit Points, the creature granting the effect also receives the same benefit."
               ]
             },
             {
               "type": "entries",
               "name": "Level 17",
               "entries": [
-                "Your Aura of Gratitude expands to 120 feet.",
-                "The first time each round that you receive an ability, beneficial effect, Healing, or Temporary Hit Points from another creature, that creature can share the same result with every friendly creature within your Aura of Gratitude."
+                "Your Aura of Appreciation expands to 120 feet.",
+                "The first time each round that you receive an ability, beneficial effect, Healing, or Temporary Hit Points from another creature, that creature can share the same result with every friendly creature within your Aura of Appreciation."
               ]
             },
             {
@@ -1886,6 +1886,20 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Pact of the Devil's Bargain",
+      "source": "LifeBetweenSinAndGrace",
+      "featureType": [
+        "PB"
+      ],
+      "entries": [
+        "You have learned the oldest trick in creation: a law is only as strong as the loophole written into it.",
+        "Through a pact forged with cunning beyond mortal understanding, you have discovered how to twist the words of reality itself. The world still obeys its laws, but your bargain has taught you how to make those laws work in your favor.",
+        "You gain 1d4 + 1 additional Eldritch Invocations of your choice beyond the number you normally have.",
+        "You can spend 10 minutes performing a Pact Ritual to choose one Eldritch Invocation you know and replace it with another Eldritch Invocation that you could learn at your current level.",
+        "This ritual can also be completed as part of a Short Rest."
       ]
     }
   ]
