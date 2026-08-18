@@ -1667,7 +1667,7 @@
               "type": "entries",
               "name": "Level 5",
               "entries": [
-                "Whenever you take damage of a damage type, you gain Resistance to that damage type for 1 minute."
+                "Whenever you or a friendly creature within your Aura take damage of a damage type, you gain Resistance to that damage type for 1 minute."
               ]
             },
             {
@@ -1682,7 +1682,7 @@
               "type": "entries",
               "name": "Level 9",
               "entries": [
-                "Whenever you recover from a Condition, Disease, or Curse, you gain Immunity to that specific Condition, Disease, or Curse for 1 minute."
+                "Whenever you or a friendly creature within your Aura recover from a Condition, Disease, or Curse, you gain Immunity to that specific Condition, Disease, or Curse for 1 minute."
               ]
             },
             {
@@ -1712,7 +1712,7 @@
               "name": "Level 17",
               "entries": [
                 "Your Aura of Temperance expands to 120 feet.",
-                "Whenever you take damage of a damage type, you gain Immunity to that damage type for 1 minute."
+                "Whenever you or a friendly creature within your Aura take damage of a damage type, you gain Immunity to that damage type for 1 minute."
               ]
             },
             {
