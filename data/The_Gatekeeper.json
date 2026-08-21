@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "TheGatekeeper",
+        "abbreviation": "TGK",
+        "full": "The Gatekeeper",
+        "authors": [
+          "DnDMessiah"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1787311551,
+    "dateLastModified": 1787311551
+  },
+    "subclass": [
+      {
+      "name": "The Gatekeeper",
+      "shortName": "TGK",
+      "source": "TheGatekeeper",
+      "className": "Ranger",
+      "classSource": "PHB",
+      "page": 0,
+      "subclassFeatures": [
+        "The King of Heroes|Ranger||The Gatekeeper|TheGatekeeper|3",
+        "Chains of Heaven|Ranger||The Gatekeeper|TheGatekeeper|7",
+        "Feature Lv.11|Ranger||The Gatekeeper|TheGatekeeper|11",
+        "Enuma Elish|Ranger||The Gatekeeper|TheGatekeeper|15",
+        "Sha Naqba Imuru|Ranger||The Gatekeeper|TheGatekeeper|20"
+      ]
+    }
+  ],
+    "subclassFeature": [
+      {
+        "name": "The King of Heroes",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 3,
+        "header": 1,
+        "entries": [
+          "You have inherited the power of the King of Heroes, whose treasury contains the prototypes of countless legendary treasures. Wealth bends toward you, ancient relics answer your call, and the world itself seems to remember that all treasures were once meant to belong to their king."
+      ]
+    },
+    {
+        "name": "Gate of Babylon",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 3,
+        "header": 1,
+        "entries": [
+          "Gate of Babylon"
+      ]
+    }
+  ]
+}
