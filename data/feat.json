@@ -1899,6 +1899,20 @@
 				"You can spend 10 minutes performing Ritual to choose one Eldritch Invocation you know and replace it with another Eldritch Invocation that you could learn.",
 				"This ritual can also be completed as part of a Short Rest."
 			]
+		},
+		{
+			"name": "Pact of the Sovereign",
+			"source": "LifeBetweenSinAndGrace",
+			"featureType": [
+				"PB"
+			],
+			"entries": [
+				"You learn the Crimson Covenant spell. If you don't already know it.",
+				"The first time you cast Crimson Covenant, you don't need the gold chalice set with precious gems worth at least 999 GP, even though the spell normally requires it. Instead, you must offer your own blood as tribute to form the covenant. You take piercing damage equal to half your hit point maximum. This damage can't be reduced or prevented in any way.",
+				"For you, the One Covenant Only rule of Crimson Covenant is replaced. You can have multiple creatures bound to you by the spell at the same time, up to a number equal to your Proficiency Bonus.",
+				"Each creature bound to you by Crimson Covenant counts as a creature bound by your Pact of the Sovereign.",
+				"All other rules of Crimson Covenant apply normally."
+			]
 		}
 	],
 	"spell": [
