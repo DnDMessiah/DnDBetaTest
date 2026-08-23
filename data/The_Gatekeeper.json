@@ -22,14 +22,14 @@
       "shortName": "The Gatekeeper",
       "source": "TheGatekeeper",
       "className": "Ranger",
-      "classSource": "PHBX",
+      "classSource": "PHB",
       "page": 0,
       "subclassFeatures": [
-        "The King of Heroes|Ranger|PHBX|The Gatekeeper|TheGatekeeper|3",
-        "Enkidu : Chains of Heaven|Ranger|PHBX|The Gatekeeper|TheGatekeeper|7",
-        "Wedge of Heaven|Ranger|PHBX|The Gatekeeper|TheGatekeeper|11",
-        "Enuma Elish|Ranger|PHBX|The Gatekeeper|TheGatekeeper|15",
-        "Sha Naqba Imuru|Ranger|PHBX|The Gatekeeper|TheGatekeeper|20"
+        "The King of Heroes|Ranger|PHB|The Gatekeeper|TheGatekeeper|3|TheGatekeeper",
+        "Level 7: Enkidu : Chains of Heaven|Ranger|PHB|The Gatekeeper|TheGatekeeper|7|TheGatekeeper",
+        "Level 11: Wedge of Heaven|Ranger|PHB|The Gatekeeper|TheGatekeeper|11|TheGatekeeper",
+        "Level 15: Enuma Elish|Ranger|PHB|The Gatekeeper|TheGatekeeper|15|TheGatekeeper",
+        "Level 20: Sha Naqba Imuru|Ranger|PHB|The Gatekeeper|TheGatekeeper|20|TheGatekeeper"
       ]
     }
   ],
@@ -38,7 +38,7 @@
         "name": "The King of Heroes",
         "source": "TheGatekeeper",
         "className": "Ranger",
-        "classSource": "PHBX",
+        "classSource": "PHB",
         "subclassShortName": "The Gatekeeper",
         "subclassSource": "TheGatekeeper",
         "level": 3,
@@ -47,7 +47,7 @@
           "You have inherited the power of the King of Heroes, whose treasury contains the prototypes of countless legendary treasures. Wealth bends toward you, ancient relics answer your call, and the world itself seems to remember that all treasures were once meant to belong to their king.",
               {
           "type": "entries",
-          "name": "Gate of Babylon",
+          "name": "Level 3: Gate of Babylon",
           "entries": [
             "Gate of Babylon It grants him access to all of the world's treasures that he collected during his life, which include prototypes of other heroes' Noble Phantasms, and he can launch them as the strongest arrows towards his opponents.",
             "As an action, you can open the Gate of Babylon and launch a weapon from your treasury at a creature you can see within 120 feet. Roll on the Treasury of Babylon Table to determine the weapon and its damage. Make a ranged weapon attack using your Wisdom modifier in place of Strength or Dexterity for both the attack and damage rolls. This attack counts as both a ranged weapon attack and a thrown weapon attack."
@@ -145,7 +145,7 @@
         },
         {
           "type": "entries",
-          "name": "Key of the King's Law, Bab-ilu",
+          "name": "Level 3: Key of the King's Law, Bab-ilu",
           "entries": [
             "A golden key-shaped sword that connects to the treasury. Only he is able to utilize Bab-ilu, Because lacking the wisdom to understand its constantly changing shape will render it unable to open the treasury.",
             "The key can unlock any door, container, or other object that possesses a lock, regardless of its complexity or magical nature. It cannot open objects that have no lock."
@@ -154,10 +154,10 @@
       ]
     },
     {
-        "name": "Enkidu : Chains of Heaven",
+        "name": "Level 7: Enkidu : Chains of Heaven",
         "source": "TheGatekeeper",
         "className": "Ranger",
-        "classSource": "PHBX",
+        "classSource": "PHB",
         "subclassShortName": "The Gatekeeper",
         "subclassSource": "TheGatekeeper",
         "level": 7,
@@ -180,10 +180,10 @@
       ]
     },
     {
-        "name": "Wedge of Heaven",
+        "name": "Level 11: Wedge of Heaven",
         "source": "TheGatekeeper",
         "className": "Ranger",
-        "classSource": "PHBX",
+        "classSource": "PHB",
         "subclassShortName": "The Gatekeeper",
         "subclassSource": "TheGatekeeper",
         "level": 11,
@@ -223,10 +223,10 @@
         ]  
      },
      {
-        "name": "Enuma Elish",
+        "name": "Level 15: Enuma Elish",
         "source": "TheGatekeeper",
         "className": "Ranger",
-        "classSource": "PHBX",
+        "classSource": "PHB",
         "subclassShortName": "The Gatekeeper",
         "subclassSource": "TheGatekeeper",
         "level": 15,
@@ -240,10 +240,10 @@
         ]
      },
      {
-        "name": "Sha Naqba Imuru",
+        "name": "Level 20: Sha Naqba Imuru",
         "source": "TheGatekeeper",
         "className": "Ranger",
-        "classSource": "PHBX",
+        "classSource": "PHB",
         "subclassShortName": "The Gatekeeper",
         "subclassSource": "TheGatekeeper",
         "level": 20,
