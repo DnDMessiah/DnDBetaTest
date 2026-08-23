@@ -1,49 +1,55 @@
 {
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
         "json": "TheGatekeeper",
         "abbreviation": "TGK",
         "full": "The Gatekeeper",
-        "version": "1.0.0",
         "authors": [
           "DnDMessiah"
-        ]
+        ],
+        "version": "1.0.0"
       }
     ],
     "edition": "classic",
-    "status": "ready"
+    "dateAdded": 1787311551,
+    "dateLastModified": 1787311551
   },
-  "subclass": [
-    {
+    "subclass": [
+      {
       "name": "The Gatekeeper",
       "shortName": "The Gatekeeper",
       "source": "TheGatekeeper",
       "className": "Ranger",
       "classSource": "PHB",
-      "page": 1,
+      "page": 0,
       "subclassFeatures": [
-        "The King of Heroes|Ranger|PHB|The Gatekeeper|TheGatekeeper|3|TheGatekeeper"
+        "The King of Heroes|Ranger|PHBX||The Gatekeeper|TheGatekeeper|3",
+        "Enkidu : Chains of Heaven|Ranger|PHBX||The Gatekeeper|TheGatekeeper|7",
+        "Divinity|Ranger|PHBX||The Gatekeeper|TheGatekeeper|11",
+        "Enuma Elish|Ranger|PHBX||The Gatekeeper|TheGatekeeper|15",
+        "Sha Naqba Imuru|Ranger|PHBX||The Gatekeeper|TheGatekeeper|20"
       ]
     }
   ],
-  "subclassFeature": [
-    {
-      "name": "The King of Heroes",
-      "source": "TheGatekeeper",
-      "page": 1,
-      "className": "Ranger",
-      "classSource": "PHB",
-      "subclassShortName": "The Gatekeeper",
-      "subclassSource": "TheGatekeeper",
-      "level": 3,
-      "header": 1,
-      "entries": [
-        "You have inherited the power of the King of Heroes, whose treasury contains the prototypes of countless legendary treasures. Wealth bends toward you, ancient relics answer your call, and the world itself seems to remember that all treasures were once meant to belong to their king.",
-        {
+    "subclassFeature": [
+      {
+        "name": "The King of Heroes",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 3,
+        "header": 1,
+        "entries": [
+          "You have inherited the power of the King of Heroes, whose treasury contains the prototypes of countless legendary treasures. Wealth bends toward you, ancient relics answer your call, and the world itself seems to remember that all treasures were once meant to belong to their king.",
+              {
           "type": "entries",
           "name": "Gate of Babylon",
           "entries": [
+            "Gate of Babylon It grants him access to all of the world's treasures that he collected during his life, which include prototypes of other heroes' Noble Phantasms, and he can launch them as the strongest arrows towards his opponents.",
             "As an action, you can open the Gate of Babylon and launch a weapon from your treasury at a creature you can see within 120 feet. Roll on the Treasury of Babylon Table to determine the weapon and its damage. Make a ranged weapon attack using your Wisdom modifier in place of Strength or Dexterity for both the attack and damage rolls. This attack counts as both a ranged weapon attack and a thrown weapon attack."
           ]
         },
@@ -51,7 +57,7 @@
           "type": "table",
           "caption": "Treasury of Babylon",
           "colLabels": [
-            "D100",
+            "•D100󠁪•",
             "Weapon",
             "Damage",
             "Ability"
@@ -97,12 +103,12 @@
               "80-84",
               "Harpe",
               "1d12 Slashing + 2d12 Necrotic",
-              "The Harpe ignores all Resistance. When you deal damage to a creature with this weapon, its hit point maximum is reduced by an amount equal to the Necrotic damage dealt."
+              "The Harpe ignores all Resistance. When you deal damage to a creature with this weapon, its hit point maximum is reduced by an amount equal to the Necrotic damage dealt"
             ],
             [
               "85-89",
               "Vajra",
-              "2d6 Bludgeoning + 4d6 Lightning",
+              "2d6 Bludgeoning + 4d6 Lightning damage",
               "The Vajra ignores all Resistance. When you hit a creature with this weapon, each creature within 15 feet of the target takes an additional 2d6 Thunder damage."
             ],
             [
@@ -121,7 +127,7 @@
               "96-97",
               "Enkidu, Chains of Heaven",
               "2d6 Piercing + 6d12 Force",
-              "The Enkidu, Chains of Heaven ignores all Resistance and Immunity to the damage it deals. This attack automatically hits, and the target is Restrained by the chains. At the end of each of its turns, the target can make a Strength saving throw against your save DC, ending the effect on a success. If the target is a Celestial, all damage dealt by this weapon is doubled."
+              "The Enkidu, Chains of Heaven ignores all Resistance and Immunity to the damage it deals. This attack automatically hits, the target is Restrained by the chains. At the end of each of its turns, the target can make a Strength saving throw against your save DC, ending the effect on a success. If the target is a Celestial, all damage dealt by this weapon is doubled."
             ],
             [
               "98-99",
@@ -141,10 +147,62 @@
           "type": "entries",
           "name": "Key of the King's Law, Bab-ilu",
           "entries": [
-            "A golden key-shaped sword that connects to the treasury. Only he is able to utilize Bab-ilu, because lacking the wisdom to understand its constantly changing shape will render it unable to open the treasury.",
+            "A golden key-shaped sword that connects to the treasury. Only he is able to utilize Bab-ilu, Because lacking the wisdom to understand its constantly changing shape will render it unable to open the treasury.",
             "The key can unlock any door, container, or other object that possesses a lock, regardless of its complexity or magical nature. It cannot open objects that have no lock."
           ]
         }
+      ]
+    },
+    {
+        "name": "Enkidu : Chains of Heaven",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 7,
+        "header": 1,
+        "entries": [
+          "Chains of Heaven"
+      ]
+    },
+    {
+        "name": "Divinity",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 11,
+        "header": 1,
+        "entries": [
+          "Divinity"
+      ]
+    },
+     {
+        "name": "Enuma Elish",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 15,
+        "header": 1,
+        "entries": [
+          "Enuma Elish"
+      ]
+    },
+     {
+        "name": "Sha Naqba Imuru",
+        "source": "TheGatekeeper",
+        "className": "Ranger",
+        "classSource": "PHB",
+        "subclassShortName": "The Gatekeeper",
+        "subclassSource": "TheGatekeeper",
+        "level": 20,
+        "header": 1,
+        "entries": [
+          "Sha Naqba Imuru"
       ]
     }
   ]
