@@ -131,122 +131,146 @@
           "type": "table",
           "caption": "Arcana Cascade",
           "colLabels": [
+            "No.",
             "Sorcerer Level",
             "Card",
             "Ability"
           ],
           "colStyles": [
             "col-1",
+            "col-1",
             "col-3",
-            "col-8"
+            "col-7"
           ],
           "rows": [
             [
+              "1",
               "3",
               "0 — The Fool",
               "Leap of Fate: Reaction when you or a creature within 60 feet makes a D20 Test. Reroll the D20 and you must use the new result. After the reroll, you may move up to 10 feet without provoking Opportunity Attacks."
             ],
             [
+              "2",
               "3",
               "I — The Magician",
               "Manifest Will: When a spell you cast deals damage, add 2d6 Force damage to one target. If the spell is a Cantrip, add 1d6 Force damage instead."
             ],
             [
               "3",
+              "3",
               "II — The High Priestess",
               "Veil Beyond Sight: Reaction when you or an ally within 60 feet is attacked. The target gains +4 AC against that attack. If the attack misses, the target may move up to 10 feet without provoking Opportunity Attacks."
             ],
             [
+              "4",
               "3",
               "III — The Empress",
               "Abundance of Life: When a creature within 60 feet receives Healing, increase the amount healed by 2d6 + your Charisma modifier. If the creature has less than half its maximum HP, increase the healing by an additional 1d6."
             ],
             [
+              "5",
               "3",
               "IV — The Emperor",
               "Decree of Fate: Reaction before a Saving Throw. An ally gains +1d8 to the Saving Throw, or an enemy suffers -1d8 to the Saving Throw."
             ],
             [
+              "6",
               "4",
               "V — The Hierophant",
               "Sacred Guidance: Reaction when an ally makes a D20 Test. Add 1d10 to the roll. If the bonus causes the roll to succeed, the ally gains Temporary Hit Points equal to 1d10 + your Charisma modifier. If it does not cause the roll to succeed, the bonus is lost."
             ],
             [
+              "7",
               "5",
               "VI — The Lovers",
               "Fated Bond: Bonus Action. Link two creatures you can see for 1 minute. If one target is an enemy, damage that enemy deals to you is halved, and the remaining damage is dealt to the enemy. This transferred damage ignores Resistance and Immunity. If both targets are allies, whenever one linked creature takes damage, half the damage is dealt to the other linked creature. Whenever one linked creature receives healing, the other receives the same amount of healing."
             ],
             [
+              "8",
               "6",
               "VII — The Chariot",
               "Ride the Fated Path: Bonus Action. Move up to 30 feet without provoking Opportunity Attacks. If you deal damage with a spell during this turn, add 3d8 Force damage."
             ],
             [
+              "9",
               "7",
               "VIII — Strength",
               "Unbreakable Fate: Reaction when you or an ally takes damage. Reduce the damage by 4d10 + your Charisma modifier. If the damage is reduced to 0, the target gains Temporary Hit Points equal to the amount of damage absorbed."
             ],
             [
+              "10",
               "8",
               "IX — The Hermit",
               "Hidden Truth: Bonus Action. For 1 minute, you gain Truesight out to 30 feet and have Advantage on Perception, Investigation, and Saving Throws."
             ],
             [
+              "11",
               "9",
               "X — Wheel of Fortune",
               "Turn the Wheel: Reaction when you or an ally makes a D20 Test. Reroll the D20 with Advantage and add your Charisma modifier to the result. You must make the new roll yourself."
             ],
             [
+              "12",
               "10",
               "XI — Justice",
               "Balance Must Be Paid: Reaction when an enemy deals damage. That enemy takes damage equal to the damage it dealt. This damage cannot be reduced or prevented."
             ],
             [
+              "13",
               "11",
               "XII — The Hanged Man",
               "Suspended Fate: Reaction when a creature you can see within 120 feet takes damage or fails a Saving Throw. Suspend the effect until the end of your next turn. At the end of your next turn, you may choose any creature you can see within 120 feet to receive the suspended effect instead."
             ],
             [
+              "14",
               "12",
               "XIII — Death",
               "Inevitable End: Reaction when a creature you can see is attacked. The target makes a Death Save. On a failure, if the target has 10% or less of its maximum HP, it dies immediately. Otherwise, it takes 10d10 Necrotic damage. On a successful save, it takes half as much damage. If this damage kills the target, you regain all expended Sorcery Points."
             ],
             [
+              "15",
               "13",
               "XIV — Temperance",
               "Perfect Balance: Action. Choose up to six creatures. You may redistribute or transfer Hit Points among the chosen creatures by a total amount equal to the combined levels of all chosen creatures. Each chosen creature also gains Temporary Hit Points equal to 2d10 + your Charisma modifier."
             ],
             [
+              "16",
               "14",
               "XV — The Devil",
               "Pact of Ruin: Bonus Action. Concentration, up to 1 minute. Curse a creature you can see. Whenever the cursed creature deals damage, it takes 2d8 Psychic damage. Whenever you deal damage to the cursed creature, it takes an additional 4d6 Psychic damage."
             ],
             [
+              "17",
               "15",
               "XVI — The Tower",
               "Cataclysm of Fate: Action. Detonate an explosion in a 20-foot radius. Creatures in the area make a Dexterity Saving Throw, taking 12d8 Force damage plus 12d8 Lightning damage on a failure, or half as much on a success. A creature that fails is also Paralyzed and knocked Prone. A creature that succeeds is knocked Prone."
             ],
             [
+              "18",
               "16",
               "XVII — The Star",
               "Miracle: Reaction when you or a creature you can see fails a Saving Throw or suffers a Critical Hit. Negate the triggering effect and heal the creature for 12d12 + your Charisma modifier Hit Points. You also remove conditions and negative effects as if the creature had been affected by Heal."
             ],
             [
+              "19",
               "17",
               "XVIII — The Moon",
               "Reality Beneath the Veil: Action. Create an illusionary area with a 60-foot radius for 1 minute. A creature that enters the area or starts its turn there must make a Wisdom Saving Throw. On a failure, an enemy has Disadvantage on Attack Rolls, cannot take Reactions, and its Speed becomes 10 feet. On a success, an enemy has Disadvantage on Attack Rolls and its Speed is halved. As a Bonus Action, you may move the area."
             ],
             [
+              "20",
               "18",
               "XIX — The Sun",
               "Radiant Destiny: Bonus Action. Create a 60-foot aura centered on yourself for 1 minute. Allies in the aura gain an AC bonus equal to your Charisma modifier, Advantage on Saving Throws, and regain 2d12 + your Charisma modifier Hit Points at the start of their turn while inside the aura. Once per turn, an ally in the aura also deals an additional 2d8 Radiant damage when it hits with an attack or deals damage with a spell. Enemies take 4d8 Radiant damage when they start their turn inside the aura."
             ],
             [
+              "21",
               "19",
               "XX — Judgment",
               "Final Judgment: Action. Choose up to six creatures within 120 feet. Each target makes an Intelligence Saving Throw. On a failure, a target takes 15d10 Radiant damage plus 15d10 Psychic damage and becomes Stunned. On a success, the target takes half damage and suffers no Stunned condition."
             ],
             [
+              "22",
               "20",
               "XXI — The World",
               "Rewrite Fate: Action. Alter one aspect of reality as though casting Wish, but without suffering any negative consequence from doing so. Once used, you cannot use this card again for 1d4 days."
