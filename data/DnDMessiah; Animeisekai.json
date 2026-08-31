@@ -49,6 +49,29 @@
         "The Eclipse|Fighter|PHB|The Black Swordsman|AnimeIsekai|18|AnimeIsekai"
 
       ]
+    },
+    {
+      "name": "The Honored One",
+      "shortName": "The Honored One",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "Tenjō Tenge Yuiga Dokuson|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
+        "Mukagen|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
+        "Ao|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
+        "Aka|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
+        "Kokusen|Warlock|PHB|The Honored One|AnimeIsekai|20|AnimeIsekai",
+        "Mugen|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
+        "Jutsushiki Junten Shutsuryoku Saidai・Ao|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
+        "Jutsushiki Junten Shutsuryoku Saidai・Aka|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
+        "Rikugan|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
+        "Kyoshiki・Murasaki|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
+        "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
+        "Muryōkūsho|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
+        "Kokusen|Warlock|PHB|The Honored One|AnimeIsekai|20|AnimeIsekai"
+
+      ]
     }
   ],
   "subclassFeature": [
@@ -368,6 +391,30 @@
         "You and the target continue alternating turns in this manner, with you making two attacks, followed by the target making one attack, until either you or the target is reduced to 0 hit points.",
         "While this duel is active, you and the target cannot use any action, bonus action, reaction, movement, or feature other than the attacks granted by The Eclipse. Neither combatant can willingly move away from the other or target another creature.",
         "The duel ends immediately when either combatant is reduced to 0 hit points."
+      ]
+    },
+    {
+      "name": "Tenjō Tenge Yuiga Dokuson",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "Your are a special grade jujutsu sorcerer and widely recognized as the strongest in the world. the first person to inherit both the Limitless and the Six Eyes in many hundred years."
+      ]
+    },
+    {
+      "name": "Limitless",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "Limitless Technique"
       ]
     }
   ]
