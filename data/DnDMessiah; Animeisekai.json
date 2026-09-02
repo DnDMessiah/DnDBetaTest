@@ -59,18 +59,14 @@
       "subclassFeatures": [
         "Tenjō Tenge Yuiga Dokuson|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
         "Mukagen|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
-        "Ao|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
-        "Aka|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
-        "Kokusen|Warlock|PHB|The Honored One|AnimeIsekai|20|AnimeIsekai",
+        "Kokusen|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
         "Mugen|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Jutsushiki Junten Shutsuryoku Saidai・Ao|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Jutsushiki Junten Shutsuryoku Saidai・Aka|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Rikugan|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
-        "Kyoshiki・Murasaki|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
         "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
-        "Muryōkūsho|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
-        "Kokusen|Warlock|PHB|The Honored One|AnimeIsekai|20|AnimeIsekai"
-
+        "Kyoshiki・Murasaki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
+        "Muryōkūsho|Warlock|PHB|The Honored One|AnimeIsekai|18|AnimeIsekai"
       ]
     }
   ],
@@ -406,7 +402,7 @@
       ]
     },
     {
-      "name": "Limitless",
+      "name": "Mukagen",
       "source": "AnimeIsekai",
       "className": "Warlock",
       "classSource": "PHB",
@@ -414,7 +410,62 @@
       "subclassSource": "AnimeIsekai",
       "level": 3,
       "entries": [
-        "Limitless Technique"
+        "You are a special grade jujutsu sorcerer and widely recognized as the strongest in the world. You are the first person to inherit both the Limitless and the Six Eyes in many hundreds of years.",
+        {
+          "type": "entries",
+          "name": "Level 3: Limitless Technique",
+          "entries": [
+            "You can cast Eldritch Blast as a Bonus Action.",
+            {
+              "type": "entries",
+              "name": "Twisted Blast",
+              "entries": [
+                "Mukagen is the fundamental application of the Limitless, granting you near-absolute control over space through the manipulation of cursed energy at an atomic level. By manipulating the space between yourself and the world around you, you can produce a variety of techniques and effects that defy conventional understanding.",
+                "Your immense cursed energy and unparalleled control allow you to cast Eldritch Blast as a Bonus Action."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cursed Technique: Lapse — Blue",
+              "entries": [
+                "When you cast Eldritch Blast using a clockwise rotation, the blast becomes Blue.",
+                "When the Eldritch Blast hits a creature, it explodes into a 10-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage plus 1d6 force damage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Cursed Technique: Reversal — Red",
+              "entries": [
+                "When you cast Eldritch Blast using a counterclockwise rotation, the blast becomes Red.",
+                "When the Eldritch Blast hits a creature, it explodes into a 10-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is pushed away from the center by a distance equal to the sphere's radius and takes the Eldritch Blast's damage plus 1d6 force damage."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kokusen",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "Kokusen is a phenomenon created by the precise application of cursed energy, causing a spatial distortion that amplifies the destructive power of your strike. When you score a critical hit, you deal double the damage."
+      ]
+    },    {
+      "name": "Mugen",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "entries": [
+        "Mugen is the neutral form of the Limitless, manipulating the space between you and anything that approaches. Rather than stopping an attack, it divides the remaining distance into an infinite series, causing anything that approaches you to slow down endlessly before making contact.",
+        "As a Bonus Action, you can activate Mugen for 1 minute. While Mugen is active, attack rolls made against you have Disadvantage, and you have Advantage on Saving Throws against spells and other magical effects. Once you activate Mugen, you cannot do so again until you finish a Short Rest."
       ]
     }
   ]
