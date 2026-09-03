@@ -61,10 +61,10 @@
         "Mukagen|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
         "Kokusen|Warlock|PHB|The Honored One|AnimeIsekai|3|AnimeIsekai",
         "Mugen|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
-        "Jutsushiki Junten Shutsuryoku Saidai・Ao|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
-        "Jutsushiki Junten Shutsuryoku Saidai・Aka|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
+        "Spatial Manipulation|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Rikugan|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
-        "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
+        "Jutsushiki Junten Shutsuryoku Saidai|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
+        "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
         "Kyoshiki・Murasaki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
         "Muryōkūsho|Warlock|PHB|The Honored One|AnimeIsekai|18|AnimeIsekai"
       ]
@@ -415,6 +415,7 @@
           "type": "entries",
           "name": "Level 3: Limitless Technique",
           "entries": [
+            "You learn Eldritch Blast. It does not count against your number of Cantrips known.",
             "You can cast Eldritch Blast as a Bonus Action.",
             {
               "type": "entries",
@@ -466,6 +467,39 @@
       "entries": [
         "Mugen is the neutral form of the Limitless, manipulating the space between you and anything that approaches. Rather than stopping an attack, it divides the remaining distance into an infinite series, causing anything that approaches you to slow down endlessly before making contact.",
         "As a Bonus Action, you can activate Mugen for 1 minute. While Mugen is active, attack rolls made against you have Disadvantage, and you have Advantage on Saving Throws against spells and other magical effects. Once you activate Mugen, you cannot do so again until you finish a Short Rest."
+      ]
+    },    
+    {
+      "name": "Spatial Manipulation",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "entries": [
+        "You can manipulate the space around you, allowing you to teleport instead of walking. You can teleport to any unoccupied space you can see within a distance equal to your walking speed.",
+        "This movement ignores all terrain, obstacles, creatures, elevation, and other physical barriers. You do not need a clear path between your current location and your destination.",
+        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
+      ]
+    },    
+    {
+      "name": "Rikugan",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "entries": [
+        "Your Six Eyes grant you unparalleled perception and control over cursed energy, granting you the following benefits:",
+        "• You gain Truesight out to a range of 120 feet. Within this range, you can perceive the true nature of creatures, objects, and magical effects.",
+        "• You have Advantage on Arcana checks.",
+        "While Mugen is active, you gain the following benefits:",
+        "• You have Advantage on spell attack rolls.",
+        "• Your Spell Save DC increases by an amount equal to your class level divided by 5, rounded down.",
+        "• Whenever you cast Eldritch Blast, you can create one additional beam, and your Eldritch Blast attack rolls score a critical hit on a roll of 19 or 20."
+
       ]
     }
   ]
