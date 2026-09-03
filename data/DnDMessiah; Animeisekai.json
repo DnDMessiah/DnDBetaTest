@@ -64,8 +64,8 @@
         "Spatial Manipulation|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Rikugan|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
         "Shutsuryoku Saidai|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
-        "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
         "Kyoshiki・Murasaki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
+        "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
         "Muryōkūsho|Warlock|PHB|The Honored One|AnimeIsekai|18|AnimeIsekai"
       ]
     }
@@ -410,27 +410,20 @@
       "subclassSource": "AnimeIsekai",
       "level": 3,
       "entries": [
-        "You are a special grade jujutsu sorcerer and widely recognized as the strongest in the world. You are the first person to inherit both the Limitless and the Six Eyes in many hundreds of years.",
+        "Mukagen is the fundamental application of the Limitless, granting you near-absolute control over space through the manipulation of cursed energy at an atomic level. By manipulating the space between yourself and the world around you, you can produce a variety of techniques and effects that defy conventional understanding.",
+        "You learn Eldritch Blast. It does not count against your number of Cantrips known.",
+        "Your immense cursed energy and unparalleled control allow you to cast Eldritch Blast as a Bonus Action.",
         {
           "type": "entries",
-          "name": "Level 3: Limitless Technique",
+          "name": "Jutsushiki Junten",
           "entries": [
-            "You learn Eldritch Blast. It does not count against your number of Cantrips known.",
-            "You can cast Eldritch Blast as a Bonus Action.",
-            {
-              "type": "entries",
-              "name": "Twisted Blast",
-              "entries": [
-                "Mukagen is the fundamental application of the Limitless, granting you near-absolute control over space through the manipulation of cursed energy at an atomic level. By manipulating the space between yourself and the world around you, you can produce a variety of techniques and effects that defy conventional understanding.",
-                "Your immense cursed energy and unparalleled control allow you to cast Eldritch Blast as a Bonus Action."
-              ]
-            },
+              "Jutsushiki Junten is the application of your Cursed Technique through the forward flow of cursed energy, allowing you to manipulate its natural properties and produce powerful spatial effects",
             {
               "type": "entries",
               "name": "Jutsushiki Junten・Ao",
               "entries": [
                 "When you cast Eldritch Blast using a clockwise rotation, the blast becomes Blue. It deals an additional 1d6 force damage",
-                "When the Eldritch Blast hits a creature, it explodes into a 15-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
+                "When the Jutsushiki Junten・Ao hits a creature, it explodes into a 15-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
               ]
             },
             {
@@ -438,7 +431,7 @@
               "name": "Jutsushiki Hanten・Aka",
               "entries": [
                 "When you cast Eldritch Blast using a counterclockwise rotation, the blast becomes Red. It deals an additional 1d12 force damage",
-                "When the Eldritch Blast hits a creature, The target is pushed up to 30 feet away from you."
+                "When the Jutsushiki Hanten・Aka hits a creature, The target is pushed up to 30 feet away from you."
               ]
             }
           ]
@@ -511,23 +504,59 @@
       "subclassSource": "AnimeIsekai",
       "level": 10,
       "entries": [
-        "You can amplify your Cursed Techniques to their maximum output, increasing their destructive power beyond their normal limits.",
+            "You can amplify your Cursed Techniques to their maximum output, increasing their destructive power beyond their normal limits. You can use this feature a number of times equal to half your Proficiency Bonus, rounded down, and you regain all expended uses when you finish a Short Rest.",
         {
           "type": "entries",
           "name": "Jutsushiki Junten Shutsuryoku Saidai・Ao",
           "entries": [
             "When you use Jutsushiki Junten・Ao, you can amplify Blue to its maximum output. The damage of the technique is calculated as (your Eldritch Blast damage + other bonuses) × the number of Eldritch Blast beams you can create + your class level.",
-            "When the Eldritch Blast hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
+            "When the Jutsushiki Junten Shutsuryoku Saidai・Ao hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Jutsushiki Junten Shutsuryoku Saidai・Ao damage."
           ]
         },
         {
           "type": "entries",
           "name": "Jutsushiki Hanten Shutsuryoku Saidai・Aka",
           "entries": [
-            "When you use Jutsushiki Hanten・Aka, you can amplify Red to its maximum output. The damage of the technique is calculated as (your Eldritch Blast damage + other bonuses) × the number of Eldritch Blast beams you can create + your class level.",
-            "When the Eldritch Blast hits a creature, the target is pushed up to 60 feet away from you."
+            "When you use Jutsushiki Hanten・Aka, you can amplify Red to its maximum output. The damage of the technique is calculated as ((your Eldritch Blast damage + other bonuses) × (the number of Eldritch Blast beams you can create + half your Proficiency Bonus, rounded down)) + your class level.",
+            "When the Jutsushiki Hanten Shutsuryoku Saidai・Aka, the target is pushed up to 60 feet away from you."
           ]
         }
+      ]
+    },
+    {
+      "name": "Kyoshiki・Murasaki",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "entries": [
+        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
+      ]
+    },
+    {
+      "name": "Hanten Jutsushiki",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "entries": [
+        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
+      ]
+    },
+    {
+      "name": "Muryōkūsho",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 18,
+      "entries": [
+        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
       ]
     }
   ]
