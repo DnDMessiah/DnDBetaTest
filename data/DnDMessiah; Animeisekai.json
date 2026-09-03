@@ -510,7 +510,7 @@
           "name": "Jutsushiki Junten Shutsuryoku Saidai・Ao",
           "entries": [
             "When you use Jutsushiki Junten・Ao, you can amplify Blue to its maximum output. The damage of the technique is calculated as (your Eldritch Blast damage + other bonuses) × the number of Eldritch Blast beams you can create + your class level.",
-            "When the Jutsushiki Junten Shutsuryoku Saidai・Ao hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Jutsushiki Junten Shutsuryoku Saidai・Ao damage."
+            "When the Jutsushiki Junten Shutsuryoku Saidai・Ao hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your attack roll is drawn toward the center of the sphere and takes the Jutsushiki Junten Shutsuryoku Saidai・Ao damage."
           ]
         },
         {
@@ -532,7 +532,10 @@
       "subclassSource": "AnimeIsekai",
       "level": 14,
       "entries": [
-        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
+        "You combine Jutsushiki Junten Shutsuryoku Saidai・Ao and Jutsushiki Hanten Shutsuryoku Saidai・Aka to create Hollow Purple, a destructive technique formed from the convergence of attraction and repulsion.",
+        "This technique requires 2 uses of Shutsuryoku Saidai. You use your Action to activate Jutsushiki Junten Shutsuryoku Saidai・Ao and your Bonus Action to activate Jutsushiki Hanten Shutsuryoku Saidai・Aka. Once both techniques have been activated, they converge to create Kyoshiki・Murasaki.",
+        "The damage of the technique is calculated as (((your Eldritch Blast damage + 1d20 + other bonuses) × (the number of Eldritch Blast beams you can create + your Proficiency Bonus)) + your class level).",
+        "When you use Kyoshiki・Murasaki, you release a devastating beam in a straight line that is 15 feet wide and 100 feet long. Any creature within the beam whose AC is less than or equal to your attack roll takes the Kyoshiki・Murasaki damage."
       ]
     },
     {
@@ -544,7 +547,8 @@
       "subclassSource": "AnimeIsekai",
       "level": 14,
       "entries": [
-        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
+        "Hanten Jutsushiki is the reversal of your Cursed Energy, converting its destructive nature into restorative power. As long as your body remains intact, you can continuously restore yourself.",
+        "At the start of your turn, you regain Hit Points equal to your class level + your Charisma modifier."
       ]
     },
     {
@@ -556,7 +560,18 @@
       "subclassSource": "AnimeIsekai",
       "level": 18,
       "entries": [
-        "You can teleport to a point in the air and remain suspended there, allowing you to move freely through the air without falling."
+        "Muryōkūsho is your Domain Expansion, creating a metaphysical space that overwhelms those trapped within it with an endless stream of information and sensory stimuli.",
+        "As an Action, you can expand your Domain in a 30-foot-radius sphere centered on yourself. The Domain lasts for 1 minute and requires Concentration, as if concentrating on a spell.",
+        "When a creature of your choice enters the Domain for the first time on a turn or starts its turn there, it becomes overwhelmed by the infinite flow of information.",
+        "The creature is subjected to a special condition called Overwhelmed. While Overwhelmed, the creature gains the following effects:",
+        "• The creature can't take Actions or Reactions.",
+        "• The creature can't move or speak.",
+        "• The creature automatically fails Strength and Dexterity Saving Throws.",
+        "• Attack Rolls against the creature have Advantage.",
+        "• Any Attack that hits the creature is a Critical Hit.",
+        "At the end of each of its turns, an Overwhelmed creature can make a Wisdom Saving Throw against your Spell Save DC, ending the condition on itself on a successful save.",
+        "You and friendly creatures you are physically touching are immune to the effects of your Muryōkūsho.",
+        "Once you use Muryōkūsho, you cannot use it again until you finish a Long Rest."
       ]
     }
   ]
