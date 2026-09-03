@@ -427,18 +427,18 @@
             },
             {
               "type": "entries",
-              "name": "Cursed Technique: Lapse — Blue",
+              "name": "Jutsushiki Junten・Ao",
               "entries": [
-                "When you cast Eldritch Blast using a clockwise rotation, the blast becomes Blue.",
-                "When the Eldritch Blast hits a creature, it explodes into a 10-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage plus 1d6 force damage."
+                "When you cast Eldritch Blast using a clockwise rotation, the blast becomes Blue. It deals an additional 1d6 force damage",
+                "When the Eldritch Blast hits a creature, it explodes into a 15-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
               ]
             },
             {
               "type": "entries",
-              "name": "Cursed Technique: Reversal — Red",
+              "name": "Jutsushiki Junten・Aka",
               "entries": [
-                "When you cast Eldritch Blast using a counterclockwise rotation, the blast becomes Red.",
-                "When the Eldritch Blast hits a creature, it explodes into a 10-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is pushed away from the center by a distance equal to the sphere's radius and takes the Eldritch Blast's damage plus 1d6 force damage."
+                "When you cast Eldritch Blast using a counterclockwise rotation, the blast becomes Red. It deals an additional 1d12 force damage",
+                "When the Eldritch Blast hits a creature, The target is pushed up to 30 feet away from you."
               ]
             }
           ]
