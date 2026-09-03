@@ -63,7 +63,7 @@
         "Mugen|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Spatial Manipulation|Warlock|PHB|The Honored One|AnimeIsekai|6|AnimeIsekai",
         "Rikugan|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
-        "Jutsushiki Junten Shutsuryoku Saidai|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
+        "Shutsuryoku Saidai|Warlock|PHB|The Honored One|AnimeIsekai|10|AnimeIsekai",
         "Hanten Jutsushiki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
         "Kyoshiki・Murasaki|Warlock|PHB|The Honored One|AnimeIsekai|14|AnimeIsekai",
         "Muryōkūsho|Warlock|PHB|The Honored One|AnimeIsekai|18|AnimeIsekai"
@@ -500,6 +500,34 @@
         "• Your Spell Save DC increases by an amount equal to your class level divided by 5, rounded down.",
         "• Whenever you cast Eldritch Blast, you can create one additional beam, and your Eldritch Blast attack rolls score a critical hit on a roll of 19 or 20."
 
+      ]
+    },
+    {
+      "name": "Shutsuryoku Saidai",
+      "source": "AnimeIsekai",
+      "className": "Warlock",
+      "classSource": "PHB",
+      "subclassShortName": "The Honored One",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "entries": [
+        "You can amplify your Cursed Techniques to their maximum output, increasing their destructive power beyond their normal limits.",
+        {
+          "type": "entries",
+          "name": "Jutsushiki Junten Shutsuryoku Saidai・Ao",
+          "entries": [
+            "You amplify Jutsushiki Junten・Ao to its maximum output. The technique deals additional damage equal to your class level.",
+            "When the Eldritch Blast hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Jutsushiki Hanten Shutsuryoku Saidai・Aka",
+          "entries": [
+            "You amplify Jutsushiki Hanten・Aka to its maximum output. The technique deals additional damage equal to your class level.",
+            "When the Eldritch Blast hits a creature, the target is pushed up to 60 feet away from you."
+          ]
+        }
       ]
     }
   ]
