@@ -516,7 +516,7 @@
           "type": "entries",
           "name": "Jutsushiki Junten Shutsuryoku Saidai・Ao",
           "entries": [
-            "You amplify Jutsushiki Junten・Ao to its maximum output. The technique deals additional damage equal to your class level.",
+            "When you use Jutsushiki Junten・Ao, you can amplify Blue to its maximum output. The damage of the technique is calculated as (your Eldritch Blast damage + other bonuses) × the number of Eldritch Blast beams you can create + your class level.",
             "When the Eldritch Blast hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
           ]
         },
@@ -524,7 +524,7 @@
           "type": "entries",
           "name": "Jutsushiki Hanten Shutsuryoku Saidai・Aka",
           "entries": [
-            "You amplify Jutsushiki Hanten・Aka to its maximum output. The technique deals additional damage equal to your class level.",
+            "When you use Jutsushiki Hanten・Aka, you can amplify Red to its maximum output. The damage of the technique is calculated as (your Eldritch Blast damage + other bonuses) × the number of Eldritch Blast beams you can create + your class level.",
             "When the Eldritch Blast hits a creature, the target is pushed up to 60 feet away from you."
           ]
         }
