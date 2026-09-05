@@ -1,0 +1,127 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "AnimeIsekai",
+        "abbreviation": "Anime",
+        "full": "Anime Isekai",
+        "authors": [
+          "DnDMessiah"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1787311551,
+    "dateLastModified": 1788459862,
+    "_dateLastModifiedHash": "e78bfcc219"
+  },
+  "subclass": [
+    {
+      "name": "Beater",
+      "shortName": "Beater",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "The Black Swordsman|Fighter|PHB|Beater|AnimeIsekai|3|AnimeIsekai",
+        "Dual Blades|Fighter|PHB|Beater|AnimeIsekai|3|AnimeIsekai",
+        "Cross Block|Fighter|PHB|Beater|AnimeIsekai|7|AnimeIsekai",
+        "Double Circular|Fighter|PHB|Beater|AnimeIsekai|10|AnimeIsekai",
+        "Starburst Stream|Fighter|PHB|Beater|AnimeIsekai|15|AnimeIsekai",
+        "The Eclipse|Fighter|PHB|Beater|AnimeIsekai|18|AnimeIsekai"
+
+      ]
+    }
+  ],  
+    "subclassFeature": [  
+    {
+      "name": "The Black Swordsman",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Beater",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "“Two blades. One will. No enemy beyond your reach.”",
+        "The Black Swordsman walks a path where offense and defense become a single, seamless motion. Wielding two swords simultaneously, they overwhelm their opponents through relentless speed, precision, and flowing swordplay.",
+        "Each blade moves independently, yet both strike as one. From Cross Block, which uses both swords to intercept incoming attacks, to Double Circular, which closes the distance in a blur of steel, and the devastating Starburst Stream, which unleashes a storm of strikes in rapid succession.",
+        "Those who master the highest reaches of this art gain access to The Eclipse, the ultimate Dual Blades Sword Skill. A technique that transforms combat into a deadly one-on-one duel, where neither combatant can turn away until one of them can no longer fight."
+      ]
+    },
+    {
+      "name": "Dual Blades",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Beater",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "You can wield two one-handed swords simultaneously, even if they do not have the Light property. For this feature, longswords, rapiers, and scimitars are considered swords.",
+        "While wielding two swords, when you make a melee weapon attack with one of those swords, you can immediately make one additional melee weapon attack with the other sword against the same target. This additional attack requires no action or bonus action.",
+        "Each attack is resolved separately and uses the weapon used for that attack, including its damage dice, magical properties, additional damage, and other effects.",
+        "Effects that apply to the first attack are not duplicated by the additional attack. Effects granted by the second weapon apply normally to the additional attack."
+      ]
+    },
+    {
+      "name": "Cross Block",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Beater",
+      "subclassSource": "AnimeIsekai",
+      "level": 7,
+      "entries": [
+        "When you are hit by an attack that uses an attack roll while you are wielding two swords, you can cross your swords to block the attack. The attack hits you as normal, but you take 0 damage from that attack.",
+        "You can use this feature a number of times per round equal to half your Proficiency Bonus (rounded down). You regain all expended uses at the start of your next turn.",
+        "This feature requires no action, bonus action, or reaction."
+      ]
+    },
+    {
+      "name": "Double Circular",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Beater",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "entries": [
+        "As a Bonus Action, you can move in a straight line up to twice your walking speed. This movement does not provoke Opportunity Attacks.",
+        "When you stop moving, you can make two melee weapon attacks, one with each sword you are wielding. Each attack is resolved separately.",
+        "You can make the two attacks against the same creature or different creatures."
+      ]
+    },
+    {
+      "name": "Starburst Stream",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Beater",
+      "subclassSource": "AnimeIsekai",
+      "level": 15,
+      "entries": [
+        "As an Action, you unleash Starburst Stream, making 16 melee weapon attacks in rapid succession, alternating between the two swords you are wielding, beginning with either sword.",
+        "Each attack is resolved separately and uses the weapon used for that attack, including its damage dice, magical properties, additional damage, and other effects."
+      ]
+    },
+    {
+      "name": "The Eclipse",
+      "source": "AnimeIsekai",
+      "className": "Fighter",
+      "classSource": "PHB",
+      "subclassShortName": "Beater",
+      "subclassSource": "AnimeIsekai",
+      "level": 18,
+      "entries": [
+        "As an Action, you choose one creature you can see within the range of your movement and rush toward it. You move to a space within your melee weapon's reach of the target without provoking Opportunity Attacks.",
+        "You then begin a deadly duel with the target. You make two melee weapon attacks against the target, one with each sword you are wielding. The target then makes one attack against you.",
+        "You and the target continue alternating turns in this manner, with you making two attacks, followed by the target making one attack, until either you or the target is reduced to 0 hit points.",
+        "While this duel is active, you and the target cannot use any action, bonus action, reaction, movement, or feature other than the attacks granted by The Eclipse. Neither combatant can willingly move away from the other or target another creature.",
+        "The duel ends immediately when either combatant is reduced to 0 hit points."
+      ]
+    }
+  ]
+}   
