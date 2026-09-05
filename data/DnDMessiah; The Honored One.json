@@ -109,7 +109,10 @@
       "level": 6,
       "entries": [
         "Mugen is the neutral form of the Limitless, manipulating the space between you and anything that approaches. Rather than stopping an attack, it divides the remaining distance into an infinite series, causing anything that approaches you to slow down endlessly before making contact.",
-        "As a Bonus Action, you can activate Mugen for 1 minute. While Mugen is active, attack rolls made against you have Disadvantage, and you have Advantage on Saving Throws against spells and other magical effects. Once you activate Mugen, you cannot do so again until you finish a Short Rest."
+        "As a Bonus Action, you can activate Mugen for 1 minute. While Mugen is active, you gain the following benefits:",
+        "• Attack rolls made against you have Disadvantage.", 
+        "• You have Advantage on Saving Throws against spells and other magical effects.",
+        "Once you activate Mugen, you cannot do so again until you finish a Short Rest."
       ]
     },    
     {
