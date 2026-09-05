@@ -574,5 +574,651 @@
         "Once you use Muryōkūsho, you cannot use it again until you finish a Long Rest."
       ]
     }
-  ]
+  ],
+  "class": [
+    {
+      "name": "Saiyan",
+      "source": "AnimeIsekai",
+      "hd": {
+        "number": 1,
+        "faces": 12
+      },
+      "proficiency": [
+        "str",
+        "dex",
+        "con"
+      ],
+      "startingProficiencies": {
+        "armor": ["light", "medium"],
+        "weapons": ["simple"],
+        "skills": [
+          {
+            "choose": {
+              "from": ["athletics", "acrobatics", "perception", "survival", "intimidation"],
+              "count": 2
+            }
+          }
+        ]
+      },
+      "multiclassing": {
+        "requirements": { "str": 13, "con": 13 },
+        "proficienciesGained": {
+          "armor": ["light", "medium"],
+          "weapons": ["simple"],
+          "skills": ["survival"]
+        }
+      },
+      "classTableGroups": [
+       {
+    "title": "Saiyan",
+    "colLabels": ["Ki Points", "Ki Damage"],
+    "rows": [
+        [2, "1d6"],
+        [4, "1d6"],
+        [6, "1d6"],
+        [8, "1d8"],
+        [10, "1d8"],
+        [12, "1d8"],
+        [14, "1d10"],
+        [16, "1d10"],
+        [18, "1d10"],
+        [20, "1d12"],
+        [22, "2d6"],
+        [24, "2d6"],
+        [26, "2d8"],
+        [28, "2d8"],
+        [30, "2d8"],
+        [32, "2d10"],
+        [34, "2d10"],
+        [36, "2d10"],
+        [38, "2d12"],
+        [40, "2d20"]
+    ]
+}
+      ],
+      "classFeatures": [
+        "Saiyan Racial|Saiyan|AnimeIsekai|1",
+        "Saiyan Power|Saiyan|AnimeIsekai|1",
+        "Ki Points|Saiyan|AnimeIsekai|1",
+        "Ki Arts I|Saiyan|AnimeIsekai|1",
+        "Telepathy|Saiyan|AnimeIsekai|1",
+                {
+        "classFeature": "Saiyan Subclass|Saiyan|AnimeIsekai|1",
+        "gainSubclassFeature": true
+        },
+        "Kaio-ken|Saiyan|AnimeIsekai|2",
+        "Ki Arts II|Saiyan|AnimeIsekai|2",
+                {
+        "classFeature": "Subclass Feature|Saiyan|AnimeIsekai|3",
+        "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Saiyan|AnimeIsekai|4",
+        "Kaio-ken x2|Saiyan|AnimeIsekai|5",
+                {
+        "classFeature": "Subclass Feature|Saiyan|AnimeIsekai|6",
+        "gainSubclassFeature": true
+        },
+        "Saiyan Physiology 7|Saiyan|AnimeIsekai|7",
+        "Ability Score Improvement|Saiyan|AnimeIsekai|8",
+        "Saiyan Physiology 9|Saiyan|AnimeIsekai|9",
+                {
+        "classFeature": "Subclass Feature|Saiyan|AnimeIsekai|10",
+        "gainSubclassFeature": true
+        },
+        "Kaio-ken x10|Saiyan|AnimeIsekai|11",
+        "Ability Score Improvement|Saiyan|AnimeIsekai|12",
+        "Saiyan Physiology 13|Saiyan|AnimeIsekai|13",
+                {
+        "classFeature": "Subclass Feature|Saiyan|AnimeIsekai|14",
+        "gainSubclassFeature": true
+        },
+        "Saiyan Physiology 15|Saiyan|AnimeIsekai|15",
+        "Ability Score Improvement|Saiyan|AnimeIsekai|16",
+        "Kaio-ken x20|Saiyan|AnimeIsekai|17",
+                {
+        "classFeature": "Subclass Feature|Saiyan|AnimeIsekai|18",
+        "gainSubclassFeature": true
+        },
+        "Epic Boon|Saiyan|AnimeIsekai|19",
+        "Saiyan Physiology 20|Saiyan|AnimeIsekai|20"
+      ],
+      "subclassTitle": "Saiyan Path",
+      "hasFluff": false
+    }
+  ],
+  "subclass": [
+    {
+      "name": "Super Saiyan",
+      "shortName": "Super Saiyan",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassFeatures": [
+        "The Super Saiyan|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|1|AnimeIsekai",
+        "Pseudo Super Saiyan|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|1|AnimeIsekai",
+        "Subclass 3|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|3|AnimeIsekai",
+        "Subclass 6|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|6|AnimeIsekai",
+        "Subclass 10|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|10|AnimeIsekai",
+        "Subclass 14|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|14|AnimeIsekai",
+        "Subclass 18|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|18|AnimeIsekai"
+      ]
+    },
+    {
+      "name": "Legendary Super Saiyan",
+      "shortName": "Legendary Super Saiyan",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassFeatures": [
+        "The Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|1|AnimeIsekai",
+        "Legendary Subclass 3|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|3|AnimeIsekai",
+        "Legendary Subclass 6|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|6|AnimeIsekai",
+        "Legendary Subclass 10|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|10|AnimeIsekai",
+        "Legendary Subclass 14|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|14|AnimeIsekai",
+        "Legendary Subclass 18|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|18|AnimeIsekai"
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+        "name": "Saiyan Racial",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 1,
+        "entries": [
+          "You are a Saiyan, an alien warrior race with tremendous physical potential. When you choose this class, you don't choose a separate race for your character — the traits below replace your race entirely.",
+        {
+            "type": "entries",
+            "name": "Ability Score Increase",
+            "entries": ["Your  Strength, Dexterity, Constitution increase by 2. to a maximum of 24."]
+        },
+        {
+            "type": "entries",
+            "name": "Creature Type",
+            "entries": ["You are a Humanoid (Saiyan)."]
+        },
+        {
+            "type": "entries",
+            "name": "Age",
+            "entries": ["Saiyans stay in their physical prime much longer than humans to maintain their combat strength, maintaining a youthful appearance until about age 80 before aging rapidly. Their natural total lifespan is roughly similar to a human."]
+        },
+        {
+            "type": "entries",
+            "name": "Alignment",
+            "entries": ["Saiyans tend to share common personality traits, even at young ages. Being aggressively militant, they share an innate enjoyment for conflict and fighting. Saiyans are typically very aggressive and hard-headed, with short explosive tempers. Saiyans appear inclined to be arrogant at times, They are typically chaotic natured."]
+        },
+        {
+            "type": "entries",
+            "name": "Size",
+            "entries": ["Saiyans are Medium or Small, your choice."]
+        },
+        {
+            "type": "entries",
+            "name": "Saiyan Speed",
+            "entries": [
+              "Saiyans possess tremendous levels of superhuman speed, easily capable of breaking the sound barrier, even with their basic moves. They also have much faster reflexes than an average human",
+              "Your base walking speed is 50 feet."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Ki Sensing",
+            "entries": [
+              "Saiyans instinctively sense the ki around them. You gain Blindsight out to a range of 30 feet."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Saiyan Endurance",
+            "entries": [
+              "Saiyans possess enormous amounts of superhuman durability and are a remarkably resilient species who refuse to be physically broken.",
+              "While you aren't wearing armor or wielding a {@item shield|xphb}, your base {@variantrule Armor Class|xphb} equals 10 plus your Strength, Dexterity, and Constitution modifiers."
+          ]
+        },
+        {
+            "type": "entries",
+            "name": "Saiyan Strength",
+            "entries": [
+              "Saiyans naturally possess vast superhuman strength, far greater than that of Earthlings and other alien races and are veritable fighting machines. They are capable of easily lifting ten times their own weight.",
+              "You count as two sizes larger than your actual size when determining your carrying capacity and the weight you can push, drag, or lift.",
+              "Your Unarmed Strike deals 1d10 bludgeoning damage instead of the normal damage."
+          ]
+        },
+        {
+            "type": "entries",
+            "name": "Tail",
+            "entries": [
+              "All pure-blooded Saiyans are born with a brown-furred, monkey-like tail. The tail is prehensile and can grasp and hold objects weighing up to one-tenth of your carrying capacity, though it can't wield weapons or perform tasks requiring fine manipulation.",
+              "As long as you still have your tail, gazing directly upon a full moon triggers an uncontrollable transformation. At the start of your turn, if you can see a full moon and haven't averted your eyes or otherwise avoided its light, you transform into a Great Ape, using the statistics of the {@creature Giant Ape|MM |}.",
+              "While transformed, you retain your personality, alignment, and mental ability scores, but you lose the ability to speak, cast spells, or take any action other than Attack, Dash, or Grapple. On each of your turns, you must move toward the creature nearest to you and attack it, friend or foe alike, to the best of your ability.",
+              "The transformation ends immediately if your tail is severed, if the moon sets, or if the moon is blocked from your view for the duration of a full turn. When the transformation ends, you revert to your normal form, and your tail (if still attached) is unharmed."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Heat Resistance",
+            "entries": [
+              "Your Saiyan biology grants you exceptional resistance to extreme heat. You are unaffected by the effects of extreme heat, and you have Resistance to Fire damage."
+            ]
+        },
+        {
+            "type": "entries",
+            "name": "Languages",
+            "entries": ["You can speak, read, and write Common and know Common Sign."]
+        }
+        ]
+    },
+    {
+        "name": "Saiyan Power",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 1,
+        "entries": [
+          "Every 1 minute, you regain a number of Hit Points equal to your Proficiency Bonus if you have at least 1 Hit Point. While you are in combat, this power awakens, and you instead regain twice that amount at the start of each of your turns.",
+          "Whenever you regain Hit Points from this feature after taking damage from a hostile creature in combat, you gain 1 Saiyan Power Point. You can expend Saiyan Power Points to increase your Strength, Dexterity, or Constitution score. Increasing an ability score by 1 costs a number of Saiyan Power Points equal to 10 times the new score."
+        ]
+    },
+    {
+        "name": "Ki Points",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 1,
+        "entries": [
+          "Saiyans have a natural affinity to control ki energy, allowing them to generate very powerful energy blasts",
+          "You have a number of ki points, as shown in the Ki Points column of the Saiyan table. You regain all expended ki points when you finish a short or long rest.",
+          "Starting at 1st level, you can use these points to fuel various ki features. You start knowing none of these features; you gain them as you reach higher levels in this class."
+      ]
+    },
+    {
+        "name": "Ki Arts I",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 1,
+        "entries": [
+          "You can manipulate your Ki to create a variety of energy-based techniques, using your natural Saiyan affinity and martial arts mastery to enhance your combat abilities.",
+          {
+            "type": "list",
+            "items": [
+                "{@b Power Full Strike.} At the start of your turn, you can expend 1 Ki Point to empower your body with Ki. Until the start of your next turn, whenever you hit with an melee attack or {@variantrule Unarmed Strike|xphb}, the attack deals additional force damage equal to your Ki Damage.",
+                "{@b Flight.} As a {@variantrule Bonus Action|XPHB}, you can expend 1 Ki Point to gain a Fly Speed equal to your walking speed for 1 minute.",
+                "{@b Ki Transfer.} As a {@variantrule Bonus Action|XPHB}, you can expend 1 Ki Point to transfer your Ki to another creature you can see within 30 feet of you. Until the start of your next turn, whenever the target hits with a melee attack or {@variantrule Unarmed Strike|xphb}, the attack deals additional force damage equal to your Ki Damage."
+              ]
+        }
+      ]
+    },
+    {
+        "name": "Telepathy",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 1,
+        "entries": ["You know the {@spell Message|XPHB} cantrip. In addition, you can cast the {@spell Detect Thoughts|XPHB} spell without expending a spell slot by touching the head of a creature. You can use this feature once, and you regain the ability to do so when you finish a Long Rest."]
+    },
+    {
+        "name": "Ki Arts II",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 2,
+        "entries": [
+          "You learn to shape your Ki into powerful blasts and defensive barriers, allowing you to attack from a distance and protect yourself from harm.",
+          {
+            "type": "list",
+            "items": [
+                "{@b Ki Blast.} As an Action, you can expend a number of Ki Points up to your Proficiency Bonus to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 120 feet of you. Each blast uses your Unarmed Strike attack bonus for its attack roll and deals force damage equal to your Ki Damage + your Strength modifier on a hit.",
+                "{@b Energy Shield.} As a Reaction when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
+              ]
+          }
+        ]
+    },    
+    {
+        "name": "Kaio-ken",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 2,
+        "entries": [
+          "As a Bonus Action, you can push your body beyond its limits, causing your aura to flare crimson. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
+          "• You can take one additional attack on each of your turns.",
+          "• Your Speed is doubled.",
+          "• Your Unarmed Strikes deal additional force damage equal to your Constitution modifier.",
+          "When the transformation ends, your body suffers extreme recoil. You become Incapacitated for 1 round and take damage equal to half your current Hit Points.",
+          "You can use this feature once, and you regain the ability to do so when you finish a Long Rest."
+        ]
+    },
+    {
+        "name": "Ability Score Improvement",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 4,
+        "entries": ["You gain the {@feat Ability Score Improvement|XPHB} feat or another {@feat feat|XPHB} of your choice for which you qualify."]
+    },
+        {
+        "name": "Kaio-ken x2",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 5,
+        "entries": ["At 5th level, your Kaio-ken reaches ×2. While transformed, you can make two additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to twice your Constitution modifier."]
+    },
+        {
+        "name": "Saiyan Physiology 7",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 7,
+        "entries": ["Saiyan Physiology7."]
+    },
+        {
+        "name": "Ability Score Improvement",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 8,
+        "entries": ["You gain the {@feat Ability Score Improvement|XPHB} feat or another {@feat feat|XPHB} of your choice for which you qualify."]
+    },
+        {
+        "name": "Saiyan Physiology 9",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 9,
+        "entries": ["Saiyan Physiology9."]
+    },
+        {
+        "name": "Kaio-ken x10",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 11,
+        "entries": ["At 11th level, your Kaio-ken reaches ×10. While transformed, you can make three additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to three times your Constitution modifier."]
+    },
+        {
+        "name": "Ability Score Improvement",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 12,
+        "entries": ["You gain the {@feat Ability Score Improvement|XPHB} feat or another {@feat feat|XPHB} of your choice for which you qualify."]
+    },
+        {
+        "name": "Saiyan Physiology 13",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 13,
+        "entries": ["Saiyan Physiology13."]
+    },
+        {
+        "name": "Saiyan Physiology 15",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 15,
+        "entries": ["Saiyan Physiology15."]
+    },
+        {
+        "name": "Ability Score Improvement",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 16,
+        "entries": ["You gain the {@feat Ability Score Improvement|XPHB} feat or another {@feat feat|XPHB} of your choice for which you qualify."]
+    },
+        {
+        "name": "Kaio-ken x20",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 17,
+        "entries": ["At 17th level, your Kaio-ken reaches ×20. While transformed, you can make four additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to four times your Constitution modifier."]
+    },
+        {
+        "name": "Epic Boon",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 19,
+        "entries": ["You gain an {@filter Epic Boon feat|feats|source: XPHB;category: Epic Boon} or another {@feat feat|XPHB} of your choice for which you qualify."]
+    },
+        {
+        "name": "Saiyan Physiology 20",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 20,
+        "entries": ["Saiyan Physiology20."]
+    },
+    {
+        "name": "Saiyan Subclass",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 1,
+        "entries": ["You gain a feature from your Saiyan Subclass."]
+    },
+    {
+        "name": "Subclass Feature",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 3,
+        "entries": ["You gain a feature from your Saiyan Subclass."]
+    },
+    {
+        "name": "Subclass Feature",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 6,
+        "entries": ["You gain a feature from your Saiyan Subclass."]
+    },
+    {
+        "name": "Subclass Feature",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 10,
+        "entries": ["You gain a feature from your Saiyan Subclass."]
+    },
+    {
+        "name": "Subclass Feature",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 14,
+        "entries": ["You gain a feature from your Saiyan Subclass."]
+    },
+    {
+        "name": "Subclass Feature",
+        "source": "AnimeIsekai",
+        "className": "Saiyan",
+        "classSource": "AnimeIsekai",
+        "level": 18,
+        "entries": ["You gain a feature from your Saiyan Subclass."]
+    }
+  ],
+   "subclassFeature": [
+    {
+      "name": "The Super Saiyan",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this legendary power, causing their hair to turn golden and their aura to blaze with radiant energy."
+      ]
+    },
+        {
+      "name": "Pseudo Super Saiyan",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "When a Saiyan is on the brink of death, they may briefly manifest the power of a Super Saiyan, resulting in this form. It is inaccessible at will.",
+        "When you are pushed to the brink of death, the dormant power of the Super Saiyan awakens within you. When you are reduced to 25% of your Hit Point maximum or less, you can awaken this power, causing your aura to flare with golden energy. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
+        "• You have Advantage on attack rolls.",
+        "• Your Ki Damage increases by one step.",
+        "• Your Speed increases by 10 feet.",
+        "• You have Advantage on Strength and Constitution saving throws.",
+        "• You have Resistance to bludgeoning, piercing, and slashing damage.",
+        "Once the transformation ends, you cannot awaken this power again until you finish a Long Rest."
+      ]
+    },
+    {
+      "name": "Subclass 3",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Subclass 3"
+      ]
+    },
+    {
+      "name": "Subclass 6",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "Subclass 6"
+      ]
+    },
+    {
+      "name": "Subclass 10",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "header": 1,
+      "entries": [
+        "Subclass 10"
+      ]
+    },
+    {
+      "name": "Subclass 14",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "header": 1,
+      "entries": [
+        "Subclass 14"
+      ]
+    },
+    {
+      "name": "Subclass 18",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 18,
+      "header": 1,
+      "entries": [
+        "Subclass 18"
+      ]
+    },
+        {
+      "name": "The Legendary Super Saiyan",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 1,
+      "header": 1,
+      "entries": [
+        "The Legendary Super Saiyan"
+      ]
+    },
+    {
+      "name": "Legendary Subclass 3",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Legendary Subclass 3"
+      ]
+    },
+    {
+      "name": "Legendary Subclass 6",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "Legendary Subclass 6"
+      ]
+    },
+    {
+      "name": "Legendary Subclass 10",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "header": 1,
+      "entries": [
+        "Legendary Subclass 10"
+      ]
+    },
+    {
+      "name": "Legendary Subclass 14",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "header": 1,
+      "entries": [
+        "Legendary Subclass 14"
+      ]
+    },
+    {
+      "name": "Legendary Subclass 18",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Super Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 18,
+      "header": 1,
+      "entries": [
+        "Legendary Subclass 18"
+      ]
+    }
+   ]  
 }
