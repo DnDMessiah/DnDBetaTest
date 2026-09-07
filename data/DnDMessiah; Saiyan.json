@@ -116,7 +116,7 @@
       ],
 			"classFeatures": [
 				"Saiyan Racial|Saiyan|AnimeIsekai|1",
-				"Saiyan Power|Saiyan|AnimeIsekai|1",
+				"Zenkai|Saiyan|AnimeIsekai|1",
 				"Ki Points|Saiyan|AnimeIsekai|1",
 				"Ki Arts I|Saiyan|AnimeIsekai|1",
 				"Telepathy|Saiyan|AnimeIsekai|1",
@@ -136,28 +136,28 @@
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|6",
 					"gainSubclassFeature": true
 				},
-				"Zenkai|Saiyan|AnimeIsekai|7",
+				"Ki Arts III|Saiyan|AnimeIsekai|7",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|8",
 				"Superhuman Recovery|Saiyan|AnimeIsekai|9",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|10",
 					"gainSubclassFeature": true
 				},
-				"Improved Ki Reinforcement|Saiyan|AnimeIsekai|11",
+				"Ki Arts IV|Saiyan|AnimeIsekai|11",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|12",
 				"Enhanced Ki Sense|Saiyan|AnimeIsekai|13",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|14",
 					"gainSubclassFeature": true
 				},
-				"1|Saiyan|AnimeIsekai|15",
+				"Ki Arts V|Saiyan|AnimeIsekai|15",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|16",
 				"Advanced Combat Instinct|Saiyan|AnimeIsekai|17",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|18",
 					"gainSubclassFeature": true
 				},
-				"Saiyan Mastery|Saiyan|AnimeIsekai|19",
+				"Epic Boon|Saiyan|AnimeIsekai|19",
 				"Legendary Saiyan|Saiyan|AnimeIsekai|20",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|20",
@@ -292,7 +292,7 @@
 			]
    		},
 		{
-			"name": "Saiyan Power",
+			"name": "Zenkai",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
@@ -361,8 +361,9 @@
           {
             "type": "list",
             "items": [
-                "{@b Ki Blast.} As an Action, you can expend a number of Ki Points up to your Proficiency Bonus to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 120 feet of you. Each blast uses your Unarmed Strike attack bonus for its attack roll and deals force damage equal to your Ki Damage + your Strength modifier on a hit.",
-                "{@b Energy Shield.} As a Reaction when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
+				"{@b Destructo Disc.} As an {@variantrule Action|XPHB} As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to your Proficiency Bonus to fire a razor-sharp disc of golden ki in a straight line. The disc travels up to 120 feet in a line that is 10 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage + your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.",
+                "{@b Ki Blast.} As an {@variantrule Bonus Action|XPHB} you can expend a number of Ki Points up to your Proficiency Bonus to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 120 feet of you. Each blast uses your Unarmed Strike attack bonus for its attack roll and deals force damage equal to your Ki Damage + your Strength modifier on a hit.",
+                "{@b Energy Shield.} As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
 					]
 				}
 			]
@@ -374,12 +375,12 @@
 			"classSource": "AnimeIsekai",
 			"level": 2,
 			"entries": [
-			"As a Bonus Action, you can push your body beyond its limits, causing your aura to flare crimson. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
-			"• You can take one additional attack on each of your turns.",
-			"• Your Speed is doubled.",
-			"• Your Unarmed Strikes deal additional force damage equal to your Constitution modifier.",
-			"When the transformation ends, your body suffers extreme recoil. You become Incapacitated for 1 round and take damage equal to half your current Hit Points.",
-			"You can use this feature once, and you regain the ability to do so when you finish a Long Rest."
+				"As a Bonus Action, you can push your body beyond its limits, causing your aura to flare crimson. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
+				"• You can take one additional attack on each of your turns.",
+				"• Your Speed is doubled.",
+				"• Your Unarmed Strikes deal additional force damage equal to your Constitution modifier.",
+				"When the transformation ends, your body suffers extreme recoil. You become Incapacitated for 1 round and take damage equal to half your current Hit Points.",
+				"You can use this feature once, and you regain the ability to do so when you finish a Long Rest."
 			]
 		},
 		{
@@ -421,14 +422,21 @@
 			]
 		},
 		{
-			"name": "Zenkai",
+			"name": "Ki Arts III",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 7,
 			"entries": [
-				"PLACEHOLDER: describe the Zenkai feature (growing stronger after near-death, per Dragon Ball lore)."
-			]
+          		"You learn to refine and transform your Ki into specialized forms, allowing you to create highly concentrated energy techniques with greater power, range, and precision.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Kamehameha.} ",
+						"{@b Galick Gun.} "
+							]
+						}
+					]
 		},
 		{
 			"name": "Ability Score Improvement",
@@ -461,14 +469,21 @@
 			]
 		},
 		{
-			"name": "Improved Ki Reinforcement",
+			"name": "Ki Arts IV",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 11,
 			"entries": [
-				"PLACEHOLDER: describe the Improved Ki Reinforcement feature."
-			]
+				"You gain advanced control over the transformation of Ki, allowing you to alter its properties and structure to produce versatile techniques with extraordinary power, precision, and efficiency.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Dragon Fist.} ",
+						"{@b Big Bang Attack.} "
+							]
+						}
+					]
 		},
 		{
 			"name": "Ability Score Improvement",
@@ -499,14 +514,21 @@
 			]
 		},
 		{
-			"name": "1",
+			"name": "Ki Arts V",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 15,
 			"entries": [
-				"PLACEHOLDER: describe the Enhanced Ki Sense feature."
-			]
+				"You reach the pinnacle of Ki manipulation, gaining the ability to freely transform and shape your Ki into virtually any form your mastery can conceive, unleashing techniques that push the limits of Ki itself.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Spirit Bomb.} ",
+						"{@b Final Flash.} "
+							]
+						}
+					]
 		},
 		{
 			"name": "Ability Score Improvement",
@@ -537,7 +559,7 @@
 			]
 		},
 		{
-			"name": "Saiyan Mastery",
+			"name": "Epic Boon",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
