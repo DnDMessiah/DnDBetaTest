@@ -1,0 +1,473 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AnimeIsekai",
+				"abbreviation": "Anime",
+				"full": "Anime Isekai",
+				"authors": ["DnDMessiah"],
+				"color": "FA6F02",
+				"version": "1.0.0"
+			}
+			
+		],
+		"edition": "classic",
+		"dateAdded": 1788753223,
+		"dateLastModified": 1788753223
+	},
+	"class": [
+		{
+			"name": "Saiyan",
+			"source": "AnimeIsekai",
+			"hd": {
+				"number": 1,
+				"faces": 12
+			},
+			"proficiency": [
+				"str",
+				"dex",
+				"con"
+			],
+			"startingProficiencies": {
+				"armor": ["light", "medium"],
+				"weapons": [
+					"simple"
+				],
+				"tools": [],
+				"skills": [
+					{
+						"choose": {
+							"from": [
+								"athletics",
+								"acrobatics",
+								"perception",
+								"survival",
+								"intimidation"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a set of traveler's clothes or (b) 50 gold",
+					"(a) an {@item explorer's pack|phb} or (b) a {@item dungeoneer's pack|phb}",
+					"a set of simple weapons"
+				],
+				"defaultData": [
+					{
+						"a": [],
+						"b": []
+					},
+					{
+						"a": [
+							"explorer's pack|phb"
+						],
+						"b": [
+							"dungeoneer's pack|phb"
+						]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"str": 13,
+					"con": 13
+				},
+				"proficienciesGained": {
+					"armor": [],
+					"weapons": [
+						"simple"
+					],
+					"tools": [],
+					"skills": []
+				}
+			},
+			"classTableGroups": [
+       {
+				"title": "Ki",
+				"colLabels": ["Ki Points", "Ki Damage"],
+				"rows": [
+					[2, "1d6"],
+					[4, "1d6"],
+					[6, "1d6"],
+					[8, "1d8"],
+					[10, "1d8"],
+					[12, "1d8"],
+					[14, "1d10"],
+					[16, "1d10"],
+					[18, "1d10"],
+					[20, "1d12"],
+					[22, "2d6"],
+					[24, "2d6"],
+					[26, "2d8"],
+					[28, "2d8"],
+					[30, "2d8"],
+					[32, "2d10"],
+					[34, "2d10"],
+					[36, "2d10"],
+					[38, "2d12"],
+					[40, "2d20"]
+				]
+			}
+      ],
+			"classFeatures": [
+				"Saiyan Physiology|Saiyan|AnimeIsekai|1",
+				"Ki|Saiyan|AnimeIsekai|1",
+				"Ki Reinforcement|Saiyan|AnimeIsekai|2",
+				{
+					"classFeature": "Saiyan Path|Saiyan|AnimeIsekai|3",
+					"gainSubclassFeature": true
+				},
+				"Combat Instinct|Saiyan|AnimeIsekai|3",
+				"Ability Score Improvement|Saiyan|AnimeIsekai|4",
+				"Extra Attack|Saiyan|AnimeIsekai|5",
+				"Ki Sense|Saiyan|AnimeIsekai|6",
+				{
+					"classFeature": "Saiyan Path Feature|Saiyan|AnimeIsekai|6",
+					"gainSubclassFeature": true
+				},
+				"Zenkai|Saiyan|AnimeIsekai|7",
+				"Ability Score Improvement|Saiyan|AnimeIsekai|8",
+				"Superhuman Recovery|Saiyan|AnimeIsekai|9",
+				"Ki Flight|Saiyan|AnimeIsekai|10",
+				{
+					"classFeature": "Saiyan Path Feature|Saiyan|AnimeIsekai|10",
+					"gainSubclassFeature": true
+				},
+				"Improved Ki Reinforcement|Saiyan|AnimeIsekai|11",
+				"Ability Score Improvement|Saiyan|AnimeIsekai|12",
+				"Enhanced Ki Sense|Saiyan|AnimeIsekai|13",
+				"Zenkai Improvement|Saiyan|AnimeIsekai|14",
+				{
+					"classFeature": "Saiyan Path Feature|Saiyan|AnimeIsekai|14",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Saiyan|AnimeIsekai|15",
+				"Perfect Ki Control|Saiyan|AnimeIsekai|16",
+				"Advanced Combat Instinct|Saiyan|AnimeIsekai|17",
+				"Ability Score Improvement|Saiyan|AnimeIsekai|18",
+				{
+					"classFeature": "Saiyan Path Feature|Saiyan|AnimeIsekai|18",
+					"gainSubclassFeature": true
+				},
+				"Saiyan Mastery|Saiyan|AnimeIsekai|19",
+				"Legendary Saiyan|Saiyan|AnimeIsekai|20"
+			],
+			"subclassTitle": "Saiyan Path"
+		}
+	],
+	"subclass": [
+		{
+			"name": "Saiyan Blood",
+			"shortName": "Saiyan Blood",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassFeatures": [
+				"The King of Saiyan|Saiyan|AnimeIsekai|Saiyan Blood|AnimeIsekai|3",
+				"Saiyan Blood Feature|Saiyan|AnimeIsekai|Saiyan Blood|AnimeIsekai|6",
+				"Saiyan Blood Feature|Saiyan|AnimeIsekai|Saiyan Blood|AnimeIsekai|10",
+				"Saiyan Blood Feature|Saiyan|AnimeIsekai|Saiyan Blood|AnimeIsekai|14",
+				"Saiyan Blood Feature|Saiyan|AnimeIsekai|Saiyan Blood|AnimeIsekai|18"
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Saiyan Physiology",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 1,
+			"entries": [
+				"PLACEHOLDER: describe innate Saiyan traits here (tail, warrior biology, etc.)."
+			]
+		},
+		{
+			"name": "Ki",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 1,
+			"entries": [
+				"You have a pool of Ki Points, shown in the Saiyan table. Your Ki Points refresh when you finish a short or long rest.",
+				"PLACEHOLDER: list what Ki Points can be spent on (e.g. Ki Blast, Powerful Strike)."
+			]
+		},
+		{
+			"name": "Ki Reinforcement",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 2,
+			"entries": [
+				"PLACEHOLDER: describe the Ki Reinforcement feature."
+			]
+		},
+		{
+			"name": "Saiyan Path",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you choose a Saiyan Path, detailed at the end of this class description. Your choice grants you features at 3rd level and again at 6th, 10th, 14th, and 18th level."
+			]
+		},
+		{
+			"name": "Combat Instinct",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 3,
+			"entries": [
+				"PLACEHOLDER: describe the Combat Instinct feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, and again at 8th, 12th, 15th, and 18th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+			]
+		},
+		{
+			"name": "Extra Attack",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 5,
+			"entries": [
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Ki Sense",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 6,
+			"entries": [
+				"PLACEHOLDER: describe the Ki Sense feature (sensing living creatures' ki, range, limitations)."
+			]
+		},
+		{
+			"name": "Saiyan Path Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 6,
+			"entries": [
+				"At 6th level, you gain a feature granted by your Saiyan Path."
+			]
+		},
+		{
+			"name": "Zenkai",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 7,
+			"entries": [
+				"PLACEHOLDER: describe the Zenkai feature (growing stronger after near-death, per Dragon Ball lore)."
+			]
+		},
+		{
+			"name": "Superhuman Recovery",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 9,
+			"entries": [
+				"PLACEHOLDER: describe the Superhuman Recovery feature."
+			]
+		},
+		{
+			"name": "Ki Flight",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 10,
+			"entries": [
+				"PLACEHOLDER: describe the Ki Flight feature (flying speed, duration, limitations)."
+			]
+		},
+		{
+			"name": "Saiyan Path Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a feature granted by your Saiyan Path."
+			]
+		},
+		{
+			"name": "Improved Ki Reinforcement",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 11,
+			"entries": [
+				"PLACEHOLDER: describe the Improved Ki Reinforcement feature."
+			]
+		},
+		{
+			"name": "Enhanced Ki Sense",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 13,
+			"entries": [
+				"PLACEHOLDER: describe the Enhanced Ki Sense feature."
+			]
+		},
+		{
+			"name": "Zenkai Improvement",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 14,
+			"entries": [
+				"PLACEHOLDER: describe the Zenkai Improvement feature."
+			]
+		},
+		{
+			"name": "Saiyan Path Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain a feature granted by your Saiyan Path."
+			]
+		},
+		{
+			"name": "Perfect Ki Control",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 16,
+			"entries": [
+				"PLACEHOLDER: describe the Perfect Ki Control feature."
+			]
+		},
+		{
+			"name": "Advanced Combat Instinct",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 17,
+			"entries": [
+				"PLACEHOLDER: describe the Advanced Combat Instinct feature."
+			]
+		},
+		{
+			"name": "Saiyan Path Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a feature granted by your Saiyan Path."
+			]
+		},
+		{
+			"name": "Saiyan Mastery",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 19,
+			"entries": [
+				"PLACEHOLDER: describe the Saiyan Mastery feature."
+			]
+		},
+		{
+			"name": "Legendary Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 20,
+			"entries": [
+				"PLACEHOLDER: describe the Legendary Saiyan capstone feature."
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "The King of Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Saiyan Blood",
+			"subclassSource": "AnimeIsekai",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Saiyan Blood feature}",
+				"PLACEHOLDER: describe The King of Saiyan feature."
+			]
+		},
+		{
+			"name": "Saiyan Blood Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Saiyan Blood",
+			"subclassSource": "AnimeIsekai",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 6th-level Saiyan Blood feature}",
+				"PLACEHOLDER."
+			]
+		},
+		{
+			"name": "Saiyan Blood Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Saiyan Blood",
+			"subclassSource": "AnimeIsekai",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Saiyan Blood feature}",
+				"PLACEHOLDER."
+			]
+		},
+		{
+			"name": "Saiyan Blood Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Saiyan Blood",
+			"subclassSource": "AnimeIsekai",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"{@i 14th-level Saiyan Blood feature}",
+				"PLACEHOLDER."
+			]
+		},
+		{
+			"name": "Saiyan Blood Feature",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Saiyan Blood",
+			"subclassSource": "AnimeIsekai",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"{@i 18th-level Saiyan Blood feature}",
+				"PLACEHOLDER."
+			]
+		}
+	]
+}
