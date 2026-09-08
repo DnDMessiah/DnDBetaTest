@@ -169,35 +169,56 @@
 	],
 	"subclass": [
 		{
-			"name": "Super Saiyan",
-			"shortName": "Super Saiyan",
+			"name": "Full Blood Saiyan",
+			"shortName": "Full Blood Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"subclassFeatures": [
-				"The Super Saiyan|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|1",
-				"Pseudo Super Saiyan|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|1",
-				"Super Saiyan Feature|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|3",
-				"Super Saiyan Feature|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|6",
-				"Super Saiyan Feature|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|10",
-				"Super Saiyan Feature|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|14",
-				"Super Saiyan Feature|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|18",
-				"Super Saiyan Feature|Saiyan|AnimeIsekai|Super Saiyan|AnimeIsekai|20"
+				"The Full Blood Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
+				"Pseudo Super Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
+				"Super Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|3",
+				"Super Saiyan 2|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|6",
+				"Super Saiyan 3|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|10",
+				"Super Saiyan God|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|14",
+				"Super Saiyan Blue|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|18",
+				"Divine Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|20"
 			]
 		},
 		{
-			"name": "Legendary Super Saiyan",
-			"shortName": "Legendary Super Saiyan",
+			"name": "Legendary Blood Saiyan",
+			"shortName": "Legendary Blood Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"subclassFeatures": [
-				"The Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|1|AnimeIsekai",
-				"Legendary Subclass 3|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|3|AnimeIsekai",
-				"Legendary Subclass 6|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|6|AnimeIsekai",
-				"Legendary Subclass 10|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|10|AnimeIsekai",
-				"Legendary Subclass 14|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|14|AnimeIsekai",
-				"Legendary Subclass 18|Saiyan|AnimeIsekai|Legendary Super Saiyan|AnimeIsekai|18|AnimeIsekai"
+				"The Legendary Blood Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|1",
+				"Legendary Subclass|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|1",
+				"Wrathful|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|3",
+				"Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|6",
+				"Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|10",
+				"Legendary Super Saiyan 2|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|14",
+				"Legendary Super Saiyan 3|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|18",
+				"True Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|20"
+			]
+		},
+		{
+			"name": "Hybrid Saiyan",
+			"shortName": "Hybrid Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassFeatures": [
+				"The Hybrid Saiyan|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|1",
+				"Hybrid Subclass|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|1",
+				"Unlock Potential|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|3",
+				"Super Saiyan|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|6",
+				"Super Saiyan 2|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|10",
+				"Ultimate|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|14",
+				"Ultimate Super Saiyan|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|18",
+				"Beast|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|20"
+
+				
 			]
 		}
 	],
@@ -361,9 +382,9 @@
           {
             "type": "list",
             "items": [
-				"{@b Destructo Disc.} As an {@variantrule Action|XPHB} As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to your Proficiency Bonus to fire a razor-sharp disc of golden ki in a straight line. The disc travels up to 120 feet in a line that is 10 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage + your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.",
+				"{@b Ki Wave.} As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to your Proficiency Bonus to fire waves of ki in a straight line. The waves travel up to 60 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage plus your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.",
                 "{@b Ki Blast.} As an {@variantrule Bonus Action|XPHB} you can expend a number of Ki Points up to your Proficiency Bonus to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 120 feet of you. Each blast uses your Unarmed Strike attack bonus for its attack roll and deals force damage equal to your Ki Damage + your Strength modifier on a hit.",
-                "{@b Energy Shield.} As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
+                "{@b Ki Shield.} As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
 					]
 				}
 			]
@@ -428,14 +449,7 @@
 			"classSource": "AnimeIsekai",
 			"level": 7,
 			"entries": [
-          		"You learn to refine and transform your Ki into specialized forms, allowing you to create highly concentrated energy techniques with greater power, range, and precision.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Kamehameha.} ",
-						"{@b Galick Gun.} "
-							]
-						}
+          		""
 					]
 		},
 		{
@@ -475,14 +489,7 @@
 			"classSource": "AnimeIsekai",
 			"level": 11,
 			"entries": [
-				"You gain advanced control over the transformation of Ki, allowing you to alter its properties and structure to produce versatile techniques with extraordinary power, precision, and efficiency.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Dragon Fist.} ",
-						"{@b Big Bang Attack.} "
-							]
-						}
+				""
 					]
 		},
 		{
@@ -520,14 +527,7 @@
 			"classSource": "AnimeIsekai",
 			"level": 15,
 			"entries": [
-				"You reach the pinnacle of Ki manipulation, gaining the ability to freely transform and shape your Ki into virtually any form your mastery can conceive, unleashing techniques that push the limits of Ki itself.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Spirit Bomb.} ",
-						"{@b Final Flash.} "
-							]
-						}
+				""
 					]
 		},
 		{
@@ -591,16 +591,16 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "The Super Saiyan",
+			"name": "The Full Blood Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Super Saiyan feature}",
+				"{@i 1st-level Full Blood Saiyan feature}",
 				"Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this legendary power, causing their hair to turn golden and their aura to blaze with radiant energy."
 			]
 		},
@@ -609,14 +609,14 @@
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Super Saiyan feature}",
-				"When a Saiyan is on the brink of death, they may briefly manifest the power of a Super Saiyan, resulting in this form. It is inaccessible at will.",
-				"When you are pushed to the brink of death, the dormant power of the Super Saiyan awakens within you. When you are reduced to 25% of your Hit Point maximum or less, you can awaken this power, causing your aura to flare with golden energy. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
+				"{@i 1st-level Full Blood Saiyan feature}",
+				"When a Saiyan is on the brink of death, they may briefly manifest the power of a Full Blood Saiyan, resulting in this form. It is inaccessible at will.",
+				"When you are pushed to the brink of death, the dormant power of the Full Blood Saiyan awakens within you. When you are reduced to 25% of your Hit Point maximum or less, you can awaken this power, causing your aura to flare with golden energy. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by one step.",
 				"• Your Speed increases by 10 feet.",
@@ -626,199 +626,332 @@
 			]
 		},
 		{
-			"name": "Super Saiyan Feature",
+			"name": "Super Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 3,
 			"header": 2,
 			"entries": [
-				"{@i 3rd-level Super Saiyan feature}",
-				"PLACEHOLDER."
+				"{@i 3rd-level Full Blood Saiyan feature}",
+				"You learn to refine and transform your Ki into specialized forms, allowing you to create highly concentrated energy techniques with greater power, range, and precision.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Kamehameha.} ",
+						"{@b Galick Gun.} "
+							]
+						}
 			]
 		},
 		{
-			"name": "Super Saiyan Feature",
+			"name": "Super Saiyan 2",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"{@i 6th-level Super Saiyan feature}",
-				"PLACEHOLDER."
+				"{@i 6th-level Full Blood Saiyan feature}",
+				"You gain advanced control over the transformation of Ki, allowing you to alter its properties and structure to produce versatile techniques with extraordinary power, precision, and efficiency.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Dragon Fist.} ",
+						"{@b Big Bang Attack.} "
+							]
+						}
 			]
 		},
 		{
-			"name": "Super Saiyan Feature",
+			"name": "Super Saiyan 3",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Super Saiyan feature}",
-				"PLACEHOLDER."
+				"{@i 10th-level Full Blood Saiyan feature}",
+				"You reach the pinnacle of Ki manipulation, gaining the ability to freely transform and shape your Ki into virtually any form your mastery can conceive, unleashing techniques that push the limits of Ki itself.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Spirit Bomb.} ",
+						"{@b Final Flash.} "
+							]
+						}
 			]
 		},
 		{
-			"name": "Super Saiyan Feature",
+			"name": "Super Saiyan God",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"{@i 14th-level Super Saiyan feature}",
+				"{@i 14th-level Full Blood Saiyan feature}",
 				"PLACEHOLDER."
 			]
 		},
 		{
-			"name": "Super Saiyan Feature",
+			"name": "Super Saiyan Blue",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 18,
 			"header": 2,
 			"entries": [
-				"{@i 18th-level Super Saiyan feature}",
+				"{@i 18th-level Full Blood Saiyan feature}",
 				"PLACEHOLDER."
 			]
 		},
 		{
-			"name": "Super Saiyan Feature",
+			"name": "Divine Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Super Saiyan",
+			"subclassShortName": "Full Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 20,
 			"header": 2,
 			"entries": [
-				"{@i 20th-level Super Saiyan feature}",
+				"{@i 20th-level Full Blood Saiyan feature}",
 				"PLACEHOLDER."
 			]
 		},
         {
-			"name": "The Legendary Super Saiyan",
+			"name": "The Legendary Blood Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Legendary Super Saiyan feature}",
-				"The Legendary Super Saiyan"
+				"{@i 1st-level Legendary Blood Saiyan feature}",
+				"The Legendary Blood Saiyan"
 			]
 		},
 		{
-			"name": "Legendary Subclass 1",
+			"name": "Legendary Subclass",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 1,
 			"header": 1,
 			"entries": [
-				"{@i 1st-level Legendary Super Saiyan feature}",
-				"Legendary Subclass 1"
+				"{@i 1st-level Legendary Blood Saiyan feature}",
+				"Legendary Subclass"
 			]
 		},
 		{
-			"name": "Legendary Subclass 3",
+			"name": "Wrathful",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 3,
 			"header": 1,
 			"entries": [
-				"{@i 3rd-level Legendary Super Saiyan feature}",
+				"{@i 3rd-level Legendary Blood Saiyan feature}",
 				"Legendary Subclass 3"
 			]
 		},
 		{
-			"name": "Legendary Subclass 6",
+			"name": "Super Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 6,
 			"header": 1,
 			"entries": [
-				"{@i 6th-level Legendary Super Saiyan feature}",
+				"{@i 6th-level Legendary Blood Saiyan feature}",
 				"Legendary Subclass 6"
 			]
 		},
 		{
-			"name": "Legendary Subclass 10",
+			"name": "Legendary Super Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 10,
 			"header": 1,
 			"entries": [
-				"{@i 10th-level Legendary Super Saiyan feature}",
+				"{@i 10th-level Legendary Blood Saiyan feature}",
 				"Legendary Subclass 10"
 			]
 		},
 		{
-			"name": "Legendary Subclass 14",
+			"name": "Legendary Super Saiyan 2",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 14,
 			"header": 1,
 			"entries": [
-				"{@i 14th-level Legendary Super Saiyan feature}",
+				"{@i 14th-level Legendary Blood Saiyan feature}",
 				"Legendary Subclass 14"
 			]
 		},
 		{
-			"name": "Legendary Subclass 18",
+			"name": "Legendary Super Saiyan 3",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 18,
 			"header": 1,
 			"entries": [
-				"{@i 18th-level Legendary Super Saiyan feature}",
+				"{@i 18th-level Legendary Blood Saiyan feature}",
 				"Legendary Subclass 18"
 			]
 		},
 		{
-			"name": "Legendary Subclass 20",
+			"name": "True Legendary Super Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
-			"subclassShortName": "Legendary Super Saiyan",
+			"subclassShortName": "Legendary Blood Saiyan",
 			"subclassSource": "AnimeIsekai",
 			"level": 20,
 			"header": 1,
 			"entries": [
-				"{@i 20th-level Legendary Super Saiyan feature}",
+				"{@i 20th-level Legendary Blood Saiyan feature}",
 				"Legendary Subclass 20"
+			]
+		},
+		{
+			"name": "The Hybrid Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Hybrid Saiyan feature}",
+				"The Hybrid Saiyan"
+			]
+		},
+		{
+			"name": "Hybrid Subclass",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Hybrid Saiyan feature}",
+				"Hybrid Subclass"
+			]
+		},
+		{
+			"name": "Unlock Potential",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"{@i 3rd-level Hybrid Saiyan feature}",
+				"Hybrid Subclass 3"
+			]
+		},
+		{
+			"name": "Super Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 6,
+			"header": 1,
+			"entries": [
+				"{@i 6th-level Hybrid Saiyan feature}",
+				"Hybrid Subclass 6"
+			]
+		},
+		{
+			"name": "Super Saiyan 2",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 10,
+			"header": 1,
+			"entries": [
+				"{@i 10th-level Hybrid Saiyan feature}",
+				"Hybrid Subclass 10"
+			]
+		},
+		{
+			"name": "Ultimate",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 14,
+			"header": 1,
+			"entries": [
+				"{@i 14th-level Hybrid Saiyan feature}",
+				"Hybrid Subclass 14"
+			]
+		},
+		{
+			"name": "Ultimate Super Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 18,
+			"header": 1,
+			"entries": [
+				"{@i 18th-level Hybrid Saiyan feature}",
+				"Hybrid Subclass 18"
+			]
+		},
+		{
+			"name": "Beast",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Hybrid Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 20,
+			"header": 1,
+			"entries": [
+				"{@i 20th-level Hybrid Saiyan feature}",
+				"Hybrid Subclass 20"
 			]
 		}
 	]
