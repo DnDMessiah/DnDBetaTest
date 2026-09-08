@@ -158,7 +158,7 @@
 					"gainSubclassFeature": true
 				},
 				"Epic Boon|Saiyan|AnimeIsekai|19",
-				"Legendary Saiyan|Saiyan|AnimeIsekai|20",
+				"True Saiyan|Saiyan|AnimeIsekai|20",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|20",
 					"gainSubclassFeature": true
@@ -569,13 +569,13 @@
 			]
 		},
 		{
-			"name": "Legendary Saiyan",
+			"name": "True Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 20,
 			"entries": [
-				"PLACEHOLDER: describe the Legendary Saiyan capstone feature."
+				"PLACEHOLDER: describe the True Saiyan capstone feature."
 			]
 		},
 		{
