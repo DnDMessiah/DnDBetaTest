@@ -136,21 +136,22 @@
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|6",
 					"gainSubclassFeature": true
 				},
-				"Ki Arts III|Saiyan|AnimeIsekai|7",
+				"Saiyan Instinct|Saiyan|AnimeIsekai|7",
+				"Saiyan Fortitude|Saiyan|AnimeIsekai|7",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|8",
-				"Superhuman Recovery|Saiyan|AnimeIsekai|9",
+				"Saiyan Spirit|Saiyan|AnimeIsekai|9",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|10",
 					"gainSubclassFeature": true
 				},
 				"Kaio-ken x10|Saiyan|AnimeIsekai|11",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|12",
-				"Enhanced Ki Sense|Saiyan|AnimeIsekai|13",
+				"Saiyan Resilience|Saiyan|AnimeIsekai|13",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|14",
 					"gainSubclassFeature": true
 				},
-				"Ki Arts V|Saiyan|AnimeIsekai|15",
+				"Ki Recovery|Saiyan|AnimeIsekai|15",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|16",
 				"Kaio-ken x20|Saiyan|AnimeIsekai|17",
 				{
@@ -443,13 +444,24 @@
 			]
 		},
 		{
-			"name": "Ki Arts III",
+			"name": "Saiyan Instinct",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 7,
 			"entries": [
-          		""
+				"Your Saiyan instincts sharpen your awareness, allowing you to react to danger before combat begins.",
+				" You have Advantage on Initiative rolls and add your Proficiency Bonus to those rolls. In addition, you can't be Surprised while you are conscious."					]
+		},
+				{
+			"name": "Saiyan Fortitude",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 7,
+			"entries": [
+          		"Your Saiyan body can withstand forces that would overwhelm ordinary creatures. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half as much damage on a successful save, you can make a Constitution saving throw instead.",
+   				"On a successful save, you take no damage from the effect. On a failed save, you take half damage instead."
 					]
 		},
 		{
@@ -463,13 +475,14 @@
 			]
 		},
 		{
-			"name": "Superhuman Recovery",
+			"name": "Saiyan Spirit",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 9,
 			"entries": [
-				"PLACEHOLDER: describe the Superhuman Recovery feature."
+				"If you fail a saving throw, you can reroll it with a bonus equal to your Saiyan level. You must use the new roll, and you can't use this feature again until you finish a Long Rest.",
+				"You can use this feature twice before a Long Rest starting at level 13 and three times before a Long Rest starting at level 17."
 			]
 		},
 		{
@@ -501,13 +514,15 @@
 			"entries": ["You gain the {@feat Ability Score Improvement|XPHB} feat or another {@feat feat|XPHB} of your choice for which you qualify."]
 		},
 		{
-			"name": "Enhanced Ki Sense",
+			"name": "Saiyan Resilience",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 13,
 			"entries": [
-				"PLACEHOLDER: describe the Enhanced Ki Sense feature."
+				"Your Saiyan body has developed extraordinary resilience through countless battles.", 
+    			"Whenever you take damage, reduce the damage by an amount equal to your Constitution modifier + your Strength modifier.",
+				"In addition, the Hit Points you regain from your Saiyan Blood are doubled."
 			]
 		},
 		{
@@ -521,13 +536,14 @@
 			]
 		},
 		{
-			"name": "Ki Arts V",
+			"name": "Ki Recovery",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 15,
 			"entries": [
-				""
+				 "Your Saiyan body has developed the ability to rapidly restore its Ki.",
+				 "Once per turn,  you regain Ki Points equal to your Proficiency Bonus."
 					]
 		},
 		{
