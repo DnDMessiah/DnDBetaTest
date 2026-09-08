@@ -93,22 +93,22 @@
 				"rows": [
 					[2, "1d6"],
 					[4, "1d6"],
-					[6, "1d6"],
+					[6, "1d8"],
 					[8, "1d8"],
 					[10, "1d8"],
-					[12, "1d8"],
+					[12, "1d10"],
 					[14, "1d10"],
 					[16, "1d10"],
-					[18, "1d10"],
+					[18, "1d12"],
 					[20, "1d12"],
-					[22, "2d6"],
-					[24, "2d6"],
+					[22, "1d12"],
+					[24, "2d8"],
 					[26, "2d8"],
 					[28, "2d8"],
-					[30, "2d8"],
+					[30, "2d10"],
 					[32, "2d10"],
 					[34, "2d10"],
-					[36, "2d10"],
+					[36, "2d12"],
 					[38, "2d12"],
 					[40, "2d20"]
 				]
@@ -160,7 +160,7 @@
 					"gainSubclassFeature": true
 				},
 				"Epic Boon|Saiyan|AnimeIsekai|19",
-				"True Saiyan|Saiyan|AnimeIsekai|20",
+				"Limit Break|Saiyan|AnimeIsekai|20",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|20",
 					"gainSubclassFeature": true
@@ -180,8 +180,11 @@
 				"The Full Blood Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
 				"Pseudo Super Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
 				"Super Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|3",
+				"Advanced Ki Art I|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|3",
 				"Super Saiyan 2|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|6",
+				"Advanced Ki Art II|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|6",
 				"Super Saiyan 3|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|10",
+				"Advanced Ki Art III|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|10",
 				"Super Saiyan God|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|14",
 				"Super Saiyan Blue|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|18",
 				"Divine Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|20"
@@ -287,7 +290,7 @@
 					"entries": [
 					"Saiyans naturally possess vast superhuman strength, far greater than that of Earthlings and other alien races and are veritable fighting machines. They are capable of easily lifting ten times their own weight.",
 					"You count as two sizes larger than your actual size when determining your carrying capacity and the weight you can push, drag, or lift.",
-					"Your Unarmed Strike deals 1d10 bludgeoning damage instead of the normal damage."
+					"Your {@variantrule Unarmed Strike|xphb} deals 1d10 bludgeoning damage instead of the normal damage."
 					]
 				},
 				{
@@ -384,8 +387,8 @@
           {
             "type": "list",
             "items": [
-				"{@b Ki Wave.} As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to your Proficiency Bonus to fire waves of ki in a straight line. The waves travel up to 60 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage plus your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.",
-                "{@b Ki Blast.} As an {@variantrule Bonus Action|XPHB} you can expend a number of Ki Points up to your Proficiency Bonus to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 120 feet of you. Each blast uses your Unarmed Strike attack bonus for its attack roll and deals force damage equal to your Ki Damage + your Strength modifier on a hit.",
+				"{@b Ki Wave.} As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.",
+				"{@b Ki Blast.} As an {@variantrule Bonus Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 60 feet of you. Each blast uses your {@variantrule Unarmed Strike|xphb} attack bonus for its attack roll and deals Force damage equal to your Ki Damage plus your Strength modifier on a hit.",
                 "{@b Ki Shield.} As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
 					]
 				}
@@ -401,7 +404,7 @@
 				"As a Bonus Action, you can push your body beyond its limits, causing your aura to flare crimson. The transformation lasts for 1 minute. While transformed, you gain the following benefits:",
 				"• You can take one additional attack on each of your turns.",
 				"• Your Speed is doubled.",
-				"• Your Unarmed Strikes deal additional force damage equal to your Constitution modifier.",
+				"• Your {@variantrule Unarmed Strike|xphb} deal additional force damage equal to your Constitution modifier.",
 				"When the transformation ends, your body suffers extreme recoil. You become Incapacitated for 1 round and take damage equal to half your current Hit Points.",
 				"You can use this feature once, and you regain the ability to do so when you finish a Long Rest."
 			]
@@ -432,7 +435,7 @@
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 5,
-			"entries": ["At 5th level, your Kaio-ken reaches ×2. While transformed, you can make two additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to twice your Constitution modifier."]
+			"entries": ["At 5th level, your Kaio-ken reaches ×2. While transformed, you can make two additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your {@variantrule Unarmed Strike|xphb} deal additional force damage equal to twice your Constitution modifier."]
     	},
 		{
 			"name": "Ki Recovery",
@@ -517,7 +520,7 @@
 			"classSource": "AnimeIsekai",
 			"level": 11,
 			"entries": [
-				"At 11th level, your Kaio-ken reaches ×10. While transformed, you can make three additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to three time your Constitution modifier."
+				"At 11th level, your Kaio-ken reaches ×10. While transformed, you can make three additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your {@variantrule Unarmed Strike|xphb} deal additional force damage equal to three time your Constitution modifier."
 			]		
 		},
 		{
@@ -576,7 +579,7 @@
 			"classSource": "AnimeIsekai",
 			"level": 17,
 			"entries": [
-				"At 17th level, your Kaio-ken reaches ×20. While transformed, you can make four additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to four time your Constitution modifier."
+				"At 17th level, your Kaio-ken reaches ×20. While transformed, you can make four additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your {@variantrule Unarmed Strike|xphb} deal additional force damage equal to four time your Constitution modifier."
 			]
 		},
 		{
@@ -600,13 +603,14 @@
 			]
 		},
 		{
-			"name": "True Saiyan",
+			"name": "Limit Break",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 20,
 			"entries": [
-				"PLACEHOLDER: describe the True Saiyan capstone feature."
+				"Your Strength, Dexterity, and Constitution scores each increase by 2.",
+				"The maximum for your Ability Scores is no longer limited."
 			]
 		},
 		{
@@ -632,7 +636,7 @@
 			"header": 1,
 			"entries": [
 				"{@i 1st-level Full Blood Saiyan feature}",
-				"Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this legendary power, causing their hair to turn golden and their aura to blaze with radiant energy."
+				"Born with the complete blood of the Saiyan race, you possess a natural affinity for battle and an extraordinary capacity to surpass your own limits. Through relentless training and the heat of combat, you awaken increasingly powerful transformations, mastering the path from Super Saiyan to God power and beyond."
 			]
 		},
 		{
@@ -653,7 +657,8 @@
 				"• Your Speed increases by 10 feet.",
 				"• You have Advantage on Strength and Constitution saving throws.",
 				"• You have Resistance to bludgeoning, piercing, and slashing damage.",
-				"Once the transformation ends, you cannot awaken this power again until you finish a Long Rest."
+				"Once the transformation ends, you cannot awaken this power again until you finish a Long Rest.",
+				"Starting at 3rd level, this feature is inactive."
 			]
 		},
 		{
@@ -667,12 +672,32 @@
 			"header": 2,
 			"entries": [
 				"{@i 3rd-level Full Blood Saiyan feature}",
+				"Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this power, causing their hair to turn golden and their aura to blaze with radiant energy.",
+				"You can expend 1 Ki Point to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+				"• You have Advantage on attack rolls.",
+				"• Your Ki Damage increases by one die.",
+				"• Your Speed increases by 10 feet.",
+				"• You have Advantage on Strength and Constitution saving throws.",
+				"• You have Resistance to bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Advanced Ki Art I",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Full Blood Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"{@i 3rd-level Full Blood Saiyan feature}",
 				"You learn to refine and transform your Ki into specialized forms, allowing you to create highly concentrated energy techniques with greater power, range, and precision.",
 				{
 					"type": "list",
 					"items": [
-						"{@b Kamehameha.} ",
-						"{@b Galick Gun.} "
+						"{@b Kamehameha.} As an {@variantrule Action|XPHB}, you can expend 5 Ki Points to concentrate your Ki into a single point. and unleash a powerful, streaming beam of energy. The wave travels up to 60 feet in a line that is 10 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 5. On a successful save, it takes half as much damage.",
+						"{@b Galick Gun.} As an {@variantrule Action|XPHB}, you can expend 5 Ki Points to fire a concentrated beam of purple Ki at one creature within 60 feet of you. Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 6. A critical hit occurs on a roll of 19 or 20."
 							]
 						}
 			]
@@ -688,18 +713,66 @@
 			"header": 2,
 			"entries": [
 				"{@i 6th-level Full Blood Saiyan feature}",
-				"You gain advanced control over the transformation of Ki, allowing you to alter its properties and structure to produce versatile techniques with extraordinary power, precision, and efficiency.",
+				"You are a Saiyan who has pushed the power of the Super Saiyan beyond its limits, awakening a form of even greater ferocity and destructive power. Your golden aura erupts with crackling lightning, your golden hair rises sharply, and your power intensifies to a terrifying degree.",
+				"You can expend 2 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+				"• You have Advantage on attack rolls.",
+				"• Your Ki Damage increases by two die.",
+				"• Your Speed increases by 20 feet.",
+				"• You have Advantage on Strength and Constitution saving throws.",
+				"• You have Resistance to bludgeoning, piercing, and slashing damage."
+			]
+		},
+		{
+			"name": "Advanced Ki Art II",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Full Blood Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"{@i 3rd-level Full Blood Saiyan feature}",
+				"You learn to refine and transform your Ki into specialized forms, allowing you to create highly concentrated energy techniques with greater power, range, and precision.",
 				{
 					"type": "list",
 					"items": [
-						"{@b Dragon Fist.} ",
-						"{@b Big Bang Attack.} "
+						{
+							"name": "Spirit Bomb",
+							"entries": [
+								"As an {@variantrule Action|XPHB}, you can expend 10 Ki Points to gather huge amounts of energy from all chosen surrounding life forms and inanimate objects to conduct that energy into a massive sphere of astounding destructive power before throwing it at a point you can see within 120 feet of yourself.",
+								"The Spirit Bomb detonates at that point in a 30-foot-radius sphere. Each creature in the sphere takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 10.",
+								"Creatures that can perceive you can willingly lend their power to your Spirit Bomb. For each creature that lends its power to you, the radius of the Spirit Bomb increases by 5 feet, and the damage increases by an amount equal to your Ki Damage plus your Strength modifier.",
+								"A creature that lends its power to you has Disadvantage on D20 Tests until the end of your next turn."
+							]
+						},
+						{
+							"name": "Big Bang Attack.",
+							"entries": [
+								"As an {@variantrule Action|XPHB}, you can expend 10 Ki Points to condense your Ki into a blue energy sphere before launching it at one creature you can see within 120 feet of yourself.",
+								"Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 10. A critical hit occurs on a roll of 18, 19, or 20.",
+								"When Big Bang Attack hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your attack roll it takes Big Bang Attack damage."
 							]
 						}
+					]
+				}
 			]
 		},
 		{
 			"name": "Super Saiyan 3",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Full Blood Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"{@i 10th-level Full Blood Saiyan feature}"
+			]
+		},
+		{
+			"name": "Advanced Ki Art III",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
@@ -713,7 +786,7 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b Spirit Bomb.} ",
+						"{@b Dragon Fist.} ",
 						"{@b Final Flash.} "
 							]
 						}
