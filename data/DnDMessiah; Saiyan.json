@@ -132,6 +132,7 @@
 				},
 				"Ability Score Improvement|Saiyan|AnimeIsekai|4",
 				"Kaio-ken x2|Saiyan|AnimeIsekai|5",
+				"Ki Recovery|Saiyan|AnimeIsekai|5",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|6",
 					"gainSubclassFeature": true
@@ -151,7 +152,7 @@
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|14",
 					"gainSubclassFeature": true
 				},
-				"Ki Recovery|Saiyan|AnimeIsekai|15",
+				"Transformation Mastery|Saiyan|AnimeIsekai|15",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|16",
 				"Kaio-ken x20|Saiyan|AnimeIsekai|17",
 				{
@@ -434,6 +435,20 @@
 			"entries": ["At 5th level, your Kaio-ken reaches ×2. While transformed, you can make two additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to twice your Constitution modifier."]
     	},
 		{
+			"name": "Ki Recovery",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"level": 5,
+			"entries": [
+    			"Your Saiyan body has developed the ability to rapidly restore its Ki.",
+				"At the end of each of your turns, you regain 1 Ki Point.",
+				"At 10th level, you instead regain Ki Points equal to half your Proficiency Bonus.",
+				"At 15th level, you instead regain Ki Points equal to your Proficiency Bonus.",
+				"At 20th level, you instead regain Ki Points equal to twice your Proficiency Bonus."
+			]
+    	},
+		{
 			"name": "Saiyan Blood Feature",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
@@ -536,14 +551,14 @@
 			]
 		},
 		{
-			"name": "Ki Recovery",
+			"name": "Transformation Mastery",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 15,
 			"entries": [
-				 "Your Saiyan body has developed the ability to rapidly restore its Ki.",
-				 "Once per turn,  you regain Ki Points equal to your Proficiency Bonus."
+				 "The Ki Point cost to transform and maintain a Saiyan Transformation is reduced by half, rounded down.",
+				 "While you have the Bloodied condition, this feature does not activate."
 					]
 		},
 		{
