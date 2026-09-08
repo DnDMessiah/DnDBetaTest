@@ -143,7 +143,7 @@
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|10",
 					"gainSubclassFeature": true
 				},
-				"Ki Arts IV|Saiyan|AnimeIsekai|11",
+				"Kaio-ken x10|Saiyan|AnimeIsekai|11",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|12",
 				"Enhanced Ki Sense|Saiyan|AnimeIsekai|13",
 				{
@@ -152,7 +152,7 @@
 				},
 				"Ki Arts V|Saiyan|AnimeIsekai|15",
 				"Ability Score Improvement|Saiyan|AnimeIsekai|16",
-				"Advanced Combat Instinct|Saiyan|AnimeIsekai|17",
+				"Kaio-ken x20|Saiyan|AnimeIsekai|17",
 				{
 					"classFeature": "Saiyan Blood Feature|Saiyan|AnimeIsekai|18",
 					"gainSubclassFeature": true
@@ -483,14 +483,14 @@
 			]
 		},
 		{
-			"name": "Ki Arts IV",
+			"name": "Kaio-ken x10",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 11,
 			"entries": [
-				""
-					]
+				"At 11th level, your Kaio-ken reaches ×10. While transformed, you can make three additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to three time your Constitution modifier."
+			]		
 		},
 		{
 			"name": "Ability Score Improvement",
@@ -539,13 +539,13 @@
 			"entries": ["You gain the {@feat Ability Score Improvement|XPHB} feat or another {@feat feat|XPHB} of your choice for which you qualify."]
     	},
 		{
-			"name": "Advanced Combat Instinct",
+			"name": "Kaio-ken x20",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
 			"classSource": "AnimeIsekai",
 			"level": 17,
 			"entries": [
-				"PLACEHOLDER: describe the Advanced Combat Instinct feature."
+				"At 17th level, your Kaio-ken reaches ×20. While transformed, you can make four additional attacks whenever you take the {@action Attack|XPHB} action on your turn, and your Unarmed Strikes deal additional force damage equal to four time your Constitution modifier."
 			]
 		},
 		{
