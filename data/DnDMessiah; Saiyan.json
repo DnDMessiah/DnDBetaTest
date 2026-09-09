@@ -87,30 +87,30 @@
 				}
 			},
 			"classTableGroups": [
-       {
-				"title": "Ki",
-				"colLabels": ["Ki Points", "Ki Damage"],
+				{
+			"title": "Ki",
+			"colLabels": ["Ki Points", "Ki Damage"],
 				"rows": [
-					[2, "1d6"],
-					[4, "1d6"],
-					[6, "1d8"],
-					[8, "1d8"],
-					[10, "1d8"],
-					[12, "1d10"],
-					[14, "1d10"],
-					[16, "1d10"],
-					[18, "1d12"],
-					[20, "1d12"],
-					[22, "1d12"],
-					[24, "2d8"],
-					[26, "2d8"],
-					[28, "2d8"],
-					[30, "2d10"],
-					[32, "2d10"],
-					[34, "2d10"],
-					[36, "2d12"],
-					[38, "2d12"],
-					[40, "2d20"]
+					[2, "1d4"],
+					[4, "1d4"],
+					[6, "1d6"],
+					[8, "1d6"],
+					[10, "1d6"],
+					[12, "1d8"],
+					[14, "1d8"],
+					[16, "1d8"],
+					[18, "1d8"],
+					[20, "1d10"],
+					[22, "1d10"],
+					[24, "1d10"],
+					[26, "1d10"],
+					[28, "1d12"],
+					[30, "1d12"],
+					[32, "1d12"],
+					[34, "1d12"],
+					[36, "1d20"],
+					[38, "1d20"],
+					[40, "1d20"]
 				]
 			}
       ],
@@ -387,9 +387,26 @@
           {
             "type": "list",
             "items": [
-				"{@b Ki Wave.} As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.",
-				"{@b Ki Blast.} As an {@variantrule Bonus Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 60 feet of you. Each blast uses your {@variantrule Unarmed Strike|xphb} attack bonus for its attack roll and deals Force damage equal to your Ki Damage plus your Strength modifier on a hit.",
-                "{@b Ki Shield.} As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
+				{
+							"name": "Ki Wave",
+							"entries": [
+								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide.",
+								"Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage."
+							]
+						},
+						{
+							"name": "Ki Blast",
+							"entries": [
+								"As an {@variantrule Bonus Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 60 feet of you.",
+								"Each blast uses your {@variantrule Unarmed Strike|xphb} attack bonus for its attack roll and deals Force damage equal to your Ki Damage plus your Strength modifier on a hit."
+							]
+						},
+						{
+							"name": "Ki Shield",
+							"entries": [
+								"As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
+							]
+						}
 					]
 				}
 			]
@@ -696,10 +713,22 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b Kamehameha.} As an {@variantrule Action|XPHB}, you can expend 5 Ki Points to concentrate your Ki into a single point. and unleash a powerful, streaming beam of energy. The wave travels up to 60 feet in a line that is 10 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 5. On a successful save, it takes half as much damage.",
-						"{@b Galick Gun.} As an {@variantrule Action|XPHB}, you can expend 5 Ki Points to fire a concentrated beam of purple Ki at one creature within 60 feet of you. Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 6. A critical hit occurs on a roll of 19 or 20."
+						{
+							"name": "Kamehameha",
+							"entries": [
+								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 5 Ki Points to concentrate your Ki into a single point. and unleash a powerful, streaming beam of energy. The wave travels up to 60 feet in a line that is 10 feet wide.",
+								"Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage."
+							]
+						},
+						{
+							"name": "Galick Gun",
+							"entries": [
+								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 5 Ki Points to fire a concentrated beam of purple Ki at one creature within 60 feet of you.",
+								"Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended +1. A critical hit occurs on a roll of 19 or 20."
 							]
 						}
+					]
+				}
 			]
 		},
 		{
@@ -740,17 +769,17 @@
 						{
 							"name": "Spirit Bomb",
 							"entries": [
-								"As an {@variantrule Action|XPHB}, you can expend 10 Ki Points to gather huge amounts of energy from all chosen surrounding life forms and inanimate objects to conduct that energy into a massive sphere of astounding destructive power before throwing it at a point you can see within 120 feet of yourself.",
-								"The Spirit Bomb detonates at that point in a 30-foot-radius sphere. Each creature in the sphere takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 10.",
+								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 10 Ki Points to gather huge amounts of energy from all chosen surrounding life forms and inanimate objects to conduct that energy into a massive sphere of astounding destructive power before throwing it at a point you can see within 120 feet of yourself.",
+								"The Spirit Bomb detonates at that point in a 30-foot-radius sphere. Each creature in the sphere takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended.",
 								"Creatures that can perceive you can willingly lend their power to your Spirit Bomb. For each creature that lends its power to you, the radius of the Spirit Bomb increases by 5 feet, and the damage increases by an amount equal to your Ki Damage plus your Strength modifier.",
 								"A creature that lends its power to you has Disadvantage on D20 Tests until the end of your next turn."
 							]
 						},
 						{
-							"name": "Big Bang Attack.",
+							"name": "Big Bang Attack",
 							"entries": [
-								"As an {@variantrule Action|XPHB}, you can expend 10 Ki Points to condense your Ki into a blue energy sphere before launching it at one creature you can see within 120 feet of yourself.",
-								"Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by 10. A critical hit occurs on a roll of 18, 19, or 20.",
+								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 10 Ki Points to condense your Ki into a blue energy sphere before launching it at one creature you can see within 120 feet of yourself.",
+								"Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended +2. A critical hit occurs on a roll of 18, 19, or 20.",
 								"When Big Bang Attack hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your attack roll it takes Big Bang Attack damage."
 							]
 						}
