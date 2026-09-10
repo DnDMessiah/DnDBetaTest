@@ -178,6 +178,7 @@
 			"classSource": "AnimeIsekai",
 			"subclassFeatures": [
 				"The Full Blood Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
+				"Pure Saiyan Blood|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
 				"Pseudo Super Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|1",
 				"Super Saiyan|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|3",
 				"Advanced Ki Art I|Saiyan|AnimeIsekai|Full Blood Saiyan|AnimeIsekai|3",
@@ -657,6 +658,22 @@
 			]
 		},
 		{
+			"name": "Pure Saiyan Blood",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassShortName": "Full Blood Saiyan",
+			"subclassSource": "AnimeIsekai",
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"{@i 1st-level Full Blood Saiyan feature}",
+				"Your pure Saiyan blood grants you exceptional physical potential. Your Hit Point maximum increases by 2 for each Saiyan level you have.",
+        		"In addition, your Ability Scores increase as your Saiyan body develops. At 4th, 8th, 12th, and 16th level, increase one Ability Score of your choice by 1."
+
+			]
+		},
+		{
 			"name": "Pseudo Super Saiyan",
 			"source": "AnimeIsekai",
 			"className": "Saiyan",
@@ -780,7 +797,7 @@
 							"entries": [
 								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 10 Ki Points to condense your Ki into a blue energy sphere before launching it at one creature you can see within 120 feet of yourself.",
 								"Make a ranged attack roll using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended +2. A critical hit occurs on a roll of 18, 19, or 20.",
-								"When Big Bang Attack hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your attack roll it takes Big Bang Attack damage."
+								"When Big Bang Attack hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your attack roll takes Big Bang Attack damage."
 							]
 						}
 					]
