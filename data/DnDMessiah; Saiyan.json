@@ -75,6 +75,7 @@
 			"multiclassing": {
 				"requirements": {
 					"str": 13,
+					"dex": 13,
 					"con": 13
 				},
 				"proficienciesGained": {
@@ -101,16 +102,16 @@
 					[16, "1d8"],
 					[18, "1d8"],
 					[20, "1d10"],
+					[21, "1d10"],
 					[22, "1d10"],
-					[24, "1d10"],
-					[26, "1d10"],
-					[28, "1d12"],
-					[30, "1d12"],
-					[32, "1d12"],
-					[34, "1d12"],
-					[36, "1d20"],
-					[38, "1d20"],
-					[40, "1d20"]
+					[23, "1d10"],
+					[24, "1d12"],
+					[25, "1d12"],
+					[26, "1d12"],
+					[27, "1d12"],
+					[28, "1d20"],
+					[29, "1d20"],
+					[30, "1d20"]
 				]
 			}
       ],
@@ -464,9 +465,9 @@
 			"entries": [
     			"Your Saiyan body has developed the ability to rapidly restore its Ki.",
 				"At the end of each of your turns, you regain 1 Ki Point.",
-				"At 10th level, you instead regain Ki Points equal to half your Proficiency Bonus.",
-				"At 15th level, you instead regain Ki Points equal to your Proficiency Bonus.",
-				"At 20th level, you instead regain Ki Points equal to twice your Proficiency Bonus."
+				"At 10th level, you instead regain 2 Ki Points.",
+				"At 15th level, you instead regain 3 Ki Points.",
+				"At 20th level, you instead regain 4 Ki Points ."
 			]
     	},
 		{
@@ -707,7 +708,7 @@
 			"entries": [
 				"{@i 3rd-level Full Blood Saiyan feature}",
 				"Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this power, causing their hair to turn golden and their aura to blaze with radiant energy.",
-				"You can expend 1 Ki Point to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+				"You can expend 2 Ki Point to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by one die.",
 				"• Your Speed increases by 10 feet.",
@@ -760,7 +761,7 @@
 			"entries": [
 				"{@i 6th-level Full Blood Saiyan feature}",
 				"You are a Saiyan who has pushed the power of the Super Saiyan beyond its limits, awakening a form of even greater ferocity and destructive power. Your golden aura erupts with crackling lightning, your golden hair rises sharply, and your power intensifies to a terrifying degree.",
-				"You can expend 2 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+				"You can expend 4 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by two die.",
 				"• Your Speed increases by 20 feet.",
@@ -814,7 +815,14 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"{@i 10th-level Full Blood Saiyan feature}"
+				"{@i 10th-level Full Blood Saiyan feature}",
+				"Super Saiyan 3 greatly increases a Saiyan's power and Ki utilization, causing their golden hair to grow enormously long and their eyebrows to vanish completely. The transformation consumes far more Ki than Super Saiyan 2, placing immense strain on the body and causing severe fatigue even after the transformation ends.",
+				"You can expend 8 Ki Point to transform into a Super Saiyan 3 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+				"• You have Advantage on attack rolls.",
+				"• Your Ki Damage increases by two die.",
+				"• Your Speed increases by 20 feet.",
+				"• You have Advantage on Strength and Constitution saving throws.",
+				"• You have Resistance to bludgeoning, piercing, and slashing damage."
 			]
 		},
 		{
