@@ -713,9 +713,9 @@
 				"{@i 3rd-level Full Blood Saiyan feature}",
 				"Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this power, causing their hair to turn golden and their aura to blaze with radiant energy.",
 				"To awaken Super Saiyan, you must meet all of the following requirements:",
-				"Your Strength and Constitution scores must each be 14 or higher.",
-				"You must have earned a total of at least 100 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-				"During a hostile encounter, at least one of your allies must be reduced to 0 hit points.",
+				"• Your Strength and Constitution scores must each be 14 or higher.",
+				"• You must have earned a total of at least 100 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+				"• During a hostile encounter, at least one of your allies must be reduced to 0 hit points.",
 				"After awaken Super Saiyan you can expend 2 Ki Point to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by one die.",
@@ -773,9 +773,9 @@
 				"{@i 6th-level Full Blood Saiyan feature}",
 				"You are a Saiyan who has pushed the power of the Super Saiyan beyond its limits, awakening a form of even greater ferocity and destructive power. Your golden aura erupts with crackling lightning, your golden hair rises sharply, and your power intensifies to a terrifying degree.",
 				"To awaken Super Saiyan 2, you must meet all of the following requirements:",
-				"You must have unlocked Super Saiyan.",
-				"Your Strength and Constitution scores must each be 16 or higher.",
-				"You must have earned a total of at least 250 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+				"• You must have unlocked Super Saiyan.",
+				"• Your Strength and Constitution scores must each be 16 or higher.",
+				"• You must have earned a total of at least 250 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
 				"During the same hostile encounter, you and at least two of your allies must become Bloodied or be reduced to 0 hit points.",
 				"You can expend 4 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
@@ -835,10 +835,10 @@
 				"{@i 10th-level Full Blood Saiyan feature}",
 				"Super Saiyan 3 greatly increases a Saiyan's power and Ki utilization, causing their golden hair to grow enormously long and their eyebrows to vanish completely. The transformation consumes far more Ki than Super Saiyan 2, placing immense strain on the body and causing severe fatigue even after the transformation ends.",
 				"To awaken Super Saiyan 3, you must meet all of the following requirements:",
-				"You must have unlocked Super Saiyan 2.",
-				"Your Strength and Constitution scores must each be 18 or higher.",
-				"You must have earned a total of at least 500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-				"you and at least two of your allies must be reduced to 0 hit points during the same hostile encounter. You must then regain at least 1 hit point and continue participating in that encounter.",
+				"• You must have unlocked Super Saiyan 2.",
+				"• Your Strength and Constitution scores must each be 18 or higher.",
+				"• You must have earned a total of at least 500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+				"• you and at least two of your allies must be reduced to 0 hit points during the same hostile encounter. You must then regain at least 1 hit point and continue participating in that encounter.",
 				"You can expend 8 Ki Point to transform into a Super Saiyan 3 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by three die.",
@@ -898,9 +898,9 @@
 				"{@i 14th-level Full Blood Saiyan feature}",
 				"Super Saiyan God is a legend among legends of the Saiyan warrior race. To awaken this legendary form, the power of good-hearted companions must be gathered and infused into a single Saiyan. Unlike other Super Saiyan transformations, this form causes only subtle changes to the Saiyan's appearance, the most notable being their hair turning a vivid shade of red.",
 				"To awaken Super Saiyan God, you must meet all of the following requirements:",
-				"You must have unlocked Super Saiyan 3.",
-				"Your Strength and Constitution scores must each be 20 or higher.",
-				"You must have earned a total of at least 1000 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+				"• You must have unlocked Super Saiyan 3.",
+				"• Your Strength and Constitution scores must each be 20 or higher.",
+				"• You must have earned a total of at least 1000 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
 				"{@b Super Saiyan God Ritual.} To awaken Super Saiyan God, every other member of your party must willingly channel their energy into you. At the end of the ritual, each creature that channeled its energy into you gains 1 level of Exhaustion, and you permanently unlock Super Saiyan God.",
 				"You can expend 6 Ki Point to transform into a Super Saiyan God without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
@@ -921,7 +921,7 @@
 			"header": 2,
 			"entries": [
 				"{@i 14th-level Full Blood Saiyan feature}",
-				"",
+				"Having awakened God Ki, you learn to refine your Ki into divine energy and wield it with extraordinary control and efficiency. God Ki Arts are advanced Ki techniques that can only be used while you have access to God Ki.",
 				{
 					"type": "list",
 					"items": [
@@ -956,9 +956,9 @@
 				"{@i 18th-level Full Blood Saiyan feature}",
 				"Super Saiyan Blue is the result of a Super Saiyan harnessing the power of Super Saiyan God and surpassing their limits. In this form, you become both immensely powerful and tranquil, maintaining perfect control and composure even in the midst of battle. This form is nearly identical to the first Super Saiyan form, the only main differences being that the hair and irises change to teal, though while the aura is active they both appear electric blue.",
 				"To awaken Super Saiyan Blue, you must meet all of the following requirements:",
-				"You must have unlocked Super Saiyan God.",
-				"Your Strength and Constitution scores must each be 22 or higher.",
-				"You must have earned a total of at least 2500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+				"• You must have unlocked Super Saiyan God.",
+				"• Your Strength and Constitution scores must each be 22 or higher.",
+				"• You must have earned a total of at least 2500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
 				"You can expend 8 Ki Point to transform into a Super Saiyan Blue without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by four die.",
@@ -1030,22 +1030,15 @@
 					"type": "list",
 					"items": [
 						{
-							"name": "Dragon Fist",
+							"name": "Divine Kamehameha",
 							"entries": [
-								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 15 Ki Points to draw back your clenched fist and charge toward your opponent, channeling an immense surge of Ki into your strike. As your fist connects, the Ki erupts into the form of a massive golden, shining dragon that surges through your enemy with overwhelming force.",
-								"Choose one creature you can see within a distance equal to your Speed. You move in a straight line toward the target without expending your movement, then make a melee attack roll against it using your {@variantrule Unarmed Strike|xphb} attack bonus. On a hit, the target takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended +3. A critical hit occurs on a roll of 17, 18, 19, or 20.",
-								"This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack."
+								""
 							]
 						},
 						{
-							"name": "Final Flash",
+							"name": "Hakai",
 							"entries": [
-								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 15 Ki Points to spread your arms and gather Ki between your palms, forming a sphere of golden energy crackling with electricity. You then thrust your hands forward, unleashing the gathered energy as a massive golden beam whose size and power increase with the amount of Ki channeled into it.",
-								"The golden energy travels up to 120 feet in a line that is 15 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to the sum of your Ki Damage and your Strength modifier, multiplied by the number of Ki Points expended. On a successful save, the creature takes half as much damage.",
-								"This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack.",
-								"{@b Charged Final Flash.} When you use Final Flash, you can choose to charge the attack instead of releasing it. If you do so, expend the Ki Points as normal, but you don't release the energy this turn.",
-								"On your next turn, you must use your {@variantrule Action|XPHB} to release the charged Final Flash. When released, the golden energy travels up to 300 feet in a line that is 25 feet wide, and the number of Ki Points you expended is treated as twice that amount when calculating the attack's damage.",
-								"While charging Final Flash, you must maintain Concentration as if concentrating on a spell. If you don't release the charged Final Flash on your next turn or lose Concentration before releasing it, the gathered energy dissipates and the Ki Points expended are lost."
+								" "
 							]
 						}
 					]
