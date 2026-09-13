@@ -26,7 +26,6 @@
 			},
 			"proficiency": [
 				"str",
-				"dex",
 				"con"
 			],
 			"startingProficiencies": {
@@ -75,7 +74,6 @@
 			"multiclassing": {
 				"requirements": {
 					"str": 13,
-					"dex": 13,
 					"con": 13
 				},
 				"proficienciesGained": {
@@ -227,8 +225,6 @@
 				"Ultimate|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|14",
 				"Ultimate Super Saiyan|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|18",
 				"Beast|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|20"
-
-				
 			]
 		}
 	],
@@ -244,7 +240,7 @@
 				{
 					"type": "entries",
 					"name": "Ability Score Increase",
-					"entries": ["Your  Strength, Dexterity, Constitution increase by 2. to a maximum of 24."]
+					"entries": ["Your Strength and Constitution scores each increase by 2, to a maximum of 24. Additionally, increase one other ability score of your choice by 1, to a maximum of 20."]
 				},
 				{
 					"type": "entries",
@@ -286,7 +282,7 @@
 					"name": "Saiyan Endurance",
 					"entries": [
 					"Saiyans possess enormous amounts of superhuman durability and are a remarkably resilient species who refuse to be physically broken.",
-					"While you aren't wearing armor or wielding a {@item shield|xphb}, your base {@variantrule Armor Class|xphb} equals 10 plus your Strength, Dexterity, and Constitution modifiers."
+					"While you aren't wearing armor or wielding a {@item shield|xphb}, your base {@variantrule Armor Class|xphb} equals 10 plus your Strength and Constitution modifiers."
 					]
 				},
 				{
@@ -330,7 +326,7 @@
 			"level": 1,
 			"entries": [
 			"Every 10 minute, you regain a number of Hit Points equal to your Proficiency Bonus if you have at least 1 Hit Point. While you are in combat, this power awakens, and you instead regain twice that amount at the start of each of your turns.",
-			"Whenever you regain Hit Points after taking damage from a hostile creature in combat, you gain 1 Saiyan Power Point. You can expend Saiyan Power Points to increase your Strength, Dexterity, or Constitution score. Increasing an ability score by 1 costs a number of Saiyan Power Points equal to 10 times the new score."
+			"Whenever you regain Hit Points after taking damage from a hostile creature in combat, you gain a number of Zenkai Points equal to the number of Hit Points regained. You can expend Zenkai Points to increase one of your ability scores by 1, at a cost equal to 10 times the new score."
 			]
     	},
 		{
@@ -394,26 +390,9 @@
           {
             "type": "list",
             "items": [
-				{
-							"name": "Ki Wave",
-							"entries": [
-								"As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide.",
-								"Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage."
-							]
-						},
-						{
-							"name": "Ki Blast",
-							"entries": [
-								"As an {@variantrule Bonus Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 60 feet of you.",
-								"Each blast uses your {@variantrule Unarmed Strike|xphb} attack bonus for its attack roll and deals Force damage equal to your Ki Damage on a hit."
-							]
-						},
-						{
-							"name": "Ki Shield",
-							"entries": [
-								"As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
-							]
-						}
+						"{@b Ki Wave. } As an {@variantrule Action|xphb}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended, multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.}",
+						"{@b Ki Blast. } As an {@variantrule Bonus Action|xphb}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire concentrated blasts of Ki. For each Ki Point expended, you fire one blast at a creature within 60 feet of you. Each blast uses your Unarmed Strike attack bonus for its attack roll and deals Force damage equal to your Ki Damage on a hit.",
+						"{@b Ki Shield. } As a {@variantrule Reaction|xphb} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."	
 					]
 				}
 			]
@@ -492,7 +471,8 @@
 			"level": 7,
 			"entries": [
 				"Your Saiyan instincts sharpen your awareness, allowing you to react to danger before combat begins.",
-				" You have Advantage on Initiative rolls and add your Proficiency Bonus to those rolls. In addition, you can't be Surprised while you are conscious."					]
+				" You have Advantage on Initiative rolls and add your Proficiency Bonus to those rolls. In addition, you can't be Surprised while you are conscious."
+					]
 		},
 				{
 			"name": "Saiyan Fortitude",
@@ -632,8 +612,8 @@
 			"classSource": "AnimeIsekai",
 			"level": 20,
 			"entries": [
-				"Your Strength, Dexterity, and Constitution scores each increase by 2.",
-				"The maximum for your Ability Scores is no longer limited."
+				"Each of your ability scores increases by 2.",
+				"Your ability scores no longer have a maximum."
 			]
 		},
 		{
@@ -696,7 +676,7 @@
 				"• Your Speed increases by 5 feet.",
 				"• You have Resistance to bludgeoning, piercing, and slashing damage.",
 				"Once the transformation ends, you cannot awaken this power again until you finish a Long Rest.",
-				"Starting at 3rd level, this feature is inactive."
+				"After you unlock Super Saiyan 1, this feature is inactive."
 			]
 		},
 		{
@@ -714,7 +694,7 @@
 				"To awaken Super Saiyan, you must meet all of the following requirements:",
 				"• Your Strength and Constitution scores must each be 14 or higher.",
 				"• You must have earned a total of at least 100 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-				"• During a hostile encounter, at least one of your allies must be reduced to 0 hit points.",
+				"• During a hostile encounter, a creature you consider an ally must die within your line of sight.",
 				"After awaken Super Saiyan you can expend 2 Ki Point to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by one die.",
@@ -738,6 +718,15 @@
 				{
 					"type": "list",
 					"items": [
+						{
+						"name": "Final Explosion",
+						"entries": [
+							"You release an enormous amount of Ki from your entire body at once, creating a devastating explosion centered on yourself.",
+							"When you are Bloodied and a hostile creature within 30 feet of you makes an attack or begins casting a spell, you can use your {@variantrule Reaction|XPHB} to expend all your remaining Ki Points and unleash them in a massive explosion centered on yourself. The explosion occurs before the triggering attack or spell is resolved.",
+							"You and each other creature within 30 feet of you must make a Constitution saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+							"If you succeed on your saving throw against Final Explosion, you are reduced to 1 Hit Point instead of taking damage from the explosion."
+						]
+						},
 						{
 							"name": "Kamehameha",
 							"entries": [
@@ -775,7 +764,7 @@
 				"• You must have unlocked Super Saiyan.",
 				"• Your Strength and Constitution scores must each be 16 or higher.",
 				"• You must have earned a total of at least 250 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-				"During the same hostile encounter, you and at least two of your allies must become Bloodied or be reduced to 0 hit points.",
+				"• During a hostile encounter, you and at least two of your allies must become Bloodied or be reduced to 0 hit points.",
 				"You can expend 4 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by two die.",
@@ -844,7 +833,7 @@
 				"• You must have unlocked Super Saiyan 2.",
 				"• Your Strength and Constitution scores must each be 18 or higher.",
 				"• You must have earned a total of at least 500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-				"• you and at least two of your allies must be reduced to 0 hit points during the same hostile encounter. You must then regain at least 1 hit point and continue participating in that encounter.",
+				"• During a hostile encounter, you and at least two of your allies must each be reduced to 0 hit points. You must then regain at least 1 hit point and continue participating in the encounter.",
 				"You can expend 8 Ki Point to transform into a Super Saiyan 3 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
 				"• You have Advantage on attack rolls.",
 				"• Your Ki Damage increases by three die.",
@@ -1003,15 +992,17 @@
 			"header": 2,
 			"entries": [
 				"{@i 18th-level Full Blood Saiyan feature}",
-				"",
+				"Having mastered the fundamentals of God Ki, you learn to wield divine energy with even greater precision, control, and efficiency. Advanced God Ki Arts are highly refined divine techniques that represent the next stage of your mastery over God Ki.",
 				{
 					"type": "list",
 					"items": [
 						{
 							"name": "Final God Explosion",
 							"entries": [
-								" ",
-								" "
+								"Your mastery of divine Ki elevates Final Explosion into the Final God Explosion, allowing you to unleash your remaining energy with overwhelming destructive force. The explosion's radius increases to 60 feet.",
+								"This attack ignores Resistance and Immunity to Force damage.",
+								"If the hostile creature that triggered Final God Explosion fails its saving throw against the explosion, the triggering attack or spell is interrupted and has no effect.",
+								"When another creature fails its saving throw against Final God Explosion and is reduced to 0 Hit Points by the explosion, its body is completely disintegrated, leaving nothing behind."
 							]
 						},
 						{
@@ -1045,7 +1036,48 @@
 			"header": 2,
 			"entries": [
 				"{@i 20th-level Full Blood Saiyan feature}",
-				"PLACEHOLDER."
+				"You have transcended the limits of mortal power and now stand at the crossroads of two divine paths. Choose the path you will walk: the instinctive mastery of the Angels, leading to Ultra Instinct, or the boundless destructive spirit of the Gods of Destruction, leading to Ultra Ego.",
+				"To awaken Ultra Instinct or Ultra Ego, you must meet all of the following requirements:",
+				"• Your Strength and Constitution scores must each be 30 or higher.",
+				"• You must have earned a total of at least 5000 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+				"{@b Choose the path.} When you first transform using either Ultra Instinct or Ultra Ego, that form becomes your chosen path. This choice is permanent, and you can no longer transform into any other form.",
+				{
+					"type": "list",
+					"items": [
+						{
+							"name": "Ultra Instinct",
+							"entries": [
+								"Ultra Instinct allows your body to act independently of conscious thought, instinctively evading and countering attacks with extraordinary precision. As the battle intensifies, your speed, power, efficiency, and Ki continue to grow, allowing your fighting ability to reach its full potential.",
+								"You can expend 10 Ki Points to transform into Ultra Instinct without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+								"• Your attacks always hit and are always critical hits.",
+								"• Your Ki Damage increases by five dice.",
+								"• Your Speed increases by 120 feet.",
+								"• You have Advantage on all saving throws.",
+								"• You have Resistance to all damage.",
+								"• Other creatures have Disadvantage on attack rolls against you.",
+								"• You can take up to three {@variantrule Reactions|XPHB} per round.",
+								"• When an attack roll would hit you, you can use your {@variantrule Reaction|XPHB} to dodge it, causing the attack to miss you instead.",
+								"• When you fail a saving throw, you can use your Reaction to succeed instead."
+							]
+						},
+						{
+							"name": "Ultra Ego",
+							"entries": [
+								"Ultra Ego transforms your Ki into the divine energy of a God of Destruction, allowing your power to grow instinctively without limit as your fighting spirit intensifies.",
+								"You can expend 10 Ki Point to transform into a Ultra Ego without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+								"• You have Advantage on attack rolls.",
+								"• Your Ki Damage increases by five die.",
+								"• Your Speed increases by 120 feet.",
+								"• You have Advantage all saving throws.",
+								"• You have Resistance to all damage.",
+								"• Whenever you take damage, reduce the damage taken by an amount equal to your Strength modifier + your Constitution modifier, to a minimum of 1 damage. and you regain 1 Ki Point",
+								"• Whenever you have taken damage 10 times while transformed, your Ki Damage increases by one die.",
+								"• When you are reduced to 0 Hit Points, you immediately make a death saving throw. On a success, you are reduced to 1 Hit Point instead.",
+								"• When you take damage from a creature within your reach, you can use your {@variantrule Reaction|XPHB} to reduce that damage by an amount equal to your Ki Damage. You can then immediately take one {@variantrule Action|XPHB} against that creature."
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -1059,20 +1091,29 @@
 			"header": 2,
 			"entries": [
 				"{@i 20th-level Full Blood Saiyan feature}",
-				"",
+				"Your God Ki has reached its absolute peak, allowing you to wield divine energy through techniques that transcend the limits of conventional Ki Arts.",
 				{
 					"type": "list",
 					"items": [
 						{
 							"name": "Divine Kamehameha",
 							"entries": [
-								""
+								"When a creature attacks you, whether the attack hits or misses, you can use your {@variantrule Reaction|XPHB} to expend any number of Ki Points to concentrate your Ki into a single point and unleash a Divine Kamehameha, a powerful Kamehameha wave with even greater energy output and force than a God Kamehameha. The wave travels up to 90 feet in a line that is 10 feet wide.",
+								"Each creature in the line must make a Dexterity saving throw (DC = 8 + your Proficiency Bonus + your Strength modifier). On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+								"{@b Charged Divine Kamehameha.} When you use Divine Kamehameha, you can choose to charge the attack instead of releasing it. If you do so, expend the Ki Points as normal, but you don't release the energy immediately.",
+								"At the end of the triggering creature's turn, you release the charged Divine Kamehameha without using an {@variantrule Action|XPHB}, {@variantrule Bonus Action|XPHB}, or {@variantrule Reaction|XPHB}. When released, the wave travels up to 180 feet in a line that is 15 feet wide, and the number of Ki Points you expended is treated as 7 higher when calculating the attack's damage.",
+								"This attack ignores Resistance and Immunity to Force damage."
 							]
 						},
 						{
 							"name": "Sphere of Destruction",
 							"entries": [
-								" "
+								"As an {@variantrule Action|XPHB}, you can expend any number of Ki Points to condense your Ki into a sphere of intense purple Destruction energy, radiating overwhelming pressure as destructive energy churns violently within it, before throwing it at a point you can see within 120 feet of yourself.",
+								"The Sphere of Destruction detonates at that point in a 60-foot-radius sphere. Each creature in the sphere takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended.",
+								"{@b Charged Sphere of Destruction.} When you use Sphere of Destruction, you can choose to charge the attack instead of releasing it. If you do so, expend the Ki Points as normal, but you don't release the energy this turn.",
+								"At the start of your next turn, you release the charged Sphere of Destruction by throwing it at a point you can see within 120 feet of yourself, without using an Action or Bonus Action. When released, an immense amount of Destruction energy detonates at the chosen point in a 90-foot-radius sphere, and the number of Ki Points you expended is treated as three times that amount when calculating the attack's damage.",
+								"This attack ignores Resistance and Immunity to Force damage.",
+								"A creature reduced to 0 Hit Points by Sphere of Destruction is completely disintegrated, leaving nothing behind."
 							]
 						}
 					]
