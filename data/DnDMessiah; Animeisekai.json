@@ -1580,8 +1580,8 @@
         "{@i 6th-level Hybrid Saiyan feature}",
         "Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this power, causing their hair to turn golden and their aura to blaze with radiant energy.",
         "To awaken Super Saiyan, you must meet all of the following requirements:",
-        "• Your Strength and Constitution scores must each be 14 or higher.",
-        "• You must have earned a total of at least 100 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+        "• Your Strength and Constitution scores must each be 16 or higher.",
+        "• You must have earned a total of at least 250 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
         "• During a hostile encounter, a creature you consider an ally must die within your line of sight.",
         "After awakening Super Saiyan, you can expend 2 Ki Points to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
         "• You have Advantage on attack rolls.",
@@ -1651,8 +1651,8 @@
         "You are a Saiyan who has pushed the power of the Super Saiyan beyond its limits, awakening a form of even greater ferocity and destructive power. Your golden aura erupts with crackling lightning, your golden hair rises sharply, and your power intensifies to a terrifying degree.",
         "To awaken Super Saiyan 2, you must meet all of the following requirements:",
         "• You must have unlocked Super Saiyan.",
-        "• Your Strength and Constitution scores must each be 16 or higher.",
-        "• You must have earned a total of at least 250 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+        "• Your Strength and Constitution scores must each be 18 or higher.",
+        "• You must have earned a total of at least 500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
         "• During a hostile encounter, you and at least two of your allies must become Bloodied or be reduced to 0 hit points.",
         "You can expend 4 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
         "• You have Advantage on attack rolls.",
@@ -1683,7 +1683,7 @@
                   "You concentrate Ki into your hand and form it into a dense sphere of energy that remains under your control after being released, allowing you to redirect it toward your target.",
                   "As an {@variantrule Action|XPHB}, you can expend up to 15 Ki Points to create a Spirit Ball and launch it at one creature you can see within 120 feet of yourself. Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended +1.",
                   "Your attack with Spirit Ball scores a Critical Hit on a roll of 18, 19 or 20.",
-                  "If the attack misses, the Spirit Ball remains under your control until the end of your next turn. As a {@variantrule Bonus Action|XPHB} on your next turn, you can redirect the Spirit Ball toward the same creature or another creature you can see within 120 feet of yourself and repeat the attack without expending additional Ki Points. After this attack hits, the Spirit Ball dissipates.",
+                  "If the attack misses, the Spirit Ball remains under your control until the end of your next turn. As a {@variantrule Bonus Action|XPHB} on your next turn, you can redirect the Spirit Ball toward the same creature or another creature you can see within 120 feet of yourself and repeat the attack without expending additional Ki Points. After this attack hits or misses, the Spirit Ball dissipates.",
                   "If you expend 6 Ki Points or fewer when using Spirit Ball, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
                   "This attack ignores Resistance to Force damage."
               ],
@@ -1725,7 +1725,18 @@
       "header": 1,
       "entries": [
         "{@i 14th-level Hybrid Saiyan feature}",
-        "Hybrid Subclass 14"
+        "You have awakened the full extent of your dormant potential, allowing you to naturally wield tremendous power without placing immense strain on your body.",
+        "To awaken Ultimate, you must meet all of the following requirements:",
+        "• You must have unlocked Super Saiyan 2.",
+        "• Your Strength and Constitution scores must each be 20 or higher.",
+        "• You must have earned a total of at least 1000 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+        "• During a hostile encounter, you and at least two of your allies must each be reduced to 0 hit points. You must then regain at least 1 hit point and continue participating in the encounter.",
+        "You can expend 8 Ki Point to transform into a Super Saiyan 3 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "• You have Advantage on attack rolls.",
+        "• Your Ki Damage increases by three die.",
+        "• Your Speed increases by 30 feet.",
+        "• You have Advantage on Strength and Constitution saving throws.",
+        "• You have Resistance to acid, bludgeoning, cold, lightning, necrotic, piercing, poison, radiant, slashing, and thunder damage."
       ]
     },
     {
