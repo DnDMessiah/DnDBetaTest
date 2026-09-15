@@ -127,8 +127,8 @@
         "Adaptation Ki Art III|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|10",
 				"Ultimate|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|14",
         "Ultimate Ki Art|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|14",
-				"Ultimate Super Saiyan|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|18",
-        "Super Ultimate Ki Art|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|18",
+				"Mastered Ultimate|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|18",
+        "Advanced Ultimate Ki Art|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|18",
 				"Beast|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|20",
         "Beast Ki Art|Saiyan|AnimeIsekai|Hybrid Saiyan|AnimeIsekai|20"
 			]
@@ -867,7 +867,7 @@
         "• Your Speed increases by 5 feet.",
         "• You have Resistance to bludgeoning, piercing, and slashing damage.",
         "Once the transformation ends, you cannot awaken this power again until you finish a Long Rest.",
-        "After you unlock Super Saiyan 1, this feature is inactive."
+        "After you unlock Super Saiyan, this feature is inactive."
       ]
     },
     {
@@ -891,7 +891,7 @@
         "• Your Ki Damage increases by one die.",
         "• Your Speed increases by 10 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to acid, bludgeoning, piercing, poison, and slashing damage."
+        "• You have Resistance to bludgeoning, piercing, slashing, and Force damage."
       ]
     },
     {
@@ -964,7 +964,7 @@
         "• Your Ki Damage increases by two die.",
         "• Your Speed increases by 20 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to acid, bludgeoning, cold, lightning, piercing, poison, slashing, and thunder damage."
+        "• You have Resistance to bludgeoning, cold, force, lightning, piercing, slashing, and thunder damage."
       ]
     },
     {
@@ -1036,7 +1036,7 @@
         "• Your Ki Damage increases by three die.",
         "• Your Speed increases by 30 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to acid, bludgeoning, cold, lightning, necrotic, piercing, poison, radiant, slashing, and thunder damage."
+        "• You have Resistance to acid, bludgeoning, cold, force, lightning, piercing, poison, slashing, and thunder damage."
       ]
     },
     {
@@ -1110,7 +1110,7 @@
         "• Your Ki Damage increases by three die.",
         "• Your Speed increases by 60 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to all damage."
+        "• You have Resistance to all damage except Psychic damage."
       ]
     },
     {
@@ -1181,7 +1181,7 @@
         "• Your Ki Damage increases by four die.",
         "• Your Speed increases by 90 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to all damage."
+        "• You have Resistance to all damage except Psychic damage."
       ]
     },
     {
@@ -1512,7 +1512,8 @@
       "entries": [
         "{@i 3rd-level Hybrid Saiyan feature}",
         "Your dormant power has been awakened, allowing you to draw upon the full potential of your base form. This permanently strengthens your natural abilities, further empowering any transformation that builds upon your base power.",
-        "You gain the following benefits:",
+        "{@b Unlock Potential Ritual.} To unlock your potential, you must undergo a 1-hour ritual performed by a creature with the Spellcasting feature that can cast spells as Rituals.",
+        "After completing the Unlock Potential Ritual, you gain the following benefits:",
         "• Your Ki Damage increases by one die.",
         "• Your Speed increases by 10 feet.",
         "• Your Ki Point maximum increases by an amount equal to your Proficiency Bonus."
@@ -1588,7 +1589,7 @@
         "• Your Ki Damage increases by one die.",
         "• Your Speed increases by 10 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to acid, bludgeoning, piercing, poison, and slashing damage."
+        "• You have Resistance to bludgeoning, piercing, slashing, and force damage."
       ]
     },
     {
@@ -1659,7 +1660,7 @@
         "• Your Ki Damage increases by two die.",
         "• Your Speed increases by 20 feet.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to acid, bludgeoning, cold, lightning, piercing, poison, slashing, and thunder damage."
+        "• You have Resistance to bludgeoning, cold, force, lightning, piercing, slashing, and thunder damage."
       ]
     },
     {
@@ -1730,17 +1731,18 @@
         "• You must have unlocked Super Saiyan 2.",
         "• Your Strength and Constitution scores must each be 20 or higher.",
         "• You must have earned a total of at least 1000 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-        "• During a hostile encounter, you and at least two of your allies must each be reduced to 0 hit points. You must then regain at least 1 hit point and continue participating in the encounter.",
-        "You can expend 8 Ki Point to transform into a Super Saiyan 3 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
-        "• You have Advantage on attack rolls.",
-        "• Your Ki Damage increases by three die.",
-        "• Your Speed increases by 30 feet.",
+        "{@b Ultimate Potential Ritual.} To fully unlock your potential, you must undergo a 24-hour ritual performed by a creature with the Spellcasting feature that can cast spells as Rituals.",
+        "After completing the Ultimate Potential Ritual, you gain the following benefits:",
+        "• You have Advantage on attack rolls. and your attacks score a Critical Hit on a roll of 19 or 20.",
+        "• The bonus to your Ki Damage from Unlock Potential increases from one die to two dice.",
+        "• The bonus to your Speed from Unlock Potential increases from 10 feet to 40 feet.",
+        "• The bonus to your Ki Point maximum from Unlock Potential increases from an amount equal to your Proficiency Bonus to twice your Proficiency Bonus.",
         "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to acid, bludgeoning, cold, lightning, necrotic, piercing, poison, radiant, slashing, and thunder damage."
+        "• You have Resistance to bludgeoning, cold, force, lightning, piercing, slashing, and thunder damage."
       ]
     },
     {
-      "name": "Ultimate Super Saiyan",
+      "name": "Mastered Ultimate",
       "source": "AnimeIsekai",
       "className": "Saiyan",
       "classSource": "AnimeIsekai",
@@ -1750,7 +1752,19 @@
       "header": 1,
       "entries": [
         "{@i 18th-level Hybrid Saiyan feature}",
-        "Hybrid Subclass 18"
+        "Through relentless training and battle, you have mastered your Ultimate power, allowing you to draw upon your full potential naturally and without relying on Super Saiyan transformations. Your power now flows with complete control and efficiency, bringing your Ultimate state to its absolute peak.",
+        "To unlock Mastered Ultimate, you must meet all of the following requirements:",
+        "• You must have unlocked Ultimate.",
+        "• Your Strength and Constitution scores must each be 24 or higher.",
+        "• You must have earned a total of at least 2500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+        "• You must win a hostile encounter against a creature whose Challenge Rating is equal to or greater than your Saiyan level without transforming into Super Saiyan or any of its advanced forms.",
+        "After mastering Ultimate, you gain the following benefits:",
+        "• You have Advantage on attack rolls, and your attacks score a Critical Hit on a roll of 18, 19, or 20.",
+        "• The bonus to your Ki Damage from Ultimate increases from two dice to three dice.",
+        "• The bonus to your Speed from Ultimate increases from 40 feet to 70 feet.",
+        "• You can take two Bonus Actions on each of your turns.",
+        "• You have Advantage on Strength and Constitution saving throws.",
+        "• You have Resistance to all damage except necrotic, Psychic, and radiant damage."
       ]
     },
     {
