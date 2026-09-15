@@ -1538,7 +1538,7 @@
       "level": 3,
       "header": 2,
       "entries": [
-        "{@i 3th-level Full Blood Saiyan feature}",
+        "{@i 3th-level Hybrid Saiyan feature}",
         "Your mixed heritage allows you to adapt your Ki into versatile techniques that seamlessly blend with your fighting style. These techniques favor speed, flexibility, and unexpected bursts of power over overwhelming force.",
         {
           "type": "list",
@@ -1612,7 +1612,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "{@i 6th-level Full Blood Saiyan feature}",
+        "{@i 6th-level Hybrid Saiyan feature}",
         "Your mixed heritage allows you to adapt your Ki into versatile techniques that seamlessly blend with your fighting style. These techniques favor speed, flexibility, and unexpected bursts of power over overwhelming force.",
         {
           "type": "list",
@@ -1684,7 +1684,7 @@
       "level": 10,
       "header": 2,
       "entries": [
-        "{@i 10th-level Full Blood Saiyan feature}",
+        "{@i 10th-level Hybrid Saiyan feature}",
         "Your mixed heritage allows you to adapt your Ki into versatile techniques that seamlessly blend with your fighting style. These techniques favor speed, flexibility, and unexpected bursts of power over overwhelming force.",
         {
           "type": "list",
@@ -1760,7 +1760,7 @@
       "level": 14,
       "header": 2,
       "entries": [
-        "{@i 14th-level Full Blood Saiyan feature}",
+        "{@i 14th-level Hybrid Saiyan feature}",
         "Your mixed heritage allows you to adapt your Ki into versatile techniques that seamlessly blend with your fighting style. These techniques favor speed, flexibility, and unexpected bursts of power over overwhelming force.",
         {
           "type": "list",
@@ -1834,7 +1834,7 @@
       "level": 18,
       "header": 2,
       "entries": [
-        "{@i 18th-level Full Blood Saiyan feature}",
+        "{@i 18th-level Hybrid Saiyan feature}",
         "Your mixed heritage allows you to adapt your Ki into versatile techniques that seamlessly blend with your fighting style. These techniques favor speed, flexibility, and unexpected bursts of power over overwhelming force.",
         {
           "type": "list",
@@ -1908,7 +1908,7 @@
       "level": 20,
       "header": 2,
       "entries": [
-        "{@i 20th-level Full Blood Saiyan feature}",
+        "{@i 20th-level Hybrid Saiyan feature}",
         "You can use these Beast Ki Art only while transformed into Beast.",
         {
           "type": "list",
