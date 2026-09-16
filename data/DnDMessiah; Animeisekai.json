@@ -110,6 +110,23 @@
       ]
     },
     {
+			"name": "Legendary Blood Saiyan",
+			"shortName": "Legendary Blood Saiyan",
+			"source": "AnimeIsekai",
+			"className": "Saiyan",
+			"classSource": "AnimeIsekai",
+			"subclassFeatures": [
+				"The Legendary Blood Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|1",
+				"Saiyan Mutant|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|1",
+				"Wrathful|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|3",
+				"Berserk|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|6",
+				"Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|10",
+				"Full Power Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|14",
+				"Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|18",
+				"True Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|20"
+			]
+		},
+    {
       "name": "Hybrid Saiyan",
       "shortName": "Hybrid Saiyan",
       "source": "AnimeIsekai",
@@ -936,7 +953,8 @@
               "name": "Galick Gun",
               "entries": [
                 "As an {@variantrule Action|XPHB},you can expend up to 5 Ki Points to fire a concentrated beam of purple Ki at one creature within 60 feet of you.",
-                "Make a ranged attack roll using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended +1. A critical hit occurs on a roll of 19 or 20."
+                "Make a ranged attack roll using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. A critical hit occurs on a roll of 19 or 20.",
+                "The number of Ki Points you expended is treated as 1 higher when calculating the attack's damage"
               ],
               "type": "item"
             }
@@ -1000,7 +1018,8 @@
               "name": "Big Bang Attack",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 7 Ki Points to condense your Ki into a blue energy sphere before launching it at one creature you can see within 120 feet of yourself.",
-                "Make a ranged attack roll using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended +2. A critical hit occurs on a roll of 18, 19, or 20.",
+                "Make a ranged attack roll using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. A critical hit occurs on a roll of 18, 19, or 20.",
+                "The number of Ki Points you expended is treated as 2 higher when calculating the attack's damage",
                 "When Big Bang Attack hits a creature, it explodes into a 30-foot-radius sphere centered on the target. Each creature within the sphere whose AC is less than or equal to your attack roll takes Big Bang Attack damage."
               ],
               "type": "item"
@@ -1062,7 +1081,8 @@
               "name": "Dragon Fist",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to draw back your clenched fist and charge toward your opponent, channeling an immense surge of Ki into your strike. As your fist connects, the Ki erupts into the form of a massive golden, shining dragon that surges through your enemy with overwhelming force.",
-                "Choose one creature you can see within a distance equal to your Speed. You move in a straight line toward the target without expending your movement, then make a melee attack roll against it using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended +3. A critical hit occurs on a roll of 17, 18, 19, or 20.",
+                "Choose one creature you can see within a distance equal to your Speed. You move in a straight line toward the target without expending your movement, then make a melee attack roll against it using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. A critical hit occurs on a roll of 17, 18, 19, or 20.",
+                "The number of Ki Points you expended is treated as 3 higher when calculating the attack's damage",
                 "This attack ignores Resistance to Force damage."
               ],
               "type": "item"
@@ -1354,11 +1374,11 @@
       "header": 1,
       "entries": [
         "{@i 1st-level Legendary Blood Saiyan feature}",
-        "The Legendary Blood Saiyan"
+        "The Legendary Saiyan is born with an extraordinary and seemingly limitless potential for growth. Unlike other Saiyans who rely on refined techniques or increasingly advanced transformations, your greatest weapon is overwhelming raw power. The longer and harder you fight, the more monstrous your strength becomes, allowing even your lesser transformations to overpower warriors using forms far beyond your own. Rather than dividing your strength across countless attacks, you concentrate that immense power into devastating blows capable of overwhelming your enemies through sheer force."
       ]
     },
     {
-      "name": "Legendary Subclass",
+      "name": "Saiyan Mutant",
       "source": "AnimeIsekai",
       "className": "Saiyan",
       "classSource": "AnimeIsekai",
@@ -1368,7 +1388,16 @@
       "header": 1,
       "entries": [
         "{@i 1st-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass"
+        {
+          "type": "list",
+          "items": [
+            "{@b Overwhelming Strike.} Whenever you make an attack, if you would be able to make more than one attack as part of the same {@variantrule Action|XPHB}, you can make only the first attack instead. The damage of that attack is multiplied by the total number of attacks you would have been able to make. In addition, the attack gains a bonus to its attack roll and damage roll equal to the total number of attacks you would have been able to make.",
+            "{@b Legendary Ki.} Add your Constitution modifier to each Ki Damage die.",
+            "{@b Regeneration.} While you are Bloodied, the number of Hit Points you regain from Zenkai is doubled.",
+            "{@b Super Tough.} The Hit Points you gain from your Constitution modifier when you gain a Saiyan level are doubled.",
+            "{@b Ki Block.} Whenever you take damage, reduce the damage taken by an amount equal to your Saiyan level."
+          ]
+        }
       ]
     },
     {
@@ -1382,11 +1411,53 @@
       "header": 1,
       "entries": [
         "{@i 3rd-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass 3"
+        "Your mutant Saiyan physiology allows you to draw upon the immense power of the Great Ape while remaining in your humanoid form. This state channels the Great Ape's tremendous physical strength, durability, and primal power without sacrificing the speed or maneuverability of your normal body. As this savage power erupts from within, your fighting instincts become increasingly ferocious, revealing the overwhelming raw power hidden within your legendary blood.",
+        "You gain the following benefits:",
+        "• Your Ki Damage increases by one die.",
+        "• Your Speed increases by 10 feet.",
+        "• Your Unarmed Strike deals one additional damage die.",
+        "• You have Advantage on Strength and Constitution checks and saving throws."
       ]
     },
     {
-      "name": "Super Saiyan",
+      "name": "Brutal Ki Art I",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Blood Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "{@i 3rd-level Legendary Blood Saiyan feature}",
+        "Your immense raw power has shaped the way you wield Ki. Rather than relying on refined control or complex techniques, your Ki Arts overwhelm your enemies through sheer force, turning even simple attacks into devastating displays of power.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Full Power Energy Wave",
+              "entries": [
+                "As an {@variantrule Action|XPHB}, you can expend up to 5 Ki Points to unleash a fully powered wave of Ki in a 60-foot-long, 10-foot-wide line.",
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            },
+            {
+              "name": "Gigantic Press",
+              "entries": [
+                "As an {@variantrule Action|XPHB}, you can expend 2 Ki Points to surround your body in Ki and rush in a straight line up to your Speed without provoking Opportunity Attacks. Once you begin this movement, you can't willingly stop until you reach the end of this movement or collide with an obstacle.",
+                "When you move within 5 feet of a creature during this movement, make an {@variantrule Unarmed Strike|XPHB} against it. On a hit, the attack deals additional Force damage equal to twice your Ki Damage, and the target is carried along with you for the remainder of this movement.",
+                "If you and the target collide with a wall or another obstacle during this movement, the movement immediately ends, and both you and the target take Force damage equal to your Ki Damage.",
+                "If you reach the end of this movement without colliding with an obstacle, the target is pushed 10 feet directly away from you. If the target collides with a wall, another obstacle, or another creature during this push, the target and the creature it collides with each take Force damage equal to your Ki Damage."
+              ],
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Berserk",
       "source": "AnimeIsekai",
       "className": "Saiyan",
       "classSource": "AnimeIsekai",
@@ -1396,22 +1467,47 @@
       "header": 1,
       "entries": [
         "{@i 6th-level Legendary Blood Saiyan feature}",
-        "Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this power, causing their hair to turn golden and their aura to blaze with radiant energy.",
-        "To awaken Super Saiyan, you must meet all of the following requirements:",
-        "• Your Strength and Constitution scores must each be 14 or higher.",
-        "• You must have earned a total of at least 100 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
-        "• During a hostile encounter, a creature you consider an ally must die within your line of sight.",
-        "After awakening Super Saiyan you can expend 2 Ki Points to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
-        "• While transformed, you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
-        "• You have Advantage on attack rolls.",
-        "• Your Ki Damage increases by one die.",
-        "• Your Speed increases by 10 feet.",
-        "• You have Advantage on Strength and Constitution saving throws.",
-        "• You have Resistance to bludgeoning, piercing, slashing and Force damage."
+        "Legendary Subclass 6"
+        
+      ]
+    }, 
+    {
+      "name": "Brutal Ki Art II",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Blood Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "{@i 6th-level Legendary Blood Saiyan feature}",
+        "Your immense raw power has shaped the way you wield Ki. Rather than relying on refined control or complex techniques, your Ki Arts overwhelm your enemies through sheer force, turning even simple attacks into devastating displays of power.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Gigantic Cannon",
+              "entries": [
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            },
+            {
+              "name": "Super Explosive Wave",
+              "entries": [
+                "You release a sudden burst of Ki from your entire body, creating a powerful shock wave that blasts away nearby enemies.",
+                "As a {@variantrule Reaction|XPHB} when a creature you can see within 10 feet of you hits you with an attack, you can expend up to 5 Ki Points to release an explosive wave of Ki. Each creature of your choice within 10 feet of you must make a Strength saving throw against your Ki save DC.",
+                "On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            }
+          ]
+        }
       ]
     },
     {
-      "name": "Legendary Super Saiyan",
+      "name": "Super Saiyan",
       "source": "AnimeIsekai",
       "className": "Saiyan",
       "classSource": "AnimeIsekai",
@@ -1425,7 +1521,40 @@
       ]
     },
     {
-      "name": "Legendary Super Saiyan 2",
+      "name": "Brutal Ki Art III",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Blood Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "header": 1,
+      "entries": [
+        "{@i 10th-level Legendary Blood Saiyan feature}",
+        "Your immense raw power has shaped the way you wield Ki. Rather than relying on refined control or complex techniques, your Ki Arts overwhelm your enemies through sheer force, turning even simple attacks into devastating displays of power.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Eraser Cannon",
+              "entries": [
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            },
+            {
+              "name": "Gigantic Impact",
+              "entries": [
+                "On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Full Power Super Saiyan",
       "source": "AnimeIsekai",
       "className": "Saiyan",
       "classSource": "AnimeIsekai",
@@ -1439,7 +1568,40 @@
       ]
     },
     {
-      "name": "Legendary Super Saiyan 3",
+      "name": "Brutal Ki Art IV",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Blood Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "header": 1,
+      "entries": [
+        "{@i 14th-level Legendary Blood Saiyan feature}",
+        "Your immense raw power has shaped the way you wield Ki. Rather than relying on refined control or complex techniques, your Ki Arts overwhelm your enemies through sheer force, turning even simple attacks into devastating displays of power.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Blaster Meteor",
+              "entries": [
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            },
+            {
+              "name": "Gigantic Hammer",
+              "entries": [
+                "On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Legendary Super Saiyan",
       "source": "AnimeIsekai",
       "className": "Saiyan",
       "classSource": "AnimeIsekai",
@@ -1450,6 +1612,39 @@
       "entries": [
         "{@i 18th-level Legendary Blood Saiyan feature}",
         "Legendary Subclass 18"
+      ]
+    },
+    {
+      "name": "Brutal Ki Art V",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Blood Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 18,
+      "header": 1,
+      "entries": [
+        "{@i 18th-level Legendary Blood Saiyan feature}",
+        "Your immense raw power has shaped the way you wield Ki. Rather than relying on refined control or complex techniques, your Ki Arts overwhelm your enemies through sheer force, turning even simple attacks into devastating displays of power.",
+        {
+          "type": "list",
+          "items": [
+            {
+              "name": "Gigantic Catastrophe",
+              "entries": [
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+              ],
+              "type": "item"
+            },
+            {
+              "name": "Omega Blaster",
+              "entries": [
+                "You release a sudden burst of Ki from your entire body, creating a powerful shock wave that blasts away nearby enemies."
+              ],
+              "type": "item"
+            }
+          ]
+        }
       ]
     },
     {
@@ -1559,7 +1754,8 @@
               "name": "Masendan",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 5 Ki Points to gather Ki into your hand and fire a concentrated sphere of energy at one creature you can see within 90 feet of yourself.",
-                "Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended + 1.",
+                "Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended.",
+                "The number of Ki Points you expended is treated as 1 higher when calculating the attack's damage",
                 "Your attack with Masendan scores a Critical Hit on a roll of 19 or 20.",
                 "If you expend 2 Ki Points or fewer when using Masendan, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}."
               ],
@@ -1624,7 +1820,8 @@
               "name": "Special Beam Cannon",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 7 Ki Points to concentrate Ki at your forehead before extending your fingers and unleashing a thin beam of energy wrapped in a spiraling second beam, drilling through anything in its path.",
-                "The beam travels up to 60 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended +1. On a successful save, it takes half as much damage.",
+                "The beam travels up to 60 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+                "The number of Ki Points you expended is treated as 1 higher when calculating the attack's damage",
                 "If you expend 3 Ki Points or fewer when using Special Beam Cannon, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
                 "This attack ignores Resistance to Force damage."
               ],
@@ -1696,7 +1893,8 @@
               "name": "Spirit Ball",
               "entries": [
                 "You concentrate Ki into your hand and form it into a dense sphere of energy that remains under your control after being released, allowing you to redirect it toward your target.",
-                "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to create a Spirit Ball and launch it at one creature you can see within 120 feet of yourself. Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended +2.",
+                "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to create a Spirit Ball and launch it at one creature you can see within 120 feet of yourself. Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended .",
+                "The number of Ki Points you expended is treated as 2 higher when calculating the attack's damage",
                 "Your attack with Spirit Ball scores a Critical Hit on a roll of 18, 19 or 20.",
                 "If the attack misses, the Spirit Ball remains under your control until the end of your next turn. As a {@variantrule Bonus Action|XPHB} on your next turn, you can redirect the Spirit Ball toward the same creature or another creature you can see within 120 feet of yourself and repeat the attack without expending additional Ki Points. After this attack hits or misses, the Spirit Ball dissipates.",
                 "If you expend 5 Ki Points or fewer when using Spirit Ball, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
@@ -1859,7 +2057,8 @@
               "name": "Thunder Bullet",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 15 Ki Points to charges a tiny energy sphere before firing at one creature you can see within 90 feet of yourself.",
-                "Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended + 4.",
+                "Make a Ki attack roll against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended.",
+                "The number of Ki Points you expended is treated as 4 higher when calculating the attack's damage",
                 "Your attack with Thunder Bullet scores a Critical Hit on a roll of 17, 18, 19, or 20.",
                 "If you expend 7 Ki Points or fewer when using Thunder Bullet, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
                 "This attack ignores Resistance and Immunity to Force damage."
@@ -1928,7 +2127,10 @@
             {
               "name": "Beast Special Beam Cannon",
               "entries": [
-                "Ultimate Masenko upgrade",
+                "As an {@variantrule Action|XPHB}, you can expend any Ki Points to concentrate an immense amount of Ki at your forehead before extending your fingers and unleashing a devastating beam of spiraling energy.",
+                "The beam travels up to 240 feet in a line that is 10 feet wide. Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+                "The number of Ki Points you expended is treated as 10 higher when calculating the attack's damage",
+                "If you expend 10 Ki Points or fewer when using Beast Special Beam Cannon, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
                 "This attack ignores Resistance to Force damage."
               ],
               "type": "item"
@@ -1936,7 +2138,9 @@
             {
               "name": "Purple Lightning Beast Kick",
               "entries": [
-                "Explosive Demon Impact upgrade",
+                "As a {@variantrule Bonus Action|XPHB}, you can expend 10 Ki Points to surge toward one creature you can see within a distance up to your Speed without provoking Opportunity Attacks. You must end this movement within 5 feet of the target.",
+                "You leap forward and deliver a sudden kick to the target. This {@variantrule Unarmed Strike|XPHB} automatically hits and is a Critical Hit.",
+                "When the kick hits, you can push the target up to 60 feet away from you.",
                 "This attack ignores Resistance to Force damage."
               ],
               "type": "item"
@@ -2273,7 +2477,8 @@
       "level": 1,
       "entries": [
         "Every 10 minute, you regain a number of Hit Points equal to your Proficiency Bonus if you have at least 1 Hit Point. While you are in combat, this power awakens, and you instead regain twice that amount at the start of each of your turns.",
-        "Whenever you regain Hit Points after taking damage from a hostile creature in combat, you gain a number of Zenkai Points equal to the number of Hit Points regained. You can expend Zenkai Points to increase one of your ability scores by 1, at a cost equal to 10 times the new score."
+        "Whenever you regain Hit Points after taking damage from a hostile creature in combat, you gain a number of Zenkai Points equal to the number of Hit Points regained. You can expend Zenkai Points to increase one of your ability scores by 1, at a cost equal to 10 times the new score.",
+        "In addition, you can spend Zenkai Points to permanently increase your Ki Damage by one die. The cost equals 1,000 Zenkai Points multiplied by the number of Ki Damage dice you currently have."
       ]
     },
     {
@@ -2341,9 +2546,9 @@
         {
           "type": "list",
           "items": [
-            "{@b Ki Wave. } As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.}",
-            "{@b Ki Blast. } As an {@variantrule Bonus Action|XPHB}, you can expend a number of Ki Points up to 1 + half your Proficiency Bonus, rounded down, to fire concentrated blasts of Ki. For each Ki Point expended, You fire one blast at a creature within 60 feet of you. Each blast deals Force damage equal to your Ki Damage on a hit.",
-            "{@b Ki Shield. } As a {@variantrule Reaction|XPHB} when you take damage, you can expend 1 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
+            "{@b Ki Wave. } As an {@variantrule Action|XPHB}, you can expend a number of Ki Points up to 1 +  your Proficiency Bonus, to fire waves of ki in a straight line. The waves travel up to 30 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, a creature takes no damage.}",
+            "{@b Ki Blast. } As an {@variantrule Bonus Action|XPHB}, you can expend a number of Ki Points up to 1 +  your Proficiency Bonus, to fire concentrated blasts of Ki. For each Ki Point expended, You fire one blast at a creature within 60 feet of you. Each blast deals Force damage equal to your Ki Damage on a hit.",
+            "{@b Ki Shield. } As a {@variantrule Reaction|XPHB} when you take damage, you can expend 2 Ki Point to surround yourself with a barrier of Ki. The damage you take is reduced by half, and you gain Temporary Hit Points equal to your Ki Damage."
           ]
         }
       ]
