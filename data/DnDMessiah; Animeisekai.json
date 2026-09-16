@@ -1415,7 +1415,7 @@
         "You gain the following benefits:",
         "• Your Ki Damage increases by one die.",
         "• Your Speed increases by 10 feet.",
-        "• Your Unarmed Strike deals one additional damage die.",
+        "• Your {@variantrule Unarmed Strike|XPHB} deals one additional damage die.",
         "• You have Advantage on Strength and Constitution checks and saving throws."
       ]
     },
@@ -1467,7 +1467,14 @@
       "header": 1,
       "entries": [
         "{@i 6th-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass 6"
+        "Your legendary blood begins to reveal its true nature. As battle continues, your Ki grows increasingly violent and seemingly inexhaustible, causing your power to rise continuously as your instincts take over.",
+        "While you are in combat, You gain the following benefits:",
+        "• Your Speed increases by 30 feet.",
+        "• you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
+        "• At the end of every round, your Strength and Constitution scores each increase by 1. These increases can raise your Strength and Constitution scores above their normal maximums.",
+        "• At the end of every 2 rounds, your {@variantrule Unarmed Strike|XPHB} Damage increases by one die. ",
+        "• At the end of every 3 rounds, your Ki Damage increases by one die.",
+        "All additional effect gained from this feature are lost when the combat ends."
         
       ]
     }, 
