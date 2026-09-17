@@ -1437,8 +1437,8 @@
             {
               "name": "Full Power Energy Wave",
               "entries": [
-                "As an {@variantrule Action|XPHB}, you can expend up to 5 Ki Points to unleash a fully powered wave of Ki in a 60-foot-long, 10-foot-wide line.",
-                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+                "As an {@variantrule Action|XPHB}, you can expend up to 5 Ki Points to unleash a fully powered wave of Ki in a 30-foot-long, 5-foot-wide line.",
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 5 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
               ],
               "type": "item"
             },
@@ -1470,7 +1470,7 @@
         "Your legendary blood begins to reveal its true nature. As battle continues, your Ki grows increasingly violent and seemingly inexhaustible, causing your power to rise continuously as your instincts take over.",
         "While you are in combat, You gain the following benefits:",
         "• Your Speed increases by 30 feet.",
-        "• you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
+        "• you are always under the effects of Power Full Strike without expending Ki Points.",
         "• At the end of every round, your Strength and Constitution scores each increase by 1. These increases can raise your Strength and Constitution scores above their normal maximums.",
         "• At the end of every 2 rounds, your {@variantrule Unarmed Strike|XPHB} Damage increases by one die. ",
         "• At the end of every 3 rounds, your Ki Damage increases by one die.",
@@ -1496,6 +1496,7 @@
             {
               "name": "Gigantic Cannon",
               "entries": [
+                "As an {@variantrule Action|XPHB}, you can expend up to 7 Ki Points to unleash a fully powered wave of Ki in a 60-foot-long, 10-foot-wide line.",
                 "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
               ],
               "type": "item"
@@ -1524,7 +1525,18 @@
       "header": 1,
       "entries": [
         "{@i 10th-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass 10"
+        "Ancient legends tell of a Saiyan warrior who could transcend the limits of their mortal body and awaken a power far beyond that of an ordinary Saiyan. When pushed beyond their limits by overwhelming adversity, a Saiyan may awaken this power, causing their hair to turn golden and their aura to blaze with radiant energy.",
+        "To awaken Super Saiyan, you must meet all of the following requirements:",
+        "• Your Strength and Constitution scores must each be 18 or higher.",
+        "• You must have earned a total of at least 500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
+        "• During a hostile encounter, a creature you consider an ally must die within your line of sight.",
+        "After awakening Super Saiyan you can expend 5 Ki Points to transform into a Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "• While transformed, you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
+        "• You have Advantage on attack rolls.",
+        "• Your Ki Damage increases by one die.",
+        "• Your Speed increases by 10 feet.",
+        "• You have Advantage on Strength and Constitution saving throws.",
+        "• You have Resistance to Bludgeoning, Piercing, Slashing, and Force damage."
       ]
     },
     {
@@ -1571,7 +1583,15 @@
       "header": 1,
       "entries": [
         "{@i 14th-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass 14"
+        "You have pushed your Super Saiyan transformation beyond its ordinary limits, allowing the immense power of your legendary blood to fully manifest. Your body swells with overwhelming strength as your Ki erupts with tremendous intensity.",
+        "You can expend 7 Ki Points to transform into a Full Power Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "• You are always under the effects of Flight and Power Full Strike without expending Ki Points.",
+        "• You have Advantage on attack rolls.",
+        "• Your Ki Damage increases by three dice.",
+        "• Your {@variantrule Unarmed Strike|XPHB} damage increases by three dice.",
+        "• Your Speed increases by 40 feet.",
+        "• You have Advantage on Strength and Constitution checks and saving throws.",
+        "• You have Resistance to all damage except Psychic damage."
       ]
     },
     {
@@ -1618,7 +1638,15 @@
       "header": 1,
       "entries": [
         "{@i 18th-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass 18"
+        "Your legendary blood has reached its true Super Saiyan state. Your body surges with monstrous power as your Ki becomes seemingly inexhaustible, overflowing faster than your body can contain it.",
+        "You can expend 10 Ki Points to transform into a Legendary Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "• You are always under the effects of Flight and Power Full Strike without expending Ki Points.",
+        "• You have Advantage on attack rolls.",
+        "• Your Ki Damage increases by four dice.",
+        "• Your {@variantrule Unarmed Strike|XPHB} damage increases by four dice.",
+        "• Your Speed increases by 60 feet.",
+        "• You have Advantage on Strength and Constitution checks and saving throws.",
+        "• You have Resistance to all damage."
       ]
     },
     {
@@ -1665,7 +1693,15 @@
       "header": 1,
       "entries": [
         "{@i 20th-level Legendary Blood Saiyan feature}",
-        "Legendary Subclass 20"
+        "You have transcended the limits of the Legendary Super Saiyan, becoming the ultimate embodiment of the ancient Saiyan legend. Your power continuously erupts from within, your body overflowing with seemingly limitless Ki as your strength rises without end.",
+        "You can expend 10 Ki Points to transform into a True Legendary Super Saiyan without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "• You are always under the effects of Flight and Power Full Strike without expending Ki Points.",
+        "• You have Advantage on attack rolls.",
+        "• Your Ki Damage increases by five dice.",
+        "• Your {@variantrule Unarmed Strike|XPHB} damage increases by five dice.",
+        "• Your Speed increases by 120 feet.",
+        "• You have Advantage on all saving throws.",
+        "• You have Resistance to all damage."
       ]
     },
     {
