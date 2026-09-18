@@ -119,11 +119,17 @@
 				"The Legendary Blood Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|1",
 				"Saiyan Mutant|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|1",
 				"Wrathful|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|3",
+        "Brutal Ki Art I|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|3",
 				"Berserk|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|6",
+        "Brutal Ki Art II|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|6",
 				"Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|10",
+        "Brutal Ki Art III|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|10",
 				"Full Power Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|14",
+        "Brutal Ki Art IV|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|14",
 				"Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|18",
-				"True Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|20"
+        "Brutal Ki Art V|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|18",
+				"True Legendary Super Saiyan|Saiyan|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|20",
+        "Limit Break Ki Arts|AnimeIsekai|Legendary Blood Saiyan|AnimeIsekai|20"
 			]
 		},
     {
@@ -1007,10 +1013,10 @@
               "name": "Spirit Bomb",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 7 Ki Points to gather huge amounts of energy from all chosen surrounding life forms and inanimate objects to conduct that energy into a massive sphere of astounding destructive power before throwing it at a point you can see within 120 feet of yourself.",
-                "The Spirit Bomb detonates at that point in a 30-foot-radius sphere. Each creature in the sphere takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended",
+                "The Spirit Bomb detonates at that point in a 30-foot-radius Sphere. Each creature in the Sphere that has an evil alignment takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended.",
                 "{@b Charged Spirit Bomb.} When you use Spirit Bomb, you can choose to charge the attack instead of releasing it. While you are charging the Spirit Bomb, a creature that can perceive you can use its {@variantrule Bonus Action|XPHB} to willingly lend its power to the Spirit Bomb.",
                 "On your next turn, you must use your {@variantrule Action|XPHB} to release the charged Spirit Bomb. When released, the Spirit Bomb detonates at the chosen point in a 30-foot-radius sphere. For each creature that lends its power to the Spirit Bomb, the sphere's radius increases by 5 feet, and the damage increases by an amount equal to your Ki Damage.",
-                "While charging Spirit Bomb, you must maintain Concentration as if concentrating on a spell. If you don't release the charged Final Flash on your next turn or lose Concentration before releasing it, the gathered energy dissipates and the Ki Points expended are lost."
+                "While charging Spirit Bomb, you must maintain Concentration as if concentrating on a spell. If you don't release the charged Spirit Bomb on your next turn or lose Concentration before releasing it, the gathered energy dissipates and the Ki Points expended are lost."
               ],
               "type": "item"
             },
@@ -1080,9 +1086,8 @@
             {
               "name": "Dragon Fist",
               "entries": [
-                "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to draw back your clenched fist and charge toward your opponent, channeling an immense surge of Ki into your strike. As your fist connects, the Ki erupts into the form of a massive golden, shining dragon that surges through your enemy with overwhelming force.",
-                "Choose one creature you can see within a distance equal to your Speed. You move in a straight line toward the target without expending your movement, then make a melee attack roll against it using your {@variantrule Unarmed Strike|XPHB} attack bonus. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. A critical hit occurs on a roll of 17, 18, 19, or 20.",
-                "The number of Ki Points you expended is treated as 3 higher when calculating the attack's damage",
+                "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to draw back your clenched fist and charge toward your opponent, channeling an immense surge of Ki into your strike. As your fist connects, the Ki erupts into the form of a massive, shining golden dragon that surges through your enemy with overwhelming force.",
+                "Choose one creature you can see within a distance up to your Speed. You move in a straight line toward the target without expending your movement, then make one {@variantrule Unarmed Strike|XPHB} against it. On a hit, the target takes additional Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. This attack scores a Critical Hit on a roll of 17, 18, 19, or 20.",                "The number of Ki Points you expended is treated as 3 higher when calculating the attack's damage",
                 "This attack ignores Resistance to Force damage."
               ],
               "type": "item"
@@ -1413,10 +1418,11 @@
         "{@i 3rd-level Legendary Blood Saiyan feature}",
         "Your mutant Saiyan physiology allows you to draw upon the immense power of the Great Ape while remaining in your humanoid form. This state channels the Great Ape's tremendous physical strength, durability, and primal power without sacrificing the speed or maneuverability of your normal body. As this savage power erupts from within, your fighting instincts become increasingly ferocious, revealing the overwhelming raw power hidden within your legendary blood.",
         "You gain the following benefits:",
-        "• Your Ki Damage increases by one die.",
-        "• Your Speed increases by 10 feet.",
+        "• Your {@variantrule Unarmed Strike|XPHB} deals 1d12 bludgeoning damage instead of the normal damage.",
         "• Your {@variantrule Unarmed Strike|XPHB} deals one additional damage die.",
-        "• You have Advantage on Strength and Constitution checks and saving throws."
+        "• Your Speed increases by 10 feet.",
+        "• You have Advantage on Strength and Constitution checks and saving throws.",
+        "• As a {@variantrule Bonus Action|XPHB}, you can make a Long Jump or High Jump, and you can jump up to three times the normal distance."
       ]
     },
     {
@@ -1446,9 +1452,9 @@
               "name": "Gigantic Press",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend 2 Ki Points to surround your body in Ki and rush in a straight line up to your Speed without provoking Opportunity Attacks. Once you begin this movement, you can't willingly stop until you reach the end of this movement or collide with an obstacle.",
-                "When you move within 5 feet of a creature during this movement, make an {@variantrule Unarmed Strike|XPHB} against it. On a hit, the attack deals additional Force damage equal to twice your Ki Damage, and the target is carried along with you for the remainder of this movement.",
-                "If you and the target collide with a wall or another obstacle during this movement, the movement immediately ends, and both you and the target take Force damage equal to your Ki Damage.",
-                "If you reach the end of this movement without colliding with an obstacle, the target is pushed 10 feet directly away from you. If the target collides with a wall, another obstacle, or another creature during this push, the target and the creature it collides with each take Force damage equal to your Ki Damage."
+                "Whenever you move within 5 feet of a creature during this movement, make an {@variantrule Unarmed Strike|XPHB} against it. Each {@variantrule Unarmed Strike|XPHB} made as part of this action gains the benefits of your Overwhelming Strike. On a hit, the target is carried along with you for the remainder of this movement.",
+                "If you and any targets carried by you collide with a wall or another obstacle during this movement, the movement immediately ends, and you and each carried target take Force damage equal to your Ki Damage.",
+                "If you reach the end of this movement without colliding with an obstacle, each target carried by you is pushed 10 feet directly away from you. If a target collides with a wall, another obstacle, or another creature during this push, the target and the creature it collides with each take Force damage equal to your Ki Damage."
               ],
               "type": "item"
             }
@@ -1467,7 +1473,7 @@
       "header": 1,
       "entries": [
         "{@i 6th-level Legendary Blood Saiyan feature}",
-        "Your legendary blood begins to reveal its true nature. As battle continues, your Ki grows increasingly violent and seemingly inexhaustible, causing your power to rise continuously as your instincts take over.",
+        "Your legendary blood begins to reveal its true nure. As battle continues, your Ki grows increasingly violent and seemingly inexhaustible, causing your power to rise continuously as your instincts take over.",
         "While you are in combat, You gain the following benefits:",
         "• Your Speed increases by 30 feet.",
         "• you are always under the effects of Power Full Strike without expending Ki Points.",
@@ -1497,7 +1503,8 @@
               "name": "Gigantic Cannon",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend up to 7 Ki Points to unleash a fully powered wave of Ki in a 60-foot-long, 10-foot-wide line.",
-                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed.",
+                "For the purpose of calculating this attack's damage, treat the number of Ki Points expended as 1 higher than the number actually expended."
               ],
               "type": "item"
             },
@@ -1557,14 +1564,20 @@
             {
               "name": "Eraser Cannon",
               "entries": [
-                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
-              ],
+                "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to charge light-green energy in your palm, forming it into an energy sphere before firing it at one creature within 120 feet of you.",
+                "Make a ranged attack against the target. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. This attack scores a Critical Hit on a roll of 17, 18, 19, or 20.",
+                "For the purpose of calculating this attack's damage, treat the number of Ki Points expended as 3 higher than the number actually expended.",
+                "This attack ignores Resistance to Force damage."
+                            ],
               "type": "item"
             },
             {
-              "name": "Gigantic Impact",
+              "name": "Limit Break Blaster",
               "entries": [
-                "On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you. On a successful save, it takes half as much damage and isn't pushed."
+                "As an {@variantrule Action|XPHB}, you can expend up to 10 Ki Points to unleash a fully powered wave of Ki in a 90-foot-long, 15-foot-wide line.",
+                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed.",
+                "For the purpose of calculating this attack's damage, treat the number of Ki Points expended as 2 higher than the number actually expended.",
+                "This attack ignores Resistance to Force damage."
               ],
               "type": "item"
             }
@@ -1612,14 +1625,21 @@
             {
               "name": "Blaster Meteor",
               "entries": [
-                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+                "You surround your body with a barrier of Ki before spreading your arms and unleashing a barrage of powerful energy blasts in every direction.",
+                "As a {@variantrule Reaction|XPHB} when a creature you can see within 20 feet of you hits you with an attack, you can expend up to 7 Ki Points to use Blaster Meteor. When you do so, you are under the effects of Ki Shield against the triggering attack without expending the Ki Points required by Ki Shield.",
+                "Each creature of your choice within 10 feet of you must make a Strength saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 20 feet away from you. On a successful save, it takes half as much damage and isn't pushed.",
+                "This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack."
               ],
               "type": "item"
             },
             {
               "name": "Gigantic Hammer",
               "entries": [
-                "On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you. On a successful save, it takes half as much damage and isn't pushed."
+                "As an {@variantrule Action|XPHB}, you can expend 5 Ki Point to surge toward one creature you can see within a distance up to your Speed without provoking Opportunity Attacks. You must end this movement within 5 feet of the target.",
+                "Make a Grapple against the target. and make one {@variantrule Unarmed Strike|XPHB} against it. This attack gains the benefits of Overwhelming Strike, If the target is Grappled by you, and on a hit, the attack is a Critical Hit.",
+                "You then release the Grapple and launch the target into the air before following it and making one additional {@variantrule Unarmed Strike|XPHB} against it. This attack also gains the benefits of Overwhelming Strike.",
+                "On a hit, the second attack pushes the target up to 30 feet away from you. If the target collides with a wall, another obstacle, or another creature during this movement, the target and the creature it collides with each take Force damage equal to your Ki Damage.",
+                "This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack."
               ],
               "type": "item"
             }
@@ -1667,14 +1687,23 @@
             {
               "name": "Gigantic Catastrophe",
               "entries": [
-                "Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended and is pushed 10 feet away from you for each Ki Point expended. On a successful save, it takes half as much damage and isn't pushed."
+                "As an {@variantrule Action|XPHB}, you can expend up to 15 Ki Points to unleash a massive beam of green Ki from your mouth, wildly sweeping it across the battlefield before focusing its full power directly ahead.",
+                "First, you sweep the beam through a 60-foot Cone. Each creature in the Cone must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+                "You then direct the beam forward in a 120-foot-long, 5-foot-wide Line. Each creature in the Line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+                "A creature can be affected by both the Cone and the Line.",
+                "This attack ignores Resistance and Immunity to Force damage."
+
               ],
               "type": "item"
             },
             {
               "name": "Omega Blaster",
               "entries": [
-                "You release a sudden burst of Ki from your entire body, creating a powerful shock wave that blasts away nearby enemies."
+                "As an {@variantrule Action|XPHB}, you can expend up to 15 Ki Points to launch a tiny lime-green energy sphere that rapidly expands into an enormous energy bomb of devastating power.",
+                "Make a ranged attack against one creature within 120 feet of you. On a hit, the target takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. This attack scores a Critical Hit on a roll of 17, 18, 19, or 20.",
+                "For the purpose of calculating this attack's damage, treat the number of Ki Points expended as 5 higher than the number actually expended.",
+                "When the Omega Blaster hits a creature, it explodes in a 60-foot-radius Sphere centered on the target. Each creature in the Sphere must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to the Omega Blaster's damage. On a successful save, it takes half as much damage.",
+                "This attack ignores Resistance and Immunity to Force damage."
               ],
               "type": "item"
             }
@@ -1702,6 +1731,20 @@
         "• Your Speed increases by 120 feet.",
         "• You have Advantage on all saving throws.",
         "• You have Resistance to all damage."
+      ]
+    },
+    {
+      "name": "Limit Break Ki Arts",
+      "source": "AnimeIsekai",
+      "className": "Saiyan",
+      "classSource": "AnimeIsekai",
+      "subclassShortName": "Legendary Blood Saiyan",
+      "subclassSource": "AnimeIsekai",
+      "level": 20,
+      "header": 1,
+      "entries": [
+        "{@i 20th-level Legendary Blood Saiyan feature}",
+        "Your overwhelming power shatters the limits of your Ki Arts. Whenever you use a Ki Art that allows you to expend up to a specified number of Ki Points, you can expend any number of Ki Points instead."
       ]
     },
     {
@@ -1860,13 +1903,11 @@
           "type": "list",
           "items": [
             {
-              "name": "Special Beam Cannon",
+              "name": "Full Power Masenko",
               "entries": [
-                "As an {@variantrule Action|XPHB}, you can expend up to 7 Ki Points to concentrate Ki at your forehead before extending your fingers and unleashing a thin beam of energy wrapped in a spiraling second beam, drilling through anything in its path.",
-                "The beam travels up to 60 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
-                "The number of Ki Points you expended is treated as 1 higher when calculating the attack's damage",
-                "If you expend 3 Ki Points or fewer when using Special Beam Cannon, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
-                "This attack ignores Resistance to Force damage."
+                "You gather an immense amount of Ki above your head, causing brilliant yellow energy to flare between your hands before bringing them forward and unleashing a vastly more powerful Masenko.",
+                "You can now expend up to 7 Ki Points when using Masenko, and its range increases to 60 feet, the number of Ki Points you expended is treated as 1 higher.",
+                "If you expend 3 Ki Points or fewer when using Masenko, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}."
               ],
               "type": "item"
             },
@@ -1959,8 +2000,8 @@
               "name": "Electric Kamehameha",
               "entries": [
                 "You channel an incredible amount of Ki through your body, causing your golden aura to flash violently as you gather the energy into a brilliant golden-yellow Kamehameha. When released, the flashing energy surges forward with tremendous destructive force, creating an enormous explosion in its wake. You can now expend up to 10 Ki Points when using Kamehameha, and its normal range increases to 50 feet.",
-                "This attack ignores Resistance to Force damage.",
-                "In addition, when you use Charged Kamehameha, its range increases to 100 feet, the number of Ki Points you expended is treated as 4 higher when calculating the attack's damage, instead of 3 higher."
+                "In addition, when you use Charged Kamehameha, its range increases to 100 feet, the number of Ki Points you expended is treated as 4 higher when calculating the attack's damage, instead of 3 higher.",
+                "This attack ignores Resistance to Force damage."
               ],
               "type": "item"
             }
@@ -2010,10 +2051,10 @@
           "type": "list",
           "items": [
             {
-              "name": "Full Power Masenko",
+              "name": "Hyper Masenko",
               "entries": [
-                "You gather an immense amount of Ki above your head, causing brilliant yellow energy to flare between your hands before bringing them forward and unleashing a vastly more powerful Masenko.",
-                "You can now expend up to 12 Ki Points when using Masenko, and its range increases to 60 feet, the number of Ki Points you expended is treated as 3 higher.",
+                "You gather an overwhelming amount of Ki above your head, causing brilliant yellow energy to erupt between your hands before bringing them forward and unleashing a raging, vastly more powerful Masenko.",
+                "You can now expend up to 12 Ki Points when using Masenko, and its range increases to 90 feet. For the purpose of calculating its damage, treat the number of Ki Points expended as 3 higher when calculating the attack's damage, instead of 1 higher.",
                 "If you expend 6 Ki Points or fewer when using Masenko, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
                 "This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack."
               ],
@@ -2035,9 +2076,9 @@
               "name": "Ultimate Kamehameha",
               "entries": [
                 "You gather an immense amount of Ki into your cupped hands, concentrating it into a brilliant blue mass of energy before thrusting your arms forward and unleashing an enormous Kamehameha. With sufficient mastery, you can gather this tremendous power while standing perfectly still, only drawing your hands back at the final moment before releasing the devastating energy wave. You can now expend up to 12 Ki Points when using Kamehameha, and its normal range increases to 60 feet.",
-                "This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack.",
                 "In addition, when you use Charged Kamehameha, its range increases to 120 feet, no longer requires Concentration and the number of Ki Points you expended is treated as 5 higher when calculating the attack's damage, instead of 4 higher.",
-                "You no longer need to use your {@variantrule Action|XPHB} on your next turn to release it. Instead, you can release the charged Kamehameha at the start of your next turn without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}."
+                "You no longer need to use your {@variantrule Action|XPHB} on your next turn to release it. Instead, you can release the charged Kamehameha at the start of your next turn without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}.",
+                "This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack."
               ],
               "type": "item"
             }
@@ -2090,7 +2131,7 @@
               "name": "Ultimate Masenko",
               "entries": [
                 "You gather an overwhelming amount of Ki above your head, compressing it into an intensely radiant mass of golden-yellow energy before thrusting your hands forward and unleashing the ultimate form of Masenko as a colossal beam of destructive power.",
-                "You can now expend up to 15 Ki Points when using Masenko, and its range increases to 90 feet, the number of Ki Points you expended is treated as 4 higher when calculating the attack's damage, instead of 3 higher.",
+                "You can now expend up to 15 Ki Points when using Masenko, and its range increases to 120 feet, the number of Ki Points you expended is treated as 4 higher when calculating the attack's damage, instead of 3 higher.",
                 "If you expend 7 Ki Points or fewer when using Masenko, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
                 "This attack ignores Resistance and Immunity to Force damage."
               ],
@@ -2168,13 +2209,13 @@
           "type": "list",
           "items": [
             {
-              "name": "Beast Special Beam Cannon",
+              "name": "Special Beam Cannon",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend any Ki Points to concentrate an immense amount of Ki at your forehead before extending your fingers and unleashing a devastating beam of spiraling energy.",
-                "The beam travels up to 240 feet in a line that is 10 feet wide. Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
+                "The beam travels up to 300 feet in a line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ki save DC. On a failed save, a creature takes Force damage equal to your Ki Damage multiplied by the number of Ki Points expended. On a successful save, it takes half as much damage.",
                 "The number of Ki Points you expended is treated as 10 higher when calculating the attack's damage",
                 "If you expend 10 Ki Points or fewer when using Beast Special Beam Cannon, you can use it as a {@variantrule Bonus Action|XPHB} instead of an {@variantrule Action|XPHB}.",
-                "This attack ignores Resistance to Force damage."
+                "This attack ignores Resistance and Immunity to Force damage."
               ],
               "type": "item"
             },
@@ -2182,9 +2223,9 @@
               "name": "Purple Lightning Beast Kick",
               "entries": [
                 "As a {@variantrule Bonus Action|XPHB}, you can expend 10 Ki Points to surge toward one creature you can see within a distance up to your Speed without provoking Opportunity Attacks. You must end this movement within 5 feet of the target.",
-                "You leap forward and deliver a sudden kick to the target. This {@variantrule Unarmed Strike|XPHB} automatically hits and is a Critical Hit.",
-                "When the kick hits, you can push the target up to 60 feet away from you.",
-                "This attack ignores Resistance to Force damage."
+                "You leap forward and deliver a sudden kick to the target. This {@variantrule Unarmed Strike|XPHB} automatically hits and is a Critical Hit, the target takes additional Force damage equal to your Ki Damage multiplied by the number of Ki Points expended.",
+                "When the kick hits, you can push the target up to 60 feet away from you. If the target collides with a wall, another obstacle, or another creature during this movement, the target and the creature it collides with each take Force damage equal to your Ki Damage.",
+                "This attack ignores Resistance and Immunity to Force damage."
               ],
               "type": "item"
             }
