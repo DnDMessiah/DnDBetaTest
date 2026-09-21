@@ -1,0 +1,137 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "BloodmoonReaper",
+        "abbreviation": "BMR",
+        "full": "Bloodmoon Reaper",
+        "authors": [
+          "DnDMessiah"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1789838948,
+    "dateLastModified": 1789838948
+  },
+
+  "subclass": [
+    {
+      "name": "Bloodmoon Reaper",
+      "shortName": "Bloodmoon Reaper",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "The Bloodmoon Reaper|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|3",
+        "Crimson Blade|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|3",
+        "Reaper’s Harvest|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|3",
+        "Bloodhunt|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|9",
+        "Crimson Intervention|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|13",
+        "Bloodmoon Ascension|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|17"
+      ]
+    }
+  ],
+
+  "subclassFeature": [
+    {
+      "name": "The Bloodmoon Reaper",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bloodmoon Reaper",
+      "subclassSource": "BloodmoonReaper",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        ""
+      ]
+    },
+    {
+      "name": "Crimson Blade",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bloodmoon Reaper",
+      "subclassSource": "BloodmoonReaper",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your blood takes the shape of a crimson weapon, ready to reclaim the life you sacrificed.",
+        "As a Bonus Action, you create a blood blade in an empty hand or coat one weapon you are holding that deals Slashing or Piercing damage with your blood. You lose Hit Points equal to your Rogue level, but this loss cannot reduce you below 1 Hit Point. This loss cannot be reduced or prevented and does not trigger Reaper’s Harvest.",
+        "A created blood blade is a magical Melee weapon that deals 1d6 Slashing damage and has the Finesse, Light, and Thrown (range 20/60) properties. A coated weapon retains its normal damage and properties.",
+        "As a Bonus Action, you can return the weapon to an empty hand if you can see it within 60 feet and it is not being held by another creature.",
+        "This effect lasts for 1 minute and ends early if you use this feature again. When it ends, a created blade dissolves, while a coated weapon returns to normal.",
+        "While Crimson Blade is active, you gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "You have proficiency with the weapon.",
+            "Attacks made with the weapon count as magical for overcoming Resistance and Immunity to nonmagical attacks.",
+            "Whenever you hit a creature with the weapon, the attack deals extra Necrotic damage equal to a number of d4s equal to your Proficiency Bonus."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reaper’s Harvest",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bloodmoon Reaper",
+      "subclassSource": "BloodmoonReaper",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Your crimson weapon steals vitality from the wounds it leaves, turning your enemies’ blood into borrowed life.",
+        "Once on each of your turns, when you damage a hostile creature with your Crimson Blade, you gain Blood Points equal to half the Hit Points it loses from that attack, rounded down. The creature cannot be a Construct, an Undead.",
+        "This amount includes all damage dealt as part of the attack but excludes damage exceeding the target’s remaining Hit Points.",
+        "As a Bonus Action, you can expend any number of Blood Points to restore an equal number of Hit Points to yourself or one willing creature you can see within 30 feet.",
+        "At the end of each of your turns, all remaining Blood Points are expended, and you regain an equal number of Hit Points. If this healing would exceed your Hit Point maximum, you gain Temporary Hit Points equal to the excess."
+      ]
+    },
+    {
+      "name": "Bloodhunt",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bloodmoon Reaper",
+      "subclassSource": "BloodmoonReaper",
+      "level": 9,
+      "header": 1,
+      "entries": [
+        "Bloodhunt."
+      ]
+    },
+
+    {
+      "name": "Crimson Intervention",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bloodmoon Reaper",
+      "subclassSource": "BloodmoonReaper",
+      "level": 13,
+      "header": 1,
+      "entries": [
+        "Crimson Intervention."
+      ]
+    },
+
+    {
+      "name": "Bloodmoon Ascension",
+      "source": "BloodmoonReaper",
+      "className": "Rogue",
+      "classSource": "PHB",
+      "subclassShortName": "Bloodmoon Reaper",
+      "subclassSource": "BloodmoonReaper",
+      "level": 17,
+      "header": 1,
+      "entries": [
+         "Level 17: A spectral blood moon rises above you as stolen vitality flows between your crimson blade and those you choose to preserve."
+      ]
+    }
+  ]
+}
