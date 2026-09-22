@@ -187,7 +187,7 @@
             "{@b Sovereign Transmutation.} Whenever you cast a spell that deals damage, you can change any or all of that spell's damage to your Dragon Heart damage type.",
             "{@b Arcane Supremacy.} You have Advantage on attack rolls of Sorcerer spells you cast, and the spell save DC of your Sorcerer spells increases by 3.",
             "{@b Perfected Sorcery.} Your Sorcerer spell attacks score a Critical Hit on a roll of 18, 19, or 20.",
-            "{@b Great Wyrm Magic.} Whenever you cast a Sorcerer spell that deals damage, you must empower it as though it were cast using a spell slot of the highest level you can cast. If you have a spell slot of that level available, you expend that spell slot. If you don't, you must expend a combination of spell slots and Sorcery Points whose combined levels equal the level of that spell slot. Each Sorcery Point expended in this way counts as one spell-slot level." 
+            "{@b Great Wyrm Magic.} Whenever you cast a Sorcerer spell that deals damage, you must empower it as though it were cast using a spell slot of the highest level you can cast. If you have a spell slot of that level available, you expend that spell slot. If you don't, you must expend a combination of spell slots and Sorcery Points whose combined levels equal the level of that spell slot. Each Sorcery Point expended in this way counts as one spell-slot level. For the purposes of this spell and your other features, the spell is considered to have been cast using a spell slot of that highest level, regardless of the combination of spell slots and Sorcery Points expended to cast it." 
           ]
         },
         "Once you use this feature, you can't use it again until you finish a Long Rest."
