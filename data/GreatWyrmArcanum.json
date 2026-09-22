@@ -1,0 +1,178 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "GreatWyrmArcanum",
+        "abbreviation": "GWA",
+        "full": "Great Wyrm Arcanum",
+        "authors": [
+          "DnDMessiah"
+        ],
+        "version": "1.0.0"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1787547532,
+    "dateLastModified": 1787547532
+  },
+
+  "subclass": [
+    {
+      "name": "Great Wyrm Arcanum",
+      "shortName": "Great Wyrm Arcanum",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "page": 0,
+      "subclassFeatures": [
+        "The Great Wyrm Arcanum|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|3",
+        "Dragon Heart|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|3",
+        "Draconic Mantle|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|3",
+        "Great Wyrm Arcanum Spells|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|3",
+        "Draconic Ascendance|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|6",
+        "Fate's Reflection|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|14",
+        "Fate Sovereign|Sorcerer|PHB|Great Wyrm Arcanum|GreatWyrmArcanum|18"
+      ]
+    }
+  ],
+
+  "subclassFeature": [
+    {
+      "name": "The Great Wyrm Arcanum",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Dragons are creatures of magic, their hearts burning with power older than mortal sorcery. Within you beats an echo of that ancient might, a draconic heart whose power surges through every spell you cast.",
+        "Sorcerers who wield the Great Wyrm Arcanum do not merely imitate dragons, nor do they seek to become them. They draw upon the raw arcane power of the dragon within, feeding their spells with its elemental fury and awakening secrets of magic known only to the mightiest wyrms.",
+        "As your mastery grows, the power within your heart grows with you, until every spell carries the weight of a dragon's wrath."
+      ]
+    },
+    {
+      "name": "Great Wyrm Arcanum Spells",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "Whenever your Sorcerer level allows you to learn a new Sorcerer spell, you can choose that spell from any spell list, provided the spell can deal damage of your Dragon Heart damage type.",
+        "A spell you learn through this feature counts as a Sorcerer spell for you."
+      ]
+    },
+    {
+      "name": "Draconic Mantle",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "The power of your Dragon Heart radiates outward as a dense mantle of draconic mana, enveloping your body without altering your physical form.",
+        "You have Resistance to your Dragon Heart damage type.",
+        "While you aren't wearing armor, your Draconic Mantle protects you from harm. Your base Armor Class equals 13 + your Charisma modifier.",
+        "You can concentrate the power of your Draconic Mantle around your hands, manifesting elemental claws. When you make an Unarmed Strike with these claws, you can use your Charisma modifier instead of Strength for the attack and damage rolls, and the strike deals 1d6 damage of your Dragon Heart damage type instead of its normal damage."
+      ]
+    },
+    {
+      "name": "Dragon Heart",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "The power of a mighty dragon dwells within your heart, suffusing your magic with its primordial essence. Choose one kind of dragon from the Dragon Heart table. Your choice determines your Dragon Heart damage type.",
+        {
+          "type": "table",
+          "caption": "Dragon Heart",
+          "colLabels": [
+            "Dragon",
+            "Damage Type"
+          ],
+          "colStyles": [
+            "col-6",
+            "col-6"
+          ],
+            "rows": [
+        ["Black Dragon", "Acid"],
+        ["Blue Dragon", "Lightning"],
+        ["Green Dragon", "Poison"],
+        ["Red Dragon", "Fire"],
+        ["White Dragon", "Cold"],
+        ["Brass Dragon", "Fire"],
+        ["Bronze Dragon", "Lightning"],
+        ["Copper Dragon", "Acid"],
+        ["Gold Dragon", "Fire"],
+        ["Silver Dragon", "Cold"],
+        ["Amethyst Dragon", "Force"],
+        ["Crystal Dragon", "Radiant"],
+        ["Emerald Dragon", "Psychic"],
+        ["Sapphire Dragon", "Thunder"],
+        ["Topaz Dragon", "Necrotic"]
+          ]
+        },
+        "When you cast a spell using a spell slot and that spell deals damage to one or more creatures, you can cause one creature damaged by the spell to take additional damage of your Dragon Heart damage type equal to your Charisma modifier multiplied by the level of the spell slot expended. You can deal this additional damage only once per casting of the spell."
+      ]
+    },
+    {
+      "name": "Draconic Ascendance",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 6,
+      "header": 1,
+      "entries": [
+        "The power of your Dragon Heart intensifies, allowing your draconic magic to overwhelm lesser defenses. Damage you deal of your Dragon Heart damage type ignores Resistance to that damage type.",
+        "In addition, as a Bonus Action, you can extend your Draconic Mantle into a pair of elemental dragon wings. While the wings are manifested, you have a Fly Speed equal to your Speed and can hover. The wings remain until you dismiss them (no action required), you have the Incapacitated condition, or you die."
+      ]
+    },
+    {
+      "name": "Fate's Reflection",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 14,
+      "header": 1,
+      "entries": [
+        "You can capture the threads of fate as they unfold.",
+        "When a creature you can see within 60 feet makes a D20 Test, you can use your Reaction to record the result for 10 minutes.",
+        "During that time, when you see a creature within 60 feet make a D20 Test, you may replace its result with the recorded D20 result. You must choose to replace the roll before knowing whether the original roll succeeds or fails.",
+        "Once the recorded result is used, it disappears. You can have a maximum of two recorded results at a time.",
+        "You can use this feature a number of times equal to your Proficiency Bonus per Long Rest."
+      ]
+    },
+
+    {
+      "name": "Fate Sovereign",
+      "source": "GreatWyrmArcanum",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Great Wyrm Arcanum",
+      "subclassSource": "GreatWyrmArcanum",
+      "level": 18,
+      "header": 1,
+      "entries": [
+        "You have become a sovereign of Fortune itself.",
+        "When you use Fortune Deck: Fate to draw a card, you may choose any card you have unlocked instead of rolling randomly. You can choose a card this way three times per Long Rest.",
+        "After all three uses have been expended, you may continue drawing cards normally using the uses granted by Fortune Deck: Fate or by spending 2 Sorcery Points to draw a card without expending a normal use.",
+        "When you use an ability from Arcana Cascade to draw an additional card, you may also choose the card yourself. Each card chosen this way counts toward the three uses of this feature per Long Rest."
+      ]
+    }
+  ]
+}
