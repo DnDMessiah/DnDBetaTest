@@ -44,8 +44,7 @@
       "level": 3,
       "header": 1,
       "entries": [
-        "You wield the blood spilled in battle as a weapon and a source of stolen vitality.",
-        "Your Bloodmoon save DC equals 8 plus your Proficiency Bonus and Dexterity modifier."
+        "Bloodmoon Reapers shape their own blood into blades, fighting with the speed and precision of hunters. Each wound they carve into a foe steals vitality they can use to heal themselves or share with their allies. When the blood moon rises, they take to the air and turn every strike into a sentence that drains their enemies’ life."
       ]
     },
     {
@@ -137,7 +136,7 @@
         "When you damage a creature with your Crimson Blade and deal Sneak Attack damage, it begins bleeding if it isn't already bleeding.",
         "At the end of each of its turns, a bleeding creature's Hit Point maximum is reduced by an amount equal to 10 percent of its current Hit Point maximum, rounded down (minimum reduction of 1 Hit Point). This reduction lasts until the creature finishes a Long Rest.",
         "This bleeding effect doesn't stack with itself. Applying it again to a creature that is already bleeding doesn't increase the Hit Point maximum reduction.",
-        "A bleeding creature can staunch the wound, ending the bleeding, by regaining any Hit Points or by using its action to succeed on a Wisdom (Medicine) check against your Bloodmoon save DC. Another creature within 5 feet of it can use its action to make this check instead.",
+        "A bleeding creature can staunch the wound, ending the bleeding, by regaining any Hit Points or by using its action to succeed on a Wisdom (Medicine) check DC equals 8 plus your Proficiency Bonus and Dexterity modifier. Another creature within 5 feet of it can use its action to make this check instead.",
         "After you use a Bonus Action to expend Blood Points to restore Hit Points to yourself or another creature, you gain the Invisible condition until the start of your next turn."
       ]
     }
