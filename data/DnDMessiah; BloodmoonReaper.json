@@ -16,7 +16,6 @@
     "dateAdded": 1789838948,
     "dateLastModified": 1789838948
   },
-
   "subclass": [
     {
       "name": "Bloodmoon Reaper",
@@ -34,7 +33,6 @@
       ]
     }
   ],
-
   "subclassFeature": [
     {
       "name": "The Bloodmoon Reaper",
@@ -46,7 +44,8 @@
       "level": 3,
       "header": 1,
       "entries": [
-        ""
+        "You wield the blood spilled in battle as a weapon and a source of stolen vitality.",
+        "Your Bloodmoon save DC equals 8 plus your Proficiency Bonus and Dexterity modifier."
       ]
     },
     {
@@ -86,7 +85,7 @@
       "header": 1,
       "entries": [
         "Your crimson weapon steals vitality from the wounds it leaves, turning your enemies’ blood into borrowed life.",
-        "Once on each of your turns, when you damage a hostile creature with your Crimson Blade, you gain Blood Points equal to half the Hit Points it loses from that attack, rounded down. The creature cannot be a Construct, an Undead.",
+        "When you damage a hostile creature with your Crimson Blade, you gain Blood Points equal to half the Hit Points it loses from that attack, rounded down. The creature cannot be a Construct or an Undead.",
         "This amount includes all damage dealt as part of the attack but excludes damage exceeding the target’s remaining Hit Points.",
         "As a Bonus Action, you can expend any number of Blood Points to restore an equal number of Hit Points to yourself or one willing creature you can see within 30 feet.",
         "At the end of each of your turns, all remaining Blood Points are expended, and you regain an equal number of Hit Points. If this healing would exceed your Hit Point maximum, you gain Temporary Hit Points equal to the excess."
@@ -103,10 +102,9 @@
       "header": 1,
       "entries": [
         "You move with the swiftness of blood flowing from a fresh wound.",
-        "When you use a Bonus Action to expend Blood Points through Reaper’s Harvest, you can also take the Dash, Disengage, Dodge or Hide action as part of that same Bonus Action."
+        "When you use a Bonus Action to expend Blood Points to restore Hit Points, you can also take the Dash, Disengage, Dodge, or Hide action as part of that same Bonus Action. You can take only one of these actions each time you use this feature."
       ]
     },
-
     {
       "name": "Veinsever",
       "source": "BloodmoonReaper",
@@ -117,11 +115,11 @@
       "level": 13,
       "header": 1,
       "entries": [
-        "Once on each of your turns, when you hit a creature with your Crimson Blade and deal Sneak Attack damage to it, the creature cannot regain Hit Points until the start of your next turn, and it begins bleeding.",
-        "At the end of each of its turns, a bleeding creature's Hit Point maximum is reduced by an amount equal to 10 percent of its Hit Point maximum, rounded down (minimum reduction of 1 Hit Point). This reduction lasts until the creature finishes a Long Rest.",
-        "A bleeding creature can staunch the wound, ending the effect, by regaining any Hit Points or by using its action to succeed on a Wisdom (Medicine) check against your feature save DC. Another creature within 5 feet of it can use its action to make this check instead."      ]
+        "When you hit a creature with your Crimson Blade and deal Sneak Attack damage to it, the creature cannot regain Hit Points until the start of your next turn.",
+        "When you use this feature, the extra Necrotic damage from Crimson Blade is replaced with a reduction to the target’s current Hit Points and Hit Point maximum, each equal to the Necrotic damage you would have dealt. This reduction cannot be reduced or prevented, and Resistance or Immunity to damage doesn’t apply to it.",
+        "The reduction to the target’s Hit Point maximum lasts until it finishes a Long Rest."
+      ]
     },
-
     {
       "name": "Bloodmoon Ascension",
       "source": "BloodmoonReaper",
@@ -132,11 +130,14 @@
       "level": 17,
       "header": 1,
       "entries": [
-         "A spectral blood moon rises above you, and your body becomes a vessel for the life you have stolen.",
+        "A spectral blood moon rises above you, and your body becomes a vessel for the life you have stolen.",
         "As a Bonus Action, you transform for 1 minute. You can use this feature once, and you regain the ability to do so when you finish a Long Rest. The transformation ends early if you have the Incapacitated condition.",
         "While transformed, when you damage an eligible creature with your Crimson Blade, you gain Blood Points equal to the Hit Points it loses from that damage, instead of half that amount.",
         "You gain a Fly Speed equal to your Speed, and you can hover.",
-        "While transformed, the extra Necrotic damage from your Crimson Blade is replaced with Blood Loss. The target's current Hit Points and Hit Point maximum are each reduced by an amount equal to this damage. This reduction cannot be reduced or prevented, and it ignores Resistance and Immunity to damage. The reduction to the target's Hit Point maximum lasts until it finishes a Long Rest.",
+        "When you damage a creature with your Crimson Blade and deal Sneak Attack damage, it begins bleeding if it isn't already bleeding.",
+        "At the end of each of its turns, a bleeding creature's Hit Point maximum is reduced by an amount equal to 10 percent of its current Hit Point maximum, rounded down (minimum reduction of 1 Hit Point). This reduction lasts until the creature finishes a Long Rest.",
+        "This bleeding effect doesn't stack with itself. Applying it again to a creature that is already bleeding doesn't increase the Hit Point maximum reduction.",
+        "A bleeding creature can staunch the wound, ending the bleeding, by regaining any Hit Points or by using its action to succeed on a Wisdom (Medicine) check against your Bloodmoon save DC. Another creature within 5 feet of it can use its action to make this check instead.",
         "After you use a Bonus Action to expend Blood Points to restore Hit Points to yourself or another creature, you gain the Invisible condition until the start of your next turn."
       ]
     }
