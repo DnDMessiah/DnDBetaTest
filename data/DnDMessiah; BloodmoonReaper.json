@@ -28,8 +28,8 @@
         "The Bloodmoon Reaper|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|3",
         "Crimson Blade|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|3",
         "Reaper’s Harvest|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|3",
-        "Bloodhunt|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|9",
-        "Crimson Intervention|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|13",
+        "Bloodstep|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|9",
+        "Veinsever|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|13",
         "Bloodmoon Ascension|Rogue|PHB|Bloodmoon Reaper|BloodmoonReaper|17"
       ]
     }
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "name": "Bloodhunt",
+      "name": "Bloodstep",
       "source": "BloodmoonReaper",
       "className": "Rogue",
       "classSource": "PHB",
@@ -102,12 +102,13 @@
       "level": 9,
       "header": 1,
       "entries": [
-        "Bloodhunt."
+        "You move with the swiftness of blood flowing from a fresh wound.",
+        "When you use a Bonus Action to expend Blood Points through Reaper’s Harvest, you can also take the Dash, Disengage, Dodge or Hide action as part of that same Bonus Action."
       ]
     },
 
     {
-      "name": "Crimson Intervention",
+      "name": "Veinsever",
       "source": "BloodmoonReaper",
       "className": "Rogue",
       "classSource": "PHB",
@@ -116,8 +117,9 @@
       "level": 13,
       "header": 1,
       "entries": [
-        "Crimson Intervention."
-      ]
+        "Once on each of your turns, when you hit a creature with your Crimson Blade and deal Sneak Attack damage to it, the creature cannot regain Hit Points until the start of your next turn, and it begins bleeding.",
+        "At the end of each of its turns, a bleeding creature's Hit Point maximum is reduced by an amount equal to 10 percent of its Hit Point maximum, rounded down (minimum reduction of 1 Hit Point). This reduction lasts until the creature finishes a Long Rest.",
+        "A bleeding creature can staunch the wound, ending the effect, by regaining any Hit Points or by using its action to succeed on a Wisdom (Medicine) check against your feature save DC. Another creature within 5 feet of it can use its action to make this check instead."      ]
     },
 
     {
@@ -130,7 +132,12 @@
       "level": 17,
       "header": 1,
       "entries": [
-         "Level 17: A spectral blood moon rises above you as stolen vitality flows between your crimson blade and those you choose to preserve."
+         "A spectral blood moon rises above you, and your body becomes a vessel for the life you have stolen.",
+        "As a Bonus Action, you transform for 1 minute. You can use this feature once, and you regain the ability to do so when you finish a Long Rest. The transformation ends early if you have the Incapacitated condition.",
+        "While transformed, when you damage an eligible creature with your Crimson Blade, you gain Blood Points equal to the Hit Points it loses from that damage, instead of half that amount.",
+        "You gain a Fly Speed equal to your Speed, and you can hover.",
+        "While transformed, the extra Necrotic damage from your Crimson Blade is replaced with Blood Loss. The target's current Hit Points and Hit Point maximum are each reduced by an amount equal to this damage. This reduction cannot be reduced or prevented, and it ignores Resistance and Immunity to damage. The reduction to the target's Hit Point maximum lasts until it finishes a Long Rest.",
+        "After you use a Bonus Action to expend Blood Points to restore Hit Points to yourself or another creature, you gain the Invisible condition until the start of your next turn."
       ]
     }
   ]
