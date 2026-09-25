@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
@@ -96,37 +95,35 @@
       "header": 1,
       "entries": [
         "{@i 3rd-level Great Wyrm Arcanum feature}",
-        "The power of a mighty dragon dwells within your heart, suffusing your magic with its primordial essence. Choose one kind of dragon from the Dragon Heart table. Your choice determines your Dragon Heart damage type.",
+        "Within your chest beats the heart of a legendary Great Wyrm that perished in an age long forgotten. Though its flesh and bones have long since returned to dust, the heart endured, preserving a fragment of the creature's primordial power, instinct, and ancient will. Choose one heart from the Dragon Heart table. Your choice determines your Dragon Heart damage type or damage types.",
         {
           "type": "table",
           "caption": "Dragon Heart",
           "colLabels": [
-            "Dragon",
+            "Name",
+            "Race",
             "Damage Type"
           ],
           "colStyles": [
-            "col-6",
-            "col-6"
+            "col-4",
+            "col-4",
+            "col-4"
           ],
-            "rows": [
-        ["Black Dragon", "Acid"],
-        ["Blue Dragon", "Lightning"],
-        ["Green Dragon", "Poison"],
-        ["Red Dragon", "Fire"],
-        ["White Dragon", "Cold"],
-        ["Brass Dragon", "Fire"],
-        ["Bronze Dragon", "Lightning"],
-        ["Copper Dragon", "Acid"],
-        ["Gold Dragon", "Fire"],
-        ["Silver Dragon", "Cold"],
-        ["Amethyst Dragon", "Force"],
-        ["Crystal Dragon", "Radiant"],
-        ["Emerald Dragon", "Psychic"],
-        ["Sapphire Dragon", "Thunder"],
-        ["Topaz Dragon", "Necrotic"]
+          "rows": [
+            ["Vitriovar", "Black Great Wyrm", "Acid"],
+            ["Fulgaris", "Blue Great Wyrm", "Lightning"],
+            ["Sylvaris", "Green Great Wyrm", "Poison"],
+            ["Ignivar", "Red Great Wyrm", "Fire"],
+            ["Glaceryn", "White Great Wyrm", "Cold"],
+            ["Aetherion", "Amethyst Great Wyrm", "Force"],
+            ["Lumine", "Crystal Great Wyrm", "Radiant"],
+            ["Mentharis", "Emerald Great Wyrm", "Psychic"],
+            ["Vaelorn", "Sapphire Great Wyrm", "Thunder"],
+            ["Umbralis", "Topaz Great Wyrm", "Necrotic"],
+            ["Terragorn", "Winged Tarrasque", "Bludgeoning / Piercing / Slashing"]
           ]
         },
-        "When you cast a spell using a spell slot and that spell deals damage to one or more creatures, The spell deal additional damage of your Dragon Heart damage type equal to your Charisma modifier multiplied by the level of the spell slot expended. You can deal this additional damage only once per casting of the spell."
+        "When you cast a spell using a spell slot and that spell deals damage to one or more creatures, the spell deals additional damage equal to your Charisma modifier multiplied by the level of the spell slot expended. This additional damage is of your Dragon Heart damage type. If your Dragon Heart has more than one damage type, you choose one of those damage types each time you deal this additional damage. You can deal this additional damage only once per casting of the spell."
       ]
     },
     {
@@ -193,5 +190,830 @@
         "Once you use this feature, you can't use it again until you finish a Long Rest."
       ]
     }
-  ]
+  ],
+  	"spell": [
+		{
+			"name": "Draconic Arcanum : Ignivar Claw",
+			"source": "GreatWyrmArcanum",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You manifest the burning claw of Ignivar and slash at a creature within range. Make a melee spell attack against the target. On a hit, the target takes {@damage 1d12} Fire damage.",
+				"The number of attacks you make with this spell increases as you gain levels: two attacks at level 5, three attacks at level 11, and four attacks at level 17. You can direct the attacks at the same target or at different ones. Make a separate attack roll for each attack."
+			]
+		},
+    {
+			"name": "Draconic Arcanum : Ignivar Scale",
+			"source": "GreatWyrmArcanum",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you or a creature you can see within 90 feet of you is hit by an attack or would take damage"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You manifest the scales of Ignivar across the triggering creature. Until the start of your next turn, the target gains a bonus to its AC equal to your Charisma modifier and has Resistance to Fire damage. The AC bonus applies against the triggering attack, potentially causing it to miss.",
+				{
+					"type": "entries",
+					"name": "Using a Higher-Level Spell Slot",
+					"entries": [
+						"For each spell slot level above 1, the AC bonus granted by this spell increases by 1, and you can choose one additional creature you can see within range. Each additional target gains the spell's benefits until the start of your next turn."
+					]
+				}
+			]
+		},
+    {
+      "name": "Draconic Arcanum : Ignivar Fang",
+      "source": "GreatWyrmArcanum",
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You manifest the burning fangs of Ignivar and bite at one creature within range. Make a melee spell attack against the target. On a hit, the target takes {@damage 4d8} Fire damage and is seared by lingering draconic flame.",
+        "At the start of the target's next turn, it takes {@damage 2d8} Fire damage, and the spell ends.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 2, the initial damage increases by {@damage 1d8}, and the lingering Fire damage increases by {@damage 1d8}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Tail",
+      "source": "GreatWyrmArcanum",
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the blazing tail of Ignivar and sweep it through a 30-foot Cone. Each creature in the area must make a Strength saving throw. On a failed save, a creature takes {@damage 6d8} Fire damage, is pushed up to 20 feet away from you, and has the Prone condition. On a successful save, it takes half as much damage only.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 3, the damage increases by {@damage 1d8}, the Cone increases by 5 feet, and the distance a creature can be pushed increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Wing",
+      "source": "GreatWyrmArcanum",
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the blazing wings of Ignivar and surge forward. You fly in a straight line up to a distance equal to your Speed. This movement doesn't provoke Opportunity Attacks.",
+        "As you move, your wings sweep through a 5-foot-wide path centered on your movement. Each creature in that path must make a Dexterity saving throw. On a failed save, a creature takes {@damage 10d6} Fire damage. On a successful save, it takes half as much damage. A creature can take this damage only once from each casting of this spell.",
+        "You must end this movement in an unoccupied space that can support you unless you have a Fly Speed.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+				    "For each spell slot level above 4, the damage increases by {@damage 1d6}, and the width of the path created by your wings increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Horn",
+      "source": "GreatWyrmArcanum",
+      "level": 5,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the blazing horn of Ignivar and launch yourself at one creature you can see within range. You move in a straight line to an unoccupied space within 5 feet of the target without provoking Opportunity Attacks, then make a melee spell attack against it.",
+        "On a hit, the target takes {@damage 12d10} Fire damage.",
+        "The attack scores a Critical Hit on a roll of 18-20.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 5, the damage increases by {@damage 2d10}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Roar",
+      "source": "GreatWyrmArcanum",
+      "level": 6,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You unleash the terrible roar of Ignivar, filling a 60-foot radius centered on yourself with draconic fury.",
+        "Each hostile creature of your choice in the area that can hear you must make a Wisdom saving throw. On a failed save, the creature has the Frightened condition for the duration. At the end of each of its turns, the creature repeats the saving throw, ending the effect on itself on a success. If the creature took Fire damage since its last saving throw against this spell, it has Disadvantage on that saving throw.",
+        "Each allied creature of your choice in the area that can hear you is filled with Ignivar's battle fervor for the duration. An affected ally is immune to the Frightened condition. In addition, when it deals damage to a hostile creature, it deals an extra {@damage 2d8} Fire damage to that creature.",
+        "When an affected ally reduces a hostile creature to 0 Hit Points, it can immediately move up to half its Speed without provoking Opportunity Attacks.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 6, the extra Fire damage granted to allies increases by {@damage 1d8}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Breath",
+      "source": "GreatWyrmArcanum",
+      "level": 7,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the apocalyptic breath of Ignivar and unleash it in two successive stages.",
+        {
+          "type": "entries",
+          "name": "Incinerating Sweep",
+          "entries": [
+            "You sweep a torrent of dragonfire across a 60-foot Cone. Each creature in the area must make a Dexterity saving throw, taking {@damage 10d6} Fire damage on a failed save, or half as much damage on a successful one.",
+            "The ground and unattended flammable objects throughout the Cone ignite. The area burns until the start of your next turn. A creature that enters the burning area for the first time on a turn or starts its turn there takes {@damage 4d6} Fire damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Condensed Breath",
+          "entries": [
+            "Immediately after the Incinerating Sweep, you compress Ignivar's flames into a devastating beam and fire it in a 120-foot-long, 10-foot-wide Line originating from you.",
+            "Each creature in the Line must make a Dexterity saving throw, taking {@damage 12d12} Fire damage on a failed save, or half as much damage on a successful one.",
+            "Fire Resistance doesn't reduce the damage dealt by the Condensed Breath. A creature with Immunity to Fire damage instead has Resistance to this damage.",
+            "When the beam reaches the end of the Line, or strikes a solid surface that completely blocks its path, it detonates. Each creature in a 20-foot-radius Sphere centered on that point must make a Dexterity saving throw, taking {@damage 6d12} Fire damage on a failed save, or half as much damage on a successful one. A creature can't take damage from both the Line and this explosion from the same casting."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 7, the Incinerating Sweep damage increases by {@damage 2d6}, the Condensed Breath damage increases by {@damage 2d12}, the Line increases in length by 20 feet, and the explosion radius increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Sunfall",
+      "source": "GreatWyrmArcanum",
+      "level": 8,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 300
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You manifest a colossal spectral avatar of Ignivar high above a point you can see within range. The avatar draws blazing magical power into its body, compressing the flames until its form burns white-hot like a miniature sun. It then folds its wings and plunges toward the chosen point.",
+        "When the avatar strikes, it detonates in a catastrophic solar eruption. Each creature in a 100-foot-radius Sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@damage 20d10} Fire damage. On a successful save, it takes half as much damage.",
+        "Resistance to Fire damage doesn't reduce damage dealt by this spell. A creature with Immunity to Fire damage instead has Resistance to damage dealt by this spell.",
+        "A creature reduced to 0 Hit Points by this spell is utterly incinerated. Its body and nonmagical possessions it is wearing or carrying are reduced to ash, while magic items are left unharmed.",
+        "The creature can be restored to life only by magic that doesn't require its corpse or remains.",
+        "The impact area remains flooded with white-hot draconic flame for up to 1 minute. A creature that enters the area for the first time on a turn or starts its turn there takes {@damage 4d10} Fire damage.",
+        "Unattended flammable objects in the area ignite, and the avatar disappears immediately after the impact.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "When you cast this spell using a level 9 spell slot, the initial damage increases by {@damage 2d10}, and the damage dealt by the lingering draconic flame increases by {@damage 1d10}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Ignivar Cataclysm",
+      "source": "GreatWyrmArcanum",
+      "level": 9,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You call forth a colossal avatar of Ignivar in an unoccupied space you can see within range. The avatar is a manifestation of the Great Wyrm's power rather than a creature, and it can't be targeted, damaged, or otherwise affected.",
+        "When the avatar appears, choose three different Draconic Arcanum: Ignivar spells of level 8 or lower that you know and that have a casting time of 1 Action. The avatar immediately uses those three spells in an order of your choice before disappearing.",
+        "Each chosen spell is resolved as though it were cast using a level 9 spell slot, without expending additional spell slots or requiring additional actions or components. A cantrip chosen in this way uses your level as normal.",
+        "Damage dealt by a spell used through this spell ignores Resistance and Immunity to that damage type. A creature that would normally be immune to the damage takes the damage normally.",
+        "The avatar is treated as the origin of each chosen spell for the purpose of determining its range, area, movement, and direction. The spells use your spell attack modifier and spell save DC. You choose the targets, areas, and directions of each spell separately.",
+        "You can't choose the same spell more than once as part of this casting."
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Claw",
+      "source": "GreatWyrmArcanum",
+      "level": 0,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the frost-covered claw of Glaceryn and slash at a creature within range. Make a melee spell attack against the target. On a hit, the target takes {@damage 1d12} Cold damage.",
+        "The number of attacks you make with this spell increases as you gain levels: two attacks at level 5, three attacks at level 11, and four attacks at level 17. You can direct the attacks at the same target or at different ones. Make a separate attack roll for each attack."
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Scale",
+      "source": "GreatWyrmArcanum",
+      "level": 1,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "which you take when you or a creature you can see within 30 feet of you is hit by an attack or would take damage"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You manifest the frozen scales of Glaceryn across the triggering creature. Until the start of your next turn, the target gains a bonus to its AC equal to your Charisma modifier and has Resistance to Cold damage. The AC bonus applies against the triggering attack, potentially causing it to miss.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 1, the AC bonus granted by this spell increases by 1, and you can choose one additional creature you can see within range. Each additional target gains the spell's benefits until the start of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Fang",
+      "source": "GreatWyrmArcanum",
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 5
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the freezing fangs of Glaceryn and bite at one creature within range. Make a melee spell attack against the target. On a hit, the target takes {@damage 5d8} Cold damage, and its Speed is reduced by 10 feet until the start of your next turn.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 2, the damage increases by {@damage 1d8}, and the reduction to the target's Speed increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Tail",
+      "source": "GreatWyrmArcanum",
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "round",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You manifest the frozen tail of Glaceryn and sweep it through a 30-foot Cone. Each creature in the area must make a Strength saving throw. On a failed save, a creature takes {@damage 5d8} Cold damage, is pushed up to 20 feet away from you, and has the Prone condition. On a successful save, it takes half as much damage only.",
+        "The ground throughout the Cone freezes until the start of your next turn and is Difficult Terrain.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 3, the damage increases by {@damage 1d8}, the Cone increases by 5 feet, and the distance a creature can be pushed increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Wing",
+      "source": "GreatWyrmArcanum",
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the enormous frozen wings of Glaceryn and surge forward. You fly in a straight line up to a distance equal to your Speed. This movement doesn't provoke Opportunity Attacks.",
+        "As you move, your wings sweep through a 5-foot-wide path centered on your movement. Each creature in that path must make a Dexterity saving throw. On a failed save, a creature takes {@damage 9d6} Cold damage and its Speed is reduced by 20 feet until the start of your next turn. On a successful save, it takes half as much damage and its Speed isn't reduced. A creature can take this damage only once from each casting of this spell.",
+        "The path covered by your wings freezes until the start of your next turn and is Difficult Terrain.",
+        "You must end this movement in an unoccupied space that can support you unless you have a Fly Speed.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 4, the damage increases by {@damage 1d6}, and the width of the path created by your wings increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Horn",
+      "source": "GreatWyrmArcanum",
+      "level": 5,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the crystalline horn of Glaceryn and launch yourself at one creature you can see within range. You move in a straight line to an unoccupied space within 5 feet of the target without provoking Opportunity Attacks, then make a melee spell attack against it.",
+        "On a hit, the target takes {@damage 10d10} Cold damage.",
+        "The attack scores a Critical Hit on a roll of 18-20.",
+        "If the target's Speed is currently reduced, or if it has the Prone or Restrained condition, the attack scores a Critical Hit on a roll of 16-20 instead.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 5, the damage increases by {@damage 2d10}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Roar",
+      "source": "GreatWyrmArcanum",
+      "level": 6,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You unleash the terrible roar of Glaceryn, filling a 60-foot radius centered on yourself with the freezing fury of the White Great Wyrm.",
+        "Each hostile creature of your choice in the area that can hear you must make a Wisdom saving throw. On a failed save, the creature has the Frightened condition for the duration. At the end of each of its turns, the creature repeats the saving throw, ending the effect on itself on a success. If the creature took Cold damage since its last saving throw against this spell, it has Disadvantage on that saving throw.",
+        "Each allied creature of your choice in the area that can hear you becomes sheathed in supernatural frost for the duration. An affected ally is immune to the Frightened condition. In addition, When it deals damage to a hostile creature, it deals an extra {@damage 2d8} Cold damage to that creature.",
+        "When an affected ally reduces a hostile creature to 0 Hit Points, it can immediately move up to half its Speed without provoking Opportunity Attacks.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 6, the extra Cold damage granted to allies increases by {@damage 1d8}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Breath",
+      "source": "GreatWyrmArcanum",
+      "level": 7,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest the devastating breath of Glaceryn and unleash it in two successive stages.",
+        {
+          "type": "entries",
+          "name": "Whiteout",
+          "entries": [
+            "You exhale a blinding torrent of supernatural frost in a 60-foot Cone. Each creature in the area must make a Constitution saving throw, taking {@damage 8d8} Cold damage on a failed save, or half as much damage on a successful one.",
+            "On a failed save, a creature is encased in rapidly forming ice and has the Restrained condition until the start of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Absolute Zero",
+          "entries": [
+            "Immediately after the Whiteout, choose a point within the area of the Cone. Glaceryn's frost violently collapses toward that point before erupting in a 30-foot-radius Sphere of absolute cold.",
+            "Each creature in the Sphere must make a Dexterity saving throw, taking {@damage 10d10} Cold damage on a failed save, or half as much damage on a successful one.",
+            "A creature that failed its saving throw against the Whiteout subtracts your Charisma modifier from its saving throw against the Absolute Zero."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "For each spell slot level above 7, the Whiteout damage increases by {@damage 1d8}, the Absolute Zero damage increases by {@damage 2d10}, the Cone increases by 10 feet, and the radius of the Sphere increases by 5 feet."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Eternal Winter",
+      "source": "GreatWyrmArcanum",
+      "level": 8,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 100
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You draw the freezing power of Glaceryn into yourself, compressing it until frost covers your body and the air around you begins to crystallize. You then release the accumulated power in a violent explosion of supernatural cold, creating a blizzard in a 100-foot radius centered on yourself for the duration. The blizzard moves with you.",
+        "When the blizzard appears, each hostile creature of your choice in the area must make a Constitution saving throw. On a failed save, a creature takes {@damage 10d10} Cold damage. On a successful save, it takes half as much damage.",
+        "Resistance to Cold damage doesn't reduce damage dealt by this spell. A creature with Immunity to Cold damage instead has Resistance to damage dealt by this spell.",
+        "When the blizzard appears, each allied creature of your choice in the area gains {@dice 4d8} + your Charisma modifier Temporary Hit Points.",
+        "While an allied creature is within the blizzard, frost continually reinforces its body. At the start of each of its turns, if it has fewer Temporary Hit Points from this spell than {@dice 2d8} + your Charisma modifier, it gains Temporary Hit Points from this spell equal to {@dice 2d8} + your Charisma modifier.",
+        "While a hostile creature is within the blizzard, its Speed is reduced by 20 feet.",
+        "A hostile creature that enters the blizzard for the first time on a turn or starts its turn there must make a Constitution saving throw. On a failed save, it takes {@damage 4d8} Cold damage. On a successful save, it takes half as much damage.",
+        "The area of the blizzard is Difficult Terrain for hostile creatures, and its raging snow and supernatural frost lightly obscure everything within it.",
+        {
+          "type": "entries",
+          "name": "Using a Higher-Level Spell Slot",
+          "entries": [
+            "When you cast this spell using a level 9 spell slot, the initial damage increases by {@damage 2d10}, the Temporary Hit Points granted when the blizzard appears increase by {@dice 2d8}, the Temporary Hit Points granted at the start of an ally's turn increase by {@dice 1d8}, and the Cold damage dealt by the blizzard increases by {@damage 1d8}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draconic Arcanum : Glaceryn Cataclysm",
+      "source": "GreatWyrmArcanum",
+      "level": 9,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You call forth a colossal avatar of Glaceryn in an unoccupied space you can see within range. The avatar is a manifestation of the Great Wyrm's power rather than a creature, and it can't be targeted, damaged, or otherwise affected.",
+        "When the avatar appears, choose three different Draconic Arcanum: Glaceryn spells of level 8 or lower that you know and that have a casting time of 1 Action. The avatar immediately uses those three spells in an order of your choice before disappearing.",
+        "Each chosen spell is resolved as though it were cast using a level 9 spell slot, without expending additional spell slots or requiring additional actions or components. A cantrip chosen in this way uses your level as normal.",
+        "Damage dealt by a spell used through this spell ignores Resistance and Immunity to that damage type. A creature that would normally be immune to the damage takes the damage normally.",
+        "The avatar is treated as the origin of each chosen spell for the purpose of determining its range, area, movement, and direction. The spells use your spell attack modifier and spell save DC. You choose the targets, areas, and directions of each spell separately.",
+        "If a chosen spell creates an area that would normally remain centered on or move with its caster, that area remains centered on the space where the avatar used that spell after the avatar disappears, for the remainder of that spell's duration.",
+        "You can't choose the same spell more than once as part of this casting."
+      ]
+    }
+	]
 }
+
+
