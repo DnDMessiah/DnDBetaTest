@@ -983,6 +983,110 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Sharingan",
+      "source": "IFTRD",
+      "rarity": "rare",
+      "wondrous": true,
+      "weight": 1,
+      "value": 150000,
+      "reqAttune": false,
+      "entries": [
+        "The Sharingan is a powerful ocular ability belonging to the Uchiha bloodline. Its abilities develop through combat and significant experiences, allowing the wielder to awaken increasingly powerful stages of the eye.",
+        {
+          "type": "entries",
+          "name": "One-Tomoe Sharingan",
+          "entries": [
+            "Your Sharingan awakens in its initial form, granting you the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet instead.",
+                "You have advantage on Wisdom (Perception) checks that rely on sight.",
+                "You can discern fine visual details and follow subtle movements with supernatural precision. You have advantage on the first attack roll you make against a creature during each of your turns."
+              ]
+            },
+            "Your Sharingan evolves when you experience significant events during combat. It can advance directly to a higher stage without awakening the previous stages, depending on the event that occurs.",
+            "When you defeat a hostile creature while at least one allied creature you can see is bloodied, your Sharingan advances to the Two-Tomoe Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Two-Tomoe Sharingan",
+          "entries": [
+            "Your Sharingan develops a second tomoe, improving your ability to perceive and predict movement.",
+            "You retain the benefits of the One-Tomoe Sharingan and gain the following additional benefits:",
+            "You have advantage on initiative rolls.",
+            "You have advantage on saving throws against being charmed or against spells and other effects that create illusions.",
+            "When an allied creature you can see is reduced to 0 hit points, your Sharingan advances to the Three-Tomoe Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Three-Tomoe Sharingan",
+          "entries": [
+            "Your Sharingan reaches its fully developed form, granting you exceptional perception and the ability to anticipate your opponents' movements.",
+            "You retain the benefits of the One-Tomoe and Two-Tomoe Sharingan.",
+            "You can cast {@spell suggestion} without expending a spell slot. Once you cast the spell in this way, you can't do so again until you finish a short or long rest.",
+            "When a creature you can see makes its first attack roll against you during each round of combat, that attack roll has disadvantage. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.",
+            "When an allied creature you can see dies, your Sharingan advances to the Mangekyō Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mangekyō Sharingan Awakening",
+          "entries": [
+            "When your Sharingan evolves into the Mangekyō Sharingan, roll 1d6 on the following table to determine the abilities awakened in your left and right eyes.",
+            {
+              "type": "table",
+              "caption": "Mangekyō Sharingan Awakening",
+              "colLabels": [
+                "1d6",
+                "Left Eye",
+                "Right Eye"
+              ],
+              "colStyles": [
+                "text",
+                "text",
+                "text"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Kagutsuchi(L)",
+                  "Amaterasu(R)"
+                ],
+                [
+                  "2",
+                  "Tsukuyomi(L)",
+                  "Amaterasu(R)"
+                ],
+                [
+                  "3",
+                  "Kamui(L)",
+                  "Kamui(R)"
+                ],
+                [
+                  "4",
+                  "Ōhirume(L)",
+                  "Ōhirume(R)"
+                ],
+                [
+                  "5",
+                  "Kotoamatsukami(L)",
+                  "Kotoamatsukami(R)"
+                ],
+                [
+                  "6",
+                  "Rinnegan(L)",
+                  "Rinnegan(R)"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
