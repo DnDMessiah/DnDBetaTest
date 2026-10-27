@@ -2273,7 +2273,7 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a) an {@item Senzu Bean|AnimeIsekai} and 100 gp"
+					"(a) an {@item Senzu Bean|AnimeIsekai} and 100 gold"
 				],
 				"defaultData": [
 					{
