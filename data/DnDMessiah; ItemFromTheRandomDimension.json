@@ -1102,7 +1102,7 @@
           "type": "entries",
           "name": "Sharingan Energy and Durability",
           "entries": [
-            "Your left and right eyes each have a maximum Sharingan Durability equal to 10 times your level.",
+            "Your left and right eyes each have a maximum Sharingan Durability equal to 10 times your Constitution modifier (minimum of 1).",
             "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
             "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
             "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
@@ -1160,7 +1160,7 @@
           "type": "entries",
           "name": "Skeletal Susanoo",
           "entries": [
-            "You can activate Skeletal Susanoo at any time by expending 10 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 2. At the start of each of your turns, you can expend 10 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 2 to maintain it.",
+            "You can activate Skeletal Susanoo at any time by expending 10 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 2. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 10 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 2 to maintain it.",
             "When you activate this Susanoo, you gain temporary hit points equal to 10 times your proficiency bonus.",
             "While this Susanoo is active, you gain the following benefits:",
             {
@@ -1180,8 +1180,8 @@
           "type": "entries",
           "name": "Armored Susanoo",
           "entries": [
-            "While Skeletal Susanoo is active, you can transform into Armored Susanoo at any time by expending 30 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 5. At the start of each of your turns, you can expend 30 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 3 to maintain it.",
-            "When you transform into Armored Susanoo, you gain temporary hit points equal to 30 times your proficiency bonus.",
+            "You can activate Armored Susanoo at any time by expending 25 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 5. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 15 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 3 to maintain it.",
+            "When you transform into Armored Susanoo, you gain temporary hit points equal to 25 times your proficiency bonus.",
             "While this Susanoo is active, you gain the following benefits:",
             {
               "type": "list",
@@ -1190,7 +1190,7 @@
                 "You gain a +5 bonus to all saving throws.",
                 "You gain a +3 bonus to attack rolls.",
                 "The save DC of your features and spells increases by 3.",
-                "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 30 times your proficiency bonus, replacing any temporary hit points you currently have."
+                "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 25 times your proficiency bonus, replacing any temporary hit points you currently have."
               ]
             },
             "You can end Armored Susanoo at any time, requiring no action. When you end Armored Susanoo, you revert to Skeletal Susanoo if you can still maintain it; otherwise, Susanoo ends. If you can't pay the Sharingan Energy or Sharingan Durability cost to maintain Armored Susanoo, the form ends automatically."
@@ -1245,6 +1245,85 @@
                   "Rinnegan(L)",
                   "Rinnegan(R)"
                 ]
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mangekyō Sharingan Signature",
+          "entries": [
+            "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
+            {
+              "type": "entries",
+              "name": "Amaterasu",
+              "entries": [
+                "As a action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to unleash the black flames of Amaterasu upon a target you can see. The target is engulfed in black flames and immediately takes fire damage equal to a number of d12s equal to your proficiency bonus.",
+                "At the start of each of the target's turns, the target takes fire damage from Amaterasu, and the damage increases by 1d12 after each instance of damage. The black flames do not extinguish themselves, and this effect continues until the target dies, you extinguish the flames, or the target escapes them using an appropriate ability.",
+                "A creature can end the effect on itself by severing or removing the body part engulfed in the flames, if physically possible. The DM determines the consequences of doing so.",
+                "A creature can also escape the flames by using a teleportation ability, such as {@spell misty step}, to move away from them. The effect ends on that creature, but the flames remain where they were left.",
+                "Resistance to fire damage does not extinguish the black flames or end this effect. Immunity to fire damage instead grants resistance to the fire damage dealt by Amaterasu."
+              ]
+            },     
+            {
+              "type": "entries",
+              "name": "Kagutsuchi",
+              "entries": [
+                "Kagutsuchi grants you control over the black flames of Amaterasu, allowing you to shape, manipulate, and weaponize them with extraordinary precision. You gain the following abilities:",
+                {
+                  "type": "entries",
+                  "name": "Black Flame Infusion",
+                  "entries": [
+                    "You can use your bonus action to expend 25 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 5 to unleash the black flames of Amaterasu.",
+                    "The next time you deal damage to a creature with a weapon, spell, or other feature, you infuse your attack with the black flames. The target takes additional fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature. The infusion ends after dealing this additional damage.",
+                    "If black flames created by Amaterasu are already burning within your line of sight, regardless of their source, you can instead use this feature by expending 10 Sharingan Energy and reducing the Sharingan Durability of the eye used by 5."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Black Flame Armor",
+                  "entries": [
+                    "When you are hit by a melee attack, you can use your reaction to expend 25 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 5 to engulf yourself in the black flames of Amaterasu.", 
+                    "The attacker takes fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature.",
+                    "If black flames created by Amaterasu are already burning within your line of sight, regardless of their source, you can instead use this feature by expending 10 Sharingan Energy and reducing the Sharingan Durability of the eye used by 5."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Control Black Flame",
+                  "entries": [
+                    "If black flames created by Amaterasu are burning within your line of sight, regardless of their source, you can use a bonus action to expend 10 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to control and manipulate those flames. You can move or reshape the existing flames without needing to create them again.",
+                    "When you move the flames onto a creature, make a ranged spell attack against that creature using your Primary Ability for the attack roll. On a hit, the creature is engulfed in the black flames and takes fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tsukuyomi",
+              "entries": [
+                "Tsukuyomi traps a target within a powerful illusion that distorts its perception of time and reality, allowing the wielder to inflict profound psychological torment within moments."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Kamui",
+              "entries": [
+                "Kamui grants access to a separate dimension, allowing the wielder to transport creatures or objects between dimensions and, depending on the awakened eye, phase through attacks or warp targets away."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ōhirume",
+              "entries": [
+                "Ōhirume allows the wielder to create and manipulate black gravitational spheres, exerting immense attraction and controlling their movement to restrain or crush targets."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Kotoamatsukami",
+              "entries": [
+                "Kotoamatsukami is an extraordinarily subtle genjutsu that alters a target's thoughts and decisions without the target realizing that its mind has been manipulated."
               ]
             }
           ]
