@@ -1,0 +1,494 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "NINJA",
+        "abbreviation": "NINJA",
+        "full": "Naruto Shippuden",
+        "authors": ["DnDMessiah"],
+        "color": "FF570D",
+        "version": "1.0.0"
+      }
+    ],
+    "dateAdded": 1790095090
+  },
+  "item": [
+    {
+      "name": "Hashirama Cells",
+      "source": "NINJA",
+      "rarity": "legendary",
+      "wondrous": true,
+      "weight": 1,
+      "value": 10000000,
+      "reqAttune": false,
+      "entries": [
+        "These cultivated cells originate from Hashirama Senju, the legendary shinobi whose vitality and Wood Release were beyond ordinary human limits. Implanting them into a creature's body grants extraordinary regenerative power, but the cells may overwhelm an incompatible host.",
+        {
+          "type": "entries",
+          "name": "Cellular Rejection",
+          "entries": [
+            "When these cells are implanted, you must succeed on a DC 17 Constitution saving throw or suffer rejection. On a failure, you take 6d6 necrotic damage, gain 1d4 levels of exhaustion, and the cells die, losing all their properties. The dead cells cannot be revived or restored. To gain the benefits of Hashirama Cells, you must obtain a new viable sample and undergo the implantation procedure again."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Cellular Regeneration",
+          "entries": [
+            "At the start of each of your turns during combat, if you have at least 1 hit point, you regain hit points equal to your character level + your Constitution modifier (minimum of 1 hit point).",
+            "Outside of combat, if you have at least 1 hit point, you regain hit points equal to your proficiency bonus every 10 minutes.",
+            "If you have 0 hit points but are not dead, your cells continue to regenerate. You regain hit points equal to your proficiency bonus every 10 minutes. This regeneration stops if you die."
+
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Cellular Vitality",
+          "entries": [
+            "Your hit point maximum increases by an amount equal to twice your character level when you receive these cells. Whenever you gain a level, your hit point maximum increases by an additional 2 hit points."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Undying Cell",
+          "entries": [
+            "Your body is exceptionally resilient against death. You gain expertise in death saving throws, meaning you add twice your proficiency bonus to death saving throws."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Wood Release",
+          "entries": [
+            "The power of Hashirama's cells grants you the ability to cast certain spells. You learn the spells listed below when you reach the specified character level. You can cast each spell once without expending a spell slot, and you regain the ability to do so when you finish a long rest. You do not need material components when casting these spells through this trait.",
+            {
+              "type": "list",
+              "items": [
+                "Character level 1: {@spell Druidcraft}",
+                "Character level 2: {@spell Goodberry}",
+                "Character level 3: {@spell Spike Growth}",
+                "Character level 5: {@spell Plant Growth}",
+                "Character level 7: {@spell Grasping Vine}",
+                "Character level 9: {@spell Tree Stride}",
+                "Character level 11: {@spell Wall of Thorns}",
+                "Character level 13: {@spell Regenerate}",
+                "Character level 15: {@spell Clone}",
+                "Character level 17: {@spell Imprisonment}"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sharingan",
+      "source": "NINJA",
+      "rarity": "rare",
+      "wondrous": true,
+      "weight": 1,
+      "value": 150000,
+      "reqAttune": false,
+      "entries": [
+        "The Sharingan is a powerful ocular ability belonging to the Uchiha bloodline. Its abilities develop through combat and significant experiences, allowing the wielder to awaken increasingly powerful stages of the eye.",
+        {
+          "type": "entries",
+          "name": "One-Tomoe Sharingan",
+          "entries": [
+            "Your Sharingan awakens in its initial form, granting you the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet instead.",
+                "You have advantage on Wisdom (Perception) checks that rely on sight.",
+                "You can discern fine visual details and follow subtle movements with supernatural precision. You have advantage on the first attack roll you make against a creature during each of your turns."
+              ]
+            },
+            "Your Sharingan evolves when you experience significant events during combat. It can advance directly to a higher stage without awakening the previous stages, depending on the event that occurs.",
+            "When you defeat a hostile creature while at least one allied creature you can see is bloodied, your Sharingan advances to the Two-Tomoe Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Two-Tomoe Sharingan",
+          "entries": [
+            "Your Sharingan develops a second tomoe, improving your ability to perceive and predict movement.",
+            "You retain the benefits of the One-Tomoe Sharingan and gain the following additional benefits:",
+            "You have advantage on initiative rolls.",
+            "You have advantage on saving throws against being charmed or against spells and other effects that create illusions.",
+            "When an allied creature you can see is reduced to 0 hit points, your Sharingan advances to the Three-Tomoe Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Three-Tomoe Sharingan",
+          "entries": [
+            "Your Sharingan reaches its fully developed form, granting you exceptional perception and the ability to anticipate your opponents' movements.",
+            "You retain the benefits of the One-Tomoe and Two-Tomoe Sharingan.",
+            "You can cast {@spell suggestion} without expending a spell slot. Once you cast the spell in this way, you can't do so again until you finish a short or long rest.",
+            "When a creature you can see makes its first attack roll against you during each round of combat, that attack roll has disadvantage. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.",
+            "When an allied creature you can see dies, your Sharingan advances to the Mangekyō Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mangekyō Sharingan Awakening",
+          "entries": [
+            "When your Sharingan evolves into the Mangekyō Sharingan, roll 1d6 on the following table to determine the abilities awakened in your left and right eyes.",
+            {
+              "type": "table",
+              "caption": "Mangekyō Sharingan Awakening",
+              "colLabels": [
+                "1d6",
+                "Mangekyō Sharingan"
+              ],
+              "colStyles": [
+                "text",
+                "text"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Mangekyō Sharingan : Kagutsuchi"
+                ],
+                [
+                  "2",
+                  "Mangekyō Sharingan : Tsukuyomi"
+                ],
+                [
+                  "3",
+                  "Mangekyō Sharingan : Kamui(L)"
+                ],
+                [
+                  "4",
+                  "Mangekyō Sharingan : Ōhirume"
+                ],
+                [
+                  "5",
+                  "Mangekyō Sharingan : Kotoamatsukami"
+                ],
+                [
+                  "6",
+                  "Rinnegan"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mangekyō Sharingan : Kagutsuchi",
+      "source": "NINJA",
+      "rarity": "very rare",
+      "wondrous": true,
+      "weight": 1,
+      "value": 500000,
+      "reqAttune": false,
+      "entries": [
+        "The Mangekyō Sharingan is an advanced form of the Sharingan, granting its wielder powerful ocular abilities at the cost of the eyes' durability. Its powers include enhanced perception, powerful genjutsu, reality-altering techniques, and Susanoo.",
+        {
+          "type": "entries",
+          "name": "Sharingan Energy and Durability",
+          "entries": [
+            "Your left and right eyes each have a maximum Sharingan Durability equal to 10 times your Constitution modifier (minimum of 1).",
+            "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
+            "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
+            "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
+            "Whenever an ability reduces your Sharingan Durability, reduce the Sharingan Durability of both your left and right eyes by the specified amount.",
+            "Your Sharingan Durability can't be restored by resting or other ordinary means. Once either eye's Sharingan Durability is depleted, that eye must be replaced with another Mangekyō Sharingan eye through transplantation."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Enhanced Sharingan",
+          "entries": [
+            "You can discern fine visual details and follow subtle movements with supernatural precision. You gain the following benefits:",
+            "You gain darkvision out to a range of 120 feet. If you already have darkvision, its range increases by 60 feet instead.",
+            "You have advantage on Wisdom (Perception) checks that rely on sight.",
+            "You have advantage on the first attack roll you make against a creature during each of your turns.",
+            "You have advantage on initiative rolls.",
+            "You have advantage on saving throws against being charmed and against spells and other effects that create illusions.",
+            "You can cast {@spell suggestion} without expending a spell slot at will.",
+            "When a creature you can see makes its first attack roll against you during each round of combat, that attack roll has disadvantage.",
+            {
+              "type": "entries",
+              "name": "Enhanced Visual Perception",
+              "entries": [
+                "At the start of your turn, you can expend 3 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 1 to heighten your visual perception until the start of your next turn. For the duration, you have advantage on all attack rolls you make and all saving throws you make, and attack rolls against you have disadvantage.",
+                "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Izanagi",
+          "entries": [
+            "As a reaction, you can use Izanagi to alter the outcome of an event affecting yourself, treating an unfavorable outcome as an illusion and rewriting reality in your favor.",
+            "After using Izanagi, the eye used to activate this ability becomes permanently blind, and its Sharingan Durability is reduced to 0. This blindness can't be removed by resting or ordinary healing. The eye must be replaced through transplantation to restore vision."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Izanami",
+          "entries": [
+            "As a reaction, you can use Izanami to trap a creature in a repeating sequence of events, forcing it to experience a loop until it accepts the truth underlying the illusion.",
+            "After using Izanami, the eye used to activate this ability becomes permanently blind, and its Sharingan Durability is reduced to 0. This blindness can't be removed by resting or ordinary healing. The eye must be replaced through transplantation to restore vision."          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tailed Beast Genjutsu",
+          "entries": [
+            "You can expend 10 Sharingan Energy to attempt to control a creature of the Beast or Monstrosity type that you can see. The target must make a Wisdom saving throw against your feature save DC. On a failed save, the target must obey your commands while the genjutsu remains active.",
+            "Whenever you take damage, the affected creature can repeat the Wisdom saving throw, ending the effect on itself on a success.",
+            "The genjutsu ends if your Sharingan Energy is depleted."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Skeletal Susanoo",
+          "entries": [
+            "You can activate Skeletal Susanoo at any time by expending 10 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 2. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 10 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 2 to maintain it.",
+            "When you activate this Susanoo, you gain temporary hit points equal to 10 times your proficiency bonus.",
+            "While this Susanoo is active, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +5 bonus to AC.",
+                "You gain a +2 bonus to all saving throws.",
+                "You gain a +1 bonus to attack rolls.",
+                "The save DC of your features and spells increases by 1.",
+                "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 10 times your proficiency bonus, replacing any temporary hit points you currently have."
+              ]
+            },
+            "You can end Skeletal Susanoo at any time, requiring no action. If you can't pay the Sharingan Energy or Sharingan Durability cost to maintain it, the form ends automatically."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Armored Susanoo",
+          "entries": [
+            "You can activate Armored Susanoo at any time by expending 25 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 5. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 15 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 3 to maintain it.",
+            "When you transform into Armored Susanoo, you gain temporary hit points equal to 25 times your proficiency bonus.",
+            "While this Susanoo is active, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +10 bonus to AC.",
+                "You gain a +5 bonus to all saving throws.",
+                "You gain a +3 bonus to attack rolls.",
+                "The save DC of your features and spells increases by 3.",
+                "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 25 times your proficiency bonus, replacing any temporary hit points you currently have."
+              ]
+            },
+            "You can end Armored Susanoo at any time, requiring no action. When you end Armored Susanoo, you revert to Skeletal Susanoo if you can still maintain it; otherwise, Susanoo ends. If you can't pay the Sharingan Energy or Sharingan Durability cost to maintain Armored Susanoo, the form ends automatically."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mangekyō Sharingan Signature",
+          "entries": [
+            "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
+            {
+              "type": "entries",
+              "name": "Amaterasu",
+              "entries": [
+                "As a action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to unleash the black flames of Amaterasu upon a target you can see. The target is engulfed in black flames and immediately takes fire damage equal to a number of d12s equal to your proficiency bonus.",
+                "At the start of each of the target's turns, the target takes fire damage from Amaterasu, and the damage increases by 1d12 after each instance of damage. The black flames do not extinguish themselves, and this effect continues until the target dies, you extinguish the flames, or the target escapes them using an appropriate ability.",
+                "A creature can end the effect on itself by severing or removing the body part engulfed in the flames, if physically possible. The DM determines the consequences of doing so.",
+                "A creature can also escape the flames by using a teleportation ability, such as {@spell misty step}, to move away from them. The effect ends on that creature, but the flames remain where they were left.",
+                "Resistance to fire damage does not extinguish the black flames or end this effect. Immunity to fire damage instead grants resistance to the fire damage dealt by Amaterasu."
+              ]
+            },     
+            {
+              "type": "entries",
+              "name": "Kagutsuchi",
+              "entries": [
+                "Kagutsuchi grants you control over the black flames of Amaterasu, allowing you to shape, manipulate, and weaponize them with extraordinary precision. You gain the following abilities:",
+                {
+                  "type": "entries",
+                  "name": "Black Flame Infusion",
+                  "entries": [
+                    "You can use your bonus action to expend 25 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 5 to unleash the black flames of Amaterasu.",
+                    "The next time you deal damage to a creature with a weapon, spell, or other feature, you infuse your attack with the black flames. The target takes additional fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature. The infusion ends after dealing this additional damage.",
+                    "If black flames created by Amaterasu are already burning within your line of sight, regardless of their source, you can instead use this feature by expending 10 Sharingan Energy and reducing the Sharingan Durability of the eye used by 5."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Black Flame Armor",
+                  "entries": [
+                    "When you are hit by a melee attack, you can use your reaction to expend 25 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 5 to engulf yourself in the black flames of Amaterasu.", 
+                    "The attacker takes fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature.",
+                    "If black flames created by Amaterasu are already burning within your line of sight, regardless of their source, you can instead use this feature by expending 10 Sharingan Energy and reducing the Sharingan Durability of the eye used by 5."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Control Black Flame",
+                  "entries": [
+                    "If black flames created by Amaterasu are burning within your line of sight, regardless of their source, you can use a bonus action to expend 10 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to control and manipulate those flames. You can move or reshape the existing flames without needing to create them again.",
+                    "When you move the flames onto a creature, make a ranged spell attack against that creature using your Primary Ability for the attack roll. On a hit, the creature is engulfed in the black flames and takes fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Transplantation",
+          "entries": [
+            "You can attempt to replace a blinded Mangekyō Sharingan eye with another Mangekyō Sharingan eye. The transplantation requires a successful DC 20 Constitution saving throw.",
+            "On a success, the transplantation succeeds. On a failure, the transplanted eye becomes permanently blind and can't be used."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mangekyō Sharingan : Tsukuyomi",
+      "source": "NINJA",
+      "rarity": "very rare",
+      "wondrous": true,
+      "weight": 1,
+      "value": 500000,
+      "reqAttune": false,
+      "entries": [
+        "The Mangekyō Sharingan is an advanced form of the Sharingan, granting its wielder powerful ocular abilities at the cost of the eyes' durability. Its powers include enhanced perception, powerful genjutsu, reality-altering techniques, and Susanoo.",
+        {
+          "type": "entries",
+          "name": "Sharingan Energy and Durability",
+          "entries": [
+            "Your left and right eyes each have a maximum Sharingan Durability equal to 10 times your Constitution modifier (minimum of 1).",
+            "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
+            "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
+            "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
+            "Whenever an ability reduces your Sharingan Durability, reduce the Sharingan Durability of both your left and right eyes by the specified amount.",
+            "Your Sharingan Durability can't be restored by resting or other ordinary means. Once either eye's Sharingan Durability is depleted, that eye must be replaced with another Mangekyō Sharingan eye through transplantation."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Enhanced Sharingan",
+          "entries": [
+            "You can discern fine visual details and follow subtle movements with supernatural precision. You gain the following benefits:",
+            "You gain darkvision out to a range of 120 feet. If you already have darkvision, its range increases by 60 feet instead.",
+            "You have advantage on Wisdom (Perception) checks that rely on sight.",
+            "You have advantage on the first attack roll you make against a creature during each of your turns.",
+            "You have advantage on initiative rolls.",
+            "You have advantage on saving throws against being charmed and against spells and other effects that create illusions.",
+            "You can cast {@spell suggestion} without expending a spell slot at will.",
+            "When a creature you can see makes its first attack roll against you during each round of combat, that attack roll has disadvantage.",
+            {
+              "type": "entries",
+              "name": "Enhanced Visual Perception",
+              "entries": [
+                "At the start of your turn, you can expend 3 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 1 to heighten your visual perception until the start of your next turn. For the duration, you have advantage on all attack rolls you make and all saving throws you make, and attack rolls against you have disadvantage.",
+                "You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Izanagi",
+          "entries": [
+            "As a reaction, you can use Izanagi to alter the outcome of an event affecting yourself, treating an unfavorable outcome as an illusion and rewriting reality in your favor.",
+            "After using Izanagi, the eye used to activate this ability becomes permanently blind, and its Sharingan Durability is reduced to 0. This blindness can't be removed by resting or ordinary healing. The eye must be replaced through transplantation to restore vision."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Izanami",
+          "entries": [
+            "As a reaction, you can use Izanami to trap a creature in a repeating sequence of events, forcing it to experience a loop until it accepts the truth underlying the illusion.",
+            "After using Izanami, the eye used to activate this ability becomes permanently blind, and its Sharingan Durability is reduced to 0. This blindness can't be removed by resting or ordinary healing. The eye must be replaced through transplantation to restore vision."          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tailed Beast Genjutsu",
+          "entries": [
+            "You can expend 10 Sharingan Energy to attempt to control a creature of the Beast or Monstrosity type that you can see. The target must make a Wisdom saving throw against your feature save DC. On a failed save, the target must obey your commands while the genjutsu remains active.",
+            "Whenever you take damage, the affected creature can repeat the Wisdom saving throw, ending the effect on itself on a success.",
+            "The genjutsu ends if your Sharingan Energy is depleted."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Skeletal Susanoo",
+          "entries": [
+            "You can activate Skeletal Susanoo at any time by expending 10 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 2. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 10 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 2 to maintain it.",
+            "When you activate this Susanoo, you gain temporary hit points equal to 10 times your proficiency bonus.",
+            "While this Susanoo is active, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +5 bonus to AC.",
+                "You gain a +2 bonus to all saving throws.",
+                "You gain a +1 bonus to attack rolls.",
+                "The save DC of your features and spells increases by 1.",
+                "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 10 times your proficiency bonus, replacing any temporary hit points you currently have."
+              ]
+            },
+            "You can end Skeletal Susanoo at any time, requiring no action. If you can't pay the Sharingan Energy or Sharingan Durability cost to maintain it, the form ends automatically."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Armored Susanoo",
+          "entries": [
+            "You can activate Armored Susanoo at any time by expending 25 Sharingan Energy and reducing the Sharingan Durability of both your left and right eyes by 5. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 15 Sharingan Energy and reduce the Sharingan Durability of both your left and right eyes by 3 to maintain it.",
+            "When you transform into Armored Susanoo, you gain temporary hit points equal to 25 times your proficiency bonus.",
+            "While this Susanoo is active, you gain the following benefits:",
+            {
+              "type": "list",
+              "items": [
+                "You gain a +10 bonus to AC.",
+                "You gain a +5 bonus to all saving throws.",
+                "You gain a +3 bonus to attack rolls.",
+                "The save DC of your features and spells increases by 3.",
+                "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 25 times your proficiency bonus, replacing any temporary hit points you currently have."
+              ]
+            },
+            "You can end Armored Susanoo at any time, requiring no action. When you end Armored Susanoo, you revert to Skeletal Susanoo if you can still maintain it; otherwise, Susanoo ends. If you can't pay the Sharingan Energy or Sharingan Durability cost to maintain Armored Susanoo, the form ends automatically."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mangekyō Sharingan Signature",
+          "entries": [
+            "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
+            {
+              "type": "entries",
+              "name": "Amaterasu",
+              "entries": [
+                "As a action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to unleash the black flames of Amaterasu upon a target you can see. The target is engulfed in black flames and immediately takes fire damage equal to a number of d12s equal to your proficiency bonus.",
+                "At the start of each of the target's turns, the target takes fire damage from Amaterasu, and the damage increases by 1d12 after each instance of damage. The black flames do not extinguish themselves, and this effect continues until the target dies, you extinguish the flames, or the target escapes them using an appropriate ability.",
+                "A creature can end the effect on itself by severing or removing the body part engulfed in the flames, if physically possible. The DM determines the consequences of doing so.",
+                "A creature can also escape the flames by using a teleportation ability, such as {@spell misty step}, to move away from them. The effect ends on that creature, but the flames remain where they were left.",
+                "Resistance to fire damage does not extinguish the black flames or end this effect. Immunity to fire damage instead grants resistance to the fire damage dealt by Amaterasu."
+              ]
+            },             
+            {
+              "type": "entries",
+              "name": "Tsukuyomi",
+              "entries": [
+                "Tsukuyomi traps a target within a powerful illusion that distorts its perception of time and reality, allowing you to inflict profound psychological torment within moments.",
+                "The target must make a Wisdom saving throw against your feature save DC. On a failed save, the target is stunned and takes psychic damage equal to a number of d8s equal to your proficiency bonus. On a successful save, the target takes half as much damage and isn't stunned.",
+                "At the end of each of its turns, a stunned target can repeat the Wisdom saving throw, ending the stunned condition on itself on a success. On a failure, the target remains stunned and continues to suffer the torment of Tsukuyomi, taking psychic damage equal to a number of d8s equal to your proficiency bonus.",
+                "Once the target succeeds on this saving throw and ends the stunned condition, it must immediately make another Intelligence saving throw against your feature save DC. On a failed save, the target is frightened of you and takes psychic damage equal to a number of d6s equal to your proficiency bonus. On a successful save, the target takes half as much damage and isn't frightened.",
+                "At the end of each of its turns while frightened by Tsukuyomi, the target can repeat the Intelligence saving throw, ending the frightened condition on itself on a success. On a failure, the target remains frightened and continues to suffer the torment of Tsukuyomi, taking psychic damage equal to a number of d6s equal to your proficiency bonus."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Transplantation",
+          "entries": [
+            "You can attempt to replace a blinded Mangekyō Sharingan eye with another Mangekyō Sharingan eye. The transplantation requires a successful DC 20 Constitution saving throw.",
+            "On a success, the transplantation succeeds. On a failure, the transplanted eye becomes permanently blind and can't be used."
+          ]
+        }
+      ]
+    }
+  ]
+}
