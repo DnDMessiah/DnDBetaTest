@@ -90,6 +90,166 @@
         "The Sharingan is a powerful ocular ability belonging to the Uchiha bloodline. Its abilities develop through combat and significant experiences, allowing the wielder to awaken increasingly powerful stages of the eye.",
         {
           "type": "entries",
+          "name": "Sharingan Ability Modifier",
+          "entries": [
+            "Constitution is the primary ability score for all ocular abilities. You use your Constitution modifier, proficiency bonus, and combined Eye Mastery Bonus to determine the attack bonus and saving throw DC of your ocular abilities, including abilities granted by advanced evolutions of the Sharingan.",
+            {
+              "type": "entries",
+              "name": "Eye Mastery Bonus",
+              "entries": [
+                "Each eligible awakened eye grants an Eye Mastery Bonus based on its evolution stage. Add the bonuses from your left and right eyes together, even if they have different evolution stages.",
+                {
+                  "type": "table",
+                  "caption": "Eye Mastery Bonus",
+                  "colLabels": [
+                    "Ocular Evolution",
+                    "Bonus per Eye"
+                  ],
+                  "colStyles": [
+                    "text",
+                    "text"
+                  ],
+                  "rows": [
+                    [
+                      "Sharingan",
+                      "+1"
+                    ],
+                    [
+                      "Mangekyō Sharingan",
+                      "+2"
+                    ],
+                    [
+                      "Eternal Mangekyō Sharingan",
+                      "+3"
+                    ],
+                    [
+                      "Rinnegan",
+                      "+4"
+                    ],
+                    [
+                      "Rinne Sharingan",
+                      "+5"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ocular Attack Bonus",
+              "entries": [
+                "When an ocular ability requires an attack roll, use the following modifier:",
+                {
+                  "type": "formula",
+                  "text": "Ocular Attack Bonus = your proficiency bonus + your Constitution modifier + your total Eye Mastery Bonus"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ocular Save DC",
+              "entries": [
+                "When an ocular ability requires a saving throw, use the following DC:",
+                {
+                  "type": "formula",
+                  "text": "Ocular Save DC = 8 + your proficiency bonus + your Constitution modifier + your total Eye Mastery Bonus"
+                }
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Ocular Limit",
+              "entries": [
+                "A creature can benefit from the Eye Mastery Bonus of no more than two eyes at a time. Only eyes installed in the creature's natural eye sockets, consisting of the left and right eye, can grant this bonus.",
+                "Additional eyes implanted elsewhere on the body, such as on the arms, forehead, palms, or chest, do not grant an Eye Mastery Bonus.",
+                "If a creature possesses more than two eligible eyes, it must choose which two eyes grant its Eye Mastery Bonus. This choice cannot be changed during combat.",
+                "Eyes that do not grant an Eye Mastery Bonus may still retain other properties and abilities granted by their respective items, unless otherwise specified."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Copy Spell",
+          "entries": [
+            "Your ocular abilities allow you to observe, analyze, and memorize spells cast by other creatures. When you can see a creature casting a spell within your line of sight, you can memorize that spell without using an action or reaction.",
+            "You can memorize spells of levels 1 through the maximum spell level determined by your ocular evolution. Cantrips cannot be copied.",
+            "You can memorize a number of spells equal to your Constitution modifier (minimum of one spell). If you attempt to memorize a spell while at your maximum capacity, you must forget one previously memorized spell before memorizing the new one.",
+            "You can cast a memorized spell without expending a spell slot. You can cast only one copied spell at a time. Once you cast a copied spell, it is removed from your memorized spells.",
+            "When you witness a creature casting a spell, you can choose to cast that spell immediately or memorize it for later use. If you choose to cast it immediately, you must cast the spell you are currently observing. You cannot immediately cast a spell that you previously memorized.",
+            "You use your Ocular Attack Bonus and Ocular Save DC whenever a copied spell requires a spell attack roll or saving throw. You must still provide any required components and meet the spell's other requirements.",
+            {
+              "type": "table",
+              "caption": "Copy Spell",
+              "colLabels": [
+                "Ocular Evolution",
+                "Maximum Spell Level",
+                "Usage"
+              ],
+              "colStyles": [
+                "text",
+                "text",
+                "text"
+              ],
+              "rows": [
+                [
+                  "Sharingan",
+                  "1st-3rd",
+                  "Once per Long Rest"
+                ],
+                [
+                  "Mangekyō Sharingan",
+                  "1st-6th",
+                  "Once per Long Rest"
+                ],
+                [
+                  "Eternal Mangekyō Sharingan",
+                  "1st-9th",
+                  "Once per Long Rest"
+                ],
+                [
+                  "Rinnegan",
+                  "1st-9th",
+                  "Once per Short or Long Rest"
+                ],
+                [
+                  "Rinne Sharingan",
+                  "1st-9th",
+                  "Once per Short or Long Rest, or once per Initiative for each battle"
+                ]
+              ]
+            },
+            "When you have multiple eyes with different ocular evolutions, use the highest evolution among your eligible eyes to determine your maximum spell level and usage frequency. Possessing multiple eyes does not grant additional uses."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Taijutsu Copy",
+          "entries": [
+            "Your Sharingan allows you to observe, analyze, and replicate the physical features and abilities of other creatures. When you can see a creature within your line of sight, you can attempt to copy one of its features.",
+            {
+              "type": "entries",
+              "name": "Copy Features",
+              "entries": [
+                "When attempting to copy a creature's feature, you must make a Constitution saving throw. The DC equals the creature's Challenge Rating (CR). If the creature has no Challenge Rating, use its character level instead.",
+                "On a successful saving throw, you successfully analyze and memorize the chosen feature. On a failed saving throw, the attempt fails and you cannot copy that feature from the same creature again until you finish a long rest.",
+                "You can memorize a number of copied features equal to your Constitution modifier (minimum of one feature). If you attempt to memorize a feature while at maximum capacity, you must forget one previously memorized feature before memorizing the new one.",
+                "You can use a memorized feature as if it were your own, following its original rules and requirements, unless otherwise specified."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Copy Limitations",
+              "entries": [
+                "You must meet all prerequisites and requirements of a copied feature, including ability score requirements, equipment, resources, and other conditions.",
+                "You cannot copy features that require a unique biological structure, bloodline, special organ, or supernatural power source that you do not possess.",
+                "The DM determines whether a feature can be copied and whether its effects can function with your own body and abilities."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
           "name": "One-Tomoe Sharingan",
           "entries": [
             "Your Sharingan awakens in its initial form, granting you the following benefits:",
@@ -184,7 +344,7 @@
             "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
             "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
             "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
-            "Whenever an ability reduces your Sharingan Durability, reduce the Sharingan Durability of both your left and right eyes by the specified amount.",
+            "Whenever an ability reduces your Sharingan Durability, reduce the Durability of the eye used to activate that ability. If an ability specifically states that it reduces the Durability of both eyes, reduce the Durability of both your left and right eyes by the specified amount.",
             "Your Sharingan Durability can't be restored by resting or other ordinary means. Once either eye's Sharingan Durability is depleted, that eye must be replaced with another Mangekyō Sharingan eye through transplantation."
           ]
         },
@@ -276,7 +436,7 @@
         },
         {
           "type": "entries",
-          "name": "Mangekyō Sharingan Signature",
+          "name": "Mangekyō Sharingan",
           "entries": [
             "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
             {
@@ -318,7 +478,7 @@
                   "name": "Control Black Flame",
                   "entries": [
                     "If black flames created by Amaterasu are burning within your line of sight, regardless of their source, you can use a bonus action to expend 10 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to control and manipulate those flames. You can move or reshape the existing flames without needing to create them again.",
-                    "When you move the flames onto a creature, make a ranged spell attack against that creature using your Primary Ability for the attack roll. On a hit, the creature is engulfed in the black flames and takes fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature."
+                    "When you move the flames onto a creature, make a ranged spell attack against that creature . On a hit, the creature is engulfed in the black flames and takes fire damage from Amaterasu as if it had been hit by Amaterasu directly. This damage uses the damage progression described in the Amaterasu feature."
                   ]
                 }
               ]
@@ -353,7 +513,7 @@
             "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
             "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
             "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
-            "Whenever an ability reduces your Sharingan Durability, reduce the Sharingan Durability of both your left and right eyes by the specified amount.",
+            "Whenever an ability reduces your Sharingan Durability, reduce the Durability of the eye used to activate that ability. If an ability specifically states that it reduces the Durability of both eyes, reduce the Durability of both your left and right eyes by the specified amount.",
             "Your Sharingan Durability can't be restored by resting or other ordinary means. Once either eye's Sharingan Durability is depleted, that eye must be replaced with another Mangekyō Sharingan eye through transplantation."
           ]
         },
@@ -445,7 +605,7 @@
         },
         {
           "type": "entries",
-          "name": "Mangekyō Sharingan Signature",
+          "name": "Mangekyō Sharingan",
           "entries": [
             "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
             {
@@ -464,7 +624,7 @@
               "name": "Tsukuyomi",
               "entries": [
                 "Tsukuyomi traps a target within a powerful illusion that distorts its perception of time and reality, allowing you to inflict profound psychological torment within moments.",
-                "The target must make a Wisdom saving throw against your feature save DC. On a failed save, the target is stunned and takes psychic damage equal to a number of d8s equal to your proficiency bonus. On a successful save, the target takes half as much damage and isn't stunned.",
+                "As a action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to make the target a Wisdom saving throw against your feature save DC. If the target makes eye contact with you while within a 30-foot-long, 5-foot-wide line extending from you, it makes this saving throw with disadvantage. On a failed save, the target is stunned and takes psychic damage equal to a number of d8s equal to your proficiency bonus. On a successful save, the target takes half as much damage and isn't stunned.",
                 "At the end of each of its turns, a stunned target can repeat the Wisdom saving throw, ending the stunned condition on itself on a success. On a failure, the target remains stunned and continues to suffer the torment of Tsukuyomi, taking psychic damage equal to a number of d8s equal to your proficiency bonus.",
                 "Once the target succeeds on this saving throw and ends the stunned condition, it must immediately make another Intelligence saving throw against your feature save DC. On a failed save, the target is frightened of you and takes psychic damage equal to a number of d6s equal to your proficiency bonus. On a successful save, the target takes half as much damage and isn't frightened.",
                 "At the end of each of its turns while frightened by Tsukuyomi, the target can repeat the Intelligence saving throw, ending the frightened condition on itself on a success. On a failure, the target remains frightened and continues to suffer the torment of Tsukuyomi, taking psychic damage equal to a number of d6s equal to your proficiency bonus."
@@ -500,7 +660,7 @@
             "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
             "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
             "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
-            "Whenever an ability reduces your Sharingan Durability, reduce the Sharingan Durability of both your left and right eyes by the specified amount.",
+            "Whenever an ability reduces your Sharingan Durability, reduce the Durability of the eye used to activate that ability. If an ability specifically states that it reduces the Durability of both eyes, reduce the Durability of both your left and right eyes by the specified amount.",
             "Your Sharingan Durability can't be restored by resting or other ordinary means. Once either eye's Sharingan Durability is depleted, that eye must be replaced with another Mangekyō Sharingan eye through transplantation."
           ]
         },
@@ -592,7 +752,7 @@
         },
         {
           "type": "entries",
-          "name": "Mangekyō Sharingan Signature",
+          "name": "Mangekyō Sharingan",
           "entries": [
             "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
             {
@@ -662,7 +822,7 @@
             "Your maximum Sharingan Energy is equal to half the sum of your left and right maximum Sharingan Durability, rounded down.",
             "When you finish a short rest, you regain Sharingan Energy equal to 20 percent of your maximum Sharingan Energy, rounded down.",
             "When you finish a long rest, you regain Sharingan Energy equal to your maximum Sharingan Energy.",
-            "Whenever an ability reduces your Sharingan Durability, reduce the Sharingan Durability of both your left and right eyes by the specified amount.",
+            "Whenever an ability reduces your Sharingan Durability, reduce the Durability of the eye used to activate that ability. If an ability specifically states that it reduces the Durability of both eyes, reduce the Durability of both your left and right eyes by the specified amount.",
             "Your Sharingan Durability can't be restored by resting or other ordinary means. Once either eye's Sharingan Durability is depleted, that eye must be replaced with another Mangekyō Sharingan eye through transplantation."
           ]
         },
@@ -754,7 +914,7 @@
         },
         {
           "type": "entries",
-          "name": "Mangekyō Sharingan Signature",
+          "name": "Mangekyō Sharingan",
           "entries": [
             "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",          
             {
@@ -764,7 +924,7 @@
                 "Kotoamatsukami is an extraordinarily subtle genjutsu that alters a target's thoughts, decisions, and will without the target realizing that its mind has been manipulated. You gain the following abilities:",
                 {
                   "type": "entries",
-                  "name": "Kotoamatsukami: Genjutsu",
+                  "name": "Genjutsu",
                   "entries": [
                     "You can attempt to control a creature you can see with a powerful genjutsu by expending 15 Sharingan Energy and reducing the Sharingan Durability of the eye used by 5. The target must make a Wisdom saving throw against your feature save DC. If the target can see you, it makes this saving throw with disadvantage.",
                     "If the target makes eye contact with you while within a 30-foot-long, 5-foot-wide line extending from you, and can see or otherwise perceive you, it automatically fails the saving throw.",
@@ -774,7 +934,7 @@
                 },
                 {
                   "type": "entries",
-                  "name": "Kotoamatsukami: Absolute Control",
+                  "name": "Kotoamatsukami",
                   "entries": [
                     "You can attempt to completely alter a creature's will and beliefs through Kotoamatsukami by expending 50 Sharingan Energy and reducing the Sharingan Durability of the eye used by 25. The target must make a Wisdom saving throw against your feature save DC. If the target can see you, it makes this saving throw with disadvantage.",
                     "If the target makes eye contact with you while within a 30-foot-long, 5-foot-wide line extending from you, and can see or otherwise perceive you, it automatically fails the saving throw.",
