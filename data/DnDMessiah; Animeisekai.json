@@ -3743,7 +3743,7 @@
                     "You gain a +1 bonus to all saving throws.",
                     "You gain a +1 bonus to attack rolls.",
                     "The save DC of your features and spells increases by 1.",
-                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 5 times your Constitution modifier, replacing any temporary hit points you currently have."
+                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 5 times your Constitution modifier."
                   ]
                 },
                 "You can end Bone Susanoo at any time, requiring no action. If you can't pay the Sharingan Energy cost to maintain it, the form ends automatically."
@@ -3763,10 +3763,10 @@
                     "You gain a +2 bonus to all saving throws.",
                     "You gain a +2 bonus to attack rolls.",
                     "The save DC of your features and spells increases by 2.",
-                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 10 times your Constitution modifier, replacing any temporary hit points you currently have."
+                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 10 times your Constitution modifier."
                   ]
                 },
-                "You can end Skeletal Susanoo at any time, requiring no action. If you can't pay the Sharingan Energy cost to maintain it, the form ends automatically."
+                "You can end Skeletal Susanoo at any time, requiring no action. When you end Skeletal Susanoo, you revert to Bone Susanoo if you can still maintain it, otherwise, Susanoo ends. If you can't pay the Sharingan Energy cost to maintain Skeletal Susanoo, the form ends automatically." 
               ]
             },
             {
@@ -3783,10 +3783,68 @@
                     "You gain a +5 bonus to all saving throws.",
                     "You gain a +3 bonus to attack rolls.",
                     "The save DC of your features and spells increases by 3.",
-                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 15 times your Constitution modifier, replacing any temporary hit points you currently have."
+                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 15 times your Constitution modifier."
                   ]
                 },
-                "You can end Humanoid Susanoo at any time, requiring no action. When you end Humanoid Susanoo, you revert to Skeletal Susanoo if you can still maintain it; otherwise, Susanoo ends. If you can't pay the Sharingan Energy cost to maintain Armored Susanoo, the form ends automatically."
+                "You can end Humanoid Susanoo at any time, requiring no action. When you end Humanoid Susanoo, you revert to Skeletal Susanoo or a lower form if you can still maintain it, otherwise, Susanoo ends. If you can't pay the Sharingan Energy cost to maintain Humanoid Susanoo, the form ends automatically."              ]
+            },
+            {
+              "type": "entries",
+              "name": "Armoured Susanoo",
+              "entries": [
+                "You can activate Armoured Susanoo at any time by expending 40 Sharingan Energy. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 20 Sharingan Energy to maintain it.",
+                "When you transform into Armoured Susanoo, you gain temporary hit points equal to 40 times your Constitution modifier.",
+                "While this Susanoo is active, you gain the following benefits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "You gain a +15 bonus to AC.",
+                    "You gain a +7 bonus to all saving throws.",
+                    "You gain a +4 bonus to attack rolls.",
+                    "The save DC of your features and spells increases by 4.",
+                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 20 times your Constitution modifier."
+                  ]
+                },
+                "You can end Armoured Susanoo at any time, requiring no action. When you end Armoured Susanoo, you revert to Humanoid Susanoo or a lower form if you can still maintain it, otherwise, Susanoo ends. If you can't pay the Sharingan Energy cost to maintain Armoured Susanoo, the form ends automatically."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Complete Susanoo",
+              "entries": [
+                "You can activate Complete Susanoo at any time by expending 50 Sharingan Energy. You don't need to pay the maintenance cost on the turn you activate it. Starting at the beginning of your next turn, you can expend 25 Sharingan Energy to maintain it.",
+                "Complete Susanoo is a Titanic manifestation of chakra. Its game size is Gargantuan, although its actual scale can extend far beyond that of an ordinary Gargantuan creature.",
+                "Complete Susanoo has a reach of 30 feet with its attacks and weapons.",
+                "Complete Susanoo has a flying speed equal to three times its walking speed.",
+                "When you transform into Complete Susanoo, you gain temporary hit points equal to 50 times your Constitution modifier.",
+                "While this Susanoo is active, you gain the following benefits:",
+                {
+                  "type": "list",
+                  "items": [
+                    "You gain a +20 bonus to AC.",
+                    "You gain a +10 bonus to all saving throws.",
+                    "You gain a +5 bonus to attack rolls.",
+                    "The save DC of your features and spells increases by 5.",
+                    "At the start of each of your turns while this Susanoo is active, you gain temporary hit points equal to 25 times your Constitution modifier."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Susanoo Protection",
+                  "entries": [
+                    "You can allow willing creatures to enter and remain within your Complete Susanoo. While Complete Susanoo has temporary hit points, a creature inside it takes no damage from attacks or effects that target it directly. Any attack, spell, or effect that directly targets a creature inside the Susanoo instead targets the Susanoo.",
+                    "If a creature inside the Susanoo would be affected by an area of effect, the area of effect affects only the Susanoo instead. The Susanoo and its temporary hit points take the resulting damage.",
+                    "This protection ends immediately when Complete Susanoo has no temporary hit points remaining."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Susanoo Wings",
+                  "entries": [
+                    "When you or another creature within 30 feet of you is required to make a saving throw, you can use your reaction to spread the wings of your Complete Susanoo and shield all creatures within 30 feet of you. All creatures within 30 feet of you automatically succeed on the saving throw."
+                  ]
+                },
+                "You can end Complete Susanoo at any time, requiring no action. When you end Complete Susanoo, you revert to Armoured Susanoo or a lower form if you can still maintain it; otherwise, Susanoo ends. If you can't pay the Sharingan Energy cost to maintain Complete Susanoo, the form ends automatically."
               ]
             }
           ]
@@ -3796,7 +3854,7 @@
           "name": "Susanoo Signature Weapons",
           "entries": [
             "Your Susanoo's signature weapon determines the number of attacks you can make with it as part of an action: Skeletal allows 1 attack, Humanoid allows 2 attacks, Armoured allows 3 attacks, and Complete allows 4 attacks.",
-            "Bone Susanoo does not have a signature weapon and can only make attacks with Chakra Sword. On a hit, the attack deals additional d8s force damage equal to your Constitution modifier.",
+            "Bone Susanoo does not have a signature weapon and can only make one attacks with Chakra Sword. On a hit, the attack deals additional d8s force damage equal to your Constitution modifier.",
             {
               "type": "entries",
               "name": "Red Susanoo",
