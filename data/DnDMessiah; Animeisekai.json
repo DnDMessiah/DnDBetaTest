@@ -3255,7 +3255,7 @@
           "type": "entries",
           "name": "Cells Implantation",
           "entries": [
-            "When these cells are implanted, you must succeed on a DC 19 Constitution saving throw or suffer rejection. On a failure, you take 6d10 necrotic damage, gain 1d4 levels of exhaustion, and the cells die, losing all their properties. The dead cells cannot be revived or restored. To gain the benefits of Hashirama Cells, you must obtain a new viable sample and undergo the implantation procedure again."
+            "When these cells are implanted, you must succeed on a DC 20 Constitution saving throw or suffer rejection. On a failure, you take 6d10 necrotic damage, gain 1d4 levels of exhaustion, and the cells die, losing all their properties. The dead cells cannot be revived or restored. To gain the benefits of Hashirama Cells, you must obtain a new viable sample and undergo the implantation procedure again."
           ]
         },
         {
@@ -3264,14 +3264,14 @@
           "entries": [
             "At the start of each of your turns during combat, if you have at least 1 hit point, you regain hit points equal to your character level + your Constitution modifier (minimum of 1 hit point).",
             "Outside of combat, if you have at least 1 hit point, you regain hit points equal to your Constitution modifier every 10 minutes.",
-            "If you have 0 hit points but are not dead, your cells continue to regenerate. You regain to 1 hit points in 1 minutes. This regeneration stops if you die."
+            "If you have 0 hit points but are not dead, your cells continue to regenerate. You regain 1 hit point after 1 minute. This regeneration stops if you die."
           ]
         },
         {
           "type": "entries",
-          "name": "Cellular Vitality",
+          "name": "Senju Vitality",
           "entries": [
-            "Your Constitution scores each increase by 4, to a maximum of 30.",
+            "Your Constitution score increases by 4, to a maximum of 30.",
             "In addition, your hit point maximum increases by an amount equal to twice your character level when you receive these cells. Whenever you gain a level, your hit point maximum increases by an additional 2 hit points."
           ]
         },
@@ -3280,39 +3280,152 @@
           "name": "Undying Cell",
           "entries": [
             "Your body is exceptionally resilient against death. You gain expertise in death saving throws, meaning you add twice your proficiency bonus to death saving throws.",
-            "In addition, You have Advantage on the death saving throws"
+            "In addition, you have advantage on death saving throws."
           ]
         },
         {
           "type": "entries",
           "name": "Wood Release",
           "entries": [
-            "The power of Hashirama's cells grants you the ability to cast certain spells. You learn the spells listed below when you reach the specified character level. You can cast each spell once without expending a spell slot, and you regain the ability to do so when you finish a long rest. You do not need material components when casting these spells through this trait.",
+            "The power of Hashirama's cells grants you the ability to wield Wood Release. Your Constitution modifier determines which Wood Release techniques you can use.",
+            "Your Wood Release attack bonus equals your proficiency bonus + your Constitution modifier + your level divided by 4, rounded up.",
+            "Your Wood Release save DC equals 8 + your proficiency bonus + your Constitution modifier + your level divided by 4, rounded up.",
+            "Unless a technique states otherwise, a creature affected by your Wood Release makes a Strength saving throw against your Wood Release save DC.",
+            "Damage dealt by Wood Release abilities is magical.",
             {
-              "type": "list",
-              "items": [
-                "Character level 1: {@spell Druidcraft}",
-                "Character level 2: {@spell Goodberry}",
-                "Character level 3: {@spell Spike Growth}",
-                "Character level 5: {@spell Plant Growth}",
-                "Character level 7: {@spell Grasping Vine}",
-                "Character level 9: {@spell Tree Stride}",
-                "Character level 11: {@spell Wall of Thorns}",
-                "Character level 13: {@spell Regenerate}",
-                "Character level 15: {@spell Clone}",
-                "Character level 17: {@spell Imprisonment}"
+              "type": "entries",
+              "name": "Wood Release Chakra Absorption",
+              "entries": [
+                "Your Wood Release can absorb the chakra and vitality of creatures caught within your techniques. Whenever a creature is hit by one of your Wood Release attacks or fails a saving throw against one of your Wood Release techniques, it must roll 1d4.",
+                "The creature's Constitution score is temporarily reduced by the number rolled. You then increase your Constitution score by half the amount reduced, rounded up. The total increase to your Constitution from Chakra Absorption cannot exceed your proficiency bonus",
+                "These changes to Constitution are temporary and last until you finish a long rest.",
+                "A creature's Constitution score cannot be reduced below 1 by this feature."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Binding Nest / Great Forest Techniques",
+              "entries": [
+                "When you reach a Constitution modifier of +0, you can use Wood Release: Binding Nest / Great Forest Techniques.",
+                "As an action, you cause wooden branches to rapidly grow from your body or from a point you can see within 30 feet. Make a Wood Release attack against a creature within 30 feet. On a hit, the target takes bludgeoning damage equal to a number of d4s equal to your Constitution modifier and is grappled by the wooden branches.",
+                "Instead of making an attack, you can cause the branches to spread around a point you can see within 30 feet. Each creature of your choice within 10 feet of that point must succeed on a Strength saving throw or become grappled by the branches.",
+                "A creature grappled by the branches can use its action to make a Strength (Athletics) check against your Wood Release save DC, escaping on a success.",
+                "The branches remain until you dismiss them. A creature that enters the area after the branches have formed is not affected by them."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Clone Technique",
+              "entries": [
+                "When you reach a Constitution modifier of +1, you can use Wood Clone Technique.",
+                "As an action, you create a wood clone in an unoccupied space within 30 feet of you. The clone is visually identical to you and can move and act independently.",
+                "The clone can enter and move through living trees and wooden structures without hindrance. While the clone is within a tree or wooden structure, you can perceive through its senses.",
+                "You can maintain a number of wood clones equal to your Constitution modifier.",
+                "The maximum number of clones you can have active at one time increases as your Constitution modifier increases. Each clone uses the same statistics as you, except it has one-quarter of your hit point maximum.",
+                "A wood clone disappears when it is reduced to 0 hit points, when you dismiss it, or when you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Four Pillars Prison Technique",
+              "entries": [
+                "When you reach a Constitution modifier of +2, you can use Wood Release: Four Pillars Prison Technique.",
+                "As an action, you cause four enormous wooden pillars to erupt around a creature you can see within 60 feet. The target must succeed on a Strength saving throw or become restrained within the wooden prison.",
+                "A restrained creature can repeat the Strength saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                "The prison does not require concentration and lasts for 1 minute, until the target escapes, or until you dismiss it."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Wood Dragon Technique",
+              "entries": [
+                "When you reach a Constitution modifier of +3, you can use Wood Release: Wood Dragon Technique.",
+                "As an action, you summon a massive wooden dragon in an unoccupied space you can see within 60 feet. The wood dragon remains for 1 minute and acts immediately after your turn.",
+                "The wood dragon obeys your commands and can move, attack, grapple, and restrain creatures. Its attacks use your Wood Release attack bonus and save DC.",
+                "When the wood dragon hits a creature, the target takes bludgeoning damage equal to 2d10 + your Constitution modifier and becomes wrapped in the dragon's wooden body. A creature wrapped by the dragon is restrained.",
+                "At the start of each of your turns, the wood dragon can drain the chakra of each creature it has restrained. Each affected creature triggers your Wood Release Chakra Absorption feature.",
+                "The wood dragon disappears when it is reduced to 0 hit points, when you dismiss it, or when 1 minute has passed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Hōbi Technique",
+              "entries": [
+                "When you reach a Constitution modifier of +4, you can use Wood Release: Hōbi Technique.",
+                "As a reaction when you or a creature you can see within 30 feet is hit by an attack, you create an enormous wooden structure around the target.",
+                "The triggering attack deals no damage, and any additional effects caused directly by that attack are negated.",
+                "The Hōbi Technique appears immediately before the triggering attack resolves and remains until the end of the current turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Hokage Style: Tenth Edict On Enlightenment",
+              "entries": [
+                "When you reach a Constitution modifier of +5, you can use Hokage Style: Tenth Edict On Enlightenment.",
+                "As an action, you create massive wooden restraints around a creature you can see within 60 feet. The target must make a Strength saving throw.",
+                "On a failed save, the target is restrained and incapacitated for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+                "This technique does not require concentration."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Style: Laughing Buddha Jutsu",
+              "entries": [
+                "When you reach a Constitution modifier of +6, you can use Wood Style: Laughing Buddha Jutsu.",
+                "As an action, you cause enormous wooden hands to erupt from the ground around you. Each creature of your choice within 30 feet of you must make a Strength saving throw.",
+                "On a failed save, a creature takes bludgeoning damage equal to 4d10 + your Constitution modifier and is grappled and restrained by the wooden hands.",
+                "A restrained creature can repeat the Strength saving throw at the end of each of its turns, escaping on a success.",
+                "The wooden hands remain for 1 minute and do not require concentration."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Advent of a World of Flowering Trees",
+              "entries": [
+                "When you reach a Constitution modifier of +7, you can use Wood Release: Advent of a World of Flowering Trees.",
+                "As an action, you cause a vast forest of flowering trees to erupt from the ground at a point you can see within 120 feet. The forest fills a 60-foot-radius area and lasts for 1 minute.",
+                "The area becomes difficult terrain. When the trees first emerge, each creature of your choice in the area must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 6d10 + your Constitution modifier and is grappled and restrained by the rapidly growing branches.",
+                "At the end of each round, the flowers release a large amount of pollen. Each creature within the area that breathes the pollen must succeed on a Constitution saving throw against your Wood Release save DC or become paralyzed until the end of its next turn.",
+                "The forest does not require concentration."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Wood Golem Technique",
+              "entries": [
+                "When you reach a Constitution modifier of +8, you can use Wood Release: Wood Golem Technique.",
+                "As an action, you create a colossal wooden golem in an unoccupied space within 60 feet. The golem remains for 1 hour and obeys your commands.",
+                "The Wood Golem uses your Wood Release attack bonus and save DC for its attacks and abilities. It has hit points equal to 10 times your Constitution score, and its attacks deal damage based on your Constitution modifier.",
+                "The Wood Golem can grapple creatures of Huge size or smaller. A creature grappled by the golem is restrained.",
+                "The Wood Golem can absorb chakra from creatures it has grappled. Whenever a creature is hit by one of the golem's attacks or fails a saving throw against one of its abilities, that creature triggers your Wood Release Chakra Absorption feature.",
+                "The Wood Golem disappears when it is reduced to 0 hit points, when you dismiss it, or when 1 hour has passed."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Deep Forest Emergence",
+              "entries": [
+                "When you reach a Constitution modifier of +9, you can use Wood Release: Deep Forest Emergence.",
+                "As an action, you cause an enormous forest to erupt from the ground at a point you can see within 300 feet. The forest fills a 300-foot-radius area and lasts for 10 minutes.",
+                "The area becomes difficult terrain. When the forest emerges, each creature of your choice within the area must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 8d10 + your Constitution modifier and becomes grappled and restrained by the enormous roots and trees.",
+                "A creature restrained by the forest can repeat the Strength saving throw at the end of each of its turns, escaping on a success.",
+                "The forest does not require concentration.",
+                "At the start of each of your turns, every creature currently grappled or restrained by the forest triggers your Wood Release Chakra Absorption feature."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Wood Release: Several Thousand Hands",
+              "entries": [
+                "When you reach a Constitution modifier of +10, you can use Wood Release: Several Thousand Hands.",
+                "As an action, you create an enormous wooden statue with thousands of arms in an unoccupied space you can see within 120 feet. The statue remains for 1 minute and does not require concentration.",
+                "The statue acts immediately after your turn. It obeys your commands and can move its arms to strike creatures within 120 feet.",
+                "As an action on your turn, you can command the statue to unleash a barrage of wooden fists. Choose any number of creatures within 120 feet of the statue. Each chosen creature must make a Strength saving throw.",
+                "On a failed save, a creature takes bludgeoning damage equal to 12d12 + twice your Constitution modifier and is knocked prone and restrained by the enormous wooden arms. On a successful save, the creature takes half as much damage and is not restrained.",
+                "At the start of each of your turns, every creature restrained by the statue triggers your Wood Release Chakra Absorption feature.",
+                "If you have mastered Sage Mode, this technique becomes Sage Art: Wood Release: True Several Thousand Hands. The Sage Art version retains all the benefits of Several Thousand Hands and gains additional power determined by your Sage Mode."
               ]
             }
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Rinnegan Awakening",
-          "entries": [
-            "If Hashirama Cells are implanted into a creature that possesses a Sharingan or has Uchiha lineage, the creature must make one death saving throw against a DC of 20.",
-            "On a successful death saving throw, the creature's Sharingan immediately evolves into a Rinnegan, replacing the Sharingan and granting all properties of the Rinnegan.",
-            "On a failed death saving throw, the Sharingan does not evolve. The creature can attempt this death saving throw again whenever it gains a level.",
-            "At 20th level, this death saving throw automatically succeeds, causing the Sharingan to immediately evolve into a Rinnegan."
           ]
         }
       ]
@@ -3620,7 +3733,7 @@
               "entries": [
                 "You can impose your will upon a creature affected by your Genjutsu. The target must obey your commands, which can include attacking, moving, taking actions, or otherwise acting according to your instructions.",
                 "If the target is in combat, it can repeat the Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success.",
-                "An allied creature within reach of the target can use an action to shake the target out of the Genjutsu, immediately ending the effect."
+                "An allied creature within reach of the target can use an action to shake the target out of the Genjutsu, immediately ending the effect.",
                 "You must expend 5 Sharingan Energy per hour to maintain the Genjutsu. The Genjutsu ends if your Sharingan Energy is depleted."
               ]
             },
@@ -3649,7 +3762,7 @@
           "type": "entries",
           "name": "Izanagi",
           "entries": [
-            "As a reaction, you can use Izanagi to alter the outcome of an event that affected you within the last minute, treating the unfavorable outcome as an illusion and rewriting reality in your favor."
+            "As a reaction, you can use Izanagi to alter the outcome of an event that affected you within the last minute, treating the unfavorable outcome as an illusion and rewriting reality in your favor.",
             "After using Izanagi, the eye used to activate this ability becomes permanently blind, and its Sharingan Durability is reduced to 0. This blindness can't be removed by resting or ordinary healing. The eye must be replaced through transplantation to restore vision."
           ]
         },
@@ -4144,8 +4257,8 @@
           "type": "entries",
           "name": "Rinnegan Awakening",
           "entries": [
-            "If a Sharingan is implanted into a creature that possesses Hashirama Cells or has Senju lineage, the creature must make one death saving throw against a DC of 20.",
-            "On a successful death saving throw, the implanted Sharingan immediately evolves into a Rinnegan, replacing the Sharingan and granting all properties of the Rinnegan.",
+            "If Hashirama Cells are implanted into a creature that possesses a Sharingan or has Uchiha lineage, the creature must make one death saving throw against a DC of 21.",
+            "On a successful death saving throw, the creature's Sharingan immediately evolves into a Rinnegan, replacing the Sharingan and granting all properties of the Rinnegan.",
             "On a failed death saving throw, the Sharingan does not evolve. The creature can attempt this death saving throw again whenever it gains a level.",
             "At 20th level, this death saving throw automatically succeeds, causing the Sharingan to immediately evolve into a Rinnegan."
           ]
@@ -4195,7 +4308,7 @@
             "You have advantage on all saving throws.",
             "All Attack rolls against you have disadvantage.",
             "You add your Eye Mastery Bonus to Wisdom (Perception) and Wisdom (Insight) checks.",
-            "You add your Eye Mastery Bonus to initiative rolls."
+            "You add your Eye Mastery Bonus to initiative rolls.",
             "Your Constitution score and its maximum increase by an amount equal to the highest Eye Mastery Bonus among your eyes. This increase can allow your Constitution score to exceed the normal maximum."
           ]
         },
@@ -4240,6 +4353,16 @@
                 ]
               ]
             }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rinnegan Awakening",
+          "entries": [
+            "If Hashirama Cells are implanted into a creature that possesses a Sharingan or has Uchiha lineage, the creature must make one death saving throw against a DC of 21.",
+            "On a successful death saving throw, the creature's Sharingan immediately evolves into a Rinnegan, replacing the Sharingan and granting all properties of the Rinnegan.",
+            "On a failed death saving throw, the Sharingan does not evolve. The creature can attempt this death saving throw again whenever it gains a level.",
+            "At 20th level, this death saving throw automatically succeeds, causing the Sharingan to immediately evolve into a Rinnegan."
           ]
         }
       ]
