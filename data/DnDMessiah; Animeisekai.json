@@ -3306,7 +3306,7 @@
               "type": "entries",
               "name": "Wood Release: Binding Nest / Great Forest Techniques",
               "entries": [
-                "When you reach a Constitution modifier of +0, you can use Wood Release: Binding Nest / Great Forest Techniques.",
+                "When you reach a Constitution modifier of +0, you can use Wood Release: Binding Nest / Great Forest Techniques. You can use this technique a number of times equal to your Constitution modifier + 1, and you regain all expended uses when you finish a long rest.",
                 "As an action, you cause wooden branches to rapidly grow from your body or from a point you can see within 30 feet. Make a Wood Release attack against a creature within 30 feet. On a hit, the target takes bludgeoning damage equal to a number of d4s equal to your Constitution modifier and is grappled by the wooden branches.",
                 "Instead of making an attack, you can cause the branches to spread around a point you can see within 30 feet. Each creature of your choice within 10 feet of that point must succeed on a Strength saving throw or become grappled by the branches.",
                 "A creature grappled by the branches can use its action to make a Strength (Athletics) check against your Wood Release save DC, escaping on a success.",
@@ -3317,11 +3317,12 @@
               "type": "entries",
               "name": "Wood Clone Technique",
               "entries": [
-                "When you reach a Constitution modifier of +1, you can use Wood Clone Technique.",
+                "When you reach a Constitution modifier of +1, you can use Wood Clone Technique. You can use this technique a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a long rest.",
                 "As an action, you create a wood clone in an unoccupied space within 30 feet of you. The clone is visually identical to you and can move and act independently.",
                 "The clone can enter and move through living trees and wooden structures without hindrance. While the clone is within a tree or wooden structure, you can perceive through its senses.",
                 "You can maintain a number of wood clones equal to your Constitution modifier.",
-                "The maximum number of clones you can have active at one time increases as your Constitution modifier increases. Each clone uses the same statistics as you, except it has one-quarter of your hit point maximum.",
+                "Each clone uses the same statistics as you, except it has one-quarter of your hit point maximum.",
+                "A wood clone can use Wood Release: Binding Nest / Great Forest Techniques. When it does so, the clone's body transforms back into wood, causing wooden branches to lash out from its body as part of the technique. The clone then disappears.",
                 "A wood clone disappears when it is reduced to 0 hit points, when you dismiss it, or when you finish a long rest."
               ]
             },
@@ -3329,8 +3330,8 @@
               "type": "entries",
               "name": "Wood Release: Four Pillars Prison Technique",
               "entries": [
-                "When you reach a Constitution modifier of +2, you can use Wood Release: Four Pillars Prison Technique.",
-                "As an action, you cause four enormous wooden pillars to erupt around a creature you can see within 60 feet. The target must succeed on a Strength saving throw or become restrained within the wooden prison.",
+                "When you reach a Constitution modifier of +2, you can use Wood Release: Four Pillars Prison Technique. You can use this technique a number of times equal to your Constitution modifier - 1, and you regain all expended uses when you finish a long rest.",
+                "As an action, you cause four enormous wooden pillars to erupt from the ground and form a 10-foot-square wooden prison around a creature you can see within 60 feet. The target must succeed on a Strength saving throw or become restrained within the wooden prison.",
                 "A restrained creature can repeat the Strength saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "The prison does not require concentration and lasts for 1 minute, until the target escapes, or until you dismiss it."
               ]
@@ -3339,19 +3340,18 @@
               "type": "entries",
               "name": "Wood Release: Wood Dragon Technique",
               "entries": [
-                "When you reach a Constitution modifier of +3, you can use Wood Release: Wood Dragon Technique.",
-                "As an action, you summon a massive wooden dragon in an unoccupied space you can see within 60 feet. The wood dragon remains for 1 minute and acts immediately after your turn.",
-                "The wood dragon obeys your commands and can move, attack, grapple, and restrain creatures. Its attacks use your Wood Release attack bonus and save DC.",
-                "When the wood dragon hits a creature, the target takes bludgeoning damage equal to 2d10 + your Constitution modifier and becomes wrapped in the dragon's wooden body. A creature wrapped by the dragon is restrained.",
-                "At the start of each of your turns, the wood dragon can drain the chakra of each creature it has restrained. Each affected creature triggers your Wood Release Chakra Absorption feature.",
-                "The wood dragon disappears when it is reduced to 0 hit points, when you dismiss it, or when 1 minute has passed."
+                "When you reach a Constitution modifier of +3, you can use Wood Release: Wood Dragon Technique. You can use this technique a number of times equal to your Constitution modifier - 2, and you regain all expended uses when you finish a long rest.",
+                "As an action, you summon a Wood Dragon in an unoccupied space you can see within 60 feet. The Wood Dragon remains for 1 minute and acts immediately after your turn.",
+                "The Wood Dragon obeys your commands and uses your Wood Release attack bonus and save DC.",
+                "At the start of your turn, the Wood Dragon can drain the chakra of each creature it has restrained. Each affected creature triggers your Wood Release Chakra Absorption feature.",
+                "The Wood Dragon disappears when it is reduced to 0 hit points, when you dismiss it, or when 1 minute has passed."
               ]
             },
             {
               "type": "entries",
               "name": "Wood Release: Hōbi Technique",
               "entries": [
-                "When you reach a Constitution modifier of +4, you can use Wood Release: Hōbi Technique.",
+                "When you reach a Constitution modifier of +4, you can use Wood Release: Hōbi Technique. You can use this technique a number of times equal to your Constitution modifier -3 , and you regain all expended uses when you finish a long rest.",
                 "As a reaction when you or a creature you can see within 30 feet is hit by an attack, you create an enormous wooden structure around the target.",
                 "The triggering attack deals no damage, and any additional effects caused directly by that attack are negated.",
                 "The Hōbi Technique appears immediately before the triggering attack resolves and remains until the end of the current turn."
@@ -3359,9 +3359,9 @@
             },
             {
               "type": "entries",
-              "name": "Hokage Style: Tenth Edict On Enlightenment",
+              "name": "Hokage Style Elder Jutsu: Tenth Edict On Enlightenment",
               "entries": [
-                "When you reach a Constitution modifier of +5, you can use Hokage Style: Tenth Edict On Enlightenment.",
+                "When you reach a Constitution modifier of +5, you can use Hokage Style Elder Jutsu: Tenth Edict On Enlightenment. You can use this technique a number of times equal to your Constitution modifier -4 , and you regain all expended uses when you finish a long rest.",
                 "As an action, you create massive wooden restraints around a creature you can see within 60 feet. The target must make a Strength saving throw.",
                 "On a failed save, the target is restrained and incapacitated for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
                 "This technique does not require concentration."
@@ -3369,9 +3369,9 @@
             },
             {
               "type": "entries",
-              "name": "Wood Style: Laughing Buddha Jutsu",
+              "name": "Wood Release: Hotei Technique",
               "entries": [
-                "When you reach a Constitution modifier of +6, you can use Wood Style: Laughing Buddha Jutsu.",
+                "When you reach a Constitution modifier of +6, you can use Wood Release: Hotei Technique. You can use this technique a number of times equal to your Constitution modifier -5 , and you regain all expended uses when you finish a long rest.",
                 "As an action, you cause enormous wooden hands to erupt from the ground around you. Each creature of your choice within 30 feet of you must make a Strength saving throw.",
                 "On a failed save, a creature takes bludgeoning damage equal to 4d10 + your Constitution modifier and is grappled and restrained by the wooden hands.",
                 "A restrained creature can repeat the Strength saving throw at the end of each of its turns, escaping on a success.",
@@ -3382,7 +3382,7 @@
               "type": "entries",
               "name": "Wood Release: Advent of a World of Flowering Trees",
               "entries": [
-                "When you reach a Constitution modifier of +7, you can use Wood Release: Advent of a World of Flowering Trees.",
+                "When you reach a Constitution modifier of +7, you can use Wood Release: Advent of a World of Flowering Trees. You can use this technique a number of times equal to your Constitution modifier -6 , and you regain all expended uses when you finish a long rest.",
                 "As an action, you cause a vast forest of flowering trees to erupt from the ground at a point you can see within 120 feet. The forest fills a 60-foot-radius area and lasts for 1 minute.",
                 "The area becomes difficult terrain. When the trees first emerge, each creature of your choice in the area must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 6d10 + your Constitution modifier and is grappled and restrained by the rapidly growing branches.",
                 "At the end of each round, the flowers release a large amount of pollen. Each creature within the area that breathes the pollen must succeed on a Constitution saving throw against your Wood Release save DC or become paralyzed until the end of its next turn.",
@@ -3393,7 +3393,7 @@
               "type": "entries",
               "name": "Wood Release: Wood Golem Technique",
               "entries": [
-                "When you reach a Constitution modifier of +8, you can use Wood Release: Wood Golem Technique.",
+                "When you reach a Constitution modifier of +8, you can use Wood Release: Wood Golem Technique. You can use this technique a number of times equal to your Constitution modifier -7 , and you regain all expended uses when you finish a long rest.",
                 "As an action, you create a colossal wooden golem in an unoccupied space within 60 feet. The golem remains for 1 hour and obeys your commands.",
                 "The Wood Golem uses your Wood Release attack bonus and save DC for its attacks and abilities. It has hit points equal to 10 times your Constitution score, and its attacks deal damage based on your Constitution modifier.",
                 "The Wood Golem can grapple creatures of Huge size or smaller. A creature grappled by the golem is restrained.",
@@ -3405,7 +3405,7 @@
               "type": "entries",
               "name": "Wood Release: Deep Forest Emergence",
               "entries": [
-                "When you reach a Constitution modifier of +9, you can use Wood Release: Deep Forest Emergence.",
+                "When you reach a Constitution modifier of +9, you can use Wood Release: Deep Forest Emergence. You can use this technique a number of times equal to your Constitution modifier -8 , and you regain all expended uses when you finish a long rest.",
                 "As an action, you cause an enormous forest to erupt from the ground at a point you can see within 300 feet. The forest fills a 300-foot-radius area and lasts for 10 minutes.",
                 "The area becomes difficult terrain. When the forest emerges, each creature of your choice within the area must make a Strength saving throw. On a failed save, a creature takes bludgeoning damage equal to 8d10 + your Constitution modifier and becomes grappled and restrained by the enormous roots and trees.",
                 "A creature restrained by the forest can repeat the Strength saving throw at the end of each of its turns, escaping on a success.",
@@ -3417,7 +3417,7 @@
               "type": "entries",
               "name": "Wood Release: Several Thousand Hands",
               "entries": [
-                "When you reach a Constitution modifier of +10, you can use Wood Release: Several Thousand Hands.",
+                "When you reach a Constitution modifier of +10, you can use Wood Release: Several Thousand Hands. You can use this technique a number of times equal to your Constitution modifier -9 , and you regain all expended uses when you finish a long rest.",
                 "As an action, you create an enormous wooden statue with thousands of arms in an unoccupied space you can see within 120 feet. The statue remains for 1 minute and does not require concentration.",
                 "The statue acts immediately after your turn. It obeys your commands and can move its arms to strike creatures within 120 feet.",
                 "As an action on your turn, you can command the statue to unleash a barrage of wooden fists. Choose any number of creatures within 120 feet of the statue. Each chosen creature must make a Strength saving throw.",
@@ -4367,5 +4367,102 @@
         }
       ]
     }
+  ],
+  "monster": [
+    {
+      "name": "Wood Dragon",
+      "source": "AnimeIsekai",
+      "size": [
+        "H"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "special": "10 + your Constitution modifier"
+        }
+      ],
+      "hp": {
+          "special": "10 + 10 times your Constitution modifier"
+        },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 20,
+      "int": 3,
+      "wis": 10,
+      "cha": 5,
+      "passive": 10,
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+  
+      "trait": [
+        {
+          "name": "Wooden Body",
+          "entries": [
+            "The wood dragon is resistant to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Bound to Its Creator",
+          "entries": [
+            "The wood dragon obeys the commands of the creature that summoned it. The dragon acts immediately after its creator's turn."
+          ]
+        },
+        {
+          "name": "Wood Release",
+          "entries": [
+            "Damage dealt by Wood Release abilities is magical."
+          ]
+        },
+        {
+          "name": "Chakra Absorption",
+          "entries": [
+            "At the start of your turn, the wood dragon can drain the chakra of each creature it has restrained. Each affected creature triggers your Wood Release Chakra Absorption feature."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Wooden Bite",
+          "entries": [
+            "{@atkr m} {@hit 1} plus your Wood Release attack bonus, reach 10 ft. {@h} bludgeoning damage equal to a number of d6s equal to your Constitution modifier. The target is wrapped in the dragon's wooden body and has the {@condition Restrained} condition."
+          ]
+        }
+      ],
+      "bonus": [
+          {
+          "name": "Wooden Bind",
+          "entries": [
+            "{@actSave str} DC equals your Wood Release save DC, one creature within 10 feet of the wood dragon that it can see. {@actSaveFail} The target has the {@condition Grappled} condition."
+          ]
+        }
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "restrained"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasToken": true
+    }
+  ],
+  "bonus": [
+    
   ]
 }
