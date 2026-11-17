@@ -4380,6 +4380,301 @@
             "At 20th level, this death saving throw automatically succeeds, causing the Sharingan to immediately evolve into a Rinnegan."
           ]
         }
+      ] 
+    },
+    { 
+      "name": "Rinnegan",
+      "source": "AnimeIsekai",
+      "rarity": "artifact",
+      "wondrous": true,
+      "weight": 1,
+      "reqAttune": false,
+      "entries": [
+        "The Rinnegan grants you access to the Six Paths Technique and the Outer Path.",
+        "Your Rinnegan abilities use your Ocular Attack Bonus and Ocular Save DC.",
+        "Your Ocular Attack Bonus is equal to your proficiency bonus + your Constitution modifier + 4.",
+        "Your Ocular Save DC is equal to 8 + your proficiency bonus + your Constitution modifier + 4.",
+        {
+          "type": "entries",
+          "name": "Rinnegan Implantation",
+          "entries": [
+            "When these eyes are implanted, you must succeed on a DC 23 Constitution saving throw or suffer rejection. On a failed save, you take 10d8 necrotic damage, gain 1d4 levels of exhaustion, and each implanted eye has its Durability reduced to 0, becoming blind and losing all of its properties.",
+            "An eye with 0 Durability cannot be revived or restored by any means. To gain the benefits of the Rinnegan, you must obtain a new viable sample and undergo the implantation procedure again."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rinnegan",
+          "entries": [
+            "You gain truesight out to a range of 60 feet.",
+            "You can perceive chakra, ki, mana, mind, and other forms of supernatural energy within your sight, allowing you to identify creatures, objects, and effects that contain or are composed of such energy.",
+            "You have advantage on saving throws against spells and supernatural abilities that you can see.",
+            "You can see invisible creatures and objects within your truesight range, and you can perceive creatures and objects on the Ethereal Plane.",
+            "Your Rinnegan allows you to perceive and interact with chakra-based techniques regardless of their normal visual appearance."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rinnegan Evolution",
+          "entries": [
+            "When your Sharingan evolves into the Rinnegan, your previous Sharingan stage is replaced by the Rinnegan. You retain the passive benefits gained from your previous Sharingan evolution, including accumulated Eye Mastery benefits, but you can no longer use any Mangekyō Sharingan or Eternal Mangekyō Sharingan abilities through the Rinnegan.",
+            "You retain the ability to use Susanoo if you awakened it before your Sharingan evolved into the Rinnegan.",
+            "Upon obtaining the Rinnegan, roll 1d2 to determine its unique ocular ability. On a 1, you gain Amenotejikara. On a 2, you gain Limbo.",
+            "The Rinnegan grants its own Eye Mastery Bonus and Rinnegan abilities regardless of whether it was naturally evolved or implanted."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Amenotejikara",
+          "entries": [
+            "You can instantly swap the positions of two creatures or objects that you can see. This ability requires no action.",
+            "You can swap yourself with a creature or object, or swap the positions of two other creatures or objects. The targets do not need to be willing, and this ability does not allow a saving throw or other means of resistance.",
+            "A creature or object must be within range and occupy a space that can be occupied by the other target. The targets are teleported into each other's spaces, while retaining their original orientation."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Limbo",
+          "entries": [
+            "As a bonus action, you can create one invisible shadow of yourself in an adjacent plane. You can create a number of Limbo shadows equal to the number of Rinnegan you possess. The shadows are imperceptible to creatures that cannot perceive creatures or objects on another plane.",
+            "Each Limbo shadow acts independently and shares your abilities. A Limbo shadow can move and attack creatures within 30 feet of it, using your Ocular Attack Bonus and Ocular Save DC.",
+            "A creature hit by a Limbo shadow takes force damage equal to a number of d8s equal to your Constitution modifier.",
+            "When you take damage or fail a saving throw, you can sacrifice one of your Limbo shadows to have that shadow receive the damage or other harmful effect instead. The Limbo shadow disappears after receiving the effect, and you suffer none of the damage or other harmful effects that it prevented.",
+            "You can maintain your Limbo shadows for 1 minute, until you dismiss them, or until you become incapacitated."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rinnegan Transplantation",
+          "entries": [
+            "If the Rinnegan was implanted rather than evolved from your own Sharingan, you gain the abilities of the implanted Rinnegan and its unique ocular ability, but you do not gain the passive benefits of previous Sharingan evolution stages that you never possessed.",
+            "If you already possessed Sharingan, Mangekyō Sharingan, Eternal Mangekyō Sharingan abilities, or Susanoo before receiving the transplant, those abilities remain available to you as abilities you had already awakened. However, the implanted Rinnegan itself does not grant any of them."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "6 Tomoe - Rinnegan",
+          "entries": [
+            "A Rinnegan can evolve beyond its normal state when its wielder receives the chakra of an Ōtsutsuki. This awakens the 6 Tomoe Rinnegan.",
+            "The 6 Tomoe Rinnegan is not a separate eye that must be implanted or created. It is an awakened state of the existing Rinnegan, unlocking additional powers within the same eye.",
+            "The 6 Tomoe Rinnegan retains all abilities of the Rinnegan and its unique ocular ability, while gaining the additional benefits of its awakened state."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Six Paths Perception",
+          "entries": [
+            "Your Rinnegan allows you to perceive the flow and nature of supernatural energy within your sight. You automatically recognize whether a creature or effect is using chakra, ki, mana, mind, or another supernatural energy.",
+            "You can see through illusions created by chakra, ki, mana, or mind-based abilities, granting you advantage on saving throws and ability checks made to discern or resist them.",
+            "Your Rinnegan can perceive invisible creatures and objects within 120 feet and can perceive creatures and objects on the Ethereal Plane."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Deva Path",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Bansho Ten'in",
+              "entries": [
+                "As a bonus action, choose one creature you can see within 60 feet. The target must succeed on a Strength saving throw against your Ocular Save DC or be pulled up to 60 feet toward you. This movement does not provoke opportunity attacks."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Shinra Tensei",
+              "entries": [
+                "As an action, you release a powerful repulsive force. Each creature of your choice within 30 feet of you must make a Strength saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes force damage equal to a number of d10s equal to your Constitution modifier and is pushed up to 30 feet away from you. On a successful save, it takes half as much damage and isn't pushed.",
+                "You can exclude any number of creatures from this effect.",
+                "After using this technique, you cannot use Shinra Tensei or Bansho Ten'in until the end of your next turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Chibaku Tensei",
+              "entries": [
+                "As an action, you create a gravitational core at a point you can see within 120 feet. Each creature of your choice within a 30-foot-radius sphere centered on that point must make a Strength saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes force damage equal to a number of d12s equal to your Constitution modifier and has the Restrained condition as surrounding objects and terrain are pulled toward the core.",
+                "On a successful save, a creature takes half as much damage and isn't Restrained.",
+                "A Restrained creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
+                "The gravitational core and the accumulated debris remain for 1 minute. This technique requires concentration, as if concentrating on a spell."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Asura Path",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Mechanical Augmentation",
+              "entries": [
+                "As a bonus action, you transform your body by manifesting mechanical armor, additional arms, and weapons. The transformation lasts for 1 minute.",
+                "While transformed, your AC increases by 2, and you can make Asura Blade attacks."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Asura Blade",
+              "entries": [
+                "{@atkr m} {@hit 1} plus your Ocular Attack Bonus, reach 10 ft. {@h} slashing damage equal to a number of d6s equal to your Constitution modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Asura Missile Barrage",
+              "entries": [
+                "As an action, you launch a barrage of chakra-powered missiles at a point you can see within 120 feet. Each creature within a 10-foot-radius sphere centered on that point must make a Dexterity saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes fire damage equal to a number of d8s equal to your Constitution modifier. On a successful save, it takes half as much damage."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Chakra Cannon",
+              "entries": [
+                "As an action, you fire a concentrated blast of chakra in a 60-foot line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes force damage equal to a number of d8s equal to twice your Constitution modifier. On a successful save, it takes half as much damage."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Human Path",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Mind Reading",
+              "entries": [
+                "As an action, touch one creature. The target must make a Wisdom saving throw against your Ocular Save DC. On a failed save, you read its surface thoughts and can learn the answer to one question about its memories, intentions, or knowledge."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Soul Extraction",
+              "entries": [
+                "As an action, touch one creature that is Grappled or Incapacitated. The target must make a Charisma saving throw against your Ocular Save DC.",
+                "On a failed save, the target takes psychic damage equal to a number of d10s equal to your Constitution modifier and is Stunned until the end of your next turn.",
+                "If this damage reduces the target to 0 hit points, its soul is extracted and the target dies."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Animal Path",
+          "entries": [
+            "As an action, you summon a Beast or Monstrosity with a challenge rating no greater than your proficiency bonus in an unoccupied space you can see within 60 feet.",
+            "The summoned creature obeys your commands and acts immediately after your turn. You can perceive through its senses while it is on the same plane of existence.",
+            "The summoned creature disappears when it is reduced to 0 hit points, when you dismiss it, or after 1 hour."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Preta Path",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Blocking Technique Absorption Seal",
+              "entries": [
+                "As a reaction when you take damage from a spell or magical effect, you form an absorption barrier around yourself.",
+                "Reduce the triggering damage by an amount equal to a number of d8s equal to your Constitution modifier. This reduction occurs before applying resistance or vulnerability.",
+                "If this reduces the damage to 0, you gain temporary hit points equal to the damage prevented."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Naraka Path",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "King of Hell",
+              "entries": [
+                "As an action, you summon the King of Hell in an unoccupied space within 5 feet of you. It remains for 1 minute and obeys your commands."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Restoration",
+              "entries": [
+                "As an action, the King of Hell restores one creature or summoned creature it can touch. The target regains hit points equal to a number of d8s equal to your Constitution modifier."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Interrogation",
+              "entries": [
+                "The King of Hell can interrogate one creature that is Grappled or Incapacitated within 5 feet of it. The target must make a Charisma saving throw against your Ocular Save DC.",
+                "On a failed save, the target must answer one question truthfully. If it deliberately lies, the King of Hell extracts its life force, dealing necrotic damage equal to a number of d8s equal to your Constitution modifier."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Outer Path",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Black Receivers",
+              "entries": [
+                "You manifest black chakra receivers that can be used as weapons. You can make a Rinnegan attack with a receiver, dealing piercing damage equal to a number of d4s equal to your Constitution modifier on a hit.",
+                "A creature hit by a receiver must succeed on a Constitution saving throw against your Ocular Save DC or it cannot take reactions until the start of your next turn."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Demonic Chakra Chains",
+              "entries": [
+                "As an action, you manifest chakra chains and target one creature you can see within 60 feet. The target must succeed on a Strength saving throw against your Ocular Save DC or become Restrained.",
+                "A Restrained creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Six Paths of Pain",
+              "entries": [
+                "You can implant black receivers into up to six humanoid corpses. Each corpse becomes a vessel that you can control through your chakra.",
+                "You can issue commands to all of these vessels simultaneously. They act immediately after your turn and obey your commands.",
+                "You can perceive through the senses of each vessel, sharing their fields of vision. Each vessel can use one of the Six Paths abilities you know, but cannot use abilities that require your personal body."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Samsara of Heavenly Life Technique",
+              "entries": [
+                "As an action, you sacrifice your own life to restore up to six creatures that died within the last minute and whose bodies are within 60 feet of you.",
+                "Each restored creature returns to life with hit points equal to a number of d12s equal to your Constitution modifier.",
+                "After using this technique, you die. You cannot be restored to life by this technique."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Rinne-Sharingan Awakening",
+          "entries": [
+            "The Rinne-Sharingan awakens when you simultaneously possess the chakra of all nine Tailed Beasts, or when you become the Jinchūriki of the Ten-Tails.",
+            "Upon awakening, the Rinne-Sharingan manifests as a third eye on your forehead, replacing neither of your existing eyes.",
+            "The Rinne-Sharingan retains the powers of your Rinnegan and gains the additional abilities of its awakened state."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rinne-Sharingan",
+      "source": "AnimeIsekai",
+      "rarity": "artifact",
+      "wondrous": true,
+      "weight": 1,
+      "reqAttune": false,
+      "entries": [
+        "This eye possesses an Eye Mastery Bonus of +5.",
+        "The Rinne-Sharingan is the ultimate evolution of the Rinnegan, possessing powers beyond those of the ordinary Rinnegan."
       ]
     }
   ],
@@ -4451,7 +4746,8 @@
         {
           "name": "Wooden Bite",
           "entries": [
-            "{@atkr m} {@hit 1} plus your Wood Release attack bonus, reach 10 ft. {@h} bludgeoning damage equal to a number of d6s equal to your Constitution modifier. The target is wrapped in the dragon's wooden body and has the {@condition Grappled} condition."
+            "{@atkr m} {@hit 1} plus your Wood Release attack bonus, reach 10 ft. {@h} bludgeoning damage equal to a number of d6s equal to your Constitution modifier. The target is wrapped in the dragon's wooden body and has the {@condition Grappled} condition.",
+            "A creature grappled by the wood golem can use its action to make a Strength (Athletics) check against your Wood Release save DC, ending the grapple on a success."
           ]
         }
       ],
@@ -4459,7 +4755,8 @@
         {
           "name": "Wooden Bind",
           "entries": [
-            "{@actSave str} DC equals your Wood Release save DC, one creature within 10 feet of the wood dragon that it can see. {@actSaveFail} The target has the {@condition Grappled} condition."
+            "{@actSave str} DC equals your Wood Release save DC, one creature within 10 feet of the wood dragon that it can see. {@actSaveFail} The target has the {@condition Grappled} condition.",
+            "A creature grappled by the wood golem can use its action to make a Strength (Athletics) check against your Wood Release save DC, ending the grapple on a success."
           ]
         }
       ],
@@ -4469,6 +4766,314 @@
       "conditionInflict": [
         "grappled",
         "restrained"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasToken": true
+    },
+    {
+      "name": "Wood Golem",
+      "source": "AnimeIsekai",
+      "size": [
+        "G"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "special": "14 + your Constitution modifier"
+        }
+      ],
+      "hp": {
+        "special": "20 + 20 times your Constitution modifier"
+      },
+      "speed": {
+        "walk": 60
+      },
+      "str": 26,
+      "dex": 8,
+      "con": 24,
+      "int": 3,
+      "wis": 10,
+      "cha": 5,
+      "passive": 10,
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Wooden Body",
+          "entries": [
+            "The wood golem is resistant to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Wood Release",
+          "entries": [
+            "Damage dealt by Wood Release abilities is magical."
+          ]
+        },
+        {
+          "name": "Wood Dragon Companion",
+          "entries": [
+            "When the wood golem is summoned, one Wood Dragon is also summoned in an unoccupied space within 30 feet of it.",
+            "The wood dragon uses the Wood Dragon stat block and obeys the commands of the creature that summoned the wood golem. It shares the wood golem's initiative and acts immediately after the wood golem's turn.",
+            "The wood dragon remains for the same duration as the wood golem and disappears when the wood golem disappears."
+          ]
+        },
+        {
+          "name": "Colossal Strength",
+          "entries": [
+            "The wood golem has advantage on Strength checks and Strength saving throws."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The wood golem makes two Wooden Fist attacks."
+          ]
+        },
+        {
+          "name": "Wooden Fist",
+          "entries": [
+            "{@atkr m} {@hit 2} plus your Wood Release attack bonus, reach 15 ft. {@h} bludgeoning damage equal to a number of d8s equal to your Constitution modifier. If the target is Gargantuan or smaller, it must succeed on a Strength saving throw against your Wood Release save DC or be knocked {@condition Prone}."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Wooden Grasp",
+          "entries": [
+            "{@actSave str} DC equals your Wood Release save DC, one creature within 15 feet of the wood golem that it can see. {@actSaveFail} The target has the {@condition Grappled} condition.",
+            "A creature grappled by the wood golem can use its action to make a Strength (Athletics) check against your Wood Release save DC, ending the grapple on a success."
+          ]
+        }
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "prone"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasToken": true
+    },
+    {
+      "name": "Several Thousand Hands",
+      "source": "AnimeIsekai",
+      "size": [
+        "C"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "special": "16 + your Constitution modifier"
+        }
+      ],
+      "hp": {
+        "special": "30 + 30 times your Constitution modifier"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 30,
+      "dex": 6,
+      "con": 28,
+      "int": 3,
+      "wis": 10,
+      "cha": 5,
+      "passive": 10,
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Wooden Body",
+          "entries": [
+            "The statue is resistant to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Wood Release",
+          "entries": [
+            "Damage dealt by Wood Release abilities is magical."
+          ]
+        },
+        {
+          "name": "Colossal Strength",
+          "entries": [
+            "The statue has advantage on Strength checks and Strength saving throws."
+          ]
+        },
+        {
+          "name": "Thousands of Arms",
+          "entries": [
+            "The statue can attack multiple creatures at once. Its wooden arms can reach creatures within 30 feet of it."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The statue makes three Wooden Fist attacks."
+          ]
+        },
+        {
+          "name": "Wooden Fist",
+          "entries": [
+            "{@atkr m} {@hit 3} plus your Wood Release attack bonus, reach 30 ft. {@h} bludgeoning damage equal to a number of d10s equal to your Constitution modifier."
+          ]
+        },
+        {
+          "name": "Thousand-Hand Barrage {@recharge 6}",
+          "entries": [
+            "{@actSave str} DC equals your Wood Release save DC, each creature of your choice within 30 feet of the statue. {@actSaveFail} A creature takes 100d2 + twice your Constitution modifier bludgeoning damage and is knocked {@condition Prone}. {@actSaveSuccess} A creature takes half as much damage and isn't knocked {@condition Prone}."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Wooden Grasp",
+          "entries": [
+            "{@actSave str} DC equals your Wood Release save DC, one creature within 30 feet of the statue that it can see. {@actSaveFail} The target has the {@condition Grappled} condition.",
+            "A creature grappled by the statue can use its action to make a Strength (Athletics) check against your Wood Release save DC, ending the grapple on a success."
+          ]
+        }
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "prone"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasToken": true
+    },
+    {
+      "name": "True Several Thousand Hands",
+      "source": "AnimeIsekai",
+      "size": [
+        "C"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "special": "18 + your Constitution modifier"
+        }
+      ],
+      "hp": {
+        "special": "40 + 40 times your Constitution modifier"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 30,
+      "dex": 6,
+      "con": 30,
+      "int": 3,
+      "wis": 10,
+      "cha": 5,
+      "passive": 10,
+      "immune": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "Wooden Body",
+          "entries": [
+            "The statue is resistant to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+          ]
+        },
+        {
+          "name": "Wood Release",
+          "entries": [
+            "Damage dealt by Wood Release abilities is magical."
+          ]
+        },
+        {
+          "name": "Colossal Strength",
+          "entries": [
+            "The statue has advantage on Strength checks and Strength saving throws."
+          ]
+        },
+        {
+          "name": "True Several Thousand Hands",
+          "entries": [
+            "The statue is empowered by Sage Mode. Its Wood Release abilities deal magical damage."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The statue makes four Wooden Fist attacks."
+          ]
+        },
+        {
+          "name": "Wooden Fist",
+          "entries": [
+            "{@atkr m} {@hit 4} plus your Wood Release attack bonus, reach 30 ft. {@h} bludgeoning damage equal to a number of d12s equal to your Constitution modifier."
+          ]
+        },
+        {
+          "name": "True Thousand-Hand Barrage {@recharge 6}",
+          "entries": [
+            "{@actSave str} DC equals your Wood Release save DC, each creature of your choice within 30 feet of the statue. {@actSaveFail} A creature takes 999d2 - 999 + twice your Constitution modifier bludgeoning damage and is knocked {@condition Prone}. {@actSaveSuccess} A creature takes half as much damage and isn't knocked {@condition Prone}."
+          ]
+        }
+      ],
+      "bonus": [
+        {
+          "name": "Wooden Grasp",
+          "entries": [
+            "{@actSave str} DC equals your Wood Release save DC, one creature within 30 feet of the statue that it can see. {@actSaveFail} The target has the {@condition Grappled} condition.",
+            "A creature grappled by the statue can use its action to make a Strength (Athletics) check against your Wood Release save DC, ending the grapple on a success."
+          ]
+        }
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "prone"
       ],
       "miscTags": [
         "MW"
