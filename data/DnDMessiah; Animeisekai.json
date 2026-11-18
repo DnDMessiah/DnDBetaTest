@@ -2491,7 +2491,7 @@
           "type": "entries",
           "name": "Saiyan Strength",
           "entries": [
-            "Your Strength and Constitution scores each increase by 2, to a maximum of 30. Additionally"
+            "Your Strength and Constitution scores each increase by 2, to a maximum of 30."
           ]
         },
         {
@@ -2847,7 +2847,7 @@
       "classSource": "AnimeIsekai",
       "level": 20,
       "entries": [
-        "Each of your ability scores increases by 2.",
+        "Each of your ability scores increases by 4.",
         "Your ability scores no longer have a maximum."
       ]
     },
@@ -3271,7 +3271,8 @@
           "type": "entries",
           "name": "Senju Vitality",
           "entries": [
-            "Your Constitution score increases by 4, to a maximum of 30.",
+            "Your Constitution score increases by 4.",
+            "Your Constitution scores no longer have a maximum.",
             "In addition, your hit point maximum increases by an amount equal to twice your character level when you receive these cells. Whenever you gain a level, your hit point maximum increases by an additional 2 hit points."
           ]
         },
@@ -3513,7 +3514,7 @@
                       "+4"
                     ],
                     [
-                      "Rinne Sharingan",
+                      "Rinne-Sharingan",
                       "+5"
                     ]
                   ]
@@ -3543,7 +3544,8 @@
                 "A creature can benefit from the Eye Mastery Bonus of no more than two eyes at a time. Only eyes installed in the creature's natural eye sockets, consisting of the left and right eye, can grant this bonus.",
                 "Additional eyes implanted elsewhere on the body, such as on the arms, forehead, palms, or chest, do not grant an Eye Mastery Bonus.",
                 "If a creature possesses more than two eligible eyes, it must choose which two eyes grant its Eye Mastery Bonus. This choice cannot be changed during combat.",
-                "Eyes that do not grant an Eye Mastery Bonus may still retain other properties and abilities granted by their respective items, unless otherwise specified."
+                "Eyes that do not grant an Eye Mastery Bonus may still retain other properties and abilities granted by their respective items, unless otherwise specified.",
+                "The Rinne-Sharingan is an exception to your Ocular Limit. Although it manifests on your forehead, it can grant its Eye Mastery Bonus and counts toward the maximum of two eyes that can grant this bonus."
               ]
             }
           ]
@@ -3611,7 +3613,7 @@
                   "Once per Short or Long Rest"
                 ],
                 [
-                  "Rinne Sharingan",
+                  "Rinne-Sharingan",
                   "1st-9th",
                   "Once per Short or Long Rest, or once per Initiative for each battle"
                 ]
@@ -3667,7 +3669,7 @@
                       "+8"
                     ],
                     [
-                      "Rinne Sharingan",
+                      "Rinne-Sharingan",
                       "+10"
                     ]
                   ]
@@ -4406,6 +4408,7 @@
           "type": "entries",
           "name": "Rinnegan",
           "entries": [
+            "Your Constitution score increases by 2.",
             "You gain truesight out to a range of 60 feet.",
             "You can perceive chakra, ki, mana, mind, and other forms of supernatural energy within your sight, allowing you to identify creatures, objects, and effects that contain or are composed of such energy.",
             "You have advantage on saving throws against spells and supernatural abilities that you can see.",
@@ -4485,7 +4488,7 @@
               "name": "Shinra Tensei",
               "entries": [
                 "As an action, you release a powerful repulsive force. Each creature of your choice within 30 feet of you must make a Strength saving throw against your Ocular Save DC.",
-                "On a failed save, a creature takes force damage equal to a number of d10s equal to your Constitution modifier and is pushed up to 30 feet away from you. On a successful save, it takes half as much damage and isn't pushed.",
+                "On a failed save, a creature takes force damage equal to a number of d10s equal twice your Constitution modifier and is pushed up to 30 feet away from you. On a successful save, it takes half as much damage and isn't pushed.",
                 "You can exclude any number of creatures from this effect.",
                 "After using this technique, you cannot use Shinra Tensei or Bansho Ten'in until the end of your next turn."
               ]
@@ -4494,11 +4497,27 @@
               "type": "entries",
               "name": "Chibaku Tensei",
               "entries": [
-                "As an action, you create a gravitational core at a point you can see within 120 feet. Each creature of your choice within a 30-foot-radius sphere centered on that point must make a Strength saving throw against your Ocular Save DC.",
-                "On a failed save, a creature takes force damage equal to a number of d12s equal to your Constitution modifier and has the Restrained condition as surrounding objects and terrain are pulled toward the core.",
+                "As an action, you create a gravitational core at a point you can see within 120 feet. Each creature of your choice within a 60-foot-radius sphere centered on that point must make a Strength saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes force damage equal to a number of d12s equal to three times your Constitution modifier and has the Restrained condition as surrounding objects and terrain are pulled toward the core.",
                 "On a successful save, a creature takes half as much damage and isn't Restrained.",
                 "A Restrained creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
-                "The gravitational core and the accumulated debris remain for 1 minute. This technique requires concentration, as if concentrating on a spell."
+                "The gravitational core and the accumulated debris remain for 1 minute. This technique requires concentration, as if concentrating on a spell.",
+                "As an action, you can cause the gravitational core to collapse and violently explode. Each creature within a 90-foot-radius sphere centered on the gravitational core must make a Dexterity saving throw against your Ocular Save DC, taking force damage equal to a number of d12s equal to three times your Constitution modifier on a failed save, or half as much damage on a successful one.",
+                "After the gravitational core explodes, the technique ends and you can no longer maintain the gravitational core.",
+                "Once you use this technique, you can't use it again until you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Tengai Shinsei",
+              "entries": [
+                "As an action, you call down a massive meteor from the sky, causing it to crash into a point you can see within 300 feet. Each creature within a 120-foot-radius sphere centered on that point must make a Dexterity saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes bludgeoning damage equal to a number of d10s equal to three times your Constitution modifier and is knocked Prone. On a successful save, a creature takes half as much damage and isn't knocked Prone.",
+                "The meteor crashes into the ground, creating a massive explosion and leaving behind a field of debris. The area of the impact becomes difficult terrain.",
+                "At the start of your next turn, a second massive meteor descends from the sky and crashes directly into the first meteor. Each creature within a 150-foot-radius sphere centered on the first meteor must make a Dexterity saving throw against your Ocular Save DC.",
+                "On a failed save, a creature takes bludgeoning damage equal to a number of d10s equal to three times your Constitution modifier and is knocked Prone. On a successful save, a creature takes half as much damage and isn't knocked Prone.",
+                "The impact of the second meteor destroys the first meteor and violently scatters the accumulated debris, causing the area of the second impact to become difficult terrain.",
+                "Once you use this technique, you can't use it again until you finish a long rest."
               ]
             }
           ]
@@ -4512,22 +4531,22 @@
               "name": "Mechanical Augmentation",
               "entries": [
                 "As a bonus action, you transform your body by manifesting mechanical armor, additional arms, and weapons. The transformation lasts for 1 minute.",
-                "While transformed, your AC increases by 2, and you can make Asura Blade attacks."
+                "While transformed, your AC increases by an amount equal to your Constitution modifier, and you can make four Asura Blade attacks."
               ]
             },
             {
               "type": "entries",
               "name": "Asura Blade",
               "entries": [
-                "{@atkr m} {@hit 1} plus your Ocular Attack Bonus, reach 10 ft. {@h} slashing damage equal to a number of d6s equal to your Constitution modifier."
+                "{@atkr m} {@hit 4} plus your Ocular Attack Bonus, reach 10 ft. {@h} slashing damage equal to a number of d6s equal to your Constitution modifier."
               ]
             },
             {
               "type": "entries",
               "name": "Asura Missile Barrage",
               "entries": [
-                "As an action, you launch a barrage of chakra-powered missiles at a point you can see within 120 feet. Each creature within a 10-foot-radius sphere centered on that point must make a Dexterity saving throw against your Ocular Save DC.",
-                "On a failed save, a creature takes fire damage equal to a number of d8s equal to your Constitution modifier. On a successful save, it takes half as much damage."
+                "As a bonus action, you launch a barrage of chakra-powered missiles equal to your Constitution modifier at a point you can see within 120 feet.",
+                "Each missile deals 1d4 + your Constitution modifier fire damage. The missiles all strike simultaneously, and you can direct them to hit one creature or several."
               ]
             },
             {
@@ -4535,7 +4554,7 @@
               "name": "Chakra Cannon",
               "entries": [
                 "As an action, you fire a concentrated blast of chakra in a 60-foot line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ocular Save DC.",
-                "On a failed save, a creature takes force damage equal to a number of d8s equal to twice your Constitution modifier. On a successful save, it takes half as much damage."
+                "On a failed save, a creature takes force damage equal to a number of d10s equal to twice your Constitution modifier. On a successful save, it takes half as much damage."
               ]
             }
           ]
@@ -4556,8 +4575,8 @@
               "name": "Soul Extraction",
               "entries": [
                 "As an action, touch one creature that is Grappled or Incapacitated. The target must make a Charisma saving throw against your Ocular Save DC.",
-                "On a failed save, the target takes psychic damage equal to a number of d10s equal to your Constitution modifier and is Stunned until the end of your next turn.",
-                "If this damage reduces the target to 0 hit points, its soul is extracted and the target dies."
+                "On a failed save, the target takes psychic damage equal to a number of d10s equal to twice your Constitution modifier and is Stunned until the end of your next turn.",
+                "If this damage reduces the target to 100 hit points or fewer, its soul is extracted and the target dies."
               ]
             }
           ]
@@ -4566,9 +4585,10 @@
           "type": "entries",
           "name": "Animal Path",
           "entries": [
-            "As an action, you summon a Beast or Monstrosity with a challenge rating no greater than your proficiency bonus in an unoccupied space you can see within 60 feet.",
+            "As an action, you summon a Beast or Monstrosity with a challenge rating no greater than your character level in an unoccupied space you can see within 60 feet.",
             "The summoned creature obeys your commands and acts immediately after your turn. You can perceive through its senses while it is on the same plane of existence.",
-            "The summoned creature disappears when it is reduced to 0 hit points, when you dismiss it, or after 1 hour."
+            "The summoned creature disappears when it is reduced to 0 hit points, when you dismiss it, or after 1 hour.",
+            "You can use this ability a number of times equal to half your Constitution modifier, rounded down. You regain all expended uses when you finish a long rest."
           ]
         },
         {
@@ -4601,7 +4621,7 @@
               "type": "entries",
               "name": "Restoration",
               "entries": [
-                "As an action, the King of Hell restores one creature or summoned creature it can touch. The target regains hit points equal to a number of d8s equal to your Constitution modifier."
+                "As an action, the King of Hell restores one creature or summoned creature it can touch. The target regains hit points equal to a number of d8s equal to twice your Constitution modifier."
               ]
             },
             {
