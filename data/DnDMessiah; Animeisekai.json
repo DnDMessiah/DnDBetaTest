@@ -3455,7 +3455,7 @@
       "value": 500000,
       "reqAttune": false,
       "entries": [
-        "The Sharingan is a powerful ocular ability belonging to the Uchiha bloodline. Its abilities develop through combat and significant experiences, allowing the wielder to awaken increasingly powerful stages of the eye.",
+        "The Sharingan is a powerful Dōjutsu of the Uchiha bloodline. Its abilities develop through combat and significant experiences, allowing the wielder to awaken increasingly powerful stages of the eye.",
         {
           "type": "entries",
           "name": "Sharingan Implantation",
@@ -3477,9 +3477,9 @@
         },
         {
           "type": "entries",
-          "name": "Sharingan Ability Modifier",
+          "name": "Dōjutsu Ability Modifier",
           "entries": [
-            "Constitution is the primary ability score for all ocular abilities. You use your Constitution modifier, proficiency bonus, and combined Eye Mastery Bonus to determine the attack bonus and saving throw DC of your ocular abilities, including abilities granted by advanced evolutions of the Sharingan.",
+            "Constitution is the primary ability score for all dōjutsu abilities. You use your Constitution modifier, proficiency bonus, and combined Eye Mastery Bonus to determine the attack bonus and saving throw DC of your dōjutsu abilities, including abilities granted by advanced evolutions of the Sharingan.",
             {
               "type": "entries",
               "name": "Eye Mastery Bonus",
@@ -3489,7 +3489,7 @@
                   "type": "table",
                   "caption": "Eye Mastery Bonus",
                   "colLabels": [
-                    "Ocular Evolution",
+                    "Dōjutsu Evolution",
                     "Bonus per Eye"
                   ],
                   "colStyles": [
@@ -3523,29 +3523,29 @@
             },
             {
               "type": "entries",
-              "name": "Ocular Attack Bonus",
+              "name": "Dōjutsu Attack Bonus",
               "entries": [
-                "When an ocular ability requires an attack roll, use the following modifier:",
-                "Ocular Attack Bonus = your proficiency bonus + your Constitution modifier + your total Eye Mastery Bonus"
+                "When a Dōjutsu ability requires an attack roll, use the following modifier:",
+                "Dōjutsu Attack Bonus = your proficiency bonus + your Constitution modifier + your total Eye Mastery Bonus"
               ]
             },
             {
               "type": "entries",
-              "name": "Ocular Save DC",
+              "name": "Dōjutsu Save DC",
               "entries": [
-                "When an ocular ability requires a saving throw, use the following DC:",
-                "Ocular Save DC = 8 + your proficiency bonus + your Constitution modifier + your total Eye Mastery Bonus"
+                "When a Dōjutsu ability requires a saving throw, use the following DC:",
+                "Dōjutsu Save DC = 8 + your proficiency bonus + your Constitution modifier + your total Eye Mastery Bonus"
               ]
             },
             {
               "type": "entries",
-              "name": "Ocular Limit",
+              "name": "Dōjutsu Limit",
               "entries": [
                 "A creature can benefit from the Eye Mastery Bonus of no more than two eyes at a time. Only eyes installed in the creature's natural eye sockets, consisting of the left and right eye, can grant this bonus.",
                 "Additional eyes implanted elsewhere on the body, such as on the arms, forehead, palms, or chest, do not grant an Eye Mastery Bonus.",
                 "If a creature possesses more than two eligible eyes, it must choose which two eyes grant its Eye Mastery Bonus. This choice cannot be changed during combat.",
                 "Eyes that do not grant an Eye Mastery Bonus may still retain other properties and abilities granted by their respective items, unless otherwise specified.",
-                "The Rinne-Sharingan is an exception to your Ocular Limit. Although it manifests on your forehead, it can grant its Eye Mastery Bonus and counts toward the maximum of two eyes that can grant this bonus."
+                "The Rinne-Sharingan is an exception to your Dōjutsu Limit. Although it manifests on your forehead, it can grant its Eye Mastery Bonus and counts toward the maximum of two eyes that can grant this bonus."
               ]
             }
           ]
@@ -3571,18 +3571,18 @@
           "type": "entries",
           "name": "Ninjutsu Copy",
           "entries": [
-            "Your ocular abilities allow you to observe, analyze, and memorize spells cast by other creatures. When you can see a creature casting a spell within your line of sight, you can expend 20 Sharingan Energy and reduce the Sharingan Durability of the eye used by 2 to memorize that spell (no action or reaction required).",
+            "Your dōjutsu abilities allow you to observe, analyze, and memorize spells cast by other creatures. When you can see a creature casting a spell within your line of sight, you can expend 20 Sharingan Energy and reduce the Sharingan Durability of the eye used by 2 to memorize that spell (no action or reaction required).",
             "You can copy any cantrip you can see being cast. Cantrips do not count against your maximum number of memorized spells, do not consume a use of Ninjutsu Copy, and can be cast any number of times after being copied.",
-            "You can memorize spells of levels 1 through the maximum spell level determined by your ocular evolution.",
+            "You can memorize spells of levels 1 through the maximum spell level determined by your dōjutsu evolution.",
             "You can memorize a number of spells equal to your Constitution modifier (minimum of one spell). If you attempt to memorize a spell while at your maximum capacity, you must forget one previously memorized spell before memorizing the new one.",
             "You can cast a memorized spell without expending a spell slot. You can cast only one copied spell at a time. Once you cast a copied spell, it is removed from your memorized spells.",
             "When you witness a creature casting a spell, you can choose to cast that spell immediately or memorize it for later use. If you choose to cast it immediately, you must cast the spell you are currently observing. You cannot immediately cast a spell that you previously memorized.",
-            "You use your Ocular Attack Bonus and Ocular Save DC whenever a copied spell requires a spell attack roll or saving throw. You must still provide any required components and meet the spell's other requirements.",
+            "You use your Dōjutsu Attack Bonus and Dōjutsu Save DC whenever a copied spell requires a spell attack roll or saving throw. You must still provide any required components and meet the spell's other requirements.",
             {
               "type": "table",
               "caption": "Copy Spell",
               "colLabels": [
-                "Ocular Evolution",
+                "Dōjutsu Evolution",
                 "Maximum Spell Level",
                 "Usage"
               ],
@@ -3620,7 +3620,7 @@
               ]
             },
             "",
-            "When you have multiple eyes with different ocular evolutions, use the highest evolution among your eligible eyes to determine your maximum spell level and usage frequency. Possessing multiple eyes does not grant additional uses."
+            "When you have multiple eyes with different dōjutsu evolutions, use the highest evolution among your eligible eyes to determine your maximum spell level and usage frequency. Possessing multiple eyes does not grant additional uses."
           ]
         },
         {
@@ -3632,11 +3632,11 @@
               "type": "entries",
               "name": "Copy Features",
               "entries": [
-                "Your ocular abilities allow you to observe, analyze, and memorize features used by other creatures. When you can see a creature use a feature within your line of sight, you can expend 20 Sharingan Energy and reduce the Sharingan Durability of the eye used by 2 to memorize that feature (no action or reaction required).",
+                "Your dōjutsu abilities allow you to observe, analyze, and memorize features used by other creatures. When you can see a creature use a feature within your line of sight, you can expend 20 Sharingan Energy and reduce the Sharingan Durability of the eye used by 2 to memorize that feature (no action or reaction required).",
                 "When attempting to copy a creature's feature, you must make a Constitution saving throw. The DC equals the creature's Challenge Rating (CR). If the creature has no Challenge Rating, use its character level instead.",
-                "If your Constitution modifier plus your Ocular Evolution Bonus is equal to or greater than the target's CR or character level, you automatically succeed without making a saving throw.",
-                "Otherwise, make a Constitution saving throw against a DC equal to the target's CR or character level. Add your Ocular Evolution Bonus to the roll. You succeed if the total equals or exceeds the target's CR or character level.",
-                "Your Ocular Evolution Bonus to Constitution saving throws made to copy features is determined by your highest ocular evolution.",
+                "If your Constitution modifier plus your Dōjutsu Evolution Bonus is equal to or greater than the target's CR or character level, you automatically succeed without making a saving throw.",
+                "Otherwise, make a Constitution saving throw against a DC equal to the target's CR or character level. Add your Dōjutsu Evolution Bonus to the roll. You succeed if the total equals or exceeds the target's CR or character level.",
+                "Your Dōjutsu Evolution Bonus to Constitution saving throws made to copy features is determined by your highest dōjutsu evolution.",
                 "On a successful saving throw, you successfully analyze and memorize the chosen feature. On a failed saving throw, the attempt fails and you cannot copy that feature from the same creature again until you finish a long rest.",
                 "You can memorize a number of copied features equal to your Constitution modifier (minimum of one feature). If you attempt to memorize a feature while at maximum capacity, you must forget one previously memorized feature before memorizing the new one.",
                 "You can use a memorized feature as if it were your own, following its original rules and requirements, unless otherwise specified.",
@@ -3644,8 +3644,8 @@
                   "type": "table",
                   "caption": "Copy Features",
                   "colLabels": [
-                    "Ocular Evolution",
-                    "Ocular Evolution Bonus"
+                    "Dōjutsu Evolution",
+                    "Dōjutsu Evolution Bonus"
                   ],
                   "colStyles": [
                     "text",
@@ -3850,7 +3850,7 @@
       "value": 5000000,
       "reqAttune": false,
       "entries": [
-        "The Mangekyō Sharingan is an advanced form of the Sharingan, granting its wielder powerful ocular abilities at the cost of the eyes' durability. Its powers include enhanced perception, powerful genjutsu, reality-altering techniques, and Susanoo.",
+        "The Mangekyō Sharingan is an advanced form of the Sharingan, granting its wielder powerful dōjutsu abilities at the cost of the eyes' durability. Its powers include enhanced perception, powerful genjutsu, reality-altering techniques, and Susanoo.",
         {
           "type": "entries",
           "name": "Mangekyō Sharingan Implantation",
@@ -4120,7 +4120,7 @@
           "type": "entries",
           "name": "Mangekyō Sharingan Signature",
           "entries": [
-            "Each Mangekyō Sharingan awakens unique ocular abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
+            "Each Mangekyō Sharingan awakens unique dōjutsu abilities known as Signature Abilities. These powers embody the wielder's unique visual prowess, granting extraordinary control over flames, space, time perception, and the minds of others. Each ability is tied to a specific eye and may carry a terrible cost.",
             {
               "type": "entries",
               "name": "Amaterasu",
@@ -4289,7 +4289,6 @@
       "wondrous": true,
       "weight": 1,
       "value": 10000000,
-      "reqAttune": false,
       "entries": [
         "The Eternal Mangekyō Sharingan is the evolved form of the Mangekyō Sharingan, created by transplanting the Mangekyō Sharingan of a person with whom the recipient shares a close bond. The transplanted eye merges with the recipient's original eye, restoring vision and eliminating the progressive blindness caused by the Mangekyō Sharingan.",
         "The transplantation is an extremely painful procedure that requires the recipient to endure the removal and transplantation of Mangekyō Sharingan eyes. The transformation takes several days to complete, after which the recipient awakens the Eternal Mangekyō Sharingan.",
@@ -4382,20 +4381,19 @@
             "At 20th level, this death saving throw automatically succeeds, causing the Sharingan to immediately evolve into a Rinnegan."
           ]
         }
-      ] 
+      ]
     },
-    { 
+    {
       "name": "Rinnegan",
       "source": "AnimeIsekai",
       "rarity": "artifact",
       "wondrous": true,
       "weight": 1,
-      "reqAttune": false,
       "entries": [
         "The Rinnegan grants you access to the Six Paths Technique and the Outer Path.",
-        "Your Rinnegan abilities use your Ocular Attack Bonus and Ocular Save DC.",
-        "Your Ocular Attack Bonus is equal to your proficiency bonus + your Constitution modifier + 4.",
-        "Your Ocular Save DC is equal to 8 + your proficiency bonus + your Constitution modifier + 4.",
+        "Your Rinnegan abilities use your Dōjutsu Attack Bonus and Dōjutsu Save DC.",
+        "Each Rinnegan eye grants an Eye Mastery Bonus of +4.",
+        "Your Dōjutsu Attack Bonus and Dōjutsu Save DC are calculated using your total Eye Mastery Bonus, as described in the Dōjutsu Ability Modifier section of the Sharingan entry.",
         {
           "type": "entries",
           "name": "Rinnegan Implantation",
@@ -4422,7 +4420,7 @@
           "entries": [
             "When your Sharingan evolves into the Rinnegan, your previous Sharingan stage is replaced by the Rinnegan. You retain the passive benefits gained from your previous Sharingan evolution, including accumulated Eye Mastery benefits, but you can no longer use any Mangekyō Sharingan or Eternal Mangekyō Sharingan abilities through the Rinnegan.",
             "You retain the ability to use Susanoo if you awakened it before your Sharingan evolved into the Rinnegan.",
-            "Upon obtaining the Rinnegan, roll 1d2 to determine its unique ocular ability. On a 1, you gain Amenotejikara. On a 2, you gain Limbo.",
+            "Upon obtaining the Rinnegan, roll 1d2 to determine its unique dōjutsu ability. On a 1, you gain Amenotejikara. On a 2, you gain Limbo.",
             "The Rinnegan grants its own Eye Mastery Bonus and Rinnegan abilities regardless of whether it was naturally evolved or implanted."
           ]
         },
@@ -4440,7 +4438,7 @@
           "name": "Limbo",
           "entries": [
             "As a bonus action, you can create one invisible shadow of yourself in an adjacent plane. You can create a number of Limbo shadows equal to the number of Rinnegan you possess. The shadows are imperceptible to creatures that cannot perceive creatures or objects on another plane.",
-            "Each Limbo shadow acts independently and shares your abilities. A Limbo shadow can move and attack creatures within 30 feet of it, using your Ocular Attack Bonus and Ocular Save DC.",
+            "Each Limbo shadow acts independently and shares your abilities. A Limbo shadow can move and attack creatures within 30 feet of it, using your Dōjutsu Attack Bonus and Dōjutsu Save DC.",
             "A creature hit by a Limbo shadow takes force damage equal to a number of d8s equal to your Constitution modifier.",
             "When you take damage or fail a saving throw, you can sacrifice one of your Limbo shadows to have that shadow receive the damage or other harmful effect instead. The Limbo shadow disappears after receiving the effect, and you suffer none of the damage or other harmful effects that it prevented.",
             "You can maintain your Limbo shadows for 1 minute, until you dismiss them, or until you become incapacitated."
@@ -4450,7 +4448,7 @@
           "type": "entries",
           "name": "Rinnegan Transplantation",
           "entries": [
-            "If the Rinnegan was implanted rather than evolved from your own Sharingan, you gain the abilities of the implanted Rinnegan and its unique ocular ability, but you do not gain the passive benefits of previous Sharingan evolution stages that you never possessed.",
+            "If the Rinnegan was implanted rather than evolved from your own Sharingan, you gain the abilities of the implanted Rinnegan and its unique dōjutsu ability, but you do not gain the passive benefits of previous Sharingan evolution stages that you never possessed.",
             "If you already possessed Sharingan, Mangekyō Sharingan, Eternal Mangekyō Sharingan abilities, or Susanoo before receiving the transplant, those abilities remain available to you as abilities you had already awakened. However, the implanted Rinnegan itself does not grant any of them."
           ]
         },
@@ -4460,7 +4458,7 @@
           "entries": [
             "A Rinnegan can evolve beyond its normal state when its wielder receives the chakra of an Ōtsutsuki. This awakens the 6 Tomoe Rinnegan.",
             "The 6 Tomoe Rinnegan is not a separate eye that must be implanted or created. It is an awakened state of the existing Rinnegan, unlocking additional powers within the same eye.",
-            "The 6 Tomoe Rinnegan retains all abilities of the Rinnegan and its unique ocular ability, while gaining the additional benefits of its awakened state."
+            "The 6 Tomoe Rinnegan retains all abilities of the Rinnegan and its unique dōjutsu ability, while gaining the additional benefits of its awakened state."
           ]
         },
         {
@@ -4480,14 +4478,14 @@
               "type": "entries",
               "name": "Bansho Ten'in",
               "entries": [
-                "As a bonus action, choose one creature you can see within 60 feet. The target must succeed on a Strength saving throw against your Ocular Save DC or be pulled up to 60 feet toward you. This movement does not provoke opportunity attacks."
+                "As a bonus action, choose one creature you can see within 60 feet. The target must succeed on a Strength saving throw against your Dōjutsu Save DC or be pulled up to 60 feet toward you. This movement does not provoke opportunity attacks."
               ]
             },
             {
               "type": "entries",
               "name": "Shinra Tensei",
               "entries": [
-                "As an action, you release a powerful repulsive force. Each creature of your choice within 30 feet of you must make a Strength saving throw against your Ocular Save DC.",
+                "As an action, you release a powerful repulsive force. Each creature of your choice within 30 feet of you must make a Strength saving throw against your Dōjutsu Save DC.",
                 "On a failed save, a creature takes force damage equal to a number of d10s equal twice your Constitution modifier and is pushed up to 30 feet away from you. On a successful save, it takes half as much damage and isn't pushed.",
                 "You can exclude any number of creatures from this effect.",
                 "After using this technique, you cannot use Shinra Tensei or Bansho Ten'in until the end of your next turn."
@@ -4497,12 +4495,12 @@
               "type": "entries",
               "name": "Chibaku Tensei",
               "entries": [
-                "As an action, you create a gravitational core at a point you can see within 120 feet. Each creature of your choice within a 60-foot-radius sphere centered on that point must make a Strength saving throw against your Ocular Save DC.",
+                "As an action, you create a gravitational core at a point you can see within 120 feet. Each creature of your choice within a 60-foot-radius sphere centered on that point must make a Strength saving throw against your Dōjutsu Save DC.",
                 "On a failed save, a creature takes force damage equal to a number of d12s equal to three times your Constitution modifier and has the Restrained condition as surrounding objects and terrain are pulled toward the core.",
                 "On a successful save, a creature takes half as much damage and isn't Restrained.",
                 "A Restrained creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
                 "The gravitational core and the accumulated debris remain for 1 minute. This technique requires concentration, as if concentrating on a spell.",
-                "As an action, you can cause the gravitational core to collapse and violently explode. Each creature within a 90-foot-radius sphere centered on the gravitational core must make a Dexterity saving throw against your Ocular Save DC, taking force damage equal to a number of d12s equal to three times your Constitution modifier on a failed save, or half as much damage on a successful one.",
+                "As an action, you can cause the gravitational core to collapse and violently explode. Each creature within a 90-foot-radius sphere centered on the gravitational core must make a Dexterity saving throw against your Dōjutsu Save DC, taking force damage equal to a number of d12s equal to three times your Constitution modifier on a failed save, or half as much damage on a successful one.",
                 "After the gravitational core explodes, the technique ends and you can no longer maintain the gravitational core.",
                 "Once you use this technique, you can't use it again until you finish a long rest."
               ]
@@ -4511,10 +4509,10 @@
               "type": "entries",
               "name": "Tengai Shinsei",
               "entries": [
-                "As an action, you call down a massive meteor from the sky, causing it to crash into a point you can see within 300 feet. Each creature within a 120-foot-radius sphere centered on that point must make a Dexterity saving throw against your Ocular Save DC.",
+                "As an action, you call down a massive meteor from the sky, causing it to crash into a point you can see within 300 feet. Each creature within a 120-foot-radius sphere centered on that point must make a Dexterity saving throw against your Dōjutsu Save DC.",
                 "On a failed save, a creature takes bludgeoning damage equal to a number of d10s equal to three times your Constitution modifier and is knocked Prone. On a successful save, a creature takes half as much damage and isn't knocked Prone.",
                 "The meteor crashes into the ground, creating a massive explosion and leaving behind a field of debris. The area of the impact becomes difficult terrain.",
-                "At the start of your next turn, a second massive meteor descends from the sky and crashes directly into the first meteor. Each creature within a 150-foot-radius sphere centered on the first meteor must make a Dexterity saving throw against your Ocular Save DC.",
+                "At the start of your next turn, a second massive meteor descends from the sky and crashes directly into the first meteor. Each creature within a 150-foot-radius sphere centered on the first meteor must make a Dexterity saving throw against your Dōjutsu Save DC.",
                 "On a failed save, a creature takes bludgeoning damage equal to a number of d10s equal to three times your Constitution modifier and is knocked Prone. On a successful save, a creature takes half as much damage and isn't knocked Prone.",
                 "The impact of the second meteor destroys the first meteor and violently scatters the accumulated debris, causing the area of the second impact to become difficult terrain.",
                 "Once you use this technique, you can't use it again until you finish a long rest."
@@ -4538,7 +4536,7 @@
               "type": "entries",
               "name": "Asura Blade",
               "entries": [
-                "{@atkr m} {@hit 4} plus your Ocular Attack Bonus, reach 10 ft. {@h} slashing damage equal to a number of d6s equal to your Constitution modifier."
+                "{@atkr m} {@hit 4} plus your Dōjutsu Attack Bonus, reach 10 ft. {@h} slashing damage equal to a number of d6s equal to your Constitution modifier."
               ]
             },
             {
@@ -4553,7 +4551,7 @@
               "type": "entries",
               "name": "Chakra Cannon",
               "entries": [
-                "As an action, you fire a concentrated blast of chakra in a 60-foot line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Ocular Save DC.",
+                "As an action, you fire a concentrated blast of chakra in a 60-foot line that is 5 feet wide. Each creature in the line must make a Dexterity saving throw against your Dōjutsu Save DC.",
                 "On a failed save, a creature takes force damage equal to a number of d10s equal to twice your Constitution modifier. On a successful save, it takes half as much damage."
               ]
             }
@@ -4567,14 +4565,14 @@
               "type": "entries",
               "name": "Mind Reading",
               "entries": [
-                "As an action, touch one creature. The target must make a Wisdom saving throw against your Ocular Save DC. On a failed save, you read its surface thoughts and can learn the answer to one question about its memories, intentions, or knowledge."
+                "As an action, touch one creature. The target must make a Wisdom saving throw against your Dōjutsu Save DC. On a failed save, you read its surface thoughts and can learn the answer to one question about its memories, intentions, or knowledge."
               ]
             },
             {
               "type": "entries",
               "name": "Soul Extraction",
               "entries": [
-                "As an action, touch one creature that is Grappled or Incapacitated. The target must make a Charisma saving throw against your Ocular Save DC.",
+                "As an action, touch one creature that is Grappled or Incapacitated. The target must make a Charisma saving throw against your Dōjutsu Save DC.",
                 "On a failed save, the target takes psychic damage equal to a number of d10s equal to twice your Constitution modifier and is Stunned until the end of your next turn.",
                 "If this damage reduces the target to 100 hit points or fewer, its soul is extracted and the target dies."
               ]
@@ -4585,9 +4583,9 @@
           "type": "entries",
           "name": "Animal Path",
           "entries": [
-            "As an action, you summon a Beast or Monstrosity with a challenge rating no greater than your character level in an unoccupied space you can see within 60 feet.",
-            "The summoned creature obeys your commands and acts immediately after your turn. You can perceive through its senses while it is on the same plane of existence.",
-            "The summoned creature disappears when it is reduced to 0 hit points, when you dismiss it, or after 1 hour.",
+            "As an action, you summon Beasts or Monstrosities with a challenge rating no greater than your character level in unoccupied spaces you can see within 60 feet.",
+            "The summoned creatures obey your commands and act immediately after your turn. You can perceive through the senses of each summoned creature while it is on the same plane of existence.",
+            "Each summoned creature disappears when it is reduced to 0 hit points, when you dismiss it, or after 1 hour.",
             "You can use this ability a number of times equal to half your Constitution modifier, rounded down. You regain all expended uses when you finish a long rest."
           ]
         },
@@ -4597,11 +4595,11 @@
           "entries": [
             {
               "type": "entries",
-              "name": "Blocking Technique Absorption Seal",
+              "name": "Absorption Seal",
               "entries": [
                 "As a reaction when you take damage from a spell or magical effect, you form an absorption barrier around yourself.",
                 "Reduce the triggering damage by an amount equal to a number of d8s equal to your Constitution modifier. This reduction occurs before applying resistance or vulnerability.",
-                "If this reduces the damage to 0, you gain temporary hit points equal to the damage prevented."
+                "After calculating the damage, you gain temporary hit points equal to the damage prevented."
               ]
             }
           ]
@@ -4614,21 +4612,21 @@
               "type": "entries",
               "name": "King of Hell",
               "entries": [
-                "As an action, you summon the King of Hell in an unoccupied space within 5 feet of you. It remains for 1 minute and obeys your commands."
+                "As a bonus action, you manifest the King of Hell as a spectral figure hovering behind you. It remains manifested for 1 minute."
               ]
             },
             {
               "type": "entries",
               "name": "Restoration",
               "entries": [
-                "As an action, the King of Hell restores one creature or summoned creature it can touch. The target regains hit points equal to a number of d8s equal to twice your Constitution modifier."
+                "At the end of your turn, the King of Hell restores one creature or summoned creature that you can see within 20 feet. The target regains hit points equal to a number of d8s equal to twice your Constitution modifier."
               ]
             },
             {
               "type": "entries",
               "name": "Interrogation",
               "entries": [
-                "The King of Hell can interrogate one creature that is Grappled or Incapacitated within 5 feet of it. The target must make a Charisma saving throw against your Ocular Save DC.",
+                "The King of Hell can interrogate one creature that is Grappled or Incapacitated within 5 feet of it. The target must make a Charisma saving throw against your Dōjutsu Save DC.",
                 "On a failed save, the target must answer one question truthfully. If it deliberately lies, the King of Hell extracts its life force, dealing necrotic damage equal to a number of d8s equal to your Constitution modifier."
               ]
             }
@@ -4642,15 +4640,16 @@
               "type": "entries",
               "name": "Black Receivers",
               "entries": [
-                "You manifest black chakra receivers that can be used as weapons. You can make a Rinnegan attack with a receiver, dealing piercing damage equal to a number of d4s equal to your Constitution modifier on a hit.",
-                "A creature hit by a receiver must succeed on a Constitution saving throw against your Ocular Save DC or it cannot take reactions until the start of your next turn."
+                "You manifest black chakra receivers that can be used as weapons, dealing piercing damage equal to a number of d4s equal to your Constitution modifier on a hit.",
+                "As a bonus action, you can make a ranged attack with a receiver, dealing piercing damage equal to a number of d4s equal to your Constitution modifier on a hit.",
+                "A creature hit by a receiver must succeed on a Constitution saving throw against your Dōjutsu Save DC or it cannot take reactions and can't cast spells until the start of your next turn."
               ]
             },
             {
               "type": "entries",
               "name": "Demonic Chakra Chains",
               "entries": [
-                "As an action, you manifest chakra chains and target one creature you can see within 60 feet. The target must succeed on a Strength saving throw against your Ocular Save DC or become Restrained.",
+                "As a bonus action, you manifest chakra chains and target one creature you can see within 60 feet. The target must succeed on a Strength saving throw against your Dōjutsu Save DC or become Restrained.",
                 "A Restrained creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success."
               ]
             },
@@ -4667,7 +4666,7 @@
               "type": "entries",
               "name": "Samsara of Heavenly Life Technique",
               "entries": [
-                "As an action, you sacrifice your own life to restore up to six creatures that died within the last minute and whose bodies are within 60 feet of you.",
+                "As an action, you sacrifice your own life to restore any creatures that died within the last hour and whose bodies are within 60 feet of you.",
                 "Each restored creature returns to life with hit points equal to a number of d12s equal to your Constitution modifier.",
                 "After using this technique, you die. You cannot be restored to life by this technique."
               ]
@@ -4688,13 +4687,60 @@
     {
       "name": "Rinne-Sharingan",
       "source": "AnimeIsekai",
-      "rarity": "artifact",
       "wondrous": true,
       "weight": 1,
-      "reqAttune": false,
+      "rarity": "unknown (magic)",
       "entries": [
         "This eye possesses an Eye Mastery Bonus of +5.",
-        "The Rinne-Sharingan is the ultimate evolution of the Rinnegan, possessing powers beyond those of the ordinary Rinnegan."
+        "The Rinne-Sharingan is the ultimate evolution of the Rinnegan, possessing powers beyond those of the ordinary Rinnegan.",
+        {
+          "type": "entries",
+          "name": "Enhanced Six Paths Perception",
+          "entries": [
+            "Your truesight increases to 300 feet.",
+            "You can perceive chakra, ki, mana, mind, and other supernatural energies within 300 feet.",
+            "You can perceive invisible creatures and objects, creatures and objects on the Ethereal Plane, and creatures or objects hidden within other dimensions or planes.",
+            "You have advantage on saving throws made to resist illusions and supernatural effects that alter or obscure your perception."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dimensional Perception",
+          "entries": [
+            "You can perceive creatures, objects, and supernatural effects that exist on another plane or within another dimension, provided they are within 300 feet of you.",
+            "You can perceive and interact with creatures and objects that would normally be imperceptible due to planar or dimensional separation."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dimensional Travel",
+          "entries": [
+            "As an action, you can open a portal to a plane or dimension that you know. You and willing creatures within 10 feet of you can pass through the portal.",
+            "The portal remains open until the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dimensional Portal",
+          "entries": [
+            "As an action, you can create a portal between two points you can see within 300 feet of you. The portal forms a passage between the two locations and remains open for 1 minute.",
+            "You can dismiss the portal as a bonus action."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Infinite Tsukuyomi",
+          "entries": [
+            "As an action, you unleash the ultimate genjutsu of the Rinne-Sharingan. Each creature of your choice within 1 mile of you must make a Wisdom saving throw against your Dōjutsu Save DC.",
+            "A creature that can see the moon automatically fails this saving throw.",
+            "On a failed save, a creature is Charmed and Incapacitated and is trapped within a powerful illusion. While affected, the creature is unaware of its surroundings and perceives an idealized reality created by the genjutsu.",
+            "An affected creature can repeat the saving throw against the genjutsu with disadvantage at the end of each of its turns, ending the effect on itself on a success.",
+            "While affected by the genjutsu, roots grow around the creature, causing it to become Grappled and Restrained.",
+            "Once the genjutsu ends for a creature, it can use its action to attempt to break free from the roots by making a Strength saving throw against your Dōjutsu Save DC with disadvantage. On a successful save, the creature ends the Grappled and Restrained conditions caused by the roots.",
+            "At the start of each of its turns while restrained by the roots, the creature loses 1d6 points from its Constitution score and gains 1 level of Exhaustion.",
+            "Once you use this technique, you can't use it again until you finish a long rest."
+          ]
+        }
       ]
     }
   ],
