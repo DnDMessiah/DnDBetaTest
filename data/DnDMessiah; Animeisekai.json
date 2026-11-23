@@ -10,7 +10,7 @@
           "DnDMessiah"
         ],
         "color": "FA6F02",
-        "version": "1.0.2"
+        "version": "11.23.26"
       }
     ],
     "edition": "classic",
@@ -83,7 +83,7 @@
         "DORA!|Cleric|PHB|Crazy Diamond|AnimeIsekai|5|AnimeIsekai",
         "Crazy Diamond: Full Power|Cleric|PHB|Crazy Diamond|AnimeIsekai|6|AnimeIsekai",
         "DORARARA!|Cleric|PHB|Crazy Diamond|AnimeIsekai|11|AnimeIsekai",
-        "Crazy Diamond: Limite Break|Cleric|PHB|Crazy Diamond|AnimeIsekai|17|AnimeIsekai"
+        "Crazy Diamond: Limit Break|Cleric|PHB|Crazy Diamond|AnimeIsekai|17|AnimeIsekai"
       ]
     },
     {
@@ -486,7 +486,7 @@
       "subclassSource": "AnimeIsekai",
       "level": 3,
       "entries": [
-        "Your are a special grade jujutsu sorcerer and widely recognized as the strongest in the world. the first person to inherit both the Limitless and the Six Eyes in many hundred years."
+        "You are a special grade jujutsu sorcerer and widely recognized as the strongest in the world. the first person to inherit both the Limitless and the Six Eyes in many hundred years."
       ]
     },
     {
@@ -505,12 +505,12 @@
           "type": "entries",
           "name": "Jutsushiki Junten",
           "entries": [
-            "Jutsushiki Junten is the application of your Cursed Technique through the forward flow of cursed energy, allowing you to manipulate its natural properties and produce powerful spatial effects",
+            "Jutsushiki Junten is the application of your Cursed Technique through the forward flow of cursed energy, allowing you to manipulate its natural properties and produce powerful spatial effects.",
             {
               "type": "entries",
               "name": "Jutsushiki Junten・Ao",
               "entries": [
-                "When you cast Eldritch Blast using a clockwise rotation, the blast becomes Blue. It deals an additional 1d6 force damage",
+                "When you cast Eldritch Blast using a clockwise rotation, the blast becomes Blue. It deals an additional 1d6 force damage.",
                 "When the Jutsushiki Junten・Ao hits a creature, it explodes into a 15-foot-radius sphere centered on the target. Any creature within the sphere whose AC is less than or equal to your Eldritch Blast attack roll is drawn toward the center of the sphere and takes the Eldritch Blast's damage."
               ]
             },
@@ -518,7 +518,7 @@
               "type": "entries",
               "name": "Jutsushiki Hanten・Aka",
               "entries": [
-                "When you cast Eldritch Blast using a counterclockwise rotation, the blast becomes Red. It deals an additional 1d12 force damage",
+                "When you cast Eldritch Blast using a counterclockwise rotation, the blast becomes Red. It deals an additional 1d12 force damage.",
                 "When the Jutsushiki Hanten・Aka hits a creature, The target is pushed up to 30 feet away from you."
               ]
             }
@@ -606,7 +606,7 @@
           "name": "Jutsushiki Hanten Shutsuryoku Saidai・Aka",
           "entries": [
             "When you use Jutsushiki Hanten・Aka, you can amplify Red to its maximum output. The damage of the technique is calculated as ((your Eldritch Blast damage + other bonuses) × (the number of Eldritch Blast beams you can create + half your Proficiency Bonus, rounded down)) + your class level.",
-            "When the Jutsushiki Hanten Shutsuryoku Saidai・Aka, the target is pushed up to 60 feet away from you."
+            "When the Jutsushiki Hanten Shutsuryoku Saidai・Aka hits a creature, the target is pushed up to 60 feet away from you. It takes damage equal to the Jutsushiki Hanten Shutsuryoku Saidai・Aka damage."
           ]
         }
       ]
@@ -812,7 +812,7 @@
       ]
     },
     {
-      "name": "Crazy Diamond: Limite Break",
+      "name": "Crazy Diamond: Limit Break",
       "source": "AnimeIsekai",
       "className": "Cleric",
       "classSource": "PHB",
@@ -823,7 +823,7 @@
         "Crazy Diamond shatters the limits that once restrained its power. Its fists carry overwhelming destructive force, while its ability to restore the broken reaches a level beyond ordinary restoration. At this stage, Crazy Diamond no longer merely repairs what was damaged—it defies destruction itself, forcibly returning what was lost to the state it once held.",
         {
           "type": "entries",
-          "name": "Diamond Is Unbreakable: Limite Break",
+          "name": "Diamond Is Unbreakable: Limit Break",
           "entries": [
             "The restoration of your Diamond Is Unbreakable reaches its ultimate potential.",
             "When you use your Channel Divinity: Diamond Is Unbreakable, you can now restore the target to a state it was in at any point within the last 24 hours."
@@ -986,7 +986,7 @@
         "• Your Strength and Constitution scores must each be 16 or higher.",
         "• You must have earned a total of at least 250 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
         "• During a hostile encounter, you and at least two of your allies must become Bloodied or be reduced to 0 hit points.",
-        "You can expend 4 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "You can expend 4 Ki Points to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
         "• While transformed, you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
         "• You have Advantage on attack rolls.",
         "• Your Ki Damage increases by two die.",
@@ -1308,7 +1308,7 @@
               "name": "Ultra Ego",
               "entries": [
                 "Ultra Ego transforms your Ki into the divine energy of a God of Destruction, allowing your power to grow instinctively without limit as your fighting spirit intensifies.",
-                "You can expend 10 Ki Point to transform into a Ultra Ego without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+                "You can expend 10 Ki Point to transform into Ultra Ego without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
                 "• While transformed, you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
                 "• You have Advantage on attack rolls.",
                 "• Your Ki Damage increases by six die.",
@@ -1637,7 +1637,7 @@
               "name": "Gigantic Hammer",
               "entries": [
                 "As an {@variantrule Action|XPHB}, you can expend 5 Ki Point to surge toward one creature you can see within a distance up to your Speed without provoking Opportunity Attacks. You must end this movement within 5 feet of the target.",
-                "Make a Grapple against the target. and make one {@variantrule Unarmed Strike|XPHB} against it. This attack gains the benefits of Overwhelming Strike, If the target is Grappled by you, and on a hit, the attack is a Critical Hit.",
+                "Make a Grapple the target. and make one {@variantrule Unarmed Strike|XPHB} against it. This attack gains the benefits of Overwhelming Strike, If the target is Grappled by you, and on a hit, the attack is a Critical Hit.",
                 "You then release the Grapple and launch the target into the air before following it and making one additional {@variantrule Unarmed Strike|XPHB} against it. This attack also gains the benefits of Overwhelming Strike.",
                 "On a hit, the second attack pushes the target up to 30 feet away from you. If the target collides with a wall, another obstacle, or another creature during this movement, the target and the creature it collides with each take Force damage equal to your Ki Damage.",
                 "This attack ignores Resistance to Force damage, and Immunity to Force damage is treated as Resistance against this attack."
@@ -1949,7 +1949,7 @@
         "• Your Strength and Constitution scores must each be 18 or higher.",
         "• You must have earned a total of at least 500 Zenkai over the course of your adventures. Zenkai you have spent still counts toward this total.",
         "• During a hostile encounter, you and at least two of your allies must become Bloodied or be reduced to 0 hit points.",
-        "You can expend 4 Ki Point to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
+        "You can expend 4 Ki Points to transform into a Super Saiyan 2 without using an {@variantrule Action|XPHB} or {@variantrule Bonus Action|XPHB}. While transformed, you gain the following benefits:",
         "• While transformed, you are always under the effects of Flight and Power Full Strike without expending Ki Points.",
         "• You have Advantage on attack rolls.",
         "• Your Ki Damage increases by two die.",
@@ -3264,7 +3264,7 @@
           "type": "entries",
           "name": "Senju Vitality",
           "entries": [
-            "Your Constitution scores increases by 4, to a maximum of 30.",
+            "Your Constitution score increases by 4, to a maximum of 30.",
             "In addition, your hit point maximum increases by an amount equal to twice your character level when you receive these cells. Whenever you gain a level, your hit point maximum increases by an additional 2 hit points."
           ]
         },
@@ -3290,7 +3290,7 @@
               "name": "Wood Release Chakra Absorption",
               "entries": [
                 "Your Wood Release can absorb the chakra and vitality of creatures caught within your techniques. Whenever a creature is hit by one of your Wood Release attacks or fails a saving throw against one of your Wood Release techniques, it must roll 1d4.",
-                "The creature's Constitution scores is temporarily reduced by the number rolled. You then increase your Constitution scores by half the amount reduced, rounded up. The total increase to your Constitution from Chakra Absorption cannot exceed your proficiency bonus",
+                "The creature's Constitution score is temporarily reduced by the number rolled. You then increase your Constitution scores by half the amount reduced, rounded up. The total increase to your Constitution from Chakra Absorption cannot exceed your proficiency bonus.",
                 "These changes to Constitution are temporary and last until you finish a long rest.",
                 "A creature's Constitution scores cannot be reduced below 1 by this feature."
               ]
@@ -3421,14 +3421,14 @@
                 "As an action, you summon a Several Thousand Hands in an unoccupied space you can see within 120 feet. The statue remains for 1 minute and acts immediately after your turn.",
                 "The statue obeys your commands and uses your Wood Release attack bonus and save DC.",
                 "The statue disappears when it is reduced to 0 hit points, when you dismiss it, or when 1 minute has passed.",
-                "If you in Sage Mode, this technique becomes Sage Art: Wood Release: True Several Thousand Hands."
+                "If you are in Sage Mode, this technique becomes Sage Art: Wood Release: True Several Thousand Hands."
               ]
             },
             {
               "type": "entries",
               "name": "Sage Art: Wood Release: True Several Thousand Hands",
               "entries": [
-                "When you use Wood Release: Several Thousand Hands in Sage Mode cast this insant.",
+                "When you use Wood Release: Several Thousand Hands in Sage Mode cast this instead.",
                 "As an action, you summon a True Several Thousand Hands in an unoccupied space you can see within 120 feet. The statue remains for 1 minute and acts immediately after your turn.",
                 "The statue obeys your commands and uses your Wood Release attack bonus and save DC.",
                 "The statue disappears when it is reduced to 0 hit points, when you dismiss it, or when 1 minute has passed."
@@ -4115,7 +4115,7 @@
               "type": "entries",
               "name": "Amaterasu",
               "entries": [
-                "As a action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to unleash the black flames of Amaterasu upon a target you can see. The target is engulfed in black flames and immediately takes fire damage equal to a number of d12s equal to your Constitution modifier.",
+                "As an action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to unleash the black flames of Amaterasu upon a target you can see. The target is engulfed in black flames and immediately takes fire damage equal to a number of d12s equal to your Constitution modifier.",
                 "At the start of each of the target's turns, the target takes fire damage from Amaterasu, and the damage increases by 1d12 after each instance of damage. The black flames do not extinguish themselves, and this effect continues until the target dies, you extinguish the flames, or the target escapes them using an appropriate ability.",
                 "A creature can end the effect on itself by severing or removing the body part engulfed in the flames, if physically possible. The DM determines the consequences of doing so.",
                 "A creature can also escape the flames by using a teleportation ability, such as {@spell misty step}, to move away from them. The effect ends on that creature, but the flames remain where they were left.",
@@ -4160,7 +4160,7 @@
               "name": "Tsukuyomi",
               "entries": [
                 "Tsukuyomi traps a target within a powerful illusion that distorts its perception of time and reality, allowing you to inflict profound psychological torment within moments.",
-                "As a action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to make the target a Wisdom saving throw against your feature save DC. If the target makes eye contact with you while within a 30-foot-long, 5-foot-wide line extending from you, it makes this saving throw with disadvantage. On a failed save, the target is stunned and takes psychic damage equal to a number of d8s equal to your Constitution modifier. On a successful save, the target takes half as much damage and isn't stunned.",
+                "As an action, You expend 15 Sharingan Energy and reduce the Sharingan Durability of the eye used by 5 to make the target a Wisdom saving throw against your feature save DC. If the target makes eye contact with you while within a 30-foot-long, 5-foot-wide line extending from you, it makes this saving throw with disadvantage. On a failed save, the target is stunned and takes psychic damage equal to a number of d8s equal to your Constitution modifier. On a successful save, the target takes half as much damage and isn't stunned.",
                 "At the end of each of its turns, a stunned target can repeat the Wisdom saving throw, ending the stunned condition on itself on a success. On a failure, the target remains stunned and continues to suffer the torment of Tsukuyomi, taking psychic damage equal to a number of d8s equal to your Constitution modifier.",
                 "Once the target succeeds on this saving throw and ends the stunned condition, it must immediately make another Intelligence saving throw against your feature save DC. On a failed save, the target is frightened of you and takes psychic damage equal to a number of d6s equal to your Constitution modifier. On a successful save, the target takes half as much damage and isn't frightened.",
                 "At the end of each of its turns while frightened by Tsukuyomi, the target can repeat the Intelligence saving throw, ending the frightened condition on itself on a success. On a failure, the target remains frightened and continues to suffer the torment of Tsukuyomi, taking psychic damage equal to a number of d6s equal to your Constitution modifier."
@@ -4315,7 +4315,7 @@
             "All Attack rolls against you have disadvantage.",
             "You add your Eye Mastery Bonus to Wisdom (Perception) and Wisdom (Insight) checks.",
             "You add your Eye Mastery Bonus to initiative rolls.",
-            "Your Constitution scores and their maximum increase by an amount equal to the highest Eye Mastery Bonus among your eyes. This increase can allow your Constitution scores to exceed the normal maximum."
+            "Your Constitution score and their maximum increase by an amount equal to the highest Eye Mastery Bonus among your eyes. This increase can allow your Constitution scores to exceed the normal maximum."
           ]
         },
         {
@@ -4440,15 +4440,6 @@
           "entries": [
             "If the Rinnegan was implanted rather than evolved from your own Sharingan, you gain the abilities of the implanted Rinnegan and its unique dōjutsu ability, but you do not gain the passive benefits of previous Sharingan evolution stages that you never possessed.",
             "If you already possessed Sharingan, Mangekyō Sharingan, Eternal Mangekyō Sharingan abilities, or Susanoo before receiving the transplant, those abilities remain available to you as abilities you had already awakened. However, the implanted Rinnegan itself does not grant any of them."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "6 Tomoe - Rinnegan",
-          "entries": [
-            "A Rinnegan can evolve beyond its normal state when its wielder receives the Ōtsutsuki Chakra. This awakens the 6 Tomoe Rinnegan.",
-            "The 6 Tomoe Rinnegan is not a separate eye that must be implanted or created. It is an awakened state of the existing Rinnegan, unlocking additional powers within the same eye.",
-            "The 6 Tomoe Rinnegan retains all abilities of the Rinnegan and its unique dōjutsu ability, while gaining the additional benefits of its awakened state."
           ]
         },
         {
@@ -4679,7 +4670,7 @@
       "source": "AnimeIsekai",
       "wondrous": true,
       "weight": 1,
-      "rarity": "unknown (magic)",
+      "rarity": "artifact",
       "entries": [
         "This eye possesses an Eye Mastery Bonus of +5.",
         "The Rinne-Sharingan is the ultimate evolution of the Rinnegan, possessing powers beyond those of the ordinary Rinnegan.",
@@ -4727,43 +4718,58 @@
             "An affected creature can repeat the saving throw against the genjutsu with disadvantage at the end of each of its turns, ending the effect on itself on a success.",
             "While affected by the genjutsu, roots grow around the creature, causing it to become Grappled and Restrained.",
             "Once the genjutsu ends for a creature, it can use its action to attempt to break free from the roots by making a Strength saving throw against your Dōjutsu Save DC with disadvantage. On a successful save, the creature ends the Grappled and Restrained conditions caused by the roots.",
-            "At the start of each of its turns while restrained by the roots, the creature loses 1d6 points from its Constitution scores and gains 1 level of Exhaustion.",
+            "At the start of each of its turns while restrained by the roots, the creature loses 1d6 points from its Constitution score and gains 1 level of Exhaustion.",
             "Once you use this technique, you can't use it again until you finish a long rest."
           ]
         }
       ]
     },
     {
-      "name": "Ōtsutsuki Chakra Seal",
-      "source": "AnimeIsekai",
-      "rarity": "artifact",
-      "wondrous": true,
-      "weight": 1,
-      "entries": [
-        "This seal contains an immense amount of Ōtsutsuki Chakra, a primordial form of chakra possessed by the Ōtsutsuki clan.",
-        "A creature that possesses this seal gains access to the Ōtsutsuki Chakra within it.",
-        {
-          "type": "entries",
-          "name": "Six Paths Chakra",
-          "entries": [
-            "Your chakra is empowered by Ōtsutsuki Chakra, greatly increasing its potency.",
-            "Each of your ability scores increases by 2.",
-            "Your ability scores no longer have a maximum.",
-            "You gain advantage on saving throws against chakra-based techniques, features, spells, and other magical effects.",
-            "You gain resistance to all damage dealt by chakra-based techniques, features, spells, and magical effects.",
-            "Your chakra-based techniques, features, spells, and magical effects ignore resistance and immunity to their damage types."
-          ]
-        },
-        {
-          "type": "entries",
-          "name": "Six Tomoe Awakening",
-          "entries": [
-            "If you possess a Rinnegan, you can infuse it with Ōtsutsuki Chakra to awaken its Six Tomoe state.",
-            "The awakening is permanent, and the Rinnegan retains all of its previous abilities while gaining the powers associated with the Six Tomoe Rinnegan."
-          ]
-        }
-      ]
-    },
+        "name": "Ōtsutsuki Chakra Seal",
+        "source": "AnimeIsekai",
+        "rarity": "artifact",
+        "wondrous": true,
+        "weight": 1,
+        "entries": [
+          "This seal contains an immense amount of Ōtsutsuki Chakra, a primordial form of chakra possessed by the Ōtsutsuki clan.",
+          "A creature that possesses this seal gains access to the Ōtsutsuki Chakra within it.",
+          {
+            "type": "entries",
+            "name": "Six Paths Chakra",
+            "entries": [
+              "Your chakra is empowered by Ōtsutsuki Chakra, greatly increasing its potency.",
+              "Each of your ability scores increases by 2.",
+              "Your ability scores no longer have a maximum.",
+              "You have advantage on all D20 Tests.",
+              "Your damage ignores resistance and immunity.",
+              "Whenever you take damage, reduce that damage by an amount equal to your Constitution score to a minimum of 0 damage."
+
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Six Tomoe Awakening",
+            "entries": [
+              "If you possess a Rinnegan, you can infuse it with Ōtsutsuki Chakra to awaken its Six Tomoe state.",
+              "The Six Tomoe Rinnegan is not a separate eye that must be implanted or created. It is an awakened state of the existing Rinnegan, unlocking additional powers within the same eye.",
+              "The Six Tomoe Rinnegan retains all abilities of the Rinnegan and its unique dōjutsu ability, while gaining the additional benefits of its awakened state.",
+              "The Rinnegan is permanently transformed into a Six Tomoe Rinnegan. This transformation cannot be reversed.",
+              "The Six Tomoe Rinnegan retains all abilities of the Rinnegan and gains the powers of the Eternal Mangekyō Sharingan."
+
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Tenseigan Awakening",
+            "entries": [
+              "If you possess a Byakugan, you can infuse it with Ōtsutsuki Chakra to awaken the Tenseigan.",
+              "The Tenseigan is not a separate eye that must be implanted or created. It is an awakened state of the existing Byakugan, unlocking additional powers within the same eye.",
+              "The Byakugan is permanently transformed into a Tenseigan. This transformation cannot be reversed.",
+              "The Tenseigan retains all abilities of the Byakugan."
+            ]
+          }
+        ]
+      },
     {
       "name": "Byakugan",
       "source": "AnimeIsekai",
@@ -4777,6 +4783,7 @@
           "type": "entries",
           "name": "Byakugan",
           "entries": [
+            "This eye possesses an Eye Mastery Bonus of +1.",
             "You gain Darkvision out to 30 feet multiplied by your Constitution modifier.",
             "You gain Truesight out to 30 feet.",
             "You can see in a 360-degree field of vision.",
@@ -4802,7 +4809,7 @@
             "As a bonus action, you can focus your Byakugan for 1 minute. While focused, you have advantage on initiative rolls and attack rolls against creatures you can perceive.",
             "The range of your Truesight becomes equal to the range of your Darkvision.",
             "You score a critical hit on a roll of 18–20.",
-            "The spell save DC of your chakra-based techniques, features, spells, and other magical effects increases by 1.",
+            "Your DCs increases by 1.",
             "Once you use this ability, you can't use it again until you finish a short or long rest."
           ]
         },
@@ -4813,20 +4820,72 @@
             "If you possess two Byakugan, the range of your Darkvision and Truesight is doubled.",
             "You can use Byakugan Focus a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.",
             "While using Byakugan Focus, you score a critical hit on a roll of 16–20.",
-            "While using Byakugan Focus, the spell save DC of your chakra-based techniques, features, spells, and other magical effects increases by 2 instead of 1."
+            "While using Byakugan Focus, your DCs increases by 2 instead of 1."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tenseigan",
+      "source": "AnimeIsekai",
+      "rarity": "artifact",
+      "wondrous": true,
+      "weight": 1,
+      "entries": [
+        "This eye is the divine evolution of the Byakugan, awakened through the power of Ōtsutsuki Chakra. The Tenseigan grants its wielder immense chakra, extraordinary physical power, and the ability to enter a transcendent Chakra Mode.",
+        {
+          "type": "entries",
+          "name": "Tenseigan",
+          "entries": [
+            "This eye possesses an Eye Mastery Bonus of +4.",
+            "You retain all abilities of the Byakugan.",
+            "The range of your Darkvision and truesight is doubled.",
+            "You can perceive the flow of chakra within creatures, objects, and magical effects within the range of your truesight.",
+            "You can perceive the chakra network and tenketsu of creatures you can see.",
+            "You have advantage on saving throws."
           ]
         },
         {
           "type": "entries",
-          "name": "Tenseigan Awakening",
+          "name": "Tenseigan Chakra Mode",
           "entries": [
-            "If you possess a Byakugan, you can infuse it with Ōtsutsuki Chakra to awaken the Tenseigan.",
-            "The Byakugan is permanently transformed into a Tenseigan. This transformation cannot be reversed.",
-            "The Tenseigan retains all abilities of the Byakugan and gains the powers of the Tenseigan."
+            "As a bonus action, you can enter Tenseigan Chakra Mode. The transformation lasts for 1 minute.",
+            "While in this form, your walking speed increases by 60 feet, and you gain a flying speed of 120 feet.",
+            "Your attack rolls and damage rolls gain a +5 bonus.",
+            "Your saving throws gain a +5 bonus.",
+            "You score a critical hit on a roll of 15–20.",
+            "Your DCs increases by 5.",
+            "Whenever you roll damage, treat each damage die as having rolled its maximum value.",
+            "At the start of each of your turns, you regain 20 hit points.",
+            "At the start of each of your turns, you regain one expended spell slot of your highest level.",
+            "At the start of each of your turns, you can end one condition affecting you.",
+            "You have immunity to Exhaustion, and you cannot gain Exhaustion while in this form.",
+            "Once you use this ability, you can't use it again until you finish a long rest."
           ]
         }
       ]
-    }
+    },
+	 {
+		"name": "Chakra Focus",
+      "source": "AnimeIsekai",
+      "rarity": "common",
+      "wondrous": true,
+      "weight": 1,
+      "value": 5000,
+      "entries": [
+        "This item serves as a focus for learning and controlling chakra. A creature that possesses this item can begin learning the fundamentals of chakra manipulation.",
+        {
+          "type": "entries",
+          "name": "Chakra Awakening",
+          "entries": [
+            "While you possess this item, you gain access to the fundamentals of chakra manipulation.",
+            "Your Chakra Points are equal to 10 times your Constitution score.",
+            "You learn a number of Ninja cantrips of your choice equal to your Constitution modifier, with a minimum of one cantrip.",
+            "Chakra-based cantrips you learn through this item use Constitution as your spellcasting ability."
+          ]
+        }
+      ]
+	 }
   ],
   "monster": [
     {
@@ -5229,6 +5288,144 @@
         "MW"
       ],
       "hasToken": true
+    }
+  ],
+  "background": [
+    {
+      "name": "Isekai Hyōryūsha",
+      "source": "AnimeIsekai",
+      "page": 0,
+      "edition": "one",
+      "ability": [
+        {
+          "choose": {
+            "weighted": {
+              "from": [
+                "str",
+                "dex",
+                "con",
+                "int",
+                "wis",
+                "cha"
+              ],
+              "weights": [
+                2,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "choose": {
+            "weighted": {
+              "from": [
+                "str",
+                "dex",
+                "con",
+                "int",
+                "wis",
+                "cha"
+              ],
+              "weights": [
+                1,
+                1,
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "feats": [
+        {
+          "any": 1
+        }
+      ],
+      "skillProficiencies": [
+        {
+          "any": 2
+        }
+      ],
+      "startingEquipment": [
+        {
+          "A": [
+            {
+              "value": 5000
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "list",
+          "style": "list-hang-notitle",
+          "items": [
+            {
+              "type": "item",
+              "name": "Ability Scores:",
+              "entry": "Increase an ability score by 2 and another one of your choice by 1, or increase three different ability scores by 1. None of these increases can raise a score above 20."
+            },
+            {
+              "type": "item",
+              "name": "Feat:",
+              "entry": "Choose any Origin feat."
+            },
+            {
+              "type": "item",
+              "name": "Skill Proficiencies:",
+              "entry": "You gain proficiency in two skills of your choice."
+            },
+            {
+              "type": "item",
+              "name": "Skill Expert:",
+              "entry": "Choose one skill in which you have proficiency but lack {@variantrule Expertise|XPHB}. You gain {@variantrule Expertise|XPHB} with that skill."
+            },
+            {
+              "type": "item",
+              "name": "Equipment:",
+              "entry": "50 gp."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "optionalfeature": [
+    {
+      "name": "Kekkei Genkai",
+      "source": "AnimeIsekai",
+      "featureType": [
+        "EI"
+      ],
+      "entries": [
+        "A Kekkei Genkai is a bloodline limit that allows you to combine the properties of two different elements, creating a unique and more powerful form of elemental energy. Choose two damage types.",
+        "When you deal damage of either chosen type to a creature using a spell or feature, you ignore resistance and immunity to that damage type unless the creature also has resistance or immunity to the other chosen damage type. You treat vulnerability to either chosen damage type as vulnerability to both damage types.",
+        {
+          "type": "entries",
+          "name": "Example",
+          "entries": [
+            "If you choose fire and cold, you can combine them to create a new elemental type, which you can name Frostburn:",
+            {
+              "type": "list",
+              "items": [
+                "When you deal fire or cold damage, it becomes Frostburn damage. Frostburn ignores fire and cold resistance and immunity unless the creature has both fire and cold resistance or immunity.",
+                "If the creature is vulnerable to either fire or cold damage, it is treated as vulnerable to Frostburn damage."
+              ]
+            }
+          ]
+        },
+       {
+          "type": "entries",
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Repeatable",
+              "entries": [
+                "You can gain this invocation more than once. Each time you do so, choose two different damage types. You can choose a damage type created by this Kekkei Genkai as one of the two damage types, allowing you to create a new type that combines three or more damage types."
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
