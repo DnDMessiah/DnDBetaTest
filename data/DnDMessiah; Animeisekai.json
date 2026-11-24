@@ -10,13 +10,13 @@
           "DnDMessiah"
         ],
         "color": "FA6F02",
-        "version": "11.23.26"
+        "version": "1.0.2"
       }
     ],
     "edition": "classic",
     "dateAdded": 1787311551,
-    "dateLastModified": 1792883463,
-    "_dateLastModifiedHash": "60cc0d2408"
+    "dateLastModified": 1795436715,
+    "_dateLastModifiedHash": "8e02ff1cde"
   },
   "subclass": [
     {
@@ -33,6 +33,25 @@
         "Wedge of Heaven|Ranger|PHB|The Gatekeeper|AnimeIsekai|11|AnimeIsekai",
         "Enuma Elish|Ranger|PHB|The Gatekeeper|AnimeIsekai|15|AnimeIsekai",
         "Sha Naqba Imuru|Ranger|PHB|The Gatekeeper|AnimeIsekai|20|AnimeIsekai"
+      ]
+    },
+    {
+      "name": "The Lion's Sin",
+      "shortName": "The Lion's Sin",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "The Lion's Sin|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
+        "Pride of the Lion|Barbarian|PHB|The Lion's Sin|AnimeIsekai|10|AnimeIsekai",
+        "Sunshine|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
+        "The One|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
+        "Cruel Sun|Barbarian|PHB|The Lion's Sin|AnimeIsekai|6|AnimeIsekai",
+        "Pride Flare|Barbarian|PHB|The Lion's Sin|AnimeIsekai|6|AnimeIsekai",
+        "Divine Axe Rhitta|Barbarian|PHB|The Lion's Sin|AnimeIsekai|10|AnimeIsekai",
+        "Divine Sword Escanor|Barbarian|PHB|The Lion's Sin|AnimeIsekai|14|AnimeIsekai",
+        "Divine Spear Escanor|Barbarian|PHB|The Lion's Sin|AnimeIsekai|14|AnimeIsekai",
+        "The One, Ultimate|Barbarian|PHB|The Lion's Sin|AnimeIsekai|17|AnimeIsekai"
       ]
     },
     {
@@ -388,6 +407,157 @@
       "entries": [
         "You possess the wisdom of the King who saw the beginning of all things. You gain Truesight out to a range of 120 feet.",
         "You permanently gain the benefits of the {@spell Foresight} spell. This is not a spell effect, does not require concentration, cannot be dispelled, and lasts indefinitely."
+      ]
+    },
+    {
+      "name": "The Lion's Sin",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "Barbarians who follow the Lion's Sin embody the overwhelming power of the sun and the absolute pride of the lion. Their strength rises with the coming of daylight, growing steadily as the sun climbs across the sky until they reach their greatest power beneath the noon sun.",
+        "The Lion's Sin teaches that true strength does not come from fear, hesitation, or submission. Its followers stand proudly before their enemies, refusing to bow even in the face of overwhelming odds. Their presence alone can make others feel as though they are standing before a force far beyond mortal limits.",
+        "Those who inherit this power are often warriors of extraordinary confidence and physical might. Their bodies become vessels for solar power, allowing them to transform sunlight into devastating strength and supernatural abilities.",
+        "The power of the Lion's Sin reaches its absolute peak at noon, when the warrior enters a state known as The One. For a brief moment, the warrior becomes the embodiment of overwhelming solar power, standing at the pinnacle of their strength."
+      ]
+    },
+    {
+      "name": "Pride of the Lion",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "Your pride has grown beyond ordinary confidence and become an unshakable force of will. You possess the Pride of the Lion.",
+        "You refuse to allow fear, intimidation, or supernatural influence to diminish your confidence. Your presence carries the authority of a warrior who knows that they possess overwhelming strength.",
+        "Those who face you can feel the weight of your pride. Weaker creatures may find themselves overwhelmed by your presence, while even powerful enemies must contend with the absolute certainty that you will never willingly bow before them.",
+        "Your pride is not arrogance without substance. It is the conviction born from knowing exactly how powerful you have become."
+      ]
+    },
+    {
+      "name": "Sunshine",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "You have inherited Sunshine, a divine power that transforms the light and heat of the sun into overwhelming physical might.",
+        "Sunshine manifests within your body as a constant source of radiant power. As sunlight surrounds you, your strength, endurance, and destructive potential increase beyond the limits of an ordinary warrior.",
+        "The power of Sunshine is tied directly to the position of the sun. Your power grows as the day progresses, reaches its greatest height around noon, and gradually fades as the sun descends toward the horizon.",
+        "The brighter the sun shines, the more powerful you become. Darkness and the absence of sunlight suppress the full potential of Sunshine, while direct sunlight allows its divine power to flourish."
+      ]
+    },
+    {
+      "name": "The One",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 3,
+      "entries": [
+        "At noon, you can embody the absolute peak of Sunshine and enter a state known as The One.",
+        "For a brief period, your body becomes the vessel of overwhelming solar power. Your physical presence becomes imposing, your strength reaches extraordinary heights, and your attacks carry the force of the sun itself.",
+        "While The One is active, you stand at the pinnacle of your natural power. Fear, doubt, and hesitation have no place within you, for you possess absolute confidence in your own strength.",
+        "The One represents the moment when Sunshine reaches its perfect form. No gradual increase remains. No further transformation is necessary. For that brief moment, you are simply the strongest version of yourself."
+      ]
+    },
+    {
+      "name": "Cruel Sun",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "entries": [
+        "You can condense the overwhelming heat of Sunshine into a blazing sphere of solar energy known as Cruel Sun.",
+        "The sphere burns with intense radiant heat and can be hurled toward your enemies like a miniature sun. It remains suspended in the air for a brief moment before erupting with devastating force.",
+        "Cruel Sun is an expression of your raw solar power. Rather than relying upon a weapon, you shape the destructive energy of Sunshine directly with your own will.",
+        "The hotter and stronger your Sunshine becomes, the more terrifying Cruel Sun becomes in your hands."
+      ]
+    },
+    {
+      "name": "Pride Flare",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 6,
+      "entries": [
+        "You can release the solar power within your body in a violent burst known as Pride Flare.",
+        "Pride Flare transforms your overwhelming pride into destructive energy, causing the air around you to erupt with radiant heat and explosive force.",
+        "The technique is especially devastating against groups of enemies, allowing you to overwhelm multiple creatures with the sheer intensity of Sunshine.",
+        "Pride Flare is not merely an attack. It is a declaration of your absolute superiority, a burst of power that forces everything around you to acknowledge the might of the Lion's Sin."
+      ]
+    },
+    {
+      "name": "Divine Axe Rhitta",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 10,
+      "entries": [
+        "You wield Rhitta, the Divine Axe, a legendary weapon created to channel and contain the overwhelming power of Sunshine.",
+        "Rhitta is an enormous divine axe whose immense weight is insignificant in your hands. Its golden form shines with the same radiant power that flows through your body.",
+        "The axe can absorb and store the solar energy generated by Sunshine, allowing you to unleash that stored power when you need to increase the devastation of your attacks.",
+        "Rhitta is more than a weapon. It is the symbol of your authority as the Lion's Sin and a physical vessel for the overwhelming power of the sun."
+      ]
+    },
+    {
+      "name": "Divine Sword Escanor",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "entries": [
+        "You can shape Sunshine into a divine blade known as Divine Sword Escanor.",
+        "The sword is formed from concentrated solar power, its radiant edge burning with enough intensity to cut through even powerful supernatural defenses.",
+        "When you wield Divine Sword Escanor, your attacks become an expression of absolute solar authority. The blade does not merely cut flesh; it carries the overwhelming force of Sunshine directly into your enemy.",
+        "The Divine Sword represents the refinement of your power. Where Rhitta contains and channels Sunshine, the sword allows you to focus that power into a precise and devastating weapon."
+      ]
+    },
+    {
+      "name": "Divine Spear Escanor",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 14,
+      "entries": [
+        "You can shape Sunshine into a divine weapon known as Divine Spear Escanor.",
+        "The spear concentrates your solar power into a piercing form, allowing you to project the destructive force of Sunshine beyond the reach of your ordinary attacks.",
+        "When thrown or launched, Divine Spear Escanor travels with tremendous speed and burns with intense radiant heat, striking enemies with the force of a weapon forged from the sun itself.",
+        "The Divine Spear represents the reach of your power, allowing the Lion's Sin to bring the might of Sunshine against enemies who believe distance will protect them."
+      ]
+    },
+    {
+      "name": "The One, Ultimate",
+      "source": "AnimeIsekai",
+      "className": "Barbarian",
+      "classSource": "PHB",
+      "subclassShortName": "The Lion's Sin",
+      "subclassSource": "AnimeIsekai",
+      "level": 17,
+      "entries": [
+        "You have achieved an extreme evolution of The One, a state that pushes Sunshine beyond the limits of what your body was ever meant to withstand.",
+        "The One, Ultimate burns your own life force as fuel, allowing you to extend and amplify your noon-level power far beyond its natural limits.",
+        "While this transformation lasts, your body becomes a living manifestation of the sun. Every movement carries overwhelming force, every attack releases devastating solar energy, and your physical capabilities rise to a level that ordinary creatures cannot hope to match.",
+        "But such power comes at a terrible price. You are no longer merely drawing upon Sunshine. You are burning yourself to sustain it. The longer you remain in The One, Ultimate, the more of your own life force is consumed.",
+        "The One, Ultimate is therefore not simply the strongest form of Sunshine. It is the final expression of your pride, a state in which you willingly sacrifice yourself to reach a power that should never have been possible for a mortal being."
       ]
     },
     {
@@ -820,7 +990,7 @@
       "subclassSource": "AnimeIsekai",
       "level": 17,
       "entries": [
-        "Crazy Diamond shatters the limits that once restrained its power. Its fists carry overwhelming destructive force, while its ability to restore the broken reaches a level beyond ordinary restoration. At this stage, Crazy Diamond no longer merely repairs what was damaged—it defies destruction itself, forcibly returning what was lost to the state it once held.",
+        "Crazy Diamond shatters the limits that once restrained its power. Its fists carry overwhelming destructive force, while its ability to restore the broken reaches a level beyond ordinary restoration. At this stage, Crazy Diamond no longer merely repairs what was damaged\u2014it defies destruction itself, forcibly returning what was lost to the state it once held.",
         {
           "type": "entries",
           "name": "Diamond Is Unbreakable: Limit Break",
@@ -2450,7 +2620,7 @@
       "classSource": "AnimeIsekai",
       "level": 1,
       "entries": [
-        "You are a Saiyan, an alien warrior race with tremendous physical potential. When you choose this class, you don't choose a separate race for your character — the traits below replace your race entirely.",
+        "You are a Saiyan, an alien warrior race with tremendous physical potential. When you choose this class, you don't choose a separate race for your character \u2014 the traits below replace your race entirely.",
         {
           "type": "entries",
           "name": "Creature Type",
@@ -4725,51 +4895,49 @@
       ]
     },
     {
-        "name": "Ōtsutsuki Chakra Seal",
-        "source": "AnimeIsekai",
-        "rarity": "artifact",
-        "wondrous": true,
-        "weight": 1,
-        "entries": [
-          "This seal contains an immense amount of Ōtsutsuki Chakra, a primordial form of chakra possessed by the Ōtsutsuki clan.",
-          "A creature that possesses this seal gains access to the Ōtsutsuki Chakra within it.",
-          {
-            "type": "entries",
-            "name": "Six Paths Chakra",
-            "entries": [
-              "Your chakra is empowered by Ōtsutsuki Chakra, greatly increasing its potency.",
-              "Each of your ability scores increases by 2.",
-              "Your ability scores no longer have a maximum.",
-              "You have advantage on all D20 Tests.",
-              "Your damage ignores resistance and immunity.",
-              "Whenever you take damage, reduce that damage by an amount equal to your Constitution score to a minimum of 0 damage."
-
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Six Tomoe Awakening",
-            "entries": [
-              "If you possess a Rinnegan, you can infuse it with Ōtsutsuki Chakra to awaken its Six Tomoe state.",
-              "The Six Tomoe Rinnegan is not a separate eye that must be implanted or created. It is an awakened state of the existing Rinnegan, unlocking additional powers within the same eye.",
-              "The Six Tomoe Rinnegan retains all abilities of the Rinnegan and its unique dōjutsu ability, while gaining the additional benefits of its awakened state.",
-              "The Rinnegan is permanently transformed into a Six Tomoe Rinnegan. This transformation cannot be reversed.",
-              "The Six Tomoe Rinnegan retains all abilities of the Rinnegan and gains the powers of the Eternal Mangekyō Sharingan."
-
-            ]
-          },
-          {
-            "type": "entries",
-            "name": "Tenseigan Awakening",
-            "entries": [
-              "If you possess a Byakugan, you can infuse it with Ōtsutsuki Chakra to awaken the Tenseigan.",
-              "The Tenseigan is not a separate eye that must be implanted or created. It is an awakened state of the existing Byakugan, unlocking additional powers within the same eye.",
-              "The Byakugan is permanently transformed into a Tenseigan. This transformation cannot be reversed.",
-              "The Tenseigan retains all abilities of the Byakugan."
-            ]
-          }
-        ]
-      },
+      "name": "Ōtsutsuki Chakra Seal",
+      "source": "AnimeIsekai",
+      "rarity": "artifact",
+      "wondrous": true,
+      "weight": 1,
+      "entries": [
+        "This seal contains an immense amount of Ōtsutsuki Chakra, a primordial form of chakra possessed by the Ōtsutsuki clan.",
+        "A creature that possesses this seal gains access to the Ōtsutsuki Chakra within it.",
+        {
+          "type": "entries",
+          "name": "Six Paths Chakra",
+          "entries": [
+            "Your chakra is empowered by Ōtsutsuki Chakra, greatly increasing its potency.",
+            "Each of your ability scores increases by 2.",
+            "Your ability scores no longer have a maximum.",
+            "You have advantage on all D20 Tests.",
+            "Your damage ignores resistance and immunity.",
+            "Whenever you take damage, reduce that damage by an amount equal to your Constitution score to a minimum of 0 damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Six Tomoe Awakening",
+          "entries": [
+            "If you possess a Rinnegan, you can infuse it with Ōtsutsuki Chakra to awaken its Six Tomoe state.",
+            "The Six Tomoe Rinnegan is not a separate eye that must be implanted or created. It is an awakened state of the existing Rinnegan, unlocking additional powers within the same eye.",
+            "The Six Tomoe Rinnegan retains all abilities of the Rinnegan and its unique dōjutsu ability, while gaining the additional benefits of its awakened state.",
+            "The Rinnegan is permanently transformed into a Six Tomoe Rinnegan. This transformation cannot be reversed.",
+            "The Six Tomoe Rinnegan retains all abilities of the Rinnegan and gains the powers of the Eternal Mangekyō Sharingan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tenseigan Awakening",
+          "entries": [
+            "If you possess a Byakugan, you can infuse it with Ōtsutsuki Chakra to awaken the Tenseigan.",
+            "The Tenseigan is not a separate eye that must be implanted or created. It is an awakened state of the existing Byakugan, unlocking additional powers within the same eye.",
+            "The Byakugan is permanently transformed into a Tenseigan. This transformation cannot be reversed.",
+            "The Tenseigan retains all abilities of the Byakugan."
+          ]
+        }
+      ]
+    },
     {
       "name": "Byakugan",
       "source": "AnimeIsekai",
@@ -4808,7 +4976,7 @@
           "entries": [
             "As a bonus action, you can focus your Byakugan for 1 minute. While focused, you have advantage on initiative rolls and attack rolls against creatures you can perceive.",
             "The range of your Truesight becomes equal to the range of your Darkvision.",
-            "You score a critical hit on a roll of 18–20.",
+            "You score a critical hit on a roll of 18\u201320.",
             "Your DCs increases by 1.",
             "Once you use this ability, you can't use it again until you finish a short or long rest."
           ]
@@ -4819,7 +4987,7 @@
           "entries": [
             "If you possess two Byakugan, the range of your Darkvision and Truesight is doubled.",
             "You can use Byakugan Focus a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.",
-            "While using Byakugan Focus, you score a critical hit on a roll of 16–20.",
+            "While using Byakugan Focus, you score a critical hit on a roll of 16\u201320.",
             "While using Byakugan Focus, your DCs increases by 2 instead of 1."
           ]
         }
@@ -4853,7 +5021,7 @@
             "While in this form, your walking speed increases by 60 feet, and you gain a flying speed of 120 feet.",
             "Your attack rolls and damage rolls gain a +5 bonus.",
             "Your saving throws gain a +5 bonus.",
-            "You score a critical hit on a roll of 15–20.",
+            "You score a critical hit on a roll of 15\u201320.",
             "Your DCs increases by 5.",
             "Whenever you roll damage, treat each damage die as having rolled its maximum value.",
             "At the start of each of your turns, you regain 20 hit points.",
@@ -4865,8 +5033,8 @@
         }
       ]
     },
-	 {
-		"name": "Chakra Focus",
+    {
+      "name": "Chakra Focus",
       "source": "AnimeIsekai",
       "rarity": "common",
       "wondrous": true,
@@ -4885,7 +5053,7 @@
           ]
         }
       ]
-	 }
+    }
   ],
   "monster": [
     {
@@ -5413,7 +5581,7 @@
             }
           ]
         },
-       {
+        {
           "type": "entries",
           "entries": [
             {
