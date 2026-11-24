@@ -21,6 +21,7 @@
 		{
 			"name": "Sin of Pride",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -155,6 +156,7 @@
 		{
 			"name": "Sin of Greed",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -278,6 +280,7 @@
 		{
 			"name": "Sin of Lust",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -419,6 +422,7 @@
 		{
 			"name": "Sin of Sloth",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -554,6 +558,7 @@
 		{
 			"name": "Sin of Envy",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -701,6 +706,7 @@
 		{
 			"name": "Sin of Gluttony",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -841,6 +847,7 @@
 		{
 			"name": "Sin of Wrath",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1018,6 +1025,7 @@
 		{
 			"name": "Grace of Humility",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1136,6 +1144,7 @@
 		{
 			"name": "Grace of Charity",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1255,6 +1264,7 @@
 		{
 			"name": "Grace of Chastity",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1379,6 +1389,7 @@
 		{
 			"name": "Grace of Patience",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1495,6 +1506,7 @@
 		{
 			"name": "Grace of Diligence",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1616,6 +1628,7 @@
 		{
 			"name": "Grace of Temperance",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -1731,6 +1744,7 @@
 		{
 			"name": "Grace of Gratitude",
 			"source": "LifeBetweenSinAndGrace",
+			"category": "O",
 			"prerequisite": [
 				{
 					"other": "You can't have another Sin or Grace Feat"
@@ -2195,7 +2209,7 @@
 					"type": "entries",
 					"name": "Pegasus.",
 					"entries": [
-						"As a Bonus Action, or by replacing one attack when you take the Attack action, you can make an attack with your {@variantrule Unarmed Strike|XPHB} against a creature you can see within 30 feet of you. The attack deals Piercing damage instead of its normal damage type. If the attack hits, all attack rolls you make against the same target before the end of your turn have Advantage."
+						"As a Bonus Action, or by replacing one attack when you take the Attack action, you can make an attack with your {@variantrule Unarmed Strike|XPHB} against a creature you can see within 30 feet of you. If the attack hits, all attack rolls you make against the same target before the end of your turn have Advantage."
 					]
 				},
 				{
@@ -2203,6 +2217,64 @@
 					"name": "Kraken.",
 					"entries": [
 						"When you make an attack with your {@variantrule Unarmed Strike|XPHB}, if the attack hits, the target must succeed on a Strength saving throw with Disadvantage or have the Prone and Grappled conditions."
+					]
+				}
+			]
+		},
+		{
+			"name": "Apex Predator's Mark",
+			"source": "LifeBetweenSinAndGrace",
+			"category": "FS",
+			"prerequisite": [
+				{
+					"feature": [
+						"Fighting Style"
+					]
+				}
+			],
+			"entries": [
+				"Once marked, there is no escape. The Apex Predator never misses, never relents, and never stops hunting until its prey falls.",
+				"Your {@spell Hunter's Mark|XPHB} gains the following benefits:",
+				{
+					"type": "entries",
+					"name": "Apex Predator's Hunt.",
+					"entries": [
+						"When you deal damage to the marked target, roll a number of additional damage dice from {@spell Hunter's Mark|XPHB} equal to your Proficiency Bonus.",
+						"Attack rolls you make against the marked target automatically hit and score a Critical Hit on a roll of 18, 19, or 20.",
+						"Your attacks against the marked target ignore Resistance to their damage type. If the marked target is Immune to a damage type, it is instead treated as having Resistance to that damage type.",
+						"Whenever your {@spell Hunter's Mark|XPHB} damage leaves a creature with Hit Points equal to or less than your level, you can reduce it to 0 Hit Points instead.",
+						"If the target drops to 0 {@variantrule Hit Points|XPHB} before this spell ends, you can move the mark to a new creature you can see within range."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Apex Predator's Sense.",
+					"entries": [
+						"You know the direction of the marked target while it is on the same plane of existence as you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hunt the Pack",
+			"source": "LifeBetweenSinAndGrace",
+			"category": "FS",
+			"prerequisite": [
+				{
+					"feature": [
+						"Fighting Style"
+					]
+				}
+			],
+			"entries": [
+				"Whenever you make an attack against a creature, the attack also targets every other creature marked by {@spell Hunter's Mark|XPHB} within the attack's range.",
+				"After you cast {@spell Hunter's Mark|XPHB} or move the mark to a new creature, you can make one attack against that creature.",
+				"Your {@spell Hunter's Mark|XPHB} gains the following benefits:",
+				{
+					"type": "entries",
+					"name": "Predator's Reach.",
+					"entries": [
+						"The number of creatures you can have marked by your {@spell Hunter's Mark|XPHB} increases by half your Proficiency Bonus, rounded up."
 					]
 				}
 			]
