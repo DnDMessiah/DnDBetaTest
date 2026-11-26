@@ -10,13 +10,13 @@
           "DnDMessiah"
         ],
         "color": "FA6F02",
-        "version": "1.0.2"
+        "version": "11.23.26"
       }
     ],
     "edition": "classic",
     "dateAdded": 1787311551,
-    "dateLastModified": 1795436715,
-    "_dateLastModifiedHash": "8e02ff1cde"
+    "dateLastModified": 1792883463,
+    "_dateLastModifiedHash": "60cc0d2408"
   },
   "subclass": [
     {
@@ -43,7 +43,7 @@
       "classSource": "PHB",
       "subclassFeatures": [
         "The Lion's Sin|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
-        "Pride of the Lion|Barbarian|PHB|The Lion's Sin|AnimeIsekai|10|AnimeIsekai",
+        "Pride of the Lion|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
         "Sunshine|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
         "The One|Barbarian|PHB|The Lion's Sin|AnimeIsekai|3|AnimeIsekai",
         "Cruel Sun|Barbarian|PHB|The Lion's Sin|AnimeIsekai|6|AnimeIsekai",
@@ -433,10 +433,9 @@
       "subclassSource": "AnimeIsekai",
       "level": 3,
       "entries": [
-        "Your pride has grown beyond ordinary confidence and become an unshakable force of will. You possess the Pride of the Lion.",
-        "You refuse to allow fear, intimidation, or supernatural influence to diminish your confidence. Your presence carries the authority of a warrior who knows that they possess overwhelming strength.",
-        "Those who face you can feel the weight of your pride. Weaker creatures may find themselves overwhelmed by your presence, while even powerful enemies must contend with the absolute certainty that you will never willingly bow before them.",
-        "Your pride is not arrogance without substance. It is the conviction born from knowing exactly how powerful you have become."
+        "",
+        "{@b Sin of Pride. } Your pride has grown beyond ordinary confidence and become an unshakable force of will. You will never bow. You gain the Sin of Pride {@feat feat|XPHB}.",
+        "{@b Unshakable Pride. } You refuse to allow fear, intimidation, or supernatural influence to diminish your confidence. You are immune to the {@condition Charmed|XPHB} and {@condition Frightened|XPHB} conditions."
       ]
     },
     {
@@ -448,10 +447,9 @@
       "subclassSource": "AnimeIsekai",
       "level": 3,
       "entries": [
-        "You have inherited Sunshine, a divine power that transforms the light and heat of the sun into overwhelming physical might.",
-        "Sunshine manifests within your body as a constant source of radiant power. As sunlight surrounds you, your strength, endurance, and destructive potential increase beyond the limits of an ordinary warrior.",
-        "The power of Sunshine is tied directly to the position of the sun. Your power grows as the day progresses, reaches its greatest height around noon, and gradually fades as the sun descends toward the horizon.",
-        "The brighter the sun shines, the more powerful you become. Darkness and the absence of sunlight suppress the full potential of Sunshine, while direct sunlight allows its divine power to flourish."
+        "When you enter your rage, Sunlight surrounds you, destructive potential increase beyond the limits. you gain follow benefit :",
+        "{@b Super Slash. }Divine power that transforms the light and heat of the sun into overwhelming physical might. You deal additional fire damage equal to your Strength modifier with each of your melee attacks.",
+        "{@b Sunshine. }Sunlight manifests within your body as a constant source of shining power. Any enemy that enters or starts its turn within 10 feet of you takes fire damage equal to your level."
       ]
     },
     {
@@ -463,10 +461,56 @@
       "subclassSource": "AnimeIsekai",
       "level": 3,
       "entries": [
+        "The power of Sunshine is tied directly to the position of the sun. Your power grows as the day progresses, reaches its greatest height around noon, and gradually fades as the sun descends toward the horizon.",
+        {
+          "type": "table",
+          "caption": "Sunshine Power",
+          "colLabels": [
+            "Time",
+            "Strength Score Bonus"
+          ],
+          "colStyles": [
+            "text",
+            "text"
+          ],
+          "rows": [
+            [
+              "18:00–05:59",
+              "+0"
+            ],
+            [
+              "06:00–06:59 / 17:00–17:59",
+              "+1"
+            ],
+            [
+              "07:00–07:59 / 16:00–16:59",
+              "+2"
+            ],
+            [
+              "08:00–08:59 / 15:00–15:59",
+              "+3"
+            ],
+            [
+              "09:00–09:59 / 14:00–14:59",
+              "+4"
+            ],
+            [
+              "10:00–10:59 / 13:00–13:59",
+              "+5"
+            ],
+            [
+              "11:00–11:59 / 12:02–12:59",
+              "+6"
+            ],
+            [
+              "12:00–12:01",
+              "+10"
+            ]
+          ]
+        },
+        "Any bonus to your Strength score granted by this feature can increase your Strength score beyond its normal maximum.",
         "At noon, you can embody the absolute peak of Sunshine and enter a state known as The One.",
-        "For a brief period, your body becomes the vessel of overwhelming solar power. Your physical presence becomes imposing, your strength reaches extraordinary heights, and your attacks carry the force of the sun itself.",
-        "While The One is active, you stand at the pinnacle of your natural power. Fear, doubt, and hesitation have no place within you, for you possess absolute confidence in your own strength.",
-        "The One represents the moment when Sunshine reaches its perfect form. No gradual increase remains. No further transformation is necessary. For that brief moment, you are simply the strongest version of yourself."
+        "{@b The One. }For a brief period, your body becomes the vessel of overwhelming solar power. Your physical presence becomes imposing, your strength reaches extraordinary heights, and your attacks carry the force of the sun itself. You gain the following benefits:"
       ]
     },
     {
@@ -990,7 +1034,7 @@
       "subclassSource": "AnimeIsekai",
       "level": 17,
       "entries": [
-        "Crazy Diamond shatters the limits that once restrained its power. Its fists carry overwhelming destructive force, while its ability to restore the broken reaches a level beyond ordinary restoration. At this stage, Crazy Diamond no longer merely repairs what was damaged\u2014it defies destruction itself, forcibly returning what was lost to the state it once held.",
+        "Crazy Diamond shatters the limits that once restrained its power. Its fists carry overwhelming destructive force, while its ability to restore the broken reaches a level beyond ordinary restoration. At this stage, Crazy Diamond no longer merely repairs what was damaged—it defies destruction itself, forcibly returning what was lost to the state it once held.",
         {
           "type": "entries",
           "name": "Diamond Is Unbreakable: Limit Break",
@@ -2620,7 +2664,7 @@
       "classSource": "AnimeIsekai",
       "level": 1,
       "entries": [
-        "You are a Saiyan, an alien warrior race with tremendous physical potential. When you choose this class, you don't choose a separate race for your character \u2014 the traits below replace your race entirely.",
+        "You are a Saiyan, an alien warrior race with tremendous physical potential. When you choose this class, you don't choose a separate race for your character — the traits below replace your race entirely.",
         {
           "type": "entries",
           "name": "Creature Type",
@@ -4976,7 +5020,7 @@
           "entries": [
             "As a bonus action, you can focus your Byakugan for 1 minute. While focused, you have advantage on initiative rolls and attack rolls against creatures you can perceive.",
             "The range of your Truesight becomes equal to the range of your Darkvision.",
-            "You score a critical hit on a roll of 18\u201320.",
+            "You score a critical hit on a roll of 18–20.",
             "Your DCs increases by 1.",
             "Once you use this ability, you can't use it again until you finish a short or long rest."
           ]
@@ -4987,7 +5031,7 @@
           "entries": [
             "If you possess two Byakugan, the range of your Darkvision and Truesight is doubled.",
             "You can use Byakugan Focus a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.",
-            "While using Byakugan Focus, you score a critical hit on a roll of 16\u201320.",
+            "While using Byakugan Focus, you score a critical hit on a roll of 16–20.",
             "While using Byakugan Focus, your DCs increases by 2 instead of 1."
           ]
         }
@@ -5021,7 +5065,7 @@
             "While in this form, your walking speed increases by 60 feet, and you gain a flying speed of 120 feet.",
             "Your attack rolls and damage rolls gain a +5 bonus.",
             "Your saving throws gain a +5 bonus.",
-            "You score a critical hit on a roll of 15\u201320.",
+            "You score a critical hit on a roll of 15–20.",
             "Your DCs increases by 5.",
             "Whenever you roll damage, treat each damage die as having rolled its maximum value.",
             "At the start of each of your turns, you regain 20 hit points.",
