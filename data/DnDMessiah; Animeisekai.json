@@ -508,9 +508,17 @@
             ]
           ]
         },
-        "Any bonus to your Strength score granted by this feature can increase your Strength score beyond its normal maximum.",
+        "Any bonus to an ability score granted by this feature can increase that ability score beyond its normal maximum.",
         "At noon, you can embody the absolute peak of Sunshine and enter a state known as The One.",
-        "{@b The One. }For a brief period, your body becomes the vessel of overwhelming solar power. Your physical presence becomes imposing, your strength reaches extraordinary heights, and your attacks carry the force of the sun itself. You gain the following benefits:"
+        "{@b The One. }For a brief period, your body becomes the vessel of overwhelming solar power. Your physical presence becomes imposing, your strength reaches extraordinary heights, and your attacks carry the force of the sun itself. You gain the following benefits:",
+        {
+          "type": "list",
+          "items": [
+            "{@b Solar Might. }The additional fire damage dealt by Super Slash and Sunshine is doubled.",
+            "{@b Undying Pride. }You cannot die while The One is active.",
+            "{@b Unyielding Body. }Even when you have 0 hit points, you can still move and take actions normally."
+          ]
+        }
       ]
     },
     {
